@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"a803115e5db73aaf","type":"text","text":"### Elektroonika\n```tasks\nnot done\npath includes Elektroonika/\ngroup by status.type\n```\n--------------------\n### Mehhaanika\n```tasks\nnot done\npath includes Mehhaanika/ \ngroup by status.type\n```\n-------------\n### Tarkvara\n```tasks\nnot done\npath includes Tarkvara/ \ngroup by status.type\n```\n","x":-2780,"y":-1540,"width":760,"height":840,"color":"3"}
+	],
+	"edges":[]
+}

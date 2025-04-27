@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7866IDBVT
+D Texas Instruments ADS7866IDBVT, 12 bit Serial ADC,, 6-Pin SOT-23
+K
+F http://www.ti.com/lit/ds/symlink/ads7868.pdf
+$ENDCMP
+#
+#End Doc Library

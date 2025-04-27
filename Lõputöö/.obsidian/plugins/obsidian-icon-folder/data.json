@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiArrowDownUp",
+      "LiArrowUpAz",
+      "LiArrowDown01",
+      "LiAArrowDown",
+      "LiAppWindow"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Elektroonika": {
+    "iconName": "LiActivitySquare",
+    "iconColor": "#188f00"
+  },
+  "Koosolekud": {
+    "iconName": "LiAtSign",
+    "iconColor": "#5900b3"
+  },
+  "Elektroonika/VCO.md": {
+    "iconName": "LiActivity",
+    "iconColor": "#4dff58"
+  },
+  "Elektroonika/ADSR.md": {
+    "iconName": "LiAreaChart",
+    "iconColor": "#ff4747"
+  },
+  "Elektroonika/LFO.md": {
+    "iconName": "LiAudioWaveform",
+    "iconColor": "#24f5f1"
+  },
+  "Elektroonika/VCF.md": {
+    "iconName": "LiArrowDownNarrowWide",
+    "iconColor": "#9895bb"
+  },
+  "Elektroonika/VCA.md": {
+    "iconName": "LiAudioLines",
+    "iconColor": "#bb1b1b"
+  },
+  "Elektroonika/Waveform Select.md": {
+    "iconName": "LiArrowRightFromLine",
+    "iconColor": "#3d5dff"
+  },
+  "Elektroonika/Interface.md": {
+    "iconName": "LiAppWindowMac",
+    "iconColor": "#fc891d"
+  },
+  "Teooria": {
+    "iconName": "LiAlbum",
+    "iconColor": "#fbff14"
+  },
+  "Koosolekud/Küsimused.md": {
+    "iconName": "LiBadgeAlert",
+    "iconColor": "#ffffff"
+  },
+  "Elektroonika/Moduleerimis rattad.md": {
+    "iconName": "LiArrowDownLeftFromCircle",
+    "iconColor": "#bf15cb"
+  },
+  "Tarkvara": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#0025b8"
+  },
+  "Mehhaanika": {
+    "iconName": "LiAmphora",
+    "iconColor": "#ffffff"
+  },
+  "Elektroonika/Toide.md": {
+    "iconName": "LiAArrowUp",
+    "iconColor": "#ffe45c"
+  },
+  "Elektroonika/Digitaal": {
+    "iconName": "LiBackpack",
+    "iconColor": "#ff4dbe"
+  },
+  "Elektroonika/Digitaal/MCU.md": {
+    "iconName": "LiAtom",
+    "iconColor": "#0a0094"
+  },
+  "Elektroonika/Digitaal/ADC.md": {
+    "iconName": "LiArrowDown01",
+    "iconColor": "#0f8500"
+  },
+  "Elektroonika/Digitaal/DAC.md": {
+    "iconName": "LiArrowUpAz",
+    "iconColor": "#ffd500"
+  },
+  "Elektroonika/Octave Select.md": {
+    "iconName": "LiArrowDownUp",
+    "iconColor": "#6a2601"
+  }
+}

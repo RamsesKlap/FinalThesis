@@ -1,0 +1,3 @@
+Ala muusikud kasutavad laialdlaselt klavereid, oreleid ja muid selliseid klahvpille, millele on tehtud elektroonilisi analooge. Neid kutsutakse süntesaatoriteks ning need tihti tulenevad klahvpillidest, kuna neil on parem kasutajaliides, mida elektroonikaga reprodutseerida. Selle tõttu turul puuduvad süntesaatorid, mis oleks konreetselt mõeldud keelpillimängijale.
+
+Kuigi turule on toodud igasugused lahendused, mis proovivad keelpilli ja süntesaatorite maailma kokku panna, siis need pole nišši staatusest kaugemale jõudnud.
