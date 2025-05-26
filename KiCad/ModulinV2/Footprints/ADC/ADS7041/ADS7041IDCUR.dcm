@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7041IDCUR
+D Ultra-Low Power and Ultra-Small Size SAR ADC | 10 Bit | 1MSPS | Single Ended
+K
+F http://www.ti.com/lit/gpn/ads7041
+$ENDCMP
+#
+#End Doc Library

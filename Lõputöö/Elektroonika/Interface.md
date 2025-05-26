@@ -28,6 +28,10 @@
 	- **Takistus:** $20\:k\ohm$
 	- Erinevad ühenduse tüübid
 	- Ainult *Digikey*-st saadav
+- *Opvõimendi*
+	- Buffrina kasutusel
+	- *Nõuded:*
+		- 
 
 *Märkmed*
 - Enne [[ADC]]-d oleks vaja panna madalpääsfilter, et kõrgemaid müra sagedusid vähendada
@@ -36,7 +40,6 @@
 	- *0 - 5 V* - Keskmiselt 8,95 ms (Fall) ja 12,86 ms (Rise)
 	- Esimesel oli pull up takisti ning teisel pull down
 	- 3386 Hz LPF ($1 nF\:ja\:47 k\ohm$)
-
 ---------------
 # Surveandur
 ... on takisti, mille sisendtakistus muutub vastavalt rõhule, mis talle rakendatakse.

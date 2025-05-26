@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 69.85 72.39)
-		(size 12.7 33.02)
+		(at 21.59 27.94)
+		(size 17.78 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "135b304f-86ea-4ef3-a69b-e7b40129e875")
 		(property "Sheetname" "Interface"
-			(at 69.85 71.6784 0)
+			(at 21.59 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,12 +36,52 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 69.85 105.9946 0)
+			(at 21.59 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC1_SPI_CS" input
+			(at 39.37 39.37 0)
+			(uuid "631ec3af-3c2a-4bdb-91ef-ae5353c69cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SPI_SCLK" input
+			(at 39.37 35.56 0)
+			(uuid "48f2dcdb-7286-499d-8905-b1e267a50abc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SPI_MISO" output
+			(at 39.37 31.75 0)
+			(uuid "3d873aaf-d270-48e2-831b-fafbac172360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC2_SPI_CS" input
+			(at 39.37 43.18 0)
+			(uuid "f7eff89f-f06b-4c9d-8878-6f00ba154e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -53,8 +93,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 123.19)
-		(size 12.7 24.13)
+		(at 101.6 58.42)
+		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -69,7 +109,7 @@
 		)
 		(uuid "2f38494c-2f9d-4537-8bdc-28b3add05107")
 		(property "Sheetname" "MCU"
-			(at 156.21 122.4784 0)
+			(at 101.6 57.7084 0)
 			(show_name yes)
 			(effects
 				(font
@@ -79,7 +119,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 156.21 147.9046 0)
+			(at 101.6 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

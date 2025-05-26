@@ -94,13 +94,13 @@
     "iconName": "LiAArrowUp",
     "iconColor": "#ffe45c"
   },
+  "Elektroonika/Octave Select.md": {
+    "iconName": "LiArrowDownUp",
+    "iconColor": "#6a2601"
+  },
   "Elektroonika/Digitaal": {
     "iconName": "LiBackpack",
     "iconColor": "#ff4dbe"
-  },
-  "Elektroonika/Digitaal/MCU.md": {
-    "iconName": "LiAtom",
-    "iconColor": "#0a0094"
   },
   "Elektroonika/Digitaal/ADC.md": {
     "iconName": "LiArrowDown01",
@@ -110,8 +110,8 @@
     "iconName": "LiArrowUpAz",
     "iconColor": "#ffd500"
   },
-  "Elektroonika/Octave Select.md": {
-    "iconName": "LiArrowDownUp",
-    "iconColor": "#6a2601"
+  "Elektroonika/Digitaal/MCU.md": {
+    "iconName": "LiAtom",
+    "iconColor": "#0a0094"
   }
 }

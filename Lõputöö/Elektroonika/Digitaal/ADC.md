@@ -32,14 +32,6 @@
 	- Resolutsioon: *10 bitti*
 	- Kanaleid: *4*
 	- Tüüp: *SAR*
-- [MCP3564]()
-	- 6,78 €/tk
-	- [Teek](https://github.com/fhnw-ise-qcrypt/mcp3564/blob/main/inc/mcp3564_conf.h)
-	- Sampling kiirus: *Kuni 153,6 kS/s (Programmeeritav)*
-	- Resolutsioon: *24 bitti*
-	- Kanaleid: *4*
-	- Tüüp: *Delta-Sigma*
-	- **Kaiser ei soovita**
 
 *Valikud (1-kanal)*
 [Mouseri link filtriga](https://www.mouser.ee/c/semiconductors/data-converter-ics/analog-to-digital-converters-adc/?architecture=SAR&interface%20type=3-Wire%2C%20Microwire%2C%20SPI%7C~3-Wire%2C%20QSPI%2C%20SPI~~3-Wire%2C%20SPI%7C~I2C%2C%20SPI%7C~SPI&mounting%20style=SMD%2FSMT&number%20of%20channels=1%20Channel&resolution=8%20bit~~12%20bit&instock=y&active=y&rp=semiconductors%2Fdata-converter-ics%2Fanalog-to-digital-converters-adc%7C~Interface%20Type%7C~Resolution&sort=pricing)
@@ -48,14 +40,22 @@
 	- Teeki pole, kuid vist pole vaja
 		- Tõmmates CS madalaks hakkab põhimõtteliselt kohe andmeid saatma
 	- Sampling kiirus: *200 kS/s*
+	- Conversion time: *3,82 us*
 	- Resolutsioon: *12 bitti*
 	- Kanaleid: *1*
 	- Tüüp: *SAR*
-- [ADS7041](https://www.mouser.ee/ProductDetail/Texas-Instruments/ADS7041IRUGR?qs=pqSajtDZXRWTPZVehPkpGQ%3D%3D)
-	- 1,73 €/tk
+- [ADS7041](https://www.mouser.ee/ProductDetail/Texas-Instruments/ADS7041IDCUR?qs=pqSajtDZXRXIgoND%252Bu4s8g%3D%3D)
+	- 1,75 €/tk
 	- Sama olukord teegiga
 	- Sampling kiirus: *... 1 MS/s*
+	- Conversion time: *165 ns*
 	- Resolutsioon: *10 bitti*
 	- Kanaleid: *1*
 	- Tüüp: *SAR*
-- 
+- [ADS7887](https://www.mouser.ee/ProductDetail/Texas-Instruments/ADS7887SDCKT?qs=%252BvKcWiXw%252BzRenXT9uRJbow%3D%3D)
+	- 3,91 €/tk
+	- Sampling kiirus: *1 - 1,25 MS/s*
+	- Conversion time: *560 ns* 
+	- Resolutsioon: *10 bitti*
+	- Kanaleid: *1*
+	- Tüüp: *SAR*

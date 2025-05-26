@@ -17,7 +17,7 @@
                 "viewState": {
                   "x": -2400,
                   "y": -1120,
-                  "zoom": -0.35589401452888675
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -195,15 +195,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Elektroonika/Interface.md",
+    "Elektroonika/Komponendid/Untitled.md",
+    "Home.canvas",
     "Elektroonika/Digitaal/ADC.md",
+    "Untitled.md",
     "Elektroonika/Digitaal/DAC.md",
     "Elektroonika/Waveform Select.md",
     "Elektroonika/VCO.md",
     "Elektroonika/Toide.md",
     "Elektroonika/Octave Select.md",
-    "Elektroonika/Interface.md",
     "Elektroonika/Digitaal/MCU.md",
-    "Home.canvas",
     "Koosolekud/K4 - 07.04.25.md",
     "Koosolekud/K1 - 20.11.24.md",
     "Octave Select.circuit-sketcher",
@@ -227,7 +229,6 @@
     "Tarkvara",
     "Mehhaanika",
     "Elektroonika/UI/Referentspinge.md",
-    "Elektroonika/UI/Membrane Potentiometer.md",
     "Teooria",
     "Elektroonika/Digitaal",
     "Signal chain.png",
