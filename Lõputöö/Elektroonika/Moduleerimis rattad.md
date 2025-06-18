@@ -1,7 +1,5 @@
-#Sagedus #Volüüm #LFO
-- [ ] Leia sobivad potentsiomeetrid
-- [ ] 🔼 Otsustada mitu parameetrit tuleb
-- [ ] Leida sobivad vedrud
+#Sagedus #Volüüm #LFO 
+
 --------------------
 # Volüümi modulatsioon
 ... on selleks, et keset mängimist väljundsignaali amplituudi mõjutada.

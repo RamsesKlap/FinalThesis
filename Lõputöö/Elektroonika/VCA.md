@@ -1,5 +1,5 @@
 #VCA
-- [ ] ⏫ Uuri VCA lahendusi
+
 --------
 
 ---------------

@@ -2,10 +2,10 @@
 
 ------------------
 # ADSR Signaal
-- **A** - Attack ehk Rünne
-- **D** - Decay ehk Langus
-- **S** - Sustain ehk Hoid
-- **R** - Release ehk Vabastus
+- **A** - Attack ehk Tõus
+- **D** - Decay ehk Kõdunemine
+- **S** - Sustain ehk Hoidmine
+- **R** - Release ehk Langus
 
 *Miks?*
 - Kontrollida signaali volüümi vastavalt parameetritele

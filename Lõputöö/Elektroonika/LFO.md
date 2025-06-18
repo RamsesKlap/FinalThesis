@@ -1,5 +1,5 @@
 #LFO #DAC 
-- [ ] 🔼 Nuputa välja kuidas amplituudi ja sagedust kontrollida
+
 -----------------
 *Milleks?*
 - Tekitada vibratot 

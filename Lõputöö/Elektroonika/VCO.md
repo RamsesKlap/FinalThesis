@@ -1,5 +1,5 @@
 #Siinus #Nelinurk #Saehammas #Kolmnurk #Summeerimine 
-- [ ] ⏫ Uuri signaaligeneraatori tuumikuid
+
 ------------------
 # Summeerimine
 

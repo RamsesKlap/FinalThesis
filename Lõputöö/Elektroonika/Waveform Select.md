@@ -1,4 +1,4 @@
-- [ ] 🔽 Debounce'i skeem
+
 --------------
 # Miks?
 - Selleks, et keset mängimist kõrgemaid või madalamaid noote kätte saada

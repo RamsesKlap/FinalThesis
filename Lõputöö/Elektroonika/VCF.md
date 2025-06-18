@@ -1,5 +1,5 @@
 #VCF
-- [ ] ⏫ Uuri VCF lahendusi
+
 ------
 
 -------------

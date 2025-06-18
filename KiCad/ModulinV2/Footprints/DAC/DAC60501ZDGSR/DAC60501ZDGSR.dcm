@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC60501ZDGSR
+D Digital to Analog Converters - DAC True 12-bit, 1-ch, SPI/I2C, voltage-output DAC in WSON package with precision internal reference 10-VSSOP -40 to 125
+K
+F https://www.ti.com/lit/gpn/DAC60501
+$ENDCMP
+#
+#End Doc Library

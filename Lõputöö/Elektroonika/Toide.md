@@ -1,7 +1,5 @@
 #5V #12V #3V3
-- [ ] 🔼 Leia hea moodul pinge alaldamiseks
-- [ ] 🔽 Määra 5 V pingeregulaator
-- [ ] 🔽 Määra 3v3 pingeregulaator
+
 ----------------
 # +/- 12 V
 ... on toide, mida kasutada enamus süntesaatorite toiminguteks, mis tuleb [Eurorack](https://en.wikipedia.org/wiki/Eurorack) standardist.
