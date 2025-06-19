@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(sheet
 		(at 21.59 29.21)
-		(size 43.18 38.1)
+		(size 48.26 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -44,64 +44,14 @@
 				(justify left top)
 			)
 		)
-		(pin "ADC1_SPI_CS" input
-			(at 64.77 39.37 0)
-			(uuid "631ec3af-3c2a-4bdb-91ef-ae5353c69cd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC_SPI_SCLK" input
-			(at 64.77 35.56 0)
-			(uuid "48f2dcdb-7286-499d-8905-b1e267a50abc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC_SPI_MISO" output
-			(at 64.77 31.75 0)
-			(uuid "3d873aaf-d270-48e2-831b-fafbac172360")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC2_SPI_CS" input
-			(at 64.77 43.18 0)
-			(uuid "f7eff89f-f06b-4c9d-8878-6f00ba154e27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PRESSURE_CV1" output
-			(at 64.77 50.8 0)
+			(at 69.85 50.8 0)
 			(uuid "35b58282-e16e-4c23-b756-75df4c35e47c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "DAC1_SPI_MOSI" input
-			(at 21.59 31.75 180)
-			(uuid "bbfeab78-d567-40f2-b05e-f463a286e6d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "INTERFACE_PITCH_CV2" output
@@ -115,7 +65,7 @@
 			)
 		)
 		(pin "PRESSURE_CV2" output
-			(at 64.77 54.61 0)
+			(at 69.85 54.61 0)
 			(uuid "c61a52f9-8fbe-473a-8686-e469050e71fa")
 			(effects
 				(font
@@ -124,18 +74,8 @@
 				(justify right)
 			)
 		)
-		(pin "DAC1_SPI_CS" input
-			(at 21.59 39.37 180)
-			(uuid "982fb84c-b11f-48d0-82de-049097521b50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NOTE_TRIG2" output
-			(at 64.77 64.77 0)
+			(at 69.85 64.77 0)
 			(uuid "8ff85f61-fa54-4275-87d2-a07445543fc1")
 			(effects
 				(font
@@ -144,18 +84,8 @@
 				(justify right)
 			)
 		)
-		(pin "DAC2_SPI_CS" input
-			(at 21.59 43.18 180)
-			(uuid "74a3cba1-6469-4d41-8112-c8421d9cd4dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NOTE_TRIG1" output
-			(at 64.77 60.96 0)
+			(at 69.85 60.96 0)
 			(uuid "de2bd812-093d-47eb-b909-4aa8a28e4ad5")
 			(effects
 				(font
@@ -164,9 +94,9 @@
 				(justify right)
 			)
 		)
-		(pin "DAC_SPI_CLK" input
-			(at 21.59 35.56 180)
-			(uuid "853a4cfa-be16-4e9d-973e-ce6bc3f00967")
+		(pin "INTERFACE_PITCH_CV1" output
+			(at 21.59 50.8 180)
+			(uuid "961f1c49-025d-4b92-9e40-0b260e62f7bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,9 +104,79 @@
 				(justify left)
 			)
 		)
-		(pin "INTERFACE_PITCH_CV1" output
-			(at 21.59 50.8 180)
-			(uuid "961f1c49-025d-4b92-9e40-0b260e62f7bf")
+		(pin "RIBBON_ADC_SPI_CLK" input
+			(at 21.59 31.75 180)
+			(uuid "f4b6dbc9-9935-4ddc-83f5-f67965b189a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIBBON_DAC_SPI_CLK" input
+			(at 69.85 31.75 0)
+			(uuid "4a005640-1128-464a-b560-00acd14fe6cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIBBON_ADC_SPI_CS1" input
+			(at 21.59 39.37 180)
+			(uuid "cdbcac95-e7b5-4340-908f-f0d5680bf9ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIBBON_DAC_SPI_CS1" input
+			(at 69.85 43.18 0)
+			(uuid "e08ccb28-a553-4f8c-ac33-597765c325f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIBBON_DAC_SPI_MOSI" input
+			(at 69.85 35.56 0)
+			(uuid "87f747ea-2a5e-4aff-8a60-f15ef48fe3bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIBBON_DAC_SPI_CS2" input
+			(at 69.85 39.37 0)
+			(uuid "a85faa42-b926-4499-8a99-fdf2b8d65cb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RIBBON_ADC_SPI_MISO" output
+			(at 21.59 35.56 180)
+			(uuid "43e9ce33-9503-4170-9738-3f80b335cff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIBBON_ADC_SPI_CS2" input
+			(at 21.59 43.18 180)
+			(uuid "b4fdad27-a769-4b0e-a8c5-6449320fe3b4")
 			(effects
 				(font
 					(size 1.27 1.27)

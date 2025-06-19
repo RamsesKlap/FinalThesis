@@ -3617,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 45.72) (xy 248.92 45.72)
+			(xy 242.57 45.72) (xy 247.65 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 53.34) (xy 248.92 53.34)
+			(xy 242.57 53.34) (xy 247.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4257,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 38.1) (xy 248.92 38.1)
+			(xy 242.57 38.1) (xy 247.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4407,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 60.96) (xy 248.92 60.96)
+			(xy 242.57 60.96) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4587,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 30.48) (xy 248.92 30.48)
+			(xy 242.57 30.48) (xy 247.65 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 22.86) (xy 248.92 22.86)
+			(xy 242.57 22.86) (xy 247.65 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4946,7 +4946,7 @@
 		(uuid "26157b25-b9d8-45a1-b7df-6ebd6efe3229")
 	)
 	(label "DAC_SPI_CLK"
-		(at 243.84 53.34 180)
+		(at 242.57 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 		(uuid "2e749bf4-7af6-4d57-9fb2-f23f3a445402")
 	)
 	(label "ADC2_SPI_CS"
-		(at 243.84 30.48 180)
+		(at 242.57 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4986,7 +4986,7 @@
 		(uuid "790f8dbf-ebca-4e7b-af43-5e473644fd8a")
 	)
 	(label "ADC_SPI_MISO"
-		(at 243.84 38.1 180)
+		(at 242.57 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5016,7 +5016,7 @@
 		(uuid "9bd0ed8d-4dba-4eff-8bad-9d8d02b06bf8")
 	)
 	(label "DAC_SPI_MOSI"
-		(at 243.84 60.96 180)
+		(at 242.57 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 		(uuid "ac32108b-bd30-41c1-9f73-048fd3f6c081")
 	)
 	(label "ADC_SPI_SCLK"
-		(at 243.84 45.72 180)
+		(at 242.57 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5076,7 +5076,7 @@
 		(uuid "e398f64a-deb2-4446-aa2c-b81223f57c84")
 	)
 	(label "ADC1__SPI_CS"
-		(at 243.84 22.86 180)
+		(at 242.57 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5095,9 +5095,9 @@
 		)
 		(uuid "ec6c3fd9-ec14-4a79-a1f2-2d6413317a31")
 	)
-	(hierarchical_label "ADC1_SPI_CS"
+	(hierarchical_label "RIBBON_ADC_SPI_CS1"
 		(shape input)
-		(at 248.92 22.86 0)
+		(at 247.65 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5117,9 +5117,9 @@
 		)
 		(uuid "10272408-3148-4030-9a9e-235e5a0d4b52")
 	)
-	(hierarchical_label "ADC_SPI_SCLK"
+	(hierarchical_label "RIBBON_ADC_SPI_CLK"
 		(shape input)
-		(at 248.92 45.72 0)
+		(at 247.65 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5128,9 +5128,9 @@
 		)
 		(uuid "1afa8f80-819c-415f-bf0a-bc288b558865")
 	)
-	(hierarchical_label "DAC_SPI_CLK"
+	(hierarchical_label "RIBBON_DAC_SPI_CLK"
 		(shape input)
-		(at 248.92 53.34 0)
+		(at 247.65 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5139,9 +5139,9 @@
 		)
 		(uuid "1d16577e-9d54-47d7-a927-b46542a8e3a6")
 	)
-	(hierarchical_label "ADC2_SPI_CS"
+	(hierarchical_label "RIBBON_ADC_SPI_CS2"
 		(shape input)
-		(at 248.92 30.48 0)
+		(at 247.65 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5161,9 +5161,9 @@
 		)
 		(uuid "213e7615-f892-413c-9e1a-bc2f7e0424c1")
 	)
-	(hierarchical_label "ADC_SPI_MISO"
+	(hierarchical_label "RIBBON_ADC_SPI_MISO"
 		(shape output)
-		(at 248.92 38.1 0)
+		(at 247.65 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5194,7 +5194,7 @@
 		)
 		(uuid "6e3eef40-c71b-420e-9e43-d774c6c3b9d9")
 	)
-	(hierarchical_label "DAC2_SPI_CS"
+	(hierarchical_label "RIBBON_DAC_SPI_CS2"
 		(shape input)
 		(at 247.65 143.51 0)
 		(effects
@@ -5216,9 +5216,9 @@
 		)
 		(uuid "ac49281c-3154-4fa1-b0f5-9962b5b4cdeb")
 	)
-	(hierarchical_label "DAC1_SPI_MOSI"
+	(hierarchical_label "RIBBON_DAC_SPI_MOSI"
 		(shape input)
-		(at 248.92 60.96 0)
+		(at 247.65 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5238,7 +5238,7 @@
 		)
 		(uuid "b8f7548b-7504-44fe-9d69-28ef489c8cca")
 	)
-	(hierarchical_label "DAC1_SPI_CS"
+	(hierarchical_label "RIBBON_DAC_SPI_CS1"
 		(shape input)
 		(at 247.65 93.98 0)
 		(effects
