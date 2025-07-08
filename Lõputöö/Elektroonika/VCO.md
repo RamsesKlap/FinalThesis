@@ -1,14 +1,6 @@
 #Siinus #Nelinurk #Saehammas #Kolmnurk #Summeerimine 
 
 ------------------
-# Summeerimine
-
-
--------------
-# Eksponentsiaalsuse konversioon
-
-
------------------
 # Signaaligeneraator
 *Miks?*
 - Selleks, et heli tekitada
@@ -29,9 +21,18 @@
 	- Kolmnurk + Nelinurk
 	- Valimine toimub [[Waveform Select]]is
 
+*Valikud:*
+- [AS3340](https://www.ericasynths.lv/shop/ics/voltage-controlled-oscillator-as3340/)
+	- *5 €/tk* (SOIC) või *10 €/tk* (PDIP)
+	- All-in-one (va siinus)
+	- Temp. stabiilsus hea
+	- Töötab kahepolaarse toitel
+	- Läti toode :D
+- 
 # Coarse + Fine tuning
 + Kasutada digitaalpotentsiomeetreid, et saaks softis seda reguleerida
 + Lisab "manual override" juhul kui see ei tööta nii hästi
+
 
 ----------
 ### Signaali suund: [[Waveform Select]]

@@ -419,6 +419,14 @@
     [
       "135b304f-86ea-4ef3-a69b-e7b40129e875",
       "Interface"
+    ],
+    [
+      "3ee27ced-353d-4052-9ca0-cd235d9ddb69",
+      "VCO"
+    ],
+    [
+      "e86c3af5-1b16-44af-8f89-31b87fc431f1",
+      "OctaveSelect"
     ]
   ],
   "text_variables": {}

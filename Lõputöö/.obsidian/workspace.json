@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Koosolekud/K6 - 17.06.25.md",
+                "file": "Elektroonika/VCO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "K6 - 17.06.25"
+              "title": "VCO"
             }
           }
         ]
@@ -192,22 +192,23 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Koosolekud/K5 - 03.06.25.md",
-    "Koosolekud/K6 - 17.06.25.md",
-    "Elektroonika/Interface.md",
-    "Elektroonika/Digitaal/DAC.md",
-    "Eelnevate inimeste lõputöö kaitsmised.md",
+    "Elektroonika/VCO.md",
+    "Koosolekud/Küsimused.md",
     "Elektroonika/Digitaal/ADC.md",
-    "Home.canvas",
-    "Elektroonika/Digitaal/MCU.md",
+    "Elektroonika/Digitaal/DAC.md",
     "Elektroonika/ADSR.md",
+    "Elektroonika/Interface.md",
     "Elektroonika/LFO.md",
     "Elektroonika/Moduleerimis rattad.md",
     "Elektroonika/Octave Select.md",
     "Elektroonika/Toide.md",
     "Elektroonika/VCA.md",
     "Elektroonika/VCF.md",
-    "Elektroonika/VCO.md",
+    "Koosolekud/K6 - 17.06.25.md",
+    "Koosolekud/K5 - 03.06.25.md",
+    "Eelnevate inimeste lõputöö kaitsmised.md",
+    "Home.canvas",
+    "Elektroonika/Digitaal/MCU.md",
     "Elektroonika/Waveform Select.md",
     "Teooria/Taustauuring.md",
     "Teooria/Põhiprobleem.md",
@@ -218,7 +219,6 @@
     "Koosolekud/K3 - 17.03.25.md",
     "circuit-sketcher.lib",
     "LAJSA.md",
-    "Koosolekud/Küsimused.md",
     "Koosolekud/K2 - 10.02.25.md",
     "Home.md",
     "Daily Notes",
