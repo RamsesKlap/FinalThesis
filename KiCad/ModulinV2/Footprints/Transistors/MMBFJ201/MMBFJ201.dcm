@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMBFJ201
+D N-Channel General Purpose Amplifier
+K
+F https://www.onsemi.com/pub/Collateral/MMBFJ202-D.PDF
+$ENDCMP
+#
+#End Doc Library

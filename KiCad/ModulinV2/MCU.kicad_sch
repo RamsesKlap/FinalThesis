@@ -5,7 +5,11 @@
 	(uuid "42326ba2-aeeb-478b-8d69-5b591d07b622")
 	(paper "A4")
 	(title_block
-		(company "Rasmus Palk")
+		(title "Microcontroller")
+		(date "2025-07-13")
+		(rev "1.0")
+		(comment 1 "Instructor: Kaiser Pärnamets")
+		(comment 2 "By: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Device:C"

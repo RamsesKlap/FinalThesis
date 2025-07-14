@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SN74HC193DR
+#/6366/1663443/2.50/16/3/Integrated Circuit
+DEF SN74HC193DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SN74HC193DR" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/SN74HC193" 1050 0 50 H I L CNN
+F4 "4-Bit Synchronous Up/Down Counters (Dual Clock With Clear)" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74HC193DR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN74HC193DR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC193DR?qs=AgY10sKTvDJWAfK84dpbKw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN74HC193DR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn74hc193dr/texas-instruments" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X B 1 0 0 200 R 50 50 0 0 P
+X QB 2 0 -100 200 R 50 50 0 0 P
+X QA 3 0 -200 200 R 50 50 0 0 P
+X DOWN 4 0 -300 200 R 50 50 0 0 P
+X UP 5 0 -400 200 R 50 50 0 0 P
+X QC 6 0 -500 200 R 50 50 0 0 P
+X QD 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1200 0 200 L 50 50 0 0 P
+X A 15 1200 -100 200 L 50 50 0 0 P
+X CLR 14 1200 -200 200 L 50 50 0 0 P
+X ~BO 13 1200 -300 200 L 50 50 0 0 P
+X ~CO 12 1200 -400 200 L 50 50 0 0 P
+X ~LOAD 11 1200 -500 200 L 50 50 0 0 P
+X C 10 1200 -600 200 L 50 50 0 0 P
+X D 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

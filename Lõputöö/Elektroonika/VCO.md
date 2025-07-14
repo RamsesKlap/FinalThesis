@@ -28,7 +28,10 @@
 	- Temp. stabiilsus hea
 	- Töötab kahepolaarse toitel
 	- Läti toode :D
-- 
+	- *Signal amplitudes*
+		- Triangle - 1/3 of the supply (12 V -> 4 V)
+		- Sawtooth - 2/3 of the supply (12 V -> 8 V)
+		- Pulse - 1,5 V below the supply (12 V -> 10,5 V)1
 # Coarse + Fine tuning
 + Kasutada digitaalpotentsiomeetreid, et saaks softis seda reguleerida
 + Lisab "manual override" juhul kui see ei tööta nii hästi

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HC193DR
+D 4-Bit Synchronous Up/Down Counters (Dual Clock With Clear)
+K
+F http://www.ti.com/lit/gpn/SN74HC193
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,59 @@
+## 3D Viewer
+- Show SMD 3D Models - S
+- Show THT 3D Models - T
+- Flip Board - F
+- View Back - Shift+Y
+- View Front - Y
+- View Bottom - Shift+Z
+- View Top - Z
+- View Left - Shift+X
+- View Right + X
+
+## Common
+- Click - Return
+- Dbl-Click - End
+- Switch Units - Ctrl+U
+- 3D Viewer - Alt+3
+- Show Datasheet - D
+- Show Context Menu - 
+- Update PCB from Schematic - F8
+- Update Schematic from PCB - 
+- Zoom to Fit - Home
+- Refresh - F5
+- Delete - Del
+- Duplicate - Ctrl+D
+- Finish - End
+- Measure Tool - Ctrl+Shift+M
+- Search - Ctrl+G
+
+## Schematic Editor
+- Annotate Automatically - 
+- Assign Footprints - 
+- Edit Library Symbol - Ctrl+Shift+E
+- Edit with Symbol Editor - Ctrl+E
+- Generate BOM - 
+- Highlight Net - <
+- Select on PCB - 
+- Switch to PCB editor - 
+- ERC - 
+- Draw Rectangles -
+- Draw Hierarchical Sheets - S
+- Place Global Labels - Ctrl+L
+- Place Hierarchical Labels - H
+- Place Net Labels - L
+- Place NC flags - Q
+- Place Power Symbols - P
+- Draw Text - T
+- Place Symbols - A
+- Draw Buses - B
+- Draw Lines - I
+- Draw Wires - W
+- Edit Footprint - F
+- Edit Value - V
+- Mirror Hori - X
+- Mirror Vert - Y
+- Properties - E
+- Rotate - R
+- Swap - Alt+S
+- Drag - G
+- Move - M
