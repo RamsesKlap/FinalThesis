@@ -427,6 +427,10 @@
     [
       "ba5ade70-a939-4914-9429-1ad400c74d73",
       "Waveform Select"
+    ],
+    [
+      "a5a8abcc-50bb-4382-96d0-cbdb724bb6e9",
+      "VCA"
     ]
   ],
   "text_variables": {}

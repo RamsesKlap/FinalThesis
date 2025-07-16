@@ -430,6 +430,48 @@
 		)
 	)
 	(sheet
+		(at 172.72 99.06)
+		(size 31.75 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5a8abcc-50bb-4382-96d0-cbdb724bb6e9")
+		(property "Sheetname" "VCA"
+			(at 172.72 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 172.72 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 90.17)
 		(size 36.83 34.925)
 		(exclude_from_sim no)
