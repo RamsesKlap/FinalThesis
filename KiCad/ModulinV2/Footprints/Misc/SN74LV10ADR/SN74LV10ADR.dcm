@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LV10ADR
+D Triple 3-Input Positive-NAND Gate
+K
+F http://www.ti.com/lit/gpn/sn74lv10a
+$ENDCMP
+#
+#End Doc Library

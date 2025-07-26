@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elektroonika/Waveform Select.md",
+                "file": "KiCad Shortcuts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waveform Select"
+              "title": "KiCad Shortcuts"
             }
           }
         ]
@@ -192,8 +192,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Elektroonika/VCO.md",
     "KiCad Shortcuts.md",
+    "Elektroonika/VCO.md",
+    "Elektroonika/Waveform Select.md",
     "Koosolekud/Küsimused.md",
     "Elektroonika/Digitaal/ADC.md",
     "Elektroonika/Digitaal/DAC.md",
@@ -210,7 +211,6 @@
     "Eelnevate inimeste lõputöö kaitsmised.md",
     "Home.canvas",
     "Elektroonika/Digitaal/MCU.md",
-    "Elektroonika/Waveform Select.md",
     "Teooria/Taustauuring.md",
     "Teooria/Põhiprobleem.md",
     "Elektroonika/Komponendid/Untitled.md",

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX4051DYYRQ1
+D Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960
+$ENDCMP
+#
+#End Doc Library

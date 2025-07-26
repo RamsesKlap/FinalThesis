@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SN74LV10ADR
+#/751574/1663443/2.50/14/3/Integrated Circuit
+DEF SN74LV10ADR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74LV10ADR" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74lv10a" 850 0 50 H I L CNN
+F4 "Triple 3-Input Positive-NAND Gate" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74LV10ADR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN74LV10ADR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 2A 3 0 -200 200 R 50 50 0 0 P
+X 2B 4 0 -300 200 R 50 50 0 0 P
+X 2C 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 1C 13 1000 -100 200 L 50 50 0 0 P
+X 1Y 12 1000 -200 200 L 50 50 0 0 P
+X 3C 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -195,7 +195,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 34.29)
+		(at 130.81 32.385)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -211,7 +211,7 @@
 		)
 		(uuid "2f38494c-2f9d-4537-8bdc-28b3add05107")
 		(property "Sheetname" "MCU"
-			(at 119.38 33.5784 0)
+			(at 130.81 31.6734 0)
 			(show_name yes)
 			(effects
 				(font
@@ -221,7 +221,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 119.38 59.0046 0)
+			(at 130.81 57.0996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,8 +238,8 @@
 		)
 	)
 	(sheet
-		(at 34.29 76.835)
-		(size 27.305 32.385)
+		(at 25.4 78.74)
+		(size 27.305 36.195)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -254,7 +254,7 @@
 		)
 		(uuid "3ee27ced-353d-4052-9ca0-cd235d9ddb69")
 		(property "Sheetname" "VCO"
-			(at 34.29 76.1234 0)
+			(at 25.4 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "VCO.kicad_sch"
-			(at 34.29 109.8046 0)
+			(at 25.4 115.5196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +272,7 @@
 			)
 		)
 		(pin "LFO_CV" input
-			(at 34.29 102.87 180)
+			(at 25.4 112.395 180)
 			(uuid "382422c1-d61c-4d60-9e77-16c4358bb799")
 			(effects
 				(font
@@ -282,7 +282,7 @@
 			)
 		)
 		(pin "PULSE1" output
-			(at 61.595 102.87 0)
+			(at 52.705 104.775 0)
 			(uuid "1d5281f9-7ce0-4ac3-8690-0e59d4d91f0e")
 			(effects
 				(font
@@ -292,7 +292,7 @@
 			)
 		)
 		(pin "PULSE2" output
-			(at 61.595 106.68 0)
+			(at 52.705 108.585 0)
 			(uuid "5e418b7d-41d4-4218-878f-72a077a18414")
 			(effects
 				(font
@@ -302,7 +302,7 @@
 			)
 		)
 		(pin "TRIANGLE2" output
-			(at 61.595 91.44 0)
+			(at 52.705 93.345 0)
 			(uuid "c5325d4f-62c8-47b3-97cc-dfea12060215")
 			(effects
 				(font
@@ -312,7 +312,7 @@
 			)
 		)
 		(pin "SAW2" output
-			(at 61.595 99.06 0)
+			(at 52.705 100.965 0)
 			(uuid "ef2b03b3-f0d3-4833-8ab4-619db3a7f96d")
 			(effects
 				(font
@@ -322,7 +322,7 @@
 			)
 		)
 		(pin "SINE2" output
-			(at 61.595 83.82 0)
+			(at 52.705 85.725 0)
 			(uuid "ef705db4-708b-47d9-8daf-4e4261448810")
 			(effects
 				(font
@@ -332,7 +332,7 @@
 			)
 		)
 		(pin "SAW1" output
-			(at 61.595 95.25 0)
+			(at 52.705 97.155 0)
 			(uuid "426cfb4b-01d9-4328-b837-b4e65a4ff8d0")
 			(effects
 				(font
@@ -342,7 +342,7 @@
 			)
 		)
 		(pin "SINE1" output
-			(at 61.595 80.01 0)
+			(at 52.705 81.915 0)
 			(uuid "cfd9f0a0-8e7d-4fdb-b13c-28748d02f4c7")
 			(effects
 				(font
@@ -352,7 +352,7 @@
 			)
 		)
 		(pin "TRIANGLE1" output
-			(at 61.595 87.63 0)
+			(at 52.705 89.535 0)
 			(uuid "7797b84f-1fb6-450e-a44f-d91748af8667")
 			(effects
 				(font
@@ -362,7 +362,7 @@
 			)
 		)
 		(pin "PITCH_CV1" input
-			(at 34.29 80.01 180)
+			(at 25.4 81.915 180)
 			(uuid "73783292-757b-44ba-9072-2b8eac45859a")
 			(effects
 				(font
@@ -372,7 +372,7 @@
 			)
 		)
 		(pin "PITCH_CV2" input
-			(at 34.29 83.82 180)
+			(at 25.4 85.725 180)
 			(uuid "c73e5173-7e7f-45fe-9c61-c6a2ba9537ee")
 			(effects
 				(font
@@ -382,7 +382,7 @@
 			)
 		)
 		(pin "BEND_CV2" input
-			(at 34.29 91.44 180)
+			(at 25.4 93.345 180)
 			(uuid "8cc348d4-c002-42ff-ab70-6cadb831c113")
 			(effects
 				(font
@@ -391,29 +391,49 @@
 				(justify left)
 			)
 		)
-		(pin "OCTAVE_CV2" input
-			(at 34.29 99.06 180)
-			(uuid "cc4fa10c-7744-4679-b5db-5a37116ccb8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OCTAVE_CV1" input
-			(at 34.29 95.25 180)
-			(uuid "b606d693-061a-4e3c-aaf6-adfdd90ec1c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BEND_CV1" input
-			(at 34.29 87.63 180)
+			(at 25.4 89.535 180)
 			(uuid "59233141-187d-4fed-9f49-2d81a924225d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FINE_TUNING1" input
+			(at 25.4 104.775 180)
+			(uuid "a9e5325b-7c78-49dd-8f4a-e0fc9db051de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COARSE_TUNING1" input
+			(at 25.4 97.155 180)
+			(uuid "5c464b69-8345-4c88-a037-535ecab7f908")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FINE_TUNING2" input
+			(at 25.4 108.585 180)
+			(uuid "b11066db-cec7-4d16-b243-ab82c660d51c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COARSE_TUNING2" input
+			(at 25.4 100.965 180)
+			(uuid "fbef8ff4-3d7b-4ac7-bd27-e5613e2ea19d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,8 +450,8 @@
 		)
 	)
 	(sheet
-		(at 172.72 99.06)
-		(size 31.75 31.75)
+		(at 215.9 39.37)
+		(size 24.13 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -446,7 +466,7 @@
 		)
 		(uuid "a5a8abcc-50bb-4382-96d0-cbdb724bb6e9")
 		(property "Sheetname" "VCA"
-			(at 172.72 98.3484 0)
+			(at 215.9 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,12 +475,72 @@
 			)
 		)
 		(property "Sheetfile" "VCA.kicad_sch"
-			(at 172.72 131.3946 0)
+			(at 215.9 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "WAVE1" input
+			(at 215.9 41.91 180)
+			(uuid "e1d7cb00-8eba-4164-8f69-4dbb8dfc37c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADSR_CV2" input
+			(at 215.9 57.15 180)
+			(uuid "b54826ca-6eed-47d8-9d9b-e25e229542a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADSR_CV1" input
+			(at 215.9 46.99 180)
+			(uuid "203c0ae4-5906-492e-91ad-385a70ba3525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCA_OUT2" output
+			(at 240.03 54.61 0)
+			(uuid "7bd0958e-1113-4de0-9a46-487f34949e9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCA_OUT1" output
+			(at 240.03 44.45 0)
+			(uuid "f9b1fbe3-a302-4084-9df7-658625ae6f7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WAVE2" input
+			(at 215.9 52.07 180)
+			(uuid "07d48051-dc5e-4e38-9361-4dea646d19d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

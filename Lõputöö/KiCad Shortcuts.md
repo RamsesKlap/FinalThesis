@@ -10,33 +10,20 @@
 - View Right + X
 
 ## Common
-- Click - Return
-- Dbl-Click - End
-- Switch Units - Ctrl+U
 - 3D Viewer - Alt+3
 - Show Datasheet - D
-- Show Context Menu - 
 - Update PCB from Schematic - F8
-- Update Schematic from PCB - 
 - Zoom to Fit - Home
-- Refresh - F5
-- Delete - Del
-- Duplicate - Ctrl+D
-- Finish - End
 - Measure Tool - Ctrl+Shift+M
-- Search - Ctrl+G
 
 ## Schematic Editor
-- Annotate Automatically - 
-- Assign Footprints - 
+- Annotate Automatically - Alt+A
+- Assign Footprints - Alt + F
 - Edit Library Symbol - Ctrl+Shift+E
 - Edit with Symbol Editor - Ctrl+E
-- Generate BOM - 
 - Highlight Net - <
-- Select on PCB - 
-- Switch to PCB editor - 
-- ERC - 
-- Draw Rectangles -
+- Switch to PCB editor - -
+- Draw Rectangles - C
 - Draw Hierarchical Sheets - S
 - Place Global Labels - Ctrl+L
 - Place Hierarchical Labels - H
@@ -57,3 +44,49 @@
 - Swap - Alt+S
 - Drag - G
 - Move - M
+
+## PCB editor
+- Add a zone cutout - Shift+C
+- Board setup - Alt+B
+- Change side/flip - F
+- Constrain to H, V, 45 - Shift+Space
+- Custom Track/via Size - Q
+- Decrease layer opacity - {
+- Decrease via size - \
+- Delete full track - Shift+Del
+- Draw Arcs - Ctrl+Shift+A
+- Draw Circles - Ctrl+Shift+C
+- Draw Lines - Ctrl+Shift+L
+- Draw Polygons - Ctrl+Shift+P
+- Draw Rectangles - C
+- Draw rule areas - Ctrl+Shift+K
+- Draw Text - Ctrl+Shift+T
+- Edit Library Footprint - Ctrl+Shift+E
+- Fill all zones - B
+- Highlight net - .
+- Import graphics - Ctrl+Shift+F
+- Increase layer opacity - }
+- Increase via size - '
+- Move - M
+- Open in footprint editor - Ctrl+E
+- Place through via - V
+- Place vias - Ctrl+Shift+X
+- Properties - E
+- Repair board - Alt+R
+- Rotate - R
+- Route single track - X
+- Sketch Tracks - K
+- Swap - Alt+S
+- Switch track width next - W
+- Switch track width prev - Shift+W
+- Switch to F.Cu - PgUp
+- Switch to B.Cu - PgDn
+- Switch to next layer - +
+- Switch to prev layer - -
+- Switch to Schematic editor - J
+- Toggle Layer - V
+- Toggle lock - L
+- Track corner mode - Ctrl+/
+- Undo last segment - back
+- Unfill all zones - Ctrl+B
+- Update footprints from library - Alt+U

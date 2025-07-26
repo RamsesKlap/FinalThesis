@@ -8,17 +8,17 @@
 
 *Millised?*
 - **Kokku:** 10
-- Siinus
-- Kolmnurk
-- Saehammas
-- Nelinurk
+- Siinus+
+- Kolmnurk+
+- Saehammas+
+- Nelinurk+
 - **Kombod:** 
-	- Siinus + Kolmnurk
-	- Kolmnurk + Saehammas
-	- Saehammas + Nelinurk
-	- Nelinurk + Siinus
+	- Siinus + Kolmnurk+
+	- Kolmnurk + Saehammas+
+	- Saehammas + Nelinurk+
+	- Nelinurk + Siinus+
 	- Siinus + Saehammas
-	- Kolmnurk + Nelinurk
+	- Kolmnurk + Nelinurk+
 	- Valimine toimub [[Waveform Select]]is
 
 *Valikud:*
