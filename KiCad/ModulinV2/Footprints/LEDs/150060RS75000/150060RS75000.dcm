@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150060RS75000
+D WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM
+K
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+#End Doc Library

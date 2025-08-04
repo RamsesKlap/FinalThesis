@@ -552,6 +552,48 @@
 		)
 	)
 	(sheet
+		(at 49.53 151.765)
+		(size 26.035 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba4a57b7-3db1-4fad-97f1-00281633895d")
+		(property "Sheetname" "Power"
+			(at 49.53 151.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 49.53 179.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 90.17)
 		(size 36.83 34.925)
 		(exclude_from_sim no)

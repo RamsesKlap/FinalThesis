@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150212M173123
+D Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead
+K
+F https://www.we-online.com/components/products/datasheet/150212M173123.pdf
+$ENDCMP
+#
+#End Doc Library

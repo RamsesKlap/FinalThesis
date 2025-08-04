@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDBU0530
+D COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf
+$ENDCMP
+#
+#End Doc Library

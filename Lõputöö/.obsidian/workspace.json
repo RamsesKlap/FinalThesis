@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KiCad Shortcuts.md",
+                "file": "Elektroonika/Digitaal/MCU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KiCad Shortcuts"
+              "title": "MCU"
             }
           }
         ]
@@ -192,13 +192,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Elektroonika/ADSR.md",
+    "Koosolekud/Küsimused.md",
     "KiCad Shortcuts.md",
     "Elektroonika/VCO.md",
     "Elektroonika/Waveform Select.md",
-    "Koosolekud/Küsimused.md",
     "Elektroonika/Digitaal/ADC.md",
     "Elektroonika/Digitaal/DAC.md",
-    "Elektroonika/ADSR.md",
     "Elektroonika/Interface.md",
     "Elektroonika/LFO.md",
     "Elektroonika/Moduleerimis rattad.md",

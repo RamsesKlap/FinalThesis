@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CD4028BM96
+#/13626326/1663443/2.50/16/3/Integrated Circuit
+DEF CD4028BM96 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "CD4028BM96" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/cd4028b.pdf?ts=1623397506826&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4028BM96" 850 0 50 H I L CNN
+F4 "TEXAS INSTRUMENTS - CD4028BM96 - BCD to Decimal Decoder, 10 Output, 3 V to 18 V, SOIC-16" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CD4028BM96" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-CD4028BM96" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4028BM96?qs=2Yv9SV80M5hwXYvRUe8Qgw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "CD4028BM96" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cd4028bm96/texas-instruments?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 4 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 0 3 0 -200 200 R 50 50 0 0 P
+X 7 4 0 -300 200 R 50 50 0 0 P
+X 9 5 0 -400 200 R 50 50 0 0 P
+X 5 6 0 -500 200 R 50 50 0 0 P
+X 6 7 0 -600 200 R 50 50 0 0 P
+X VSS 8 0 -700 200 R 50 50 0 0 P
+X VDD 16 1000 0 200 L 50 50 0 0 P
+X 3 15 1000 -100 200 L 50 50 0 0 P
+X I 14 1000 -200 200 L 50 50 0 0 P
+X B_2 13 1000 -300 200 L 50 50 0 0 P
+X C 12 1000 -400 200 L 50 50 0 0 P
+X D 11 1000 -500 200 L 50 50 0 0 P
+X A 10 1000 -600 200 L 50 50 0 0 P
+X B_1 9 1000 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
