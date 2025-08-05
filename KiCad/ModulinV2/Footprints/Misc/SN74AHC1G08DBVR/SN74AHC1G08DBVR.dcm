@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74AHC1G08DBVR
+D Texas Instruments SN74AHC1G08DBVR, 2-Input AND Logic Gate, 2  5.5 V, 5-Pin SOT-23
+K
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=SN74AHC1G08&&fileType=pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NC7WZ00K8X
+D Patented noise/EMI reduction circuitry implemented; High Output Drive; +/-24 mA at 3V VCC; Matches the performance of LCX when operated at 3.3V VCC; Overvoltage tolerant inputs facilitate 5V to 3V translation; Broad VCC Operating Range; 1.65V-5.5V; Ultra High Speed; tPD 2.4 ns typ into 50 pF at 5V VCC; MicroPak Pb-Free leadless package; Space saving US8 surface mount package; Power down high impedance inputs/output
+K
+F https://www.onsemi.com/pub/Collateral/NC7WZ00-D.PDF
+$ENDCMP
+#
+#End Doc Library

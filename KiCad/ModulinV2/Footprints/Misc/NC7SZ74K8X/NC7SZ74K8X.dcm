@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NC7SZ74K8X
+D Power down high impedance inputs/output; Overvoltage tolerant inputs facilitate 5V to 3V translation; Space saving US8 surface mount package; High Output Drive; +/- 24 mA at 3V VCC; MicroPak Pb-Free leadless package; Ultra High Speed; tPD 2.6 ns Typ into 50 pF at 5V VCC; Broad VCC Operating Range; 1.65V to 5.5V; Patented noise/EMI reduction circuitry implemented
+K
+F https://www.onsemi.com/pub/Collateral/NC7SZ74-D.PDF
+$ENDCMP
+#
+#End Doc Library
