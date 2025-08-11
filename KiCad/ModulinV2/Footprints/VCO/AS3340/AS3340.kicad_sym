@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AS3340"
+			(at 8.382 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -636,6 +636,10 @@
     [
       "9bc61cdb-3471-4563-89f4-fea731357cf2",
       "Octave Select"
+    ],
+    [
+      "f36bc0c9-50e7-404a-b5bb-5b2e43f62359",
+      "Powersupply"
     ]
   ],
   "text_variables": {}

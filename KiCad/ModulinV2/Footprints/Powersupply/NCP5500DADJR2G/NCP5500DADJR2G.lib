@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NCP5500DADJR2G
+#/412534/1663443/2.50/8/2/Integrated Circuit
+DEF NCP5500DADJR2G IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "NCP5500DADJR2G" 1150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1150 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF" 1150 0 50 H I L CNN
+F4 "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "onsemi" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NCP5500DADJR2G" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-NCP5500DADJR2G" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "NCP5500DADJR2G" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 I
+X GND_1 2 0 -100 200 R 50 50 0 0 W
+X GND_2 3 0 -200 200 R 50 50 0 0 W
+X VOUT 4 0 -300 200 R 50 50 0 0 O
+X EN 8 1300 0 200 L 50 50 0 0 I
+X GND_4 7 1300 -100 200 L 50 50 0 0 W
+X GND_3 6 1300 -200 200 L 50 50 0 0 W
+X NC/ADJ 5 1300 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

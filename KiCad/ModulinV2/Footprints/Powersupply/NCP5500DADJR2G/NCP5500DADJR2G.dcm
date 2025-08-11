@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP5500DADJR2G
+D Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices
+K
+F https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF
+$ENDCMP
+#
+#End Doc Library

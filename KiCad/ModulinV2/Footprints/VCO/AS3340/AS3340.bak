@@ -85,6 +85,60 @@
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
+				(name "Freq_CV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -11.43 0)
+				(length 2.54)
+				(name "HF_Track"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "Linear_FM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -20.32 0)
+				(length 2.54)
 				(name "PWM_CV"
 					(effects
 						(font
@@ -101,7 +155,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -11.43 0)
+				(at -2.54 -24.13 0)
 				(length 2.54)
 				(name "Scale"
 					(effects
@@ -111,60 +165,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -16.51 0)
-				(length 2.54)
-				(name "Pulse"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -20.32 0)
-				(length 2.54)
-				(name "Saw"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -24.13 0)
-				(length 2.54)
-				(name "Triangle"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,17 +226,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 24.13 -7.62 180)
 				(length 2.54)
-				(name "Freq_CV"
+				(name "Triangle"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -244,17 +244,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 24.13 -11.43 180)
 				(length 2.54)
-				(name "Linear_FM"
+				(name "Saw"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,17 +262,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 24.13 -16.51 180)
+			(pin output line
+				(at 24.13 -15.24 180)
 				(length 2.54)
-				(name "HF_Track"
+				(name "Pulse"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
