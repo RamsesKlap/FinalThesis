@@ -640,6 +640,18 @@
     [
       "f36bc0c9-50e7-404a-b5bb-5b2e43f62359",
       "Powersupply"
+    ],
+    [
+      "e799dfb0-018d-4a0c-90e3-bc5a892eb818",
+      "Selection UI"
+    ],
+    [
+      "72de756e-4613-4cf7-8685-e4594fe0f098",
+      "ADSR"
+    ],
+    [
+      "e9498aae-6574-4e4e-b792-2c2c867ca344",
+      "Tuning"
     ]
   ],
   "text_variables": {}

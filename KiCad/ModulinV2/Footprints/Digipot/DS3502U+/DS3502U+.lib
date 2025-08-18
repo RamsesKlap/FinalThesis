@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DS3502U+
+#/1549901/1663443/2.50/10/3/Variable Resistor
+DEF DS3502U+ VR 0 30 Y Y 1 F N
+F0 "VR" 850 300 50 H V L CNN
+F1 "DS3502U+" 850 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 850 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf" 850 0 50 H I L CNN
+F4 "Digital Potentiometer ICs High-Voltage NV I2C" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DS3502U+" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-DS3502U" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DS3502U+" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VCC 3 0 -200 200 R 50 50 0 0 P
+X A1 4 0 -300 200 R 50 50 0 0 P
+X A0 5 0 -400 200 R 50 50 0 0 P
+X SCL 10 1000 0 200 L 50 50 0 0 P
+X V+ 9 1000 -100 200 L 50 50 0 0 P
+X RL 8 1000 -200 200 L 50 50 0 0 P
+X RW 7 1000 -300 200 L 50 50 0 0 P
+X RH 6 1000 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

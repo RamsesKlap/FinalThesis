@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Elektroonika/Digitaal/MCU.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MCU"
             }
           }
         ]
@@ -186,7 +190,7 @@
       "circuit-sketcher:Create new Circuit Sketcher file": false
     }
   },
-  "active": "81b6a2017f26b424",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Untitled.md",
     "Elektroonika/Digitaal/MCU.md",

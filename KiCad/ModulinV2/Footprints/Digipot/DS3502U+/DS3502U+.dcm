@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS3502U+
+D Digital Potentiometer ICs High-Voltage NV I2C
+K
+F https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf
+$ENDCMP
+#
+#End Doc Library
