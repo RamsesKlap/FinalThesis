@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Elektroonika/Digitaal/MCU.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MCU"
+              "title": "New tab"
             }
           }
         ]
@@ -192,8 +188,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitled.md",
     "Elektroonika/Digitaal/MCU.md",
+    "Untitled.md",
     "Elektroonika/ADSR.md",
     "Koosolekud/Küsimused.md",
     "KiCad Shortcuts.md",

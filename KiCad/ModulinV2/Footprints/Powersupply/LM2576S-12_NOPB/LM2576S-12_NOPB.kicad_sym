@@ -2,12 +2,12 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "PTA4543-2010CPB103"
+	(symbol "LM2576S-12_NOPB"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "VR"
-			(at 3.556 7.366 0)
+		(property "Reference" "IC"
+			(at 0.762 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,8 +15,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "PTA4543-2010CPB103"
-			(at 3.556 4.826 0)
+		(property "Value" "LM2576S-12_NOPB"
+			(at 0.762 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,18 +24,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PTA45432015CPB503"
-			(at 24.13 -87.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PTA4543-2015CPB503.pdf"
-			(at 24.13 -187.3 0)
+		(property "Footprint" "TO170P1435X465-6N"
+			(at 36.83 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,17 +34,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low profile slide potentionmeter"
-			(at 7.874 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "21.5"
-			(at 24.13 -387.3 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf"
+			(at 36.83 -194.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,8 +44,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 24.13 -487.3 0)
+		(property "Description" "SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.65"
+			(at 36.83 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,8 +63,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTA4543-2015CPB104"
-			(at 24.13 -587.3 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 36.83 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,8 +73,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-PTA45432015CPB10"
-			(at 24.13 -687.3 0)
+		(property "Manufacturer_Part_Number" "LM2576S-12/NOPB"
+			(at 36.83 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,8 +83,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTA4543-2015CPB104?qs=Zq5ylnUbLm5bgYHDzxuH5g%3D%3D"
-			(at 24.13 -787.3 0)
+		(property "Mouser Part Number" "926-LM2576S-12/NOPB"
+			(at 36.83 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,8 +93,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 24.13 -887.3 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576S-12-NOPB?qs=X1J7HmVL2ZFNh71Bqi5%2F%2FQ%3D%3D"
+			(at 36.83 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,8 +103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 24.13 -987.3 0)
+		(property "Arrow Part Number" "LM2576S-12/NOPB"
+			(at 36.83 -894.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,60 +113,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "PTA4543-2010CPB103_0_1"
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 10.16 0) (xy 10.16 1.27) (xy 17.78 1.27) (xy 17.78 -1.27) (xy 10.16 -1.27) (xy 10.16 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2576s-12nopb/texas-instruments?utm_currency=USD&region=nac"
+			(at 36.83 -994.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -1.27) (xy 12.7 -2.54) (xy 15.24 -2.54) (xy 13.97 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.97 -8.89) (xy 13.97 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 0) (xy 22.86 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
+				(justify left top)
+				(hide yes)
 			)
 		)
-		(symbol "PTA4543-2010CPB103_1_1"
+		(symbol "LM2576S-12_NOPB_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 22.86 -8.89)
+				(end 25.4 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -185,10 +135,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 0 0)
 				(length 5.08)
-				(name ""
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,14 +156,32 @@
 			(pin passive line
 				(at 0 -3.81 0)
 				(length 5.08)
-				(name "MH1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MH1"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "GND_TAB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -222,16 +190,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6.35 0)
+				(at 30.48 0 180)
 				(length 5.08)
-				(name "MH3"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MH3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -239,10 +207,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 13.97 -13.97 90)
+			(pin output line
+				(at 30.48 -3.81 180)
 				(length 5.08)
-				(name ""
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -258,52 +226,16 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 0 180)
+				(at 30.48 -7.62 180)
 				(length 5.08)
-				(name ""
+				(name "~{ON}/OFF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -3.81 180)
-				(length 5.08)
-				(name "MH2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "MH2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -6.35 180)
-				(length 5.08)
-				(name "MH4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "MH4"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

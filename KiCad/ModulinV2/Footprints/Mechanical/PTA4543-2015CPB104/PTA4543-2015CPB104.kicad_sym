@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "PTA4543-2015CPB104"
+	(symbol "PTA4543-2015CPB103"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15,7 +15,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "PTA4543-2015CPB104"
+		(property "Value" "PTA4543-2015CPB103"
 			(at 3.556 4.826 0)
 			(effects
 				(font
@@ -123,7 +123,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PTA4543-2015CPB104_0_1"
+		(symbol "PTA4543-2015CPB103_0_1"
 			(polyline
 				(pts
 					(xy 5.08 0) (xy 10.16 0) (xy 10.16 1.27) (xy 17.78 1.27) (xy 17.78 -1.27) (xy 10.16 -1.27) (xy 10.16 0)
@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "PTA4543-2015CPB104_1_1"
+		(symbol "PTA4543-2015CPB103_1_1"
 			(rectangle
 				(start 5.08 2.54)
 				(end 22.86 -8.89)
