@@ -1600,8 +1600,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 6.35 0)
+			(property "Value" "TL072HIDR"
+				(at 8.636 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1655,14 +1655,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL072HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -1770,14 +1762,6 @@
 						(color 255 255 194 1)
 					)
 				)
-				(text "TL072HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 2.54)
@@ -1848,8 +1832,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 6.35 0)
+			(property "Value" "TL074HIDR"
+				(at 8.382 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1903,14 +1887,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -2018,14 +1994,6 @@
 						(color 255 255 194 1)
 					)
 				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 2.54)
@@ -2095,14 +2063,6 @@
 						(color 255 255 194 1)
 					)
 				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 2.54)
@@ -2170,14 +2130,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -6619,7 +6571,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02fb74f9-35ed-40d7-96c4-c42db76ea782")
 		(property "Reference" "U6"
 			(at 264.16 88.9 0)
@@ -6630,8 +6581,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 272.4555 88.9 0)
+		(property "Value" "TL074HIDR"
+			(at 275.082 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7562,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a4f37f1-b0af-459d-a705-361b733e0fcf")
 		(property "Reference" "U7"
 			(at 222.25 132.08 0)
@@ -7622,8 +7572,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 240.03 135.1849 0)
+		(property "Value" "TL072HIDR"
+			(at 234.696 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8127,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28a8bf4e-ad71-432e-8cf7-adda1b7f8b54")
 		(property "Reference" "U6"
 			(at 182.88 88.9 0)
@@ -8188,8 +8137,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 191.1755 88.9 0)
+		(property "Value" "TL074HIDR"
+			(at 193.802 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +8848,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "347edd04-c15d-4f76-ba3d-061ee1152fdc")
 		(property "Reference" "U5"
 			(at 177.8 45.72 0)
@@ -8910,8 +8858,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 195.58 48.8249 0)
+		(property "Value" "TL074HIDR"
+			(at 189.23 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9018,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39070b03-5c55-4361-b48f-7dc049313948")
 		(property "Reference" "U5"
 			(at 260.35 21.59 0)
@@ -9081,8 +9028,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 268.6455 21.59 0)
+		(property "Value" "TL074HIDR"
+			(at 270.764 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +10910,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f84a932-3fa1-4c64-b08d-8d30bddd019d")
 		(property "Reference" "U6"
 			(at 182.88 125.73 0)
@@ -10974,8 +10920,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 191.1755 125.73 0)
+		(property "Value" "TL074HIDR"
+			(at 193.294 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +12203,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9079c8b2-2621-4cbb-ac76-a753dc7a5520")
 		(property "Reference" "U7"
 			(at 262.89 125.73 0)
@@ -12268,8 +12213,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 271.1855 125.73 0)
+		(property "Value" "TL072HIDR"
+			(at 274.066 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12289,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "943fc5fb-96aa-4a7b-b2e2-372b96e4b7e5")
 		(property "Reference" "U5"
 			(at 260.35 50.8 0)
@@ -12355,8 +12299,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 268.6455 50.8 0)
+		(property "Value" "TL074HIDR"
+			(at 271.018 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +13637,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b207a4bd-c748-4931-ae58-b0c8636c7590")
 		(property "Reference" "U6"
 			(at 222.25 88.9 0)
@@ -13704,8 +13647,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 240.03 92.0049 0)
+		(property "Value" "TL074HIDR"
+			(at 234.188 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +16454,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e72f7bd2-46b8-4ca3-a29c-6f994e8b6806")
 		(property "Reference" "U5"
 			(at 177.8 16.51 0)
@@ -16522,8 +16464,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 186.0955 16.51 0)
+		(property "Value" "TL074HIDR"
+			(at 188.722 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)

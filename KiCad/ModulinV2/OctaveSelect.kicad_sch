@@ -1381,8 +1381,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 6.35 0)
+			(property "Value" "TL072HIDR"
+				(at 8.636 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1436,14 +1436,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL072HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -1549,14 +1541,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL072HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -5767,7 +5751,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TL072HIDR"
 			(at 266.1055 48.26 0)
 			(effects
 				(font
@@ -7500,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TL072HIDR"
 			(at 275.59 27.2349 0)
 			(effects
 				(font

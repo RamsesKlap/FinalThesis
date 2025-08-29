@@ -1661,8 +1661,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 6.35 0)
+			(property "Value" "TL074HIDR"
+				(at 8.382 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1716,14 +1716,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -1831,14 +1823,6 @@
 						(color 255 255 194 1)
 					)
 				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 2.54)
@@ -1908,14 +1892,6 @@
 						(color 255 255 194 1)
 					)
 				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(pin input line
 					(at -6.35 2.54 0)
 					(length 2.54)
@@ -1983,14 +1959,6 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
-					)
-				)
-				(text "TL074HIDR"
-					(at 7.62 3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -5291,8 +5259,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 257.2155 45.72 0)
+		(property "Value" "TL074HIDR"
+			(at 258.572 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,8 +6334,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 257.2155 60.96 0)
+		(property "Value" "TL074HIDR"
+			(at 260.096 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8575,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b001eda4-9384-42ad-8daa-886cbef47b23")
 		(property "Reference" "U11"
 			(at 248.92 25.4 0)
@@ -8618,8 +8585,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 266.7 28.5049 0)
+		(property "Value" "TL074HIDR"
+			(at 260.604 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9856,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f093de48-1f47-40f6-bab5-a759075cc2e6")
 		(property "Reference" "U11"
 			(at 248.92 77.47 0)
@@ -9900,8 +9866,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 257.2155 77.47 0)
+		(property "Value" "TL074HIDR"
+			(at 258.572 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
