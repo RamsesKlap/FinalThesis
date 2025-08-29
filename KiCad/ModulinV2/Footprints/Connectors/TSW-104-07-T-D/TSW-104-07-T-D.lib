@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TSW-104-07-T-D
+#/967160/1663443/2.50/8/2/Connector
+DEF TSW-104-07-T-D J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TSW-104-07-T-D" 650 200 50 H V L CNN
+F2 "TSW-104-XX-YY-D" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Classic PCB Header Strips, 0.100&quot; pitch" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSW-104-07-T-D" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "200-TSW10407TD" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TSW-104-07-T-D" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
