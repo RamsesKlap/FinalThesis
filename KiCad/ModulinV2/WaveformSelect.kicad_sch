@@ -274,7 +274,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NC7SZ74K8X:NC7SZ74K8X"
+		(symbol "SamacSys_Parts:NC7SZ74K8X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -554,12 +554,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PEC12R-3220F-S0024:PEC12R-3220F-S0024"
+		(symbol "SamacSys_Parts:PEC12R-3220F-S0024"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "S"
-				(at 21.59 15.24 0)
+				(at 16.256 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -568,7 +568,7 @@
 				)
 			)
 			(property "Value" "PEC12R-3220F-S0024"
-				(at 21.59 12.7 0)
+				(at 16.256 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -597,7 +597,7 @@
 				)
 			)
 			(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
-				(at 8.128 29.464 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -678,7 +678,7 @@
 			(symbol "PEC12R-3220F-S0024_0_1"
 				(polyline
 					(pts
-						(xy 8.89 7.62) (xy 8.89 5.08) (xy 10.16 5.08)
+						(xy 3.81 0) (xy 3.81 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -690,7 +690,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 3.81) (xy 15.24 3.81)
+						(xy 5.08 -3.81) (xy 10.16 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -701,7 +701,7 @@
 					)
 				)
 				(circle
-					(center 10.5655 5.0863)
+					(center 5.4855 -2.5337)
 					(radius 0.3591)
 					(stroke
 						(width 0)
@@ -713,7 +713,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 2.54) (xy 12.7 3.81)
+						(xy 7.62 -5.08) (xy 7.62 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -724,7 +724,7 @@
 					)
 				)
 				(circle
-					(center 14.7931 5.0863)
+					(center 9.7131 -2.5337)
 					(radius 0.3591)
 					(stroke
 						(width 0)
@@ -736,7 +736,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 7.62) (xy 16.51 5.08) (xy 15.24 5.08)
+						(xy 11.43 0) (xy 11.43 -2.54) (xy 10.16 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -749,8 +749,8 @@
 			)
 			(symbol "PEC12R-3220F-S0024_1_1"
 				(rectangle
-					(start 5.08 7.62)
-					(end 20.32 -8.89)
+					(start 0 0)
+					(end 15.24 -16.51)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -760,7 +760,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name "MH1"
 						(effects
@@ -778,7 +778,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -13.97 90)
+					(at 2.54 -21.59 90)
 					(length 5.08)
 					(name "CH_A"
 						(effects
@@ -796,7 +796,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 12.7 270)
+					(at 3.81 5.08 270)
 					(length 5.08)
 					(name ""
 						(effects
@@ -814,7 +814,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -13.97 90)
+					(at 7.62 -21.59 90)
 					(length 5.08)
 					(name "COM"
 						(effects
@@ -832,7 +832,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 12.7 270)
+					(at 11.43 5.08 270)
 					(length 5.08)
 					(name ""
 						(effects
@@ -850,7 +850,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -13.97 90)
+					(at 12.7 -21.59 90)
 					(length 5.08)
 					(name "CH_B"
 						(effects
@@ -868,7 +868,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(name "MH2"
 						(effects
@@ -888,27 +888,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74AHC1G02DBVR:SN74AHC1G02DBVR_Alt"
+		(symbol "SamacSys_Parts:SN74AHC1G02DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 7.112 2.032 0)
+				(at 1.016 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "SN74AHC1G02DBVR"
-				(at 15.24 -0.254 0)
+				(at 1.016 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g02"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Positive-NOR Gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -917,37 +939,81 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "SN74AHC1G02DBVR"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SN74AHC1G02DBVR_Alt_1_1"
+			(property "Mouser Part Number" "595-SN74AHC1G02DBVR"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G02DBVR?qs=VuX40u8tcuDWJaATLLYZCQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SN74AHC1G02DBVR"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g02dbvr/texas-instruments?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC1G02DBVR_1_1"
 				(arc
-					(start 0 -1.27)
-					(mid 1.5782 -5.08)
-					(end 0 -8.89)
+					(start 0 0)
+					(mid 1.5782 -3.81)
+					(end 0 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -958,19 +1024,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.9439 -2.536)
+						(xy 0 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -982,7 +1036,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -7.62) (xy 0.9284 -7.6209)
+						(xy 0 -1.27) (xy 0.9439 -1.266)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0.9284 -6.3509)
 					)
 					(stroke
 						(width 0)
@@ -993,9 +1059,9 @@
 					)
 				)
 				(arc
-					(start 3.81 -1.27)
-					(mid 6.5041 -2.3859)
-					(end 7.62 -5.08)
+					(start 3.81 0)
+					(mid 6.5041 -1.1159)
+					(end 7.62 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1005,9 +1071,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -5.08)
-					(mid 6.5041 -7.7741)
-					(end 3.81 -8.89)
+					(start 7.62 -3.81)
+					(mid 6.5041 -6.5041)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1018,7 +1084,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -8.89) (xy 0 -8.89)
+						(xy 3.81 -7.62) (xy 0 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1029,7 +1095,7 @@
 					)
 				)
 				(circle
-					(center 8.2574 -5.0472)
+					(center 8.2574 -3.7772)
 					(radius 0.5916)
 					(stroke
 						(width 0)
@@ -1040,7 +1106,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -2.54 0)
+					(at -2.54 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1058,7 +1124,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -7.62 0)
+					(at -2.54 -6.35 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1076,7 +1142,7 @@
 					)
 				)
 				(pin output line
-					(at 11.43 -5.08 180)
+					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1094,10 +1160,10 @@
 					)
 				)
 			)
-			(symbol "SN74AHC1G02DBVR_Alt_2_1"
+			(symbol "SN74AHC1G02DBVR_2_1"
 				(rectangle
-					(start 0 0)
-					(end 5.08 -12.7)
+					(start -5.08 0)
+					(end 0 -12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -1107,7 +1173,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 2.54 270)
+					(at -2.54 2.54 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -1125,7 +1191,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -15.24 90)
+					(at -2.54 -15.24 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1145,28 +1211,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74AHC1G08DBVR:SN74AHC1G08DBVR_Alt"
+		(symbol "SamacSys_Parts:SN74AHC1G08DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 7.62 2.286 0)
+			(property "Reference" "U"
+				(at 5.08 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "SN74AHC1G08DBVR"
-				(at 15.748 0.254 0)
+				(at 5.08 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=SN74AHC1G08&&fileType=pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments SN74AHC1G08DBVR, 2-Input AND Logic Gate, 2  5.5 V, 5-Pin SOT-23"
+				(at 3.81 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1174,37 +1262,81 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "SN74AHC1G08DBVR"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SN74AHC1G08DBVR_Alt_1_1"
+			(property "Mouser Part Number" "595-SN74AHC1G08DBVR"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G08DBVR?qs=tJ5HNKWh3OXzGHgsEkuHbw%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SN74AHC1G08DBVR"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g08dbvr/texas-instruments?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC1G08DBVR_1_1"
 				(arc
-					(start 3.81 -1.27)
-					(mid 6.5041 -2.3859)
-					(end 7.62 -5.08)
+					(start 3.81 0)
+					(mid 6.5041 -1.1159)
+					(end 7.62 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1214,9 +1346,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -5.08)
-					(mid 6.5041 -7.7741)
-					(end 3.81 -8.89)
+					(start 7.62 -3.81)
+					(mid 6.5041 -6.5041)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1227,7 +1359,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -8.89) (xy 0 -8.89) (xy 0 -1.27) (xy 3.81 -1.27)
+						(xy 3.81 -7.62) (xy 0 -7.62) (xy 0 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1238,7 +1370,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -2.54 0)
+					(at -2.54 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1256,7 +1388,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -7.62 0)
+					(at -2.54 -6.35 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1274,7 +1406,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -5.08 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1292,7 +1424,7 @@
 					)
 				)
 			)
-			(symbol "SN74AHC1G08DBVR_Alt_2_1"
+			(symbol "SN74AHC1G08DBVR_2_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -12.7)
@@ -1343,27 +1475,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt"
+		(symbol "SamacSys_Parts:SN74AHCT1G00DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 8.128 2.54 0)
+				(at 5.08 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "SN74AHCT1G00DBVR"
-				(at 16.002 0 0)
+				(at 5.08 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Positive-NAND Gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1372,37 +1526,81 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SN74AHCT1G00DBVR_Alt_1_1"
+			(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHCT1G00DBVR_1_1"
 				(arc
-					(start 3.81 -1.27)
-					(mid 6.5041 -2.3859)
-					(end 7.62 -5.08)
+					(start 3.81 0)
+					(mid 6.5041 -1.1159)
+					(end 7.62 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -1412,9 +1610,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -5.08)
-					(mid 6.5041 -7.7741)
-					(end 3.81 -8.89)
+					(start 7.62 -3.81)
+					(mid 6.5041 -6.5041)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1425,7 +1623,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -8.89) (xy 0 -8.89) (xy 0 -1.27) (xy 3.81 -1.27)
+						(xy 3.81 -7.62) (xy 0 -7.62) (xy 0 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -1436,7 +1634,7 @@
 					)
 				)
 				(circle
-					(center 8.2113 -5.0975)
+					(center 8.2113 -3.8275)
 					(radius 0.5916)
 					(stroke
 						(width 0)
@@ -1447,7 +1645,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -2.54 0)
+					(at -2.54 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1465,7 +1663,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -7.62 0)
+					(at -2.54 -6.35 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1483,7 +1681,7 @@
 					)
 				)
 				(pin output line
-					(at 11.43 -5.08 180)
+					(at 11.43 -3.81 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1501,7 +1699,7 @@
 					)
 				)
 			)
-			(symbol "SN74AHCT1G00DBVR_Alt_2_1"
+			(symbol "SN74AHCT1G00DBVR_2_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -12.7)
@@ -1552,7 +1750,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SN74HC193DR:SN74HC193DR"
+		(symbol "SamacSys_Parts:SN74HC193DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1976,7 +2174,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TMUX4051DYYRQ1:TMUX4051DYYRQ1"
+		(symbol "SamacSys_Parts:TMUX4051DYYRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2400,7 +2598,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TMUX4052DYYR:TMUX4052DYYR"
+		(symbol "SamacSys_Parts:TMUX4052DYYR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2824,7 +3022,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TSW-104-07-T-D:TSW-104-07-T-D"
+		(symbol "SamacSys_Parts:TSW-104-07-T-D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3792,10 +3990,16 @@
 		(uuid "03c3a917-daf3-4bf7-908b-c5a03698198f")
 	)
 	(junction
-		(at 217.17 142.24)
+		(at 217.17 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04964309-bf0b-4412-911d-1d74d43c74ce")
+		(uuid "05eaa368-08be-406d-84ee-e3ddbebf7f32")
+	)
+	(junction
+		(at 172.72 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1739f3ff-7f4e-4e73-9dc8-5720496c544c")
 	)
 	(junction
 		(at 95.25 157.48)
@@ -3816,12 +4020,6 @@
 		(uuid "1b38708f-2208-4c16-9197-1d418cf3e3f0")
 	)
 	(junction
-		(at 40.64 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24790770-1df0-43e6-a0bc-a45b57e50269")
-	)
-	(junction
 		(at 64.77 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3834,10 +4032,10 @@
 		(uuid "2817c66d-780a-41dd-bcc1-5aab4bac4237")
 	)
 	(junction
-		(at 217.17 137.16)
+		(at 76.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b44890b-1ccf-4669-9ca8-f07938088061")
+		(uuid "2c047b90-b3d9-4d7b-9ac1-d8d59db8163f")
 	)
 	(junction
 		(at 265.43 124.46)
@@ -3846,16 +4044,16 @@
 		(uuid "2f0dd248-7928-4bf3-afb4-80e0d2617398")
 	)
 	(junction
+		(at 52.07 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f6df6a2-e56c-4c1c-935f-6dfce349e3e4")
+	)
+	(junction
 		(at 24.13 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31dd7884-653c-40fc-95b0-6611950cca61")
-	)
-	(junction
-		(at 172.72 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32011fb5-8c51-41ba-bbd0-bdc148d8740c")
 	)
 	(junction
 		(at 29.21 113.03)
@@ -3876,16 +4074,16 @@
 		(uuid "38b5fe55-4ccd-4530-b768-dac05b0c10d6")
 	)
 	(junction
-		(at 172.72 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39593c96-b055-4a5b-bce2-8e19c9514e87")
-	)
-	(junction
 		(at 64.77 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39d1ac63-d8a9-4e9b-bfb3-ab1dba3623ba")
+	)
+	(junction
+		(at 76.2 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b10704f-78a2-4980-a8fe-5b2b741fc06d")
 	)
 	(junction
 		(at 29.21 142.24)
@@ -3900,34 +4098,22 @@
 		(uuid "3f8a6aa0-16e0-434f-8a7c-a255666a5dad")
 	)
 	(junction
-		(at 217.17 113.03)
+		(at 76.2 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46ccdb8e-3d4f-46b8-91d8-97468ddb3b9f")
+		(uuid "46dbb6c8-34dd-41da-8c7a-d9f1c711a9e6")
+	)
+	(junction
+		(at 172.72 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "485f4cdb-019f-43d0-9c84-99dc6b116df0")
 	)
 	(junction
 		(at 95.25 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49ca5435-315f-4961-9f2f-e770c310837b")
-	)
-	(junction
-		(at 76.2 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bcec53a-2bae-45e3-921b-82ad976b24ad")
-	)
-	(junction
-		(at 40.64 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c6ed872-7adc-4f56-a8df-26b7efe5572e")
-	)
-	(junction
-		(at 217.17 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52154e21-3829-4404-bbee-23710c7a63f6")
 	)
 	(junction
 		(at 121.92 116.84)
@@ -3966,28 +4152,28 @@
 		(uuid "617175a7-56b1-4491-8982-480ee8fbb0bf")
 	)
 	(junction
+		(at 217.17 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62d866c2-c67d-4fc5-8084-9396197f487c")
+	)
+	(junction
 		(at 86.36 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78fee0ef-4c4d-4e2c-9daa-d0d7549073cc")
 	)
 	(junction
+		(at 40.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af5cd97-2155-4af0-8c2b-536529575a94")
+	)
+	(junction
 		(at 95.25 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81a1b6f7-8902-4fa0-ab83-3a875590560f")
-	)
-	(junction
-		(at 172.72 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "838100da-62ac-4a16-8f32-7384441b8cad")
-	)
-	(junction
-		(at 52.07 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f13560-63d9-4521-bb16-fc670ebbd7b5")
 	)
 	(junction
 		(at 29.21 171.45)
@@ -4000,12 +4186,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b5555f-cc57-416a-8a07-4de700b231ae")
-	)
-	(junction
-		(at 76.2 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c143183-bbe2-4bef-8b57-da4e95059c93")
 	)
 	(junction
 		(at 120.65 189.23)
@@ -4026,12 +4206,6 @@
 		(uuid "98d9fc26-14b0-404c-a831-14e84621635a")
 	)
 	(junction
-		(at 172.72 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be00d10-9c10-4a20-b108-cdafebf4e680")
-	)
-	(junction
 		(at 120.65 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4044,10 +4218,16 @@
 		(uuid "a035b558-ec80-4509-ab36-ec5f5939256b")
 	)
 	(junction
-		(at 52.07 80.01)
+		(at 217.17 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac3111a5-0198-4f31-84e1-c899ac2ad4d4")
+		(uuid "a1cefed3-3bfa-45f9-bb91-25f390e2b2ab")
+	)
+	(junction
+		(at 217.17 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35cc567-6bad-4839-b500-d8a7713f9e4c")
 	)
 	(junction
 		(at 95.25 116.84)
@@ -4056,10 +4236,28 @@
 		(uuid "b12c6219-cac0-4775-a307-77e28750cda7")
 	)
 	(junction
-		(at 76.2 113.03)
+		(at 40.64 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bba22bb2-2636-4b6f-957f-8412eba87148")
+		(uuid "b2ca17f9-5357-42cc-8d74-78e48f2c75e3")
+	)
+	(junction
+		(at 172.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b49aa39c-a3dd-4a34-8114-be3475b3a7d9")
+	)
+	(junction
+		(at 40.64 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6eb29da-1f92-4b4c-8d20-2d2e87ee6b25")
+	)
+	(junction
+		(at 52.07 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "babab736-5a2d-40d2-80cb-11683bfe8495")
 	)
 	(junction
 		(at 38.1 29.21)
@@ -4068,16 +4266,22 @@
 		(uuid "be1198dc-4ede-4f04-8f7f-bed06bd21de7")
 	)
 	(junction
-		(at 40.64 130.81)
+		(at 172.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7bb3e86-c3c0-4593-ac2e-b982d82df5b2")
+		(uuid "c54a76f4-3370-405d-a642-525827c5fc00")
 	)
 	(junction
-		(at 40.64 113.03)
+		(at 40.64 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfd8fcfc-6066-4078-ab78-b6ae42054f1e")
+		(uuid "d502bf15-5946-41ca-b00f-2c67bf94bb8e")
+	)
+	(junction
+		(at 172.72 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbd03263-d8e9-493d-9dd1-112fcb5ffedd")
 	)
 	(junction
 		(at 95.25 109.22)
@@ -4086,22 +4290,22 @@
 		(uuid "debae407-e70e-4dd4-a6b7-a4d19c3a5df5")
 	)
 	(junction
-		(at 172.72 137.16)
+		(at 76.2 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3618f9b-8fa0-4f97-aa2d-e335e842d28a")
+		(uuid "e044d967-34eb-4c20-ad74-80f79d72820e")
 	)
 	(junction
-		(at 217.17 115.57)
+		(at 217.17 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e769c2a4-6f80-4b3d-9bab-6adf6e21fa0d")
+		(uuid "e67b0dd3-57ad-41fd-b1d2-22de901b6860")
 	)
 	(junction
-		(at 76.2 189.23)
+		(at 172.72 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9c710b9-f4ed-45fc-94ed-6e1487ba2db2")
+		(uuid "e6ee6f3f-7c27-4935-9d33-51e4275bb928")
 	)
 	(junction
 		(at 29.21 130.81)
@@ -4116,22 +4320,16 @@
 		(uuid "f261150b-6adc-4877-90c3-205c7a4d9d4d")
 	)
 	(junction
+		(at 217.17 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a5fc83-27a8-438e-b5f8-88641f57d2f2")
+	)
+	(junction
 		(at 129.54 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f40acc40-711b-4f45-abd0-8122303e578e")
-	)
-	(junction
-		(at 217.17 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f858088b-ced2-4c24-ba22-4bf4168eb861")
-	)
-	(junction
-		(at 172.72 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc69a3be-9816-42cc-95d3-93f34bba08af")
 	)
 	(junction
 		(at 265.43 149.86)
@@ -4329,7 +4527,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 172.72 120.65)
+			(xy 172.72 113.03) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4519,16 +4717,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 52.07 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dce66c1-e18d-4673-9915-553a220a9720")
-	)
-	(wire
-		(pts
 			(xy 95.25 116.84) (xy 95.25 118.11)
 		)
 		(stroke
@@ -4556,6 +4744,16 @@
 			(type default)
 		)
 		(uuid "20d8f8b8-1cbb-437f-9bfc-dfdcf694eff9")
+	)
+	(wire
+		(pts
+			(xy 217.17 142.24) (xy 217.17 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219b286e-d7cc-4baf-8197-f0f5a5e8ee7b")
 	)
 	(wire
 		(pts
@@ -4686,16 +4884,6 @@
 			(type default)
 		)
 		(uuid "2aa21f6d-00eb-4484-a227-d78a028eb38c")
-	)
-	(wire
-		(pts
-			(xy 172.72 113.03) (xy 172.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b101c1e-058f-432a-b0de-104b51419f64")
 	)
 	(wire
 		(pts
@@ -4979,13 +5167,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 115.57) (xy 172.72 118.11)
+			(xy 52.07 77.47) (xy 52.07 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44b02ca9-1057-4a44-b2fd-1e15ec03ed61")
+		(uuid "45484495-77ad-41cf-92fa-2f57bf69d5ff")
 	)
 	(wire
 		(pts
@@ -5019,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 217.17 120.65)
+			(xy 217.17 113.03) (xy 217.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5166,16 +5354,6 @@
 			(type default)
 		)
 		(uuid "54a188f5-d435-42d9-b373-6b9c751e8fc7")
-	)
-	(wire
-		(pts
-			(xy 52.07 77.47) (xy 52.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5516c28b-1ba3-4cbd-b9d8-e560e32790ac")
 	)
 	(wire
 		(pts
@@ -5376,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "6fede0cf-3c32-4757-a426-1db0a7275792")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70395cd0-368e-4eb0-aeb1-ce2830570c68")
 	)
 	(wire
 		(pts
@@ -5829,6 +6017,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 142.24) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44cb2b7-7d1d-455f-8e95-0fefb75d3b3b")
+	)
+	(wire
+		(pts
 			(xy 250.19 83.82) (xy 251.46 83.82)
 		)
 		(stroke
@@ -5869,7 +6067,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 217.17 144.78)
+			(xy 217.17 137.16) (xy 217.17 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5896,16 +6094,6 @@
 			(type default)
 		)
 		(uuid "a6679736-5eb0-4eb6-a2ab-7c0c19f8498e")
-	)
-	(wire
-		(pts
-			(xy 172.72 139.7) (xy 172.72 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6cfa239-da1d-489c-9d1e-99b79e1715e5")
 	)
 	(wire
 		(pts
@@ -6019,16 +6207,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 115.57) (xy 217.17 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b032ec06-e830-4d41-a740-8f20d5d3ab56")
-	)
-	(wire
-		(pts
 			(xy 53.34 184.15) (xy 53.34 189.23)
 		)
 		(stroke
@@ -6079,6 +6257,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 115.57) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f08b04-40fb-42b0-a0fb-e31f9ff232c7")
+	)
+	(wire
+		(pts
 			(xy 88.9 140.97) (xy 95.25 140.97)
 		)
 		(stroke
@@ -6126,6 +6314,16 @@
 			(type default)
 		)
 		(uuid "bc8fd912-55a0-4586-9629-731be16582ca")
+	)
+	(wire
+		(pts
+			(xy 52.07 80.01) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc91634c-54ca-414c-a92a-a9306231ee80")
 	)
 	(wire
 		(pts
@@ -6189,6 +6387,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 115.57) (xy 217.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0db829b-8e69-4ad8-8df0-ae73a667f8bb")
+	)
+	(wire
+		(pts
 			(xy 107.95 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -6196,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "c23353e4-1f1a-4c4f-a4c3-55c27eb3d291")
+	)
+	(wire
+		(pts
+			(xy 172.72 139.7) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a968a0-8794-49c8-be81-97eaf5127bdc")
 	)
 	(wire
 		(pts
@@ -6309,16 +6527,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 139.7) (xy 217.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd55b24c-2810-45f3-a8bb-866f62962aa8")
-	)
-	(wire
-		(pts
 			(xy 144.78 88.9) (xy 144.78 73.66)
 		)
 		(stroke
@@ -6366,6 +6574,16 @@
 			(type default)
 		)
 		(uuid "d05c213d-6d56-43e8-8bb9-9674b763c975")
+	)
+	(wire
+		(pts
+			(xy 217.17 139.7) (xy 217.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36e168f-e863-42fc-a927-cab3669f9f36")
 	)
 	(wire
 		(pts
@@ -6439,6 +6657,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 118.11) (xy 217.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d799d1-046a-4e3b-84aa-138325214563")
+	)
+	(wire
+		(pts
 			(xy 52.07 85.09) (xy 53.34 85.09)
 		)
 		(stroke
@@ -6446,16 +6674,6 @@
 			(type default)
 		)
 		(uuid "da493185-41cd-49b7-9480-59cdb08e3a4f")
-	)
-	(wire
-		(pts
-			(xy 217.17 113.03) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf69b41-6ee4-4a2b-93fc-8895f4209293")
 	)
 	(wire
 		(pts
@@ -6546,16 +6764,6 @@
 			(type default)
 		)
 		(uuid "e5c3c6bc-3196-4efa-8faf-86e7fcba0003")
-	)
-	(wire
-		(pts
-			(xy 217.17 137.16) (xy 217.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e730b9e1-54d3-471e-8aaf-a324699e572a")
 	)
 	(wire
 		(pts
@@ -6786,16 +6994,6 @@
 			(type default)
 		)
 		(uuid "f879d687-a2aa-4b08-a742-204ed10caf9a")
-	)
-	(wire
-		(pts
-			(xy 172.72 142.24) (xy 172.72 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa0b9831-1963-40d9-be8f-04a84b4d6910")
 	)
 	(wire
 		(pts
@@ -7852,6 +8050,188 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TMUX4051DYYRQ1")
+		(at 224.79 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0298dc3c-e82b-480c-9484-2db8066fb18a")
+		(property "Reference" "IC13"
+			(at 237.49 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMUX4051DYYRQ1"
+			(at 237.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOP50P326X110-16N"
+			(at 246.38 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960"
+			(at 246.38 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125"
+			(at 224.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 246.38 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 246.38 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMUX4051DYYRQ1"
+			(at 246.38 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TMUX4051DYYRQ1"
+			(at 246.38 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051DYYRQ1?qs=HoCaDK9Nz5fnsZCcmbAcYA%3D%3D"
+			(at 246.38 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TMUX4051DYYRQ1"
+			(at 246.38 920.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4051dyyrq1/texas-instruments?utm_currency=USD&region=nac"
+			(at 246.38 1020.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f5c26c0-7181-493b-a247-b14479ddf07b")
+		)
+		(pin "2"
+			(uuid "8bb99997-95f7-4a72-8026-f24670dda31f")
+		)
+		(pin "13"
+			(uuid "94b04dfc-9ab4-4691-8945-1d1433c40fbd")
+		)
+		(pin "5"
+			(uuid "5cd33a23-a7a5-4a7e-9d3c-a3e7eee0b902")
+		)
+		(pin "6"
+			(uuid "11295164-e428-4ede-b146-f130244420fe")
+		)
+		(pin "1"
+			(uuid "b97dc237-6ccd-4f1b-8eb9-d0d02cb1e7c8")
+		)
+		(pin "16"
+			(uuid "09f468a4-5198-473c-aa08-3b355f9b0605")
+		)
+		(pin "8"
+			(uuid "3347f31c-98f7-4ff6-9e46-a906aa214591")
+		)
+		(pin "10"
+			(uuid "e7e8bca8-1099-4d05-b4b5-1d6270d84ba4")
+		)
+		(pin "12"
+			(uuid "697b67cf-37ab-4fe7-b926-fb73d0e71155")
+		)
+		(pin "15"
+			(uuid "03fa3d1c-3c93-4627-92b6-44e4d59199b9")
+		)
+		(pin "14"
+			(uuid "8395257c-6b01-4e95-968c-966a5dd336f0")
+		)
+		(pin "11"
+			(uuid "de0cfaab-b0d1-48c4-b249-dbd8b3f14a20")
+		)
+		(pin "7"
+			(uuid "f2b4dd64-43a4-4951-9002-2f565fc5e8c9")
+		)
+		(pin "9"
+			(uuid "5593cab1-9cc6-40e7-b35f-1db914433205")
+		)
+		(pin "4"
+			(uuid "ca0b99be-2ec3-4cba-8bb8-dc3ab4b4ef93")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 52.07 74.93 0)
 		(unit 1)
@@ -7911,188 +8291,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74HC193DR:SN74HC193DR")
-		(at 113.03 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0318f2d4-19c1-47c7-b392-498a3f87e234")
-		(property "Reference" "IC16"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HC193DR"
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-16N"
-			(at 139.7 166.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/SN74HC193"
-			(at 139.7 266.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-Bit Synchronous Up/Down Counters (Dual Clock With Clear)"
-			(at 113.03 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 139.7 466.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 139.7 566.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HC193DR"
-			(at 139.7 666.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HC193DR"
-			(at 139.7 766.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC193DR?qs=AgY10sKTvDJWAfK84dpbKw%3D%3D"
-			(at 139.7 866.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SN74HC193DR"
-			(at 139.7 966.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74hc193dr/texas-instruments"
-			(at 139.7 1066.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "3ecd66b4-c974-4125-9b9f-552fea4a403a")
-		)
-		(pin "16"
-			(uuid "4f42f155-85e6-4bb3-a42a-dd8b9df2e5d8")
-		)
-		(pin "5"
-			(uuid "0f652fcd-d87c-4124-b762-bbe8b4597910")
-		)
-		(pin "13"
-			(uuid "2d7797dd-7d62-4e5f-8794-be95f16e3270")
-		)
-		(pin "14"
-			(uuid "226cd753-5dc4-4021-a332-9a57a5e52669")
-		)
-		(pin "4"
-			(uuid "f9b61a80-a72d-4fa7-955f-be223ead3fd2")
-		)
-		(pin "3"
-			(uuid "933d3f0e-232e-4b88-82c6-522a30e6cf44")
-		)
-		(pin "2"
-			(uuid "4f7ff938-8bb1-4c62-943d-5390a0d9bc95")
-		)
-		(pin "15"
-			(uuid "6d49f79f-8d6a-4a94-b8bb-381778f8c1b6")
-		)
-		(pin "6"
-			(uuid "8b0ec70e-dbf4-4669-954a-59b6018a742b")
-		)
-		(pin "12"
-			(uuid "45f5becf-19d9-496f-a658-0a1d9e8f89f8")
-		)
-		(pin "10"
-			(uuid "874c2c39-29b3-44cd-8230-bc3db103bd6f")
-		)
-		(pin "7"
-			(uuid "2710ae58-6ff3-45a6-bbea-90f78ec180df")
-		)
-		(pin "8"
-			(uuid "38873cae-37d7-4b90-b06f-da6d9db4dbb7")
-		)
-		(pin "1"
-			(uuid "c29f528b-fa5a-454a-a798-920049c03a36")
-		)
-		(pin "9"
-			(uuid "db3d4b5d-11db-4cb9-8eb9-2a5ac450b3b9")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC16")
 					(unit 1)
 				)
 			)
@@ -8365,84 +8563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 73.66 144.78 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d80c04e-2623-41da-a123-ebafc9fc483e")
-		(property "Reference" "IC14"
-			(at 80.518 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74AHCT1G00DBVR"
-			(at 83.058 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f21e054-d2f4-4052-a53b-3f43f8a32914")
-		)
-		(pin "3"
-			(uuid "70d18c20-95bb-4243-8229-e3db3d4f55fd")
-		)
-		(pin "4"
-			(uuid "3e6d35b6-0150-4ce6-a5c8-d208174e2f8c")
-		)
-		(pin "2"
-			(uuid "ef3242a2-20fb-4418-95aa-0686a0fbcee5")
-		)
-		(pin "5"
-			(uuid "c91686e8-3d4c-4533-849f-22aeea3bdebf")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC14")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
 		(at 120.65 156.21 0)
 		(unit 1)
@@ -8503,265 +8623,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TMUX4052DYYR:TMUX4052DYYR")
-		(at 130.81 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17cd9247-e660-4c36-aa35-9f10fafe117a")
-		(property "Reference" "IC17"
-			(at 143.51 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMUX4052DYYR"
-			(at 143.51 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P326X110-16N"
-			(at 152.4 124.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052.pdf?ts=1747896308568&ref_url=https%253A%252F%252Fwww.mouser.kr%252F"
-			(at 152.4 224.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiplexer Switch ICs +/-12-V 4:1 2-chan nel multiplexer with"
-			(at 130.81 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 152.4 424.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 152.4 524.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TMUX4052DYYR"
-			(at 152.4 624.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TMUX4052DYYR"
-			(at 152.4 724.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4052DYYR?qs=HoCaDK9Nz5d2aXatVDWX6g%3D%3D"
-			(at 152.4 824.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TMUX4052DYYR"
-			(at 152.4 924.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4052dyyr/texas-instruments?region=nac"
-			(at 152.4 1024.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "20f6e5e2-097e-4e2d-9b3e-14c3d46cd858")
-		)
-		(pin "14"
-			(uuid "60e064b4-fb63-4c56-8fbc-41ebc468cb29")
-		)
-		(pin "6"
-			(uuid "3a41703b-8abd-458d-8141-e0154272b1fd")
-		)
-		(pin "12"
-			(uuid "eec15f61-f2a6-4289-a83c-5c9e46cc9f9e")
-		)
-		(pin "2"
-			(uuid "cc62a017-ef91-4b5c-ae58-8d3dbccdde23")
-		)
-		(pin "5"
-			(uuid "9d435d52-abce-407b-8093-89a6eddef21a")
-		)
-		(pin "4"
-			(uuid "07e2612e-63f3-40bb-a9d9-17fea398ffe8")
-		)
-		(pin "3"
-			(uuid "bce81553-d060-4f9e-8fa6-fdef9295bb70")
-		)
-		(pin "1"
-			(uuid "63b0b7e1-de0b-4e81-8591-efd00d81b39e")
-		)
-		(pin "10"
-			(uuid "24241989-d896-43e6-abb1-f8a20328012d")
-		)
-		(pin "7"
-			(uuid "bdae93db-4522-4e64-8a04-4dd838bba7e6")
-		)
-		(pin "13"
-			(uuid "e4a9cef9-bac1-4ea9-a6fa-5c7ade59c56d")
-		)
-		(pin "11"
-			(uuid "60a223f5-b872-4259-954b-3cff396db7b7")
-		)
-		(pin "8"
-			(uuid "652be28e-d99f-4060-9e0f-90148c57d859")
-		)
-		(pin "15"
-			(uuid "03a3cdd2-bf69-43ed-90e4-1de523396bc8")
-		)
-		(pin "16"
-			(uuid "a39cff44-3469-45ae-a0cb-07bac15a7332")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHC1G08DBVR:SN74AHC1G08DBVR_Alt")
-		(at 177.8 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc7987f-bae1-4ba1-b191-5cf948c12d61")
-		(property "Reference" "IC15"
-			(at 173.99 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHC1G08DBVR"
-			(at 173.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "250ba8cb-bca6-4132-9f91-ae0b0e1f495e")
-		)
-		(pin "3"
-			(uuid "8ca47158-2c39-432d-88ff-e98b8d28e168")
-		)
-		(pin "2"
-			(uuid "48de3ad9-e87d-4865-8946-e29883dfbc71")
-		)
-		(pin "4"
-			(uuid "8d98c996-6d55-477f-8f9d-5952de7f7e25")
-		)
-		(pin "5"
-			(uuid "4e1a043e-1bc4-4266-bf42-cec112733619")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC15")
 					(unit 1)
 				)
 			)
@@ -8830,83 +8691,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "R94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHC1G02DBVR:SN74AHC1G02DBVR_Alt")
-		(at 199.39 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "247e79ef-c691-44bc-8a31-c61c1bfbaa6b")
-		(property "Reference" "IC10"
-			(at 203.835 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHC1G02DBVR"
-			(at 203.835 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfd41716-f774-443b-9a58-821575ebecc6")
-		)
-		(pin "2"
-			(uuid "f29a6599-dca4-42df-84ce-d7269ef5dca5")
-		)
-		(pin "4"
-			(uuid "f43c8bf1-1ee8-4a1b-91ef-999a063298be")
-		)
-		(pin "5"
-			(uuid "10386f6c-5008-403f-a5ab-2b6b5dfadf5f")
-		)
-		(pin "3"
-			(uuid "89b33ff8-fc1b-422b-b898-1a34b8146165")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC10")
 					(unit 1)
 				)
 			)
@@ -9049,43 +8833,33 @@
 		)
 	)
 	(symbol
-		(lib_id "TSW-104-07-T-D:TSW-104-07-T-D")
-		(at 152.4 113.03 0)
+		(lib_id "SamacSys_Parts:SN74AHC1G02DBVR")
+		(at 199.39 41.91 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e24093a-7a31-4ac0-a779-521d8b55d774")
-		(property "Reference" "J6"
-			(at 162.56 105.41 0)
+		(uuid "2ad73555-fab2-4925-9014-26eb3de8709d")
+		(property "Reference" "IC12"
+			(at 203.835 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TSW-104-07-T-D"
-			(at 162.56 107.95 0)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 203.835 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TSW-104-XX-YY-D"
-			(at 168.91 207.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-			(at 168.91 307.95 0)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 220.98 -53.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,17 +8868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
-			(at 152.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 168.91 507.95 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g02"
+			(at 220.98 -153.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,8 +8878,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 168.91 607.95 0)
+		(property "Description" "Single 2-Input Positive-NOR Gate"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 220.98 -353.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,8 +8897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
-			(at 168.91 707.95 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 220.98 -453.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,8 +8907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-TSW10407TD"
-			(at 168.91 807.95 0)
+		(property "Manufacturer_Part_Number" "SN74AHC1G02DBVR"
+			(at 220.98 -553.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,8 +8917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
-			(at 168.91 907.95 0)
+		(property "Mouser Part Number" "595-SN74AHC1G02DBVR"
+			(at 220.98 -653.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,8 +8927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "TSW-104-07-T-D"
-			(at 168.91 1007.95 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G02DBVR?qs=VuX40u8tcuDWJaATLLYZCQ%3D%3D"
+			(at 220.98 -753.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,8 +8937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
-			(at 168.91 1107.95 0)
+		(property "Arrow Part Number" "SN74AHC1G02DBVR"
+			(at 220.98 -853.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,34 +8947,35 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "3492321f-f719-4af4-8f6c-90b0030b5b06")
-		)
-		(pin "1"
-			(uuid "e9c17419-9e45-462b-901d-94e56bfcd124")
-		)
-		(pin "3"
-			(uuid "df1872a1-f5c0-49a1-b97c-a94960b4174d")
-		)
-		(pin "5"
-			(uuid "72ecd3eb-a8b8-4a43-b04a-6c53a9b6dcfe")
-		)
-		(pin "7"
-			(uuid "cc46fa39-170e-4d99-acb4-121ab2516989")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g02dbvr/texas-instruments?region=nac"
+			(at 220.98 -953.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "86074d5b-17ac-404e-8902-1349ff76e1b8")
+			(uuid "0bc14db6-50c1-4879-afb2-42456433ff76")
 		)
 		(pin "4"
-			(uuid "fbe77739-1c15-4f2d-a862-3b6445373b23")
+			(uuid "aaba38e9-d890-4c66-9930-ddd1cc7f4cf3")
 		)
-		(pin "6"
-			(uuid "bebe8498-b31b-4b8f-8334-2cdcd86975c8")
+		(pin "5"
+			(uuid "bda4f775-02a8-494a-86d9-c1dc39e20a71")
+		)
+		(pin "1"
+			(uuid "f3439af0-437c-4213-ab41-5e9c039a2ba9")
+		)
+		(pin "3"
+			(uuid "3b04fdab-9749-4279-a739-daf13148fc91")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "J6")
+					(reference "IC12")
 					(unit 1)
 				)
 			)
@@ -9745,6 +9520,528 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TSW-104-07-T-D")
+		(at 196.85 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fa7f2b8-1554-4dc0-9b60-4981be682cf4")
+		(property "Reference" "J7"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-07-T-D"
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSW-104-XX-YY-D"
+			(at 213.36 207.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 213.36 307.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 213.36 507.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 213.36 607.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
+			(at 213.36 707.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10407TD"
+			(at 213.36 807.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
+			(at 213.36 907.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSW-104-07-T-D"
+			(at 213.36 1007.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
+			(at 213.36 1107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b2639d8e-05f7-4723-accd-9f4bce59c97a")
+		)
+		(pin "3"
+			(uuid "a37706ae-8c9f-4353-97a2-0590116c2029")
+		)
+		(pin "7"
+			(uuid "db19552f-ad9b-4298-b7b2-49d7306f10b8")
+		)
+		(pin "2"
+			(uuid "f1ef9123-451a-49ee-8f3d-11e8100d03b3")
+		)
+		(pin "4"
+			(uuid "302a3c7f-f1de-43f4-a210-2b3c5746bd5a")
+		)
+		(pin "1"
+			(uuid "0b955606-2298-4906-8017-6c87aa6aa2f5")
+		)
+		(pin "5"
+			(uuid "117f3ec9-6a59-456d-b7a6-3290c103df13")
+		)
+		(pin "6"
+			(uuid "6f82a686-bef5-48fa-a92c-4fa514deb624")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74HC193DR")
+		(at 113.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40374dc0-efce-44f4-922d-bd04797c879b")
+		(property "Reference" "IC15"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC193DR"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
+			(at 139.7 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/SN74HC193"
+			(at 139.7 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Bit Synchronous Up/Down Counters (Dual Clock With Clear)"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 139.7 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 566.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74HC193DR"
+			(at 139.7 666.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74HC193DR"
+			(at 139.7 766.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC193DR?qs=AgY10sKTvDJWAfK84dpbKw%3D%3D"
+			(at 139.7 866.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74HC193DR"
+			(at 139.7 966.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74hc193dr/texas-instruments"
+			(at 139.7 1066.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c3eeec1d-6bee-402e-9852-7c3c029243d6")
+		)
+		(pin "2"
+			(uuid "1c614c3f-c91e-4d62-a9c2-bac23cb19b75")
+		)
+		(pin "3"
+			(uuid "70f8ca67-5652-4696-9a4c-9415021ce983")
+		)
+		(pin "9"
+			(uuid "d99a79fe-2407-4ec5-8f32-6882a3977249")
+		)
+		(pin "13"
+			(uuid "14cdd393-6a95-4309-a9d8-b54d7d0c631b")
+		)
+		(pin "6"
+			(uuid "b6d53c95-9d8f-4dec-9dc7-c316401c7868")
+		)
+		(pin "10"
+			(uuid "8aa7653c-b82e-4334-abb2-a5081bbe59d2")
+		)
+		(pin "1"
+			(uuid "f0a328f6-43e2-4834-b059-c2cb6d3ffdb6")
+		)
+		(pin "7"
+			(uuid "fce3c7f6-3f64-405e-97b9-a76281fedd89")
+		)
+		(pin "11"
+			(uuid "053940a4-d3d0-4b40-a1d3-0d7ec8b05366")
+		)
+		(pin "15"
+			(uuid "b85afcac-ecd3-4e6d-82fb-b00a5bf8e750")
+		)
+		(pin "4"
+			(uuid "62f86982-8977-46b2-a69d-723e0d695bd4")
+		)
+		(pin "16"
+			(uuid "bb36b6be-81bd-4944-a4d8-fb8b0755a871")
+		)
+		(pin "8"
+			(uuid "19e7e30e-f01e-4b8c-81f9-2c2cd2cc53be")
+		)
+		(pin "12"
+			(uuid "7da91f25-9081-4f3c-9375-15ae0d068550")
+		)
+		(pin "14"
+			(uuid "885cac17-7a91-4b79-a2d6-aaab533dea4d")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TMUX4051DYYRQ1")
+		(at 224.79 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4289f37f-de2c-4f82-9199-e51115981cc3")
+		(property "Reference" "IC14"
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMUX4051DYYRQ1"
+			(at 237.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOP50P326X110-16N"
+			(at 246.38 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960"
+			(at 246.38 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 246.38 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 246.38 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMUX4051DYYRQ1"
+			(at 246.38 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TMUX4051DYYRQ1"
+			(at 246.38 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051DYYRQ1?qs=HoCaDK9Nz5fnsZCcmbAcYA%3D%3D"
+			(at 246.38 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TMUX4051DYYRQ1"
+			(at 246.38 963.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4051dyyrq1/texas-instruments?utm_currency=USD&region=nac"
+			(at 246.38 1063.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19429d03-53e8-466b-9e65-670453465f10")
+		)
+		(pin "2"
+			(uuid "edeffc36-fdbd-43ee-84a8-b77a46199763")
+		)
+		(pin "13"
+			(uuid "ad28ebd6-1901-4e05-a1cc-b70ca86c0af5")
+		)
+		(pin "5"
+			(uuid "51b30183-eac0-49c9-8eb6-37f8387fcda9")
+		)
+		(pin "6"
+			(uuid "335b6282-df00-4e7b-b2fb-204cdd64485a")
+		)
+		(pin "1"
+			(uuid "8622a99b-6c83-440c-9776-8cc099e5627d")
+		)
+		(pin "16"
+			(uuid "60b659b5-d81f-4527-9e5d-7a9013836dc7")
+		)
+		(pin "8"
+			(uuid "b74599f0-b486-499f-a9d9-8941efdccc09")
+		)
+		(pin "10"
+			(uuid "ec6917a3-4077-45d2-aa2c-85036ce94cf6")
+		)
+		(pin "12"
+			(uuid "eb413937-90a9-42f5-a7f2-0dccbf03e974")
+		)
+		(pin "15"
+			(uuid "a91c865c-6936-4bdf-9845-6ef372905906")
+		)
+		(pin "14"
+			(uuid "5a386232-9f2a-4d4e-937a-7c55a42d3386")
+		)
+		(pin "11"
+			(uuid "86d40e58-b0d4-4190-89e2-33ea57ce0f5b")
+		)
+		(pin "7"
+			(uuid "e344b4ab-194c-414a-9656-a502833da94d")
+		)
+		(pin "9"
+			(uuid "ffa4eeae-1c29-48ba-a3b4-314a4a94b71c")
+		)
+		(pin "4"
+			(uuid "d55aaa67-84d5-4867-a357-e2ed0c68d661")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 95.25 180.34 0)
 		(unit 1)
@@ -9805,164 +10102,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TSW-104-07-T-D:TSW-104-07-T-D")
-		(at 152.4 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7f1987-b5a7-42a9-9e6a-c0d98ebeaa67")
-		(property "Reference" "J7"
-			(at 162.56 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSW-104-07-T-D"
-			(at 162.56 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TSW-104-XX-YY-D"
-			(at 168.91 232.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-			(at 168.91 332.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
-			(at 152.4 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 168.91 532.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 168.91 632.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
-			(at 168.91 732.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "200-TSW10407TD"
-			(at 168.91 832.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
-			(at 168.91 932.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TSW-104-07-T-D"
-			(at 168.91 1032.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
-			(at 168.91 1132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "92a74f92-5fab-4b93-b9ab-57b43acaff12")
-		)
-		(pin "1"
-			(uuid "7d221a2d-93bf-408d-89ce-9df58e692fea")
-		)
-		(pin "3"
-			(uuid "8f13fe1d-1182-44a3-81cc-b762f3b8960d")
-		)
-		(pin "5"
-			(uuid "41cd7cf3-10a9-4c64-9a58-42eebe5f8579")
-		)
-		(pin "7"
-			(uuid "0503fad2-a937-4a1f-9803-761c02635cb5")
-		)
-		(pin "2"
-			(uuid "ce09ddf9-5689-44b4-bd80-791af21fe186")
-		)
-		(pin "4"
-			(uuid "10cfefd9-1646-4c67-86d7-45e1ad9cd79c")
-		)
-		(pin "6"
-			(uuid "3a7fcd9f-cc16-4bc4-a80b-4d83de4e4dba")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10305,6 +10444,155 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHC1G08DBVR")
+		(at 177.8 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54ad6f68-bf29-4b0c-a62e-77c3771e370a")
+		(property "Reference" "U1"
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G08DBVR"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 156.21 167.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=SN74AHC1G08&&fileType=pdf"
+			(at 156.21 267.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC1G08DBVR, 2-Input AND Logic Gate, 2  5.5 V, 5-Pin SOT-23"
+			(at 173.99 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 156.21 467.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 156.21 567.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC1G08DBVR"
+			(at 156.21 667.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC1G08DBVR"
+			(at 156.21 767.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G08DBVR?qs=tJ5HNKWh3OXzGHgsEkuHbw%3D%3D"
+			(at 156.21 867.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHC1G08DBVR"
+			(at 156.21 967.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g08dbvr/texas-instruments?region=nac"
+			(at 156.21 1067.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "508266e1-91ef-42b4-b7bc-d122f5745970")
+		)
+		(pin "5"
+			(uuid "fc306752-7691-41bd-88a5-a64f7e873ab9")
+		)
+		(pin "2"
+			(uuid "52a47a67-1251-42f9-93c1-db13f90515d0")
+		)
+		(pin "3"
+			(uuid "0fb2f90d-29b2-4be1-9368-b04c5bba6f25")
+		)
+		(pin "1"
+			(uuid "37c77bc1-751b-492e-9906-0bf0b83d665e")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10791,6 +11079,164 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TSW-104-07-T-D")
+		(at 152.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e429046-0ab5-4dcf-8ea8-7450c3f76e5d")
+		(property "Reference" "J2"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-07-T-D"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSW-104-XX-YY-D"
+			(at 168.91 207.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 168.91 307.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 168.91 507.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 168.91 607.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
+			(at 168.91 707.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10407TD"
+			(at 168.91 807.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
+			(at 168.91 907.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSW-104-07-T-D"
+			(at 168.91 1007.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
+			(at 168.91 1107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c35daba3-d55e-4fed-8fbd-48276c260a2f")
+		)
+		(pin "3"
+			(uuid "69c5cb85-5493-41fc-9c4e-e642027cbc25")
+		)
+		(pin "7"
+			(uuid "1bea5808-3698-4053-ab61-7d8928974b23")
+		)
+		(pin "2"
+			(uuid "85d5c61c-e196-48f4-9a03-986020686205")
+		)
+		(pin "4"
+			(uuid "ed8224ee-45d5-4138-8be9-1a69425dd323")
+		)
+		(pin "1"
+			(uuid "c8a7f195-1cf8-4ace-a0f7-09ba60856a75")
+		)
+		(pin "5"
+			(uuid "2fe2c430-f91d-4493-9db1-044935d06a49")
+		)
+		(pin "6"
+			(uuid "50ea3de8-9b03-4c93-b1ea-d452f2da2b90")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 151.13 180)
 		(unit 1)
@@ -10855,83 +11301,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 162.56 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f8fbd43-ad7a-46e0-b538-13185661dc5c")
-		(property "Reference" "IC14"
-			(at 158.115 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHCT1G00DBVR"
-			(at 158.115 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f21e054-d2f4-4052-a53b-3f43f8a32915")
-		)
-		(pin "3"
-			(uuid "70d18c20-95bb-4243-8229-e3db3d4f55fe")
-		)
-		(pin "4"
-			(uuid "3e6d35b6-0150-4ce6-a5c8-d208174e2f8d")
-		)
-		(pin "2"
-			(uuid "ef3242a2-20fb-4418-95aa-0686a0fbcee6")
-		)
-		(pin "5"
-			(uuid "c91686e8-3d4c-4533-849f-22aeea3bdec0")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC14")
 					(unit 1)
 				)
 			)
@@ -11210,16 +11579,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 69.85 71.12 0)
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 69.85 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c995eb3-61c8-4f5b-a976-83da9962c3e5")
-		(property "Reference" "IC11"
+		(uuid "69ab30df-c802-4e6e-836a-3ab9142aef90")
+		(property "Reference" "IC9"
 			(at 74.295 67.31 0)
 			(effects
 				(font
@@ -11235,8 +11604,28 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 71.12 0)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 91.44 167.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 91.44 267.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,43 +11633,394 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 69.85 71.12 0)
+		(property "Height" "1.45"
+			(at 91.44 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 71.12 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 91.44 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 91.44 667.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 91.44 767.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 91.44 867.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 91.44 967.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 91.44 1067.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "4"
-			(uuid "acd1d05c-3215-455a-9e9d-2bceae1574b6")
-		)
-		(pin "5"
-			(uuid "0d46f340-3c8b-4019-baad-f490b4910d62")
-		)
-		(pin "3"
-			(uuid "7c06bd60-116a-4c6d-ad29-28c531bdd11f")
+			(uuid "8de6b0fd-db47-4582-ab56-73295005885f")
 		)
 		(pin "2"
-			(uuid "0abca007-b6ac-4996-9a73-23518198dd1f")
+			(uuid "c277a08a-bc36-45d8-b91d-62908b873623")
+		)
+		(pin "5"
+			(uuid "69e7509a-717c-4d64-bd87-8a0504b1816c")
+		)
+		(pin "3"
+			(uuid "38818145-6de3-421f-b111-24983ddc80ac")
 		)
 		(pin "1"
-			(uuid "6e4547b3-5c30-4c52-b201-cd8a20a03919")
+			(uuid "881539fa-900f-46e5-9115-4b6553be85b7")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC11")
+					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHC1G02DBVR")
+		(at 78.74 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a3e8cd0-851a-4a50-ac7f-9e2210cd9730")
+		(property "Reference" "IC12"
+			(at 80.518 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 83.058 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 100.33 239.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g02"
+			(at 100.33 339.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NOR Gate"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 100.33 539.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 100.33 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC1G02DBVR"
+			(at 100.33 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC1G02DBVR"
+			(at 100.33 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G02DBVR?qs=VuX40u8tcuDWJaATLLYZCQ%3D%3D"
+			(at 100.33 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHC1G02DBVR"
+			(at 100.33 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g02dbvr/texas-instruments?region=nac"
+			(at 100.33 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bc14db6-50c1-4879-afb2-42456433ff76")
+		)
+		(pin "4"
+			(uuid "aaba38e9-d890-4c66-9930-ddd1cc7f4cf3")
+		)
+		(pin "5"
+			(uuid "bda4f775-02a8-494a-86d9-c1dc39e20a71")
+		)
+		(pin "1"
+			(uuid "f3439af0-437c-4213-ab41-5e9c039a2ba9")
+		)
+		(pin "3"
+			(uuid "3b04fdab-9749-4279-a739-daf13148fc91")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 69.85 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6be3a620-dcd4-4e37-871f-a9fea792bd46")
+		(property "Reference" "IC24"
+			(at 74.295 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHCT1G00DBVR"
+			(at 74.295 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 91.44 -4.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 91.44 -104.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 91.44 -304.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 91.44 -404.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 91.44 -504.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 91.44 -604.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 91.44 -704.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 91.44 -804.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 91.44 -904.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c82fe8f5-192b-4d26-86cf-c750dbbc7150")
+		)
+		(pin "2"
+			(uuid "54bd2a13-a117-4e57-80a3-ee117315df0b")
+		)
+		(pin "5"
+			(uuid "69e7509a-717c-4d64-bd87-8a0504b1816c")
+		)
+		(pin "3"
+			(uuid "38818145-6de3-421f-b111-24983ddc80ac")
+		)
+		(pin "1"
+			(uuid "e3256d9b-0d80-428d-876c-8d2efb5fd6ba")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC24")
 					(unit 1)
 				)
 			)
@@ -11422,160 +12162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PEC12R-3220F-S0024:PEC12R-3220F-S0024")
-		(at 67.31 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "775b263c-325e-49e9-b023-4983ccc7e8cc")
-		(property "Reference" "S2"
-			(at 54.61 17.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PEC12R-3220F-S0024"
-			(at 54.61 19.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PEC12R3220FS0024"
-			(at 45.72 -44.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf"
-			(at 45.72 -144.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
-			(at 59.182 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "22.5"
-			(at 45.72 -344.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 45.72 -444.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PEC12R-3220F-S0024"
-			(at 45.72 -544.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PEC12R3220FS0024"
-			(at 45.72 -644.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC12R-3220F-S0024?qs=%252B9%2Fcbd0IE0Tm%252BWkxcjszVA%3D%3D"
-			(at 45.72 -744.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "PEC12R-3220F-S0024"
-			(at 45.72 -844.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec12r-3220f-s0024/bourns?region=nac"
-			(at 45.72 -944.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MH1"
-			(uuid "4313103d-2b9a-4915-a2e3-660aa8fbddd3")
-		)
-		(pin "B1"
-			(uuid "a6e95ea9-5140-4bd5-8cc5-517c98cae47e")
-		)
-		(pin "A1"
-			(uuid "c1fdd8e8-8ae3-4eed-a498-ff94c49d569e")
-		)
-		(pin "C1"
-			(uuid "1beeb4d2-2136-4ea2-9b51-346121333d5c")
-		)
-		(pin "1"
-			(uuid "d4846192-3218-4944-84a6-768ddf4cf620")
-		)
-		(pin "MH2"
-			(uuid "280ac2a0-1c1c-4272-8a03-a6573253402b")
-		)
-		(pin "2"
-			(uuid "ff0e6242-dde2-43e6-8c8b-0593549c6b33")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 87.63 0)
 		(unit 1)
@@ -11701,6 +12287,155 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHC1G02DBVR")
+		(at 199.39 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84f00a64-d458-4bb2-8a7f-d527287df15c")
+		(property "Reference" "IC25"
+			(at 203.835 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 203.835 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 220.98 -9.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g02"
+			(at 220.98 -109.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NOR Gate"
+			(at 199.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 220.98 -309.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 220.98 -409.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC1G02DBVR"
+			(at 220.98 -509.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC1G02DBVR"
+			(at 220.98 -609.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G02DBVR?qs=VuX40u8tcuDWJaATLLYZCQ%3D%3D"
+			(at 220.98 -709.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHC1G02DBVR"
+			(at 220.98 -809.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g02dbvr/texas-instruments?region=nac"
+			(at 220.98 -909.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88aa2b05-e2a6-41c1-aa77-4ae25fb35a1d")
+		)
+		(pin "4"
+			(uuid "a6acdf99-3020-4e84-aeb1-e9807136712c")
+		)
+		(pin "5"
+			(uuid "bda4f775-02a8-494a-86d9-c1dc39e20a72")
+		)
+		(pin "1"
+			(uuid "fe0f6a85-96f7-4346-aa33-5df83094c707")
+		)
+		(pin "3"
+			(uuid "3b04fdab-9749-4279-a739-daf13148fc92")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC25")
 					(unit 1)
 				)
 			)
@@ -12051,6 +12786,160 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PEC12R-3220F-S0024")
+		(at 62.23 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "943d38eb-a2a0-4a4f-95e9-1d3b32a8245f")
+		(property "Reference" "S1"
+			(at 54.864 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC12R-3220F-S0024"
+			(at 54.864 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PEC12R3220FS0024"
+			(at 40.64 -36.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf"
+			(at 40.64 -136.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "22.5"
+			(at 40.64 -336.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 40.64 -436.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PEC12R-3220F-S0024"
+			(at 40.64 -536.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEC12R3220FS0024"
+			(at 40.64 -636.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC12R-3220F-S0024?qs=%252B9%2Fcbd0IE0Tm%252BWkxcjszVA%3D%3D"
+			(at 40.64 -736.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PEC12R-3220F-S0024"
+			(at 40.64 -836.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec12r-3220f-s0024/bourns?region=nac"
+			(at 40.64 -936.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "cd3aa496-a6ac-40ff-a328-9a571d26c58a")
+		)
+		(pin "MH1"
+			(uuid "f6e317ef-3dba-4703-95a8-b554ba3a9221")
+		)
+		(pin "MH2"
+			(uuid "96f8c315-f4e2-45a9-97f6-3b03fff10cfc")
+		)
+		(pin "B1"
+			(uuid "62304d36-3ce6-4197-be8b-490ebe79302a")
+		)
+		(pin "1"
+			(uuid "8027223c-8baf-4ad8-addc-c7962429b2a6")
+		)
+		(pin "C1"
+			(uuid "9526a0d0-e03e-40b5-8a91-4d80ec0fa737")
+		)
+		(pin "2"
+			(uuid "1256cff2-41a4-4bc3-9569-3f4fced7c258")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 140.97 0)
 		(unit 1)
@@ -12117,84 +13006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74AHC1G02DBVR:SN74AHC1G02DBVR_Alt")
-		(at 38.1 115.57 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94c29e45-8ae2-4214-9f6a-635888275dc5")
-		(property "Reference" "IC10"
-			(at 44.704 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74AHC1G02DBVR"
-			(at 47.244 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6de580eb-7d57-4a09-bac7-ce7b92f879c3")
-		)
-		(pin "2"
-			(uuid "c1e2158e-a739-432d-a9d4-9607fcf4edfa")
-		)
-		(pin "4"
-			(uuid "1ef0d7d5-f4fa-495b-8c37-dee172c06fc5")
-		)
-		(pin "5"
-			(uuid "78728500-a365-4c73-9447-2050b39c7fd3")
-		)
-		(pin "3"
-			(uuid "16f66b5d-93ae-4828-bba6-7846e95f9d2d")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 91.44 0)
 		(unit 1)
@@ -12254,83 +13065,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHC1G02DBVR:SN74AHC1G02DBVR_Alt")
-		(at 199.39 43.18 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99055659-7a9a-4e87-bb9a-e20eadb88fe1")
-		(property "Reference" "IC13"
-			(at 203.835 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHC1G02DBVR"
-			(at 203.835 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6de580eb-7d57-4a09-bac7-ce7b92f879c4")
-		)
-		(pin "2"
-			(uuid "c1e2158e-a739-432d-a9d4-9607fcf4edfb")
-		)
-		(pin "4"
-			(uuid "1ef0d7d5-f4fa-495b-8c37-dee172c06fc6")
-		)
-		(pin "5"
-			(uuid "10386f6c-5008-403f-a5ab-2b6b5dfadf5e")
-		)
-		(pin "3"
-			(uuid "89b33ff8-fc1b-422b-b898-1a34b8146164")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC13")
 					(unit 1)
 				)
 			)
@@ -12538,43 +13272,32 @@
 		)
 	)
 	(symbol
-		(lib_id "NC7SZ74K8X:NC7SZ74K8X")
-		(at 24.13 77.47 0)
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 162.56 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dcb2c6c-0f4b-4cdf-9a2c-68be553b9b93")
-		(property "Reference" "IC9"
-			(at 38.1 69.85 0)
+		(uuid "9d46dc12-2258-4bc9-b8eb-70ce6679c7d7")
+		(property "Reference" "IC11"
+			(at 158.115 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NC7SZ74K8X"
-			(at 38.1 72.39 0)
+		(property "Value" "SN74AHCT1G00DBVR"
+			(at 158.115 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SOP50P310X90-8N"
-			(at 48.26 172.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SZ74-D.PDF"
-			(at 48.26 272.39 0)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 140.97 -7.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,17 +13306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power down high impedance inputs/output; Overvoltage tolerant inputs facilitate 5V to 3V translation; Space saving US8 surface mount package; High Output Drive; +/- 24 mA at 3V VCC; MicroPak Pb-Free leadless package; Ultra High Speed; tPD 2.6 ns Typ into 50 pF at 5V VCC; Broad VCC Operating Range; 1.65V to 5.5V; Patented noise/EMI reduction circuitry implemented"
-			(at 24.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 48.26 472.39 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 140.97 -107.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,8 +13316,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 48.26 572.39 0)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 140.97 -307.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,8 +13335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NC7SZ74K8X"
-			(at 48.26 672.39 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 140.97 -407.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,8 +13345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "512-NC7SZ74K8X"
-			(at 48.26 772.39 0)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 140.97 -507.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,8 +13355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/NC7SZ74K8X?qs=Ip36MYbAomLXK8YHig1yCQ%3D%3D"
-			(at 48.26 872.39 0)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 140.97 -607.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,8 +13365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "NC7SZ74K8X"
-			(at 48.26 972.39 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 140.97 -707.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,8 +13375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nc7sz74k8x/on-semiconductor"
-			(at 48.26 1072.39 0)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 140.97 -807.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,35 +13385,186 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "0ba04185-006b-4cf2-ad9b-cf45d8961ee8")
-		)
-		(pin "7"
-			(uuid "75e4e505-e370-47ad-ab82-713b0686b56d")
-		)
-		(pin "2"
-			(uuid "e12f972b-7967-4985-a119-a483231780aa")
-		)
-		(pin "1"
-			(uuid "dc40f667-67ec-4a48-a086-8639cdad6f65")
-		)
-		(pin "8"
-			(uuid "79d6a386-282a-4f78-af5d-aca4994680d1")
-		)
-		(pin "3"
-			(uuid "1f79e866-b2c4-4978-881f-23c261adeef8")
-		)
-		(pin "5"
-			(uuid "3f72749a-2e99-4d70-b507-544d53566db4")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 140.97 -907.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "9ba1c3d7-307d-443d-8595-4011c4a71aa1")
+			(uuid "9db5a295-7210-40b9-bce2-6d0ceb6484d9")
+		)
+		(pin "2"
+			(uuid "1e758d16-d633-4410-aeef-18e8eea96d1b")
+		)
+		(pin "5"
+			(uuid "69e7509a-717c-4d64-bd87-8a0504b1816c")
+		)
+		(pin "3"
+			(uuid "38818145-6de3-421f-b111-24983ddc80ac")
+		)
+		(pin "1"
+			(uuid "10242620-5691-4084-a16f-d053829846a4")
 		)
 		(instances
-			(project ""
+			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC9")
+					(reference "IC11")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 38.1 173.99 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a547db0b-0519-4d18-96c9-7ed3c24ff6a7")
+		(property "Reference" "IC11"
+			(at 44.958 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHCT1G00DBVR"
+			(at 47.498 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 59.69 268.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 59.69 368.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 38.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 59.69 568.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 59.69 668.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 59.69 768.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 59.69 868.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 59.69 968.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 59.69 1068.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 59.69 1168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8de6b0fd-db47-4582-ab56-73295005885f")
+		)
+		(pin "2"
+			(uuid "c277a08a-bc36-45d8-b91d-62908b873623")
+		)
+		(pin "5"
+			(uuid "02470a00-9b7c-481d-aa17-7df932dc76c4")
+		)
+		(pin "3"
+			(uuid "354eeaaa-f3d1-4035-b9b4-0cf19ab58862")
+		)
+		(pin "1"
+			(uuid "881539fa-900f-46e5-9115-4b6553be85b7")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC11")
+					(unit 2)
 				)
 			)
 		)
@@ -13042,84 +13916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74AHC1G02DBVR:SN74AHC1G02DBVR_Alt")
-		(at 73.66 115.57 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab1a5f9c-d230-40b3-b87b-e4d61282f54b")
-		(property "Reference" "IC13"
-			(at 80.518 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74AHC1G02DBVR"
-			(at 83.058 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6de580eb-7d57-4a09-bac7-ce7b92f879c5")
-		)
-		(pin "2"
-			(uuid "c1e2158e-a739-432d-a9d4-9607fcf4edfc")
-		)
-		(pin "4"
-			(uuid "1ef0d7d5-f4fa-495b-8c37-dee172c06fc7")
-		)
-		(pin "5"
-			(uuid "10386f6c-5008-403f-a5ab-2b6b5dfadf60")
-		)
-		(pin "3"
-			(uuid "89b33ff8-fc1b-422b-b898-1a34b8146166")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC13")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 260.35 130.81 90)
 		(unit 1)
@@ -13249,6 +14045,156 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0176")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 38.1 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b07033d1-c084-4c23-9a31-cc21bd80395d")
+		(property "Reference" "IC24"
+			(at 44.958 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHCT1G00DBVR"
+			(at 47.498 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 59.69 239.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 59.69 339.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 38.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 59.69 539.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 59.69 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 59.69 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 59.69 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 59.69 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 59.69 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 59.69 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8de6b0fd-db47-4582-ab56-73295005885f")
+		)
+		(pin "2"
+			(uuid "c277a08a-bc36-45d8-b91d-62908b873623")
+		)
+		(pin "5"
+			(uuid "981caab3-4c4d-4f09-bb19-164ccc59876c")
+		)
+		(pin "3"
+			(uuid "beebc008-3e0f-4f17-878d-f8009dedc7c4")
+		)
+		(pin "1"
+			(uuid "881539fa-900f-46e5-9115-4b6553be85b7")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC24")
+					(unit 2)
 				)
 			)
 		)
@@ -13529,6 +14475,164 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TSW-104-07-T-D")
+		(at 152.4 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b3c8fc-44e6-4640-a069-69b45bc179e9")
+		(property "Reference" "J6"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-07-T-D"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSW-104-XX-YY-D"
+			(at 168.91 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 168.91 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 168.91 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 168.91 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
+			(at 168.91 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10407TD"
+			(at 168.91 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
+			(at 168.91 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSW-104-07-T-D"
+			(at 168.91 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
+			(at 168.91 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "0a7c5bff-1717-4dd6-abae-41d7f433bb18")
+		)
+		(pin "3"
+			(uuid "371003de-bfbe-47cf-b8cc-304b65aaa29c")
+		)
+		(pin "7"
+			(uuid "ce4e892a-a453-4ca4-8a19-32f713968f4e")
+		)
+		(pin "2"
+			(uuid "be3efd10-56c2-4e52-bb7d-dc5b80a1df56")
+		)
+		(pin "4"
+			(uuid "b524376e-1f54-4372-be5a-740c471834a6")
+		)
+		(pin "1"
+			(uuid "547559d4-e5db-4173-b20a-680313a80053")
+		)
+		(pin "5"
+			(uuid "07a258fb-e535-43c5-9141-7e6d5fc6c621")
+		)
+		(pin "6"
+			(uuid "9b2ac35e-ae98-4fca-9941-c73113af455b")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 224.79 88.9 0)
 		(unit 1)
@@ -13589,6 +14693,156 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0188")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHC1G08DBVR")
+		(at 73.66 115.57 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baeb07c3-4e0f-4178-88db-eaa8039444b2")
+		(property "Reference" "U1"
+			(at 80.264 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHC1G08DBVR"
+			(at 82.804 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 95.25 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=SN74AHC1G08&&fileType=pdf"
+			(at 95.25 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments SN74AHC1G08DBVR, 2-Input AND Logic Gate, 2  5.5 V, 5-Pin SOT-23"
+			(at 77.47 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 95.25 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 95.25 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC1G08DBVR"
+			(at 95.25 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC1G08DBVR"
+			(at 95.25 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G08DBVR?qs=tJ5HNKWh3OXzGHgsEkuHbw%3D%3D"
+			(at 95.25 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHC1G08DBVR"
+			(at 95.25 1010.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g08dbvr/texas-instruments?region=nac"
+			(at 95.25 1110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "508266e1-91ef-42b4-b7bc-d122f5745970")
+		)
+		(pin "5"
+			(uuid "fc306752-7691-41bd-88a5-a64f7e873ab9")
+		)
+		(pin "2"
+			(uuid "52a47a67-1251-42f9-93c1-db13f90515d0")
+		)
+		(pin "3"
+			(uuid "0fb2f90d-29b2-4be1-9368-b04c5bba6f25")
+		)
+		(pin "1"
+			(uuid "37c77bc1-751b-492e-9906-0bf0b83d665e")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -13660,34 +14914,53 @@
 		)
 	)
 	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 38.1 173.99 0)
-		(unit 2)
+		(lib_id "SamacSys_Parts:TMUX4052DYYR")
+		(at 130.81 29.21 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bf238488-7223-4a8b-ac54-6fd1819e1050")
-		(property "Reference" "IC12"
-			(at 45.212 186.436 90)
+		(fields_autoplaced yes)
+		(uuid "bf8b6346-ec67-49cb-897e-535468259910")
+		(property "Reference" "IC10"
+			(at 143.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SN74AHCT1G00DBVR"
-			(at 47.752 186.436 90)
+		(property "Value" "TMUX4052DYYR"
+			(at 143.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 173.99 0)
+		(property "Footprint" "SamacSys_Parts:SOP50P326X110-16N"
+			(at 152.4 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052.pdf?ts=1747896308568&ref_url=https%253A%252F%252Fwww.mouser.kr%252F"
+			(at 152.4 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiplexer Switch ICs +/-12-V 4:1 2-chan nel multiplexer with"
+			(at 130.81 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,77 +14968,181 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 173.99 0)
+		(property "Height" "1.1"
+			(at 152.4 424.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 173.99 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 152.4 524.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e2c4a3f4-c413-4e8e-bffc-20d52223f68d")
+		(property "Manufacturer_Part_Number" "TMUX4052DYYR"
+			(at 152.4 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "f8952b8d-265e-425a-9fc1-43c9b1f14619")
+		(property "Mouser Part Number" "595-TMUX4052DYYR"
+			(at 152.4 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4052DYYR?qs=HoCaDK9Nz5d2aXatVDWX6g%3D%3D"
+			(at 152.4 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TMUX4052DYYR"
+			(at 152.4 924.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4052dyyr/texas-instruments?region=nac"
+			(at 152.4 1024.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "5912a342-bd76-477e-a096-a564855678c7")
+			(uuid "8e444177-a240-4d8a-9383-caeb9ede548f")
 		)
-		(pin "5"
-			(uuid "a7f8a012-e1e6-42bd-88fa-b3935c32f04d")
+		(pin "10"
+			(uuid "3f50bcb5-bfbf-4406-8d7b-a6132042170f")
+		)
+		(pin "15"
+			(uuid "9bf4237b-2f99-415d-88ea-38cb4b1f68d7")
 		)
 		(pin "3"
-			(uuid "c5cfe94a-5745-4351-b739-93dd79d30653")
+			(uuid "c02d92fb-285b-4445-8edc-bbf745c53a52")
+		)
+		(pin "2"
+			(uuid "6bbc1178-0792-49b0-b7c8-4d0a65ec8869")
+		)
+		(pin "5"
+			(uuid "d29493c0-7961-46f0-b590-2e58197fdab0")
+		)
+		(pin "14"
+			(uuid "724ad8ad-aec5-4a03-98bf-8a03f6073238")
+		)
+		(pin "16"
+			(uuid "d6594b3c-1887-4a8e-aa6f-8a59d6c4fbfc")
+		)
+		(pin "12"
+			(uuid "ae643288-cf15-46fe-95e0-8b894ade4d00")
+		)
+		(pin "6"
+			(uuid "d5629697-9727-4323-ab11-4546fa13dd15")
+		)
+		(pin "11"
+			(uuid "e3e84018-b329-4b4b-b074-c0565ee3b4ae")
+		)
+		(pin "8"
+			(uuid "5e78cd45-52fe-4c4f-88a2-1c9889be18db")
+		)
+		(pin "9"
+			(uuid "921bc30d-a5f8-4c2a-b72d-94566357ff33")
+		)
+		(pin "7"
+			(uuid "f27fb4fc-7cd6-46bc-8278-06af7acdcfdf")
+		)
+		(pin "1"
+			(uuid "6f7956d9-b1b0-497c-b0b7-a1d25c4eb4b0")
+		)
+		(pin "13"
+			(uuid "19bbc060-0b6e-445e-acb6-90f464a25a0d")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC12")
-					(unit 2)
+					(reference "IC10")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SN74AHC1G08DBVR:SN74AHC1G08DBVR_Alt")
-		(at 73.66 173.99 0)
-		(unit 2)
+		(lib_id "SamacSys_Parts:NC7SZ74K8X")
+		(at 24.13 77.47 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2d48a52-1758-4677-b812-f93ffa03b003")
-		(property "Reference" "IC15"
-			(at 80.518 187.198 90)
+		(fields_autoplaced yes)
+		(uuid "c0a69c3d-a1e8-43db-b247-810d446236ef")
+		(property "Reference" "IC23"
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SN74AHC1G08DBVR"
-			(at 83.058 187.198 90)
+		(property "Value" "NC7SZ74K8X"
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 173.99 0)
+		(property "Footprint" "SamacSys_Parts:SOP50P310X90-8N"
+			(at 48.26 172.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SZ74-D.PDF"
+			(at 48.26 272.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power down high impedance inputs/output; Overvoltage tolerant inputs facilitate 5V to 3V translation; Space saving US8 surface mount package; High Output Drive; +/- 24 mA at 3V VCC; MicroPak Pb-Free leadless package; Ultra High Speed; tPD 2.6 ns Typ into 50 pF at 5V VCC; Broad VCC Operating Range; 1.65V to 5.5V; Patented noise/EMI reduction circuitry implemented"
+			(at 24.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,44 +15150,105 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 173.99 0)
+		(property "Height" "0.9"
+			(at 48.26 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 173.99 0)
+		(property "Manufacturer_Name" "onsemi"
+			(at 48.26 572.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "NC7SZ74K8X"
+			(at 48.26 672.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-NC7SZ74K8X"
+			(at 48.26 772.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/NC7SZ74K8X?qs=Ip36MYbAomLXK8YHig1yCQ%3D%3D"
+			(at 48.26 872.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "NC7SZ74K8X"
+			(at 48.26 972.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nc7sz74k8x/on-semiconductor"
+			(at 48.26 1072.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "78e4020a-cb1c-4993-bec6-2144034c1a80")
+		)
+		(pin "8"
+			(uuid "05934ae5-e4de-4cb1-8f2d-0d2096b358fc")
 		)
 		(pin "1"
-			(uuid "250ba8cb-bca6-4132-9f91-ae0b0e1f495f")
-		)
-		(pin "3"
-			(uuid "8ca47158-2c39-432d-88ff-e98b8d28e169")
-		)
-		(pin "2"
-			(uuid "48de3ad9-e87d-4865-8946-e29883dfbc72")
-		)
-		(pin "4"
-			(uuid "8d98c996-6d55-477f-8f9d-5952de7f7e26")
+			(uuid "19d7794d-ceef-4a01-b62f-f15e706de15b")
 		)
 		(pin "5"
-			(uuid "4e1a043e-1bc4-4266-bf42-cec11273361a")
+			(uuid "38e1df31-fa65-4200-aa50-9a59b67d40d7")
+		)
+		(pin "4"
+			(uuid "56d5fb36-66c5-407c-b8ea-c68142c6eac5")
+		)
+		(pin "3"
+			(uuid "c97af002-4eb9-4f84-870d-b3ad9c2144f9")
+		)
+		(pin "2"
+			(uuid "b358e643-4d17-40f4-973d-50dc8b6ad934")
+		)
+		(pin "6"
+			(uuid "9f07d589-8b3b-4dc1-9dc8-ea0b5992fa2e")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC15")
-					(unit 2)
+					(reference "IC23")
+					(unit 1)
 				)
 			)
 		)
@@ -13942,6 +15380,164 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TSW-104-07-T-D")
+		(at 196.85 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f89e27-156d-461f-85c3-958c8565b201")
+		(property "Reference" "J8"
+			(at 207.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-07-T-D"
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSW-104-XX-YY-D"
+			(at 213.36 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 213.36 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 213.36 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 213.36 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
+			(at 213.36 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10407TD"
+			(at 213.36 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
+			(at 213.36 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSW-104-07-T-D"
+			(at 213.36 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
+			(at 213.36 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "95085a65-a7fa-431a-a356-d0410db61a22")
+		)
+		(pin "3"
+			(uuid "38f3160d-ff24-4d40-9ce8-ef60beb2a58b")
+		)
+		(pin "7"
+			(uuid "feca569b-ba61-405d-bfd1-76533ffa4634")
+		)
+		(pin "2"
+			(uuid "49ddae84-c2f2-48b7-9dc2-39f73320d464")
+		)
+		(pin "4"
+			(uuid "7c4fd25e-4143-40bc-9ab3-88856c640edd")
+		)
+		(pin "1"
+			(uuid "9452eb0a-a912-4751-a748-4e0cc2507f82")
+		)
+		(pin "5"
+			(uuid "ccd57af9-406a-4ec1-a3fc-9ac78b9efdf8")
+		)
+		(pin "6"
+			(uuid "5d7fa388-04d2-4c35-a04c-0e86c3a63a07")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14492,164 +16088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TSW-104-07-T-D:TSW-104-07-T-D")
-		(at 196.85 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df860f4f-88ad-4768-9369-6329ecbcc51f")
-		(property "Reference" "J8"
-			(at 207.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSW-104-07-T-D"
-			(at 207.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TSW-104-XX-YY-D"
-			(at 213.36 207.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-			(at 213.36 307.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
-			(at 196.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 213.36 507.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 213.36 607.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
-			(at 213.36 707.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "200-TSW10407TD"
-			(at 213.36 807.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
-			(at 213.36 907.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TSW-104-07-T-D"
-			(at 213.36 1007.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
-			(at 213.36 1107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bb13626c-009c-4c0f-a099-d9c33c5586c6")
-		)
-		(pin "1"
-			(uuid "658965b7-ef76-411c-bc4a-3ae8631cbbaf")
-		)
-		(pin "3"
-			(uuid "1898dd69-d30d-421a-ac02-53abaabc5bfb")
-		)
-		(pin "5"
-			(uuid "1c2ce341-e5b2-470e-8d10-1648c94a85fa")
-		)
-		(pin "7"
-			(uuid "97f9c7e9-7242-4487-af64-c899fe65fa73")
-		)
-		(pin "2"
-			(uuid "95d7f3a2-73e8-4c41-971c-56b009e99920")
-		)
-		(pin "4"
-			(uuid "8e981c77-5283-4e70-9aa5-c94e5e4f505f")
-		)
-		(pin "6"
-			(uuid "6b3bca45-b1f2-401b-97be-f7c69975e9cf")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 190.5 0)
 		(unit 1)
@@ -14710,83 +16148,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 69.85 91.44 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2cb841b-c0c3-464e-b5f1-2cb60b6fc309")
-		(property "Reference" "IC12"
-			(at 74.295 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHCT1G00DBVR"
-			(at 74.295 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e2c4a3f4-c413-4e8e-bffc-20d52223f68e")
-		)
-		(pin "1"
-			(uuid "f8952b8d-265e-425a-9fc1-43c9b1f1461a")
-		)
-		(pin "4"
-			(uuid "5912a342-bd76-477e-a096-a564855678c8")
-		)
-		(pin "5"
-			(uuid "a7f8a012-e1e6-42bd-88fa-b3935c32f04e")
-		)
-		(pin "3"
-			(uuid "c5cfe94a-5745-4351-b739-93dd79d30654")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC12")
 					(unit 1)
 				)
 			)
@@ -14857,188 +16218,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TMUX4051DYYRQ1:TMUX4051DYYRQ1")
-		(at 224.79 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e76a4c-7515-459e-8124-eec78cad8bc1")
-		(property "Reference" "IC18"
-			(at 237.49 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMUX4051DYYRQ1"
-			(at 237.49 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P326X110-16N"
-			(at 246.38 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960"
-			(at 246.38 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125"
-			(at 224.79 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 246.38 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 246.38 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TMUX4051DYYRQ1"
-			(at 246.38 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TMUX4051DYYRQ1"
-			(at 246.38 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051DYYRQ1?qs=HoCaDK9Nz5fnsZCcmbAcYA%3D%3D"
-			(at 246.38 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TMUX4051DYYRQ1"
-			(at 246.38 920.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4051dyyrq1/texas-instruments?utm_currency=USD&region=nac"
-			(at 246.38 1020.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "a5ee0e80-ee02-4d05-9a98-5c3a60b700f1")
-		)
-		(pin "16"
-			(uuid "5331bc80-3b79-4cb5-b384-1316e6d1ab93")
-		)
-		(pin "15"
-			(uuid "2c48bd3d-f290-40d4-b097-3662b125a720")
-		)
-		(pin "11"
-			(uuid "5c2ac686-e25b-4d15-9eb3-b1ae3f8f6e57")
-		)
-		(pin "6"
-			(uuid "65334682-e6b8-4115-9bc3-07d79bf80b9f")
-		)
-		(pin "8"
-			(uuid "3530c618-ea43-49cd-94d7-e994ed700d0d")
-		)
-		(pin "7"
-			(uuid "8722fe59-fbe5-454f-87ca-e8c203d660b2")
-		)
-		(pin "5"
-			(uuid "0d5cefe5-54b9-4a0a-8583-d29bb9d2610f")
-		)
-		(pin "3"
-			(uuid "5e6b6de6-8bb7-4d1b-931b-bb869c508ff8")
-		)
-		(pin "4"
-			(uuid "c8f12754-4a16-48c5-bec5-fe88880d9ea5")
-		)
-		(pin "2"
-			(uuid "725da825-ff22-4980-b37a-3890da3d6fff")
-		)
-		(pin "1"
-			(uuid "52083c7c-1893-4962-83b1-4e2ade09622e")
-		)
-		(pin "13"
-			(uuid "98e24b5f-80e2-4f1f-bb9d-8740b72f63a0")
-		)
-		(pin "12"
-			(uuid "851bb319-ec67-4e48-8b49-96e1eee2e237")
-		)
-		(pin "10"
-			(uuid "15f4f846-5ad5-45b6-80e0-ad59770d7a59")
-		)
-		(pin "9"
-			(uuid "74a27ddf-2371-4c51-9bb7-f3faf170ded5")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC18")
 					(unit 1)
 				)
 			)
@@ -15177,43 +16356,34 @@
 		)
 	)
 	(symbol
-		(lib_id "TSW-104-07-T-D:TSW-104-07-T-D")
-		(at 196.85 137.16 0)
-		(unit 1)
+		(lib_id "SamacSys_Parts:SN74AHC1G02DBVR")
+		(at 78.74 173.99 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e953ddc5-a707-4cfe-8af7-d70f4e938991")
-		(property "Reference" "J9"
-			(at 207.01 129.54 0)
+		(uuid "eac8cdc0-9fe3-4b05-b5f5-58fb43943415")
+		(property "Reference" "IC25"
+			(at 80.01 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TSW-104-07-T-D"
-			(at 207.01 132.08 0)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 82.55 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TSW-104-XX-YY-D"
-			(at 213.36 232.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-			(at 213.36 332.08 0)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 100.33 268.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,17 +16392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 Position, Classic PCB Header Strips, 0.100&quot; pitch"
-			(at 196.85 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 213.36 532.08 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g02"
+			(at 100.33 368.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15241,8 +16402,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 213.36 632.08 0)
+		(property "Description" "Single 2-Input Positive-NOR Gate"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 100.33 568.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15251,8 +16421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TSW-104-07-T-D"
-			(at 213.36 732.08 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 100.33 668.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,8 +16431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-TSW10407TD"
-			(at 213.36 832.08 0)
+		(property "Manufacturer_Part_Number" "SN74AHC1G02DBVR"
+			(at 100.33 768.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15271,8 +16441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-T-D?qs=hzq9O0YpnZtBZCcLzm8dag%3D%3D"
-			(at 213.36 932.08 0)
+		(property "Mouser Part Number" "595-SN74AHC1G02DBVR"
+			(at 100.33 868.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,8 +16451,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "TSW-104-07-T-D"
-			(at 213.36 1032.08 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G02DBVR?qs=VuX40u8tcuDWJaATLLYZCQ%3D%3D"
+			(at 100.33 968.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15291,8 +16461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-t-d/samtec?utm_currency=USD&region=europe"
-			(at 213.36 1132.08 0)
+		(property "Arrow Part Number" "SN74AHC1G02DBVR"
+			(at 100.33 1068.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,35 +16471,36 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "bb6b0933-b3cc-4460-8da5-2c5ce54186ed")
-		)
-		(pin "1"
-			(uuid "1bf3bc64-03f3-4753-8902-9f70fbe69cd0")
-		)
-		(pin "3"
-			(uuid "fa27f775-2045-4fc1-a576-df483a4d7098")
-		)
-		(pin "5"
-			(uuid "4f114084-aed4-4382-8745-70e1de3efb8b")
-		)
-		(pin "7"
-			(uuid "a20f518a-38f7-40ff-9731-03c59f8a111a")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahc1g02dbvr/texas-instruments?region=nac"
+			(at 100.33 1168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c1d5c9f8-effd-4bb3-ad80-b918831dd1d8")
+			(uuid "0bc14db6-50c1-4879-afb2-42456433ff76")
 		)
 		(pin "4"
-			(uuid "f6ded492-ac74-461b-8ef2-762cd0a2ae3f")
+			(uuid "aaba38e9-d890-4c66-9930-ddd1cc7f4cf3")
 		)
-		(pin "6"
-			(uuid "f09fcc2b-0ff7-4272-9283-3806f031d350")
+		(pin "5"
+			(uuid "1962e7f4-674a-417d-9b97-8d3853c7db23")
+		)
+		(pin "1"
+			(uuid "f3439af0-437c-4213-ab41-5e9c039a2ba9")
+		)
+		(pin "3"
+			(uuid "f90b5a5a-94d3-4c50-ac96-a606ec228904")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "J9")
-					(unit 1)
+					(reference "IC25")
+					(unit 2)
 				)
 			)
 		)
@@ -15401,188 +16572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TMUX4051DYYRQ1:TMUX4051DYYRQ1")
-		(at 224.79 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eedda9ce-c26f-43ae-b279-a93a272e7255")
-		(property "Reference" "IC19"
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMUX4051DYYRQ1"
-			(at 237.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P326X110-16N"
-			(at 246.38 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960"
-			(at 246.38 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125"
-			(at 224.79 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 246.38 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 246.38 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TMUX4051DYYRQ1"
-			(at 246.38 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TMUX4051DYYRQ1"
-			(at 246.38 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4051DYYRQ1?qs=HoCaDK9Nz5fnsZCcmbAcYA%3D%3D"
-			(at 246.38 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TMUX4051DYYRQ1"
-			(at 246.38 963.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux4051dyyrq1/texas-instruments?utm_currency=USD&region=nac"
-			(at 246.38 1063.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "f13a64dc-346f-4fed-a2da-0ce538e69445")
-		)
-		(pin "16"
-			(uuid "d9c71426-cd0c-4057-b7ea-b0566f3fa7c7")
-		)
-		(pin "15"
-			(uuid "14c16d45-0876-4831-8429-0ffe844653e8")
-		)
-		(pin "11"
-			(uuid "82ead884-e1e4-49b6-8f7f-7910e59a2d17")
-		)
-		(pin "6"
-			(uuid "ca2b9929-36e8-49c0-b717-36678c17c540")
-		)
-		(pin "8"
-			(uuid "33536a6a-4610-4f6f-bf82-dbc20d195beb")
-		)
-		(pin "7"
-			(uuid "89006ed1-9f85-46d0-93d4-832b18e7ba19")
-		)
-		(pin "5"
-			(uuid "2cc1fa07-1bd5-42f9-8533-5183351cb1ac")
-		)
-		(pin "3"
-			(uuid "fb1a5fd1-e0a8-4f78-9e9f-9346d3cc87ca")
-		)
-		(pin "4"
-			(uuid "9b850b87-ed61-4905-aba0-9a5584578788")
-		)
-		(pin "2"
-			(uuid "5f90505c-e533-40d9-b205-325b7ecf26f6")
-		)
-		(pin "1"
-			(uuid "2f649b4f-70e6-4f3e-92d8-f67749cb9e25")
-		)
-		(pin "13"
-			(uuid "d27d1e44-2a5a-4374-9f8c-f20f31df012a")
-		)
-		(pin "12"
-			(uuid "a7e35c04-ed96-49e4-bccb-63f808459c70")
-		)
-		(pin "10"
-			(uuid "54d60438-220b-4ca1-a556-adbbba3a074d")
-		)
-		(pin "9"
-			(uuid "a8545ae2-3b70-4e76-a1ac-c9c1e053a213")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 40.64 111.76 0)
 		(unit 1)
@@ -15644,6 +16633,156 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "#PWR0150")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SN74AHCT1G00DBVR")
+		(at 38.1 115.57 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6c23a70-846a-40bf-8e3a-e706520555b5")
+		(property "Reference" "IC9"
+			(at 44.704 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AHCT1G00DBVR"
+			(at 47.244 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
+			(at 59.69 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 59.69 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 59.69 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 59.69 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 59.69 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 59.69 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 59.69 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 59.69 1010.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments?region=nac"
+			(at 59.69 1110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8de6b0fd-db47-4582-ab56-73295005885f")
+		)
+		(pin "2"
+			(uuid "c277a08a-bc36-45d8-b91d-62908b873623")
+		)
+		(pin "5"
+			(uuid "69e7509a-717c-4d64-bd87-8a0504b1816c")
+		)
+		(pin "3"
+			(uuid "38818145-6de3-421f-b111-24983ddc80ac")
+		)
+		(pin "1"
+			(uuid "881539fa-900f-46e5-9115-4b6553be85b7")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
+					(reference "IC9")
+					(unit 2)
 				)
 			)
 		)
@@ -15780,84 +16919,6 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
 					(reference "C77")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SN74AHCT1G00DBVR:SN74AHCT1G00DBVR_Alt")
-		(at 38.1 144.78 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa304e4a-016a-487c-9cf4-2b411c406e8d")
-		(property "Reference" "IC11"
-			(at 44.958 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74AHCT1G00DBVR"
-			(at 47.498 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "acd1d05c-3215-455a-9e9d-2bceae1574b7")
-		)
-		(pin "5"
-			(uuid "0d46f340-3c8b-4019-baad-f490b4910d63")
-		)
-		(pin "3"
-			(uuid "7c06bd60-116a-4c6d-ad29-28c531bdd120")
-		)
-		(pin "2"
-			(uuid "0abca007-b6ac-4996-9a73-23518198dd20")
-		)
-		(pin "1"
-			(uuid "6e4547b3-5c30-4c52-b201-cd8a20a0391a")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73"
-					(reference "IC11")
-					(unit 2)
 				)
 			)
 		)

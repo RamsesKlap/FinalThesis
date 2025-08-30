@@ -300,7 +300,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NRJ4HF-1:NRJ4HF-1"
+		(symbol "SamacSys_Parts:NRJ4HF-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -424,7 +424,7 @@
 			(symbol "NRJ4HF-1_0_1"
 				(polyline
 					(pts
-						(xy 3.81 -26.67) (xy 3.81 -16.51) (xy 6.35 -16.51) (xy 6.35 -24.13) (xy 6.35 -26.67) (xy 3.81 -26.67)
+						(xy 1.27 -11.43) (xy 1.27 -1.27) (xy 3.81 -1.27) (xy 3.81 -8.89) (xy 3.81 -11.43) (xy 1.27 -11.43)
 					)
 					(stroke
 						(width 0)
@@ -436,7 +436,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -17.78) (xy 17.78 -17.78)
+						(xy 3.81 -2.54) (xy 15.24 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -448,7 +448,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -25.4) (xy 10.16 -24.13) (xy 11.43 -25.4) (xy 17.78 -25.4)
+						(xy 6.35 -10.16) (xy 7.62 -8.89) (xy 8.89 -10.16) (xy 15.24 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -460,7 +460,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -25.4) (xy 13.97 -21.59) (xy 17.78 -21.59)
+						(xy 11.43 -10.16) (xy 11.43 -6.35) (xy 15.24 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -472,7 +472,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -25.4) (xy 12.7 -24.13) (xy 15.24 -24.13) (xy 13.97 -25.4)
+						(xy 11.43 -10.16) (xy 10.16 -8.89) (xy 12.7 -8.89) (xy 11.43 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -485,8 +485,8 @@
 			)
 			(symbol "NRJ4HF-1_1_1"
 				(rectangle
-					(start 2.54 -15.24)
-					(end 17.78 -27.94)
+					(start 0 0)
+					(end 15.24 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -496,7 +496,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -17.78 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -514,7 +514,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -21.59 0)
+					(at -5.08 -6.35 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -532,7 +532,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -25.4 0)
+					(at -5.08 -10.16 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -550,7 +550,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -17.78 180)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -568,7 +568,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -21.59 180)
+					(at 20.32 -6.35 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -586,7 +586,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -25.4 180)
+					(at 20.32 -10.16 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -606,12 +606,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTA4543-2015CPB104:PTA4543-2015CPB103"
+		(symbol "SamacSys_Parts:PTA4543-2015CPB104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "VR"
-				(at 3.556 7.366 0)
+				(at 2.032 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -619,8 +619,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "PTA4543-2015CPB103"
-				(at 3.556 4.826 0)
+			(property "Value" "PTA4543-2015CPB104"
+				(at 2.032 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -649,7 +649,7 @@
 				)
 			)
 			(property "Description" "Low profile slide potentionmeter"
-				(at 7.874 6.35 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,10 +727,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PTA4543-2015CPB103_0_1"
+			(symbol "PTA4543-2015CPB104_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 10.16 0) (xy 10.16 1.27) (xy 17.78 1.27) (xy 17.78 -1.27) (xy 10.16 -1.27) (xy 10.16 0)
+						(xy 0 -2.54) (xy 5.08 -2.54) (xy 5.08 -1.27) (xy 12.7 -1.27) (xy 12.7 -3.81) (xy 5.08 -3.81) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -742,7 +742,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -1.27) (xy 12.7 -2.54) (xy 15.24 -2.54) (xy 13.97 -1.27)
+						(xy 8.89 -3.81) (xy 7.62 -5.08) (xy 10.16 -5.08) (xy 8.89 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -754,7 +754,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -8.89) (xy 13.97 -1.27)
+						(xy 8.89 -11.43) (xy 8.89 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -766,7 +766,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 0) (xy 22.86 0)
+						(xy 12.7 -2.54) (xy 17.78 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -777,10 +777,10 @@
 					)
 				)
 			)
-			(symbol "PTA4543-2015CPB103_1_1"
+			(symbol "PTA4543-2015CPB104_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -8.89)
+					(start 0 0)
+					(end 17.78 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -790,7 +790,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -808,7 +808,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 0)
+					(at -5.08 -6.35 0)
 					(length 5.08)
 					(name "MH1"
 						(effects
@@ -826,7 +826,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -6.35 0)
+					(at -5.08 -8.89 0)
 					(length 5.08)
 					(name "MH3"
 						(effects
@@ -844,7 +844,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -13.97 90)
+					(at 8.89 -16.51 90)
 					(length 5.08)
 					(name ""
 						(effects
@@ -862,7 +862,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 0 180)
+					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -880,7 +880,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -3.81 180)
+					(at 22.86 -6.35 180)
 					(length 5.08)
 					(name "MH2"
 						(effects
@@ -898,7 +898,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -6.35 180)
+					(at 22.86 -8.89 180)
 					(length 5.08)
 					(name "MH4"
 						(effects
@@ -918,12 +918,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTA4544-2015DPA103:PTA4544-2015DPA103"
+		(symbol "SamacSys_Parts:PTA4544-2015DPA103"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "VR"
-				(at -15.24 4.572 0)
+				(at -21.082 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -931,7 +931,7 @@
 				)
 			)
 			(property "Value" "PTA4544-2015DPA103"
-				(at -6.096 2.286 0)
+				(at -19.304 -0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -939,7 +939,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -948,7 +948,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -2.54 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -957,7 +957,7 @@
 				)
 			)
 			(property "Description" ""
-				(at -2.54 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -968,8 +968,8 @@
 			(symbol "PTA4544-2015DPA103_0_1"
 				(polyline
 					(pts
-						(xy 0 -11.43) (xy 5.08 -11.43) (xy 5.08 -10.16) (xy 12.7 -10.16) (xy 12.7 -12.7) (xy 5.08 -12.7)
-						(xy 5.08 -11.43)
+						(xy 0 -12.7) (xy 5.08 -12.7) (xy 5.08 -11.43) (xy 12.7 -11.43) (xy 12.7 -13.97) (xy 5.08 -13.97)
+						(xy 5.08 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -981,7 +981,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -6.35) (xy 0 -6.35)
+						(xy 5.08 -7.62) (xy 0 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -993,7 +993,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 0) (xy 8.89 -5.08)
+						(xy 8.89 -1.27) (xy 8.89 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -1005,7 +1005,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -5.08) (xy 10.16 -3.81) (xy 7.62 -3.81) (xy 8.89 -5.08)
+						(xy 8.89 -6.35) (xy 10.16 -5.08) (xy 7.62 -5.08) (xy 8.89 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -1017,7 +1017,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -12.7) (xy 7.62 -13.97) (xy 10.16 -13.97) (xy 8.89 -12.7)
+						(xy 8.89 -13.97) (xy 7.62 -15.24) (xy 10.16 -15.24) (xy 8.89 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -1029,7 +1029,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -17.78) (xy 8.89 -12.7)
+						(xy 8.89 -19.05) (xy 8.89 -13.97)
 					)
 					(stroke
 						(width 0)
@@ -1041,7 +1041,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -11.43) (xy 17.78 -11.43)
+						(xy 12.7 -12.7) (xy 17.78 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1053,8 +1053,8 @@
 				)
 				(polyline
 					(pts
-						(xy 17.78 -6.35) (xy 12.7 -6.35) (xy 12.7 -7.62) (xy 5.08 -7.62) (xy 5.08 -5.08) (xy 12.7 -5.08)
-						(xy 12.7 -6.35)
+						(xy 17.78 -7.62) (xy 12.7 -7.62) (xy 12.7 -8.89) (xy 5.08 -8.89) (xy 5.08 -6.35) (xy 12.7 -6.35)
+						(xy 12.7 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1067,8 +1067,8 @@
 			)
 			(symbol "PTA4544-2015DPA103_1_1"
 				(rectangle
-					(start 0 0)
-					(end 17.78 -17.78)
+					(start 0 -1.27)
+					(end 17.78 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1078,7 +1078,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -3.81 0)
 					(length 5.08)
 					(name "MH1"
 						(effects
@@ -1096,7 +1096,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -6.35 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1114,7 +1114,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -11.43 0)
+					(at -5.08 -12.7 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1132,7 +1132,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -16.51 0)
 					(length 5.08)
 					(name "MH3"
 						(effects
@@ -1150,7 +1150,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 5.08 270)
+					(at 8.89 3.81 270)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1168,7 +1168,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -22.86 90)
+					(at 8.89 -24.13 90)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1186,7 +1186,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -2.54 180)
+					(at 22.86 -3.81 180)
 					(length 5.08)
 					(name "MH2"
 						(effects
@@ -1204,7 +1204,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -6.35 180)
+					(at 22.86 -7.62 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1222,7 +1222,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -11.43 180)
+					(at 22.86 -12.7 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1240,7 +1240,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -15.24 180)
+					(at 22.86 -16.51 180)
 					(length 5.08)
 					(name "MH4"
 						(effects
@@ -1260,66 +1260,131 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL074HIDR:TL074HIDRx4"
+		(symbol "SamacSys_Parts:TL074HIDR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 6.35 0)
-				(do_not_autoplace)
+			(property "Reference" "IC"
+				(at 5.588 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "TL074HIDR"
-				(at 8.382 4.826 0)
+				(at 5.588 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at -3.81 6.35 0)
+			(property "Footprint" "SOIC127P600X175-14N"
+				(at 24.13 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -3.81 6.35 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+				(at 24.13 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
+			(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "TL074HIDRx4_1_1"
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL074HIDR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TL074HIDR"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "TL074HIDR"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TL074HIDR_1_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1331,7 +1396,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1349,7 +1414,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1367,7 +1432,7 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 5.08 270)
+					(at 5.08 0 270)
 					(length 2.54)
 					(name "V+"
 						(effects
@@ -1385,7 +1450,7 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 -5.08 90)
+					(at 5.08 -10.16 90)
 					(length 2.54)
 					(name "V-"
 						(effects
@@ -1403,7 +1468,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1421,10 +1486,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_2_1"
+			(symbol "TL074HIDR_2_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1436,7 +1501,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1454,7 +1519,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1472,7 +1537,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1490,10 +1555,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_3_1"
+			(symbol "TL074HIDR_3_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1505,7 +1570,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1523,7 +1588,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1541,7 +1606,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1559,10 +1624,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_4_1"
+			(symbol "TL074HIDR_4_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1574,7 +1639,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -1592,7 +1657,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -1610,7 +1675,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2087,6 +2152,12 @@
 		(members "CLK" "MISO" "CS1" "CS2")
 	)
 	(junction
+		(at 172.72 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102c5196-326b-4a9f-8cdb-d862e90db5df")
+	)
+	(junction
 		(at 22.86 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2111,24 +2182,6 @@
 		(uuid "3a36c118-ae08-429c-afab-4cfd0f220573")
 	)
 	(junction
-		(at 22.86 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c858694-b87b-45c1-95c3-dfbb5e2a802b")
-	)
-	(junction
-		(at 26.67 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f664391-d4eb-4781-b4f1-0813da0a14b7")
-	)
-	(junction
-		(at 172.72 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "506b7220-c1bd-4755-8f56-486c9d046a97")
-	)
-	(junction
 		(at 86.36 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2147,40 +2200,34 @@
 		(uuid "74a6476c-e0ca-454c-bb5c-072622f70679")
 	)
 	(junction
-		(at 172.72 166.37)
+		(at 22.86 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89894964-757c-4ac8-b2bf-8b7b87260d24")
-	)
-	(junction
-		(at 29.21 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b11e9c45-af49-4a8c-a2b3-829e288e7b59")
-	)
-	(junction
-		(at 172.72 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b41004b4-1155-45e6-ac47-80140a186bfc")
+		(uuid "804b5133-abff-4732-bf1f-6daf89b9e673")
 	)
 	(junction
 		(at 55.88 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dec0a856-0166-428d-a082-afff0be023b0")
+		(uuid "8abe7bf4-e49a-454f-ad1d-e7c47892c571")
+	)
+	(junction
+		(at 55.88 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95d2d509-a306-4c83-988b-7f61421d43fb")
+	)
+	(junction
+		(at 26.67 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c162811e-db5a-47e4-8185-a428498438c1")
 	)
 	(junction
 		(at 101.6 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1124818-4bc3-43eb-ab6f-037e8d0f97ce")
-	)
-	(junction
-		(at 55.88 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e37c05f5-5d09-470a-80ed-096977646ea8")
 	)
 	(junction
 		(at 127 182.88)
@@ -2199,6 +2246,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5804927-5a92-4622-9ba8-663d311b3286")
+	)
+	(junction
+		(at 172.72 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96db584-9fc7-483c-9d8b-80c5b945798c")
+	)
+	(junction
+		(at 172.72 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf5d105-7c99-4a45-b253-c10637f81981")
 	)
 	(wire
 		(pts
@@ -2329,16 +2388,6 @@
 			(type default)
 		)
 		(uuid "2a98dd9e-31c5-4292-bd8d-c17643609a5e")
-	)
-	(wire
-		(pts
-			(xy 172.72 162.56) (xy 172.72 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc4ee00-11f2-468d-89de-affd690665ce")
 	)
 	(wire
 		(pts
@@ -2552,6 +2601,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 161.29) (xy 35.56 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bffffec-f282-4fb6-8d72-9de6f18223ad")
+	)
+	(wire
+		(pts
 			(xy 116.84 162.56) (xy 130.81 162.56)
 		)
 		(stroke
@@ -2559,16 +2618,6 @@
 			(type default)
 		)
 		(uuid "5cc17e3f-34bb-4837-b6fb-694e72356825")
-	)
-	(wire
-		(pts
-			(xy 172.72 148.59) (xy 172.72 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce40276-15ad-48cf-81a6-5dba3d09b9d2")
 	)
 	(wire
 		(pts
@@ -2672,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 166.37) (xy 172.72 168.91)
+			(xy 172.72 148.59) (xy 172.72 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2762,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 161.29) (xy 35.56 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80722c08-d648-4f5f-876b-d49cf8111fa5")
-	)
-	(wire
-		(pts
 			(xy 217.17 76.2) (xy 227.33 76.2)
 		)
 		(stroke
@@ -2779,6 +2818,16 @@
 			(type default)
 		)
 		(uuid "8205ed11-163d-402f-815d-1ba54c03d04c")
+	)
+	(wire
+		(pts
+			(xy 172.72 158.75) (xy 172.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829d922d-e363-4824-b50b-ad2a83d0045c")
 	)
 	(wire
 		(pts
@@ -2809,16 +2858,6 @@
 			(type default)
 		)
 		(uuid "888a727b-3525-4e55-978c-5ba860f63051")
-	)
-	(wire
-		(pts
-			(xy 26.67 189.23) (xy 29.21 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8899560b-5322-4752-a82a-31a5ea8c12dd")
 	)
 	(wire
 		(pts
@@ -2922,16 +2961,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 185.42) (xy 40.64 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d403f18-c063-48e4-92fa-5b221974820c")
-	)
-	(wire
-		(pts
 			(xy 180.34 76.2) (xy 190.5 76.2)
 		)
 		(stroke
@@ -2969,16 +2998,6 @@
 			(type default)
 		)
 		(uuid "a8b6a1e4-23cc-423e-81ad-16061626211a")
-	)
-	(wire
-		(pts
-			(xy 55.88 189.23) (xy 55.88 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aadd2789-2aef-4b20-838c-258c7baac675")
 	)
 	(wire
 		(pts
@@ -3072,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 185.42) (xy 40.64 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7acf17f-f2b6-4360-b126-53a084766c56")
+	)
+	(wire
+		(pts
 			(xy 252.73 48.26) (xy 248.92 48.26)
 		)
 		(stroke
@@ -3109,6 +3138,16 @@
 			(type default)
 		)
 		(uuid "c0a00f0b-01f3-474a-8d78-c35ce83e866f")
+	)
+	(wire
+		(pts
+			(xy 55.88 182.88) (xy 55.88 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f95611-7cf5-41d9-8e84-4bc9a3eae957")
 	)
 	(wire
 		(pts
@@ -3242,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 189.23) (xy 29.21 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8988c70-86e5-49c0-a67f-ccc5df924d28")
+	)
+	(wire
+		(pts
 			(xy 180.34 69.85) (xy 190.5 69.85)
 		)
 		(stroke
@@ -3292,13 +3341,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 161.29) (xy 29.21 161.29)
+			(xy 172.72 166.37) (xy 172.72 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e216d772-d133-47d6-80d4-444ff978fe49")
+		(uuid "e4074514-2b64-4e65-80ba-8908b401922f")
 	)
 	(wire
 		(pts
@@ -3402,6 +3451,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 162.56) (xy 172.72 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32b239a-23db-4617-869f-a1c12b7f3c5e")
+	)
+	(wire
+		(pts
 			(xy 39.37 158.75) (xy 40.64 158.75)
 		)
 		(stroke
@@ -3429,16 +3488,6 @@
 			(type default)
 		)
 		(uuid "f70bcdfb-1f38-4c5e-ace2-8225d6a80c1a")
-	)
-	(wire
-		(pts
-			(xy 172.72 158.75) (xy 172.72 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99e3d2e-9700-4ef4-8b86-e2197810bc59")
 	)
 	(wire
 		(pts
@@ -3539,6 +3588,163 @@
 			(justify right bottom)
 		)
 		(uuid "dc83f5f7-a512-48c6-a755-b51c900082c3")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTA4543-2015CPB104")
+		(at 20.32 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b0bd16-58f7-479b-870b-0f7252bdc110")
+		(property "Reference" "VR11"
+			(at 19.05 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTA4543-2015CPB104"
+			(at 19.05 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTA45432015CPB503"
+			(at 107.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PTA4543-2015CPB503.pdf"
+			(at 207.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low profile slide potentionmeter"
+			(at 20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "21.5"
+			(at 407.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 507.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTA4543-2015CPB104"
+			(at 607.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTA45432015CPB10"
+			(at 707.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTA4543-2015CPB104?qs=Zq5ylnUbLm5bgYHDzxuH5g%3D%3D"
+			(at 807.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 907.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1007.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH2"
+			(uuid "b7ebdb9a-e890-49d8-8da4-20ac3afc4a30")
+		)
+		(pin "MH1"
+			(uuid "88a36a91-1ddd-4f10-90f4-31cceb003461")
+		)
+		(pin "1"
+			(uuid "cc77f1db-2410-4a5c-a28f-0c4d078f3537")
+		)
+		(pin "2"
+			(uuid "eb7c5291-91b8-4777-9ec1-f7483ba93352")
+		)
+		(pin "3"
+			(uuid "23740110-c45b-4aeb-b981-0c2ab8bb5d09")
+		)
+		(pin "MH3"
+			(uuid "36fd78ed-9dcf-4536-9d3a-fcaa30f620c2")
+		)
+		(pin "MH4"
+			(uuid "0ba5802b-b44f-45dc-9da1-bb4ab77b389a")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "VR11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3675,6 +3881,100 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PTA4544-2015DPA103")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1407cf7e-25db-4586-a2b6-a42049a28044")
+		(property "Reference" "VR9"
+			(at 103.2511 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTA4544-2015DPA103"
+			(at 103.2511 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTA45442015DPA103"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3_2"
+			(uuid "37cbd673-764f-4fd6-a2b4-85040e6cf076")
+		)
+		(pin "2_1"
+			(uuid "41ffd288-56b2-46c4-aa7b-21e622ec9ab2")
+		)
+		(pin "MH3"
+			(uuid "2f48e10c-3e0e-4add-948e-3328e28d09e2")
+		)
+		(pin "1_2"
+			(uuid "2585f17c-79d2-4cf5-bae2-054d042bc5c6")
+		)
+		(pin "1_1"
+			(uuid "4f41a3de-cccc-4d3a-8a10-e53520c23c2d")
+		)
+		(pin "3_1"
+			(uuid "99b9d960-7657-45e2-93b5-f4707153c6cb")
+		)
+		(pin "MH2"
+			(uuid "ff04fb80-8215-4bd7-9f3e-0401ff29207c")
+		)
+		(pin "2_2"
+			(uuid "e6f9dae5-8224-4f7c-80e5-482af37403a6")
+		)
+		(pin "MH1"
+			(uuid "0efd7698-59e4-48fb-a20b-2f813fb6fe4b")
+		)
+		(pin "MH4"
+			(uuid "489f2d27-1519-4c32-83c2-22bbbce2b91f")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "VR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 22.86 156.21 180)
 		(unit 1)
@@ -3748,6 +4048,158 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:NRJ4HF-1")
+		(at 167.64 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ef506d4-3674-4017-b781-6dcced9d2a57")
+		(property "Reference" "J10"
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NRJ4HF-1"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:NRJ4HF1"
+			(at 146.05 251.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf-1"
+			(at 146.05 351.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors W/CHASSIS GROUND"
+			(at 167.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.7"
+			(at 146.05 551.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 146.05 651.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NRJ4HF-1"
+			(at 146.05 751.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "550-10284G"
+			(at 146.05 851.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NRJ4HF-1?qs=k%252BYsFdH4oLjyfmglMcnMhg%3D%3D"
+			(at 146.05 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 146.05 1051.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 146.05 1151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "G1"
+			(uuid "21a537ee-fcb2-4c6e-a276-3caf59856721")
+		)
+		(pin "TN1"
+			(uuid "94e9553a-b34f-4558-aece-1f3fdfc4b33f")
+		)
+		(pin "T1"
+			(uuid "8e12aa0d-75e5-4b6c-85f9-bccb3711c5c9")
+		)
+		(pin "MH1"
+			(uuid "ec583c21-3d9f-4c43-808d-7ce87a73a274")
+		)
+		(pin "MH2"
+			(uuid "3ec33d31-7c33-4322-8153-f62b27e7b16b")
+		)
+		(pin "S1"
+			(uuid "9b0578e7-ead3-49ad-8c0c-60152478a3ee")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 22.86 149.86 0)
 		(unit 1)
@@ -3809,111 +4261,6 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
 					(reference "#PWR0407")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 46.99 182.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2570b6f9-84af-4227-865c-c2e9df107d32")
-		(property "Reference" "U12"
-			(at 43.18 176.53 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074HIDR"
-			(at 51.4755 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "3248075e-e7be-4a22-9eb3-4efe8b8e7460")
-		)
-		(pin "14"
-			(uuid "221d2637-c763-41b8-bbb3-1050a28e3fe3")
-		)
-		(pin "13"
-			(uuid "e14280bb-b63f-417b-8ba4-017fbdb5c813")
-		)
-		(pin "8"
-			(uuid "95f90eb5-83e6-4039-a6bd-cb41057872b5")
-		)
-		(pin "7"
-			(uuid "bbd41537-58ff-4696-bcf5-91e9f9180c34")
-		)
-		(pin "9"
-			(uuid "2ee83c6b-d7de-4b99-8662-3dbb133a23a0")
-		)
-		(pin "10"
-			(uuid "0deb7603-1dde-4c19-bfe3-fb334fdddfe5")
-		)
-		(pin "2"
-			(uuid "933eeb2b-83cb-4413-9c2f-c68dd647419d")
-		)
-		(pin "1"
-			(uuid "f3526418-e758-47a8-bf87-25e3dc3ab4ac")
-		)
-		(pin "6"
-			(uuid "79e91f7e-a85b-4007-a439-96f05d53da23")
-		)
-		(pin "11"
-			(uuid "8cdd4efb-a16b-4333-bda9-15f2c37bdab7")
-		)
-		(pin "4"
-			(uuid "d4a55705-b0fe-4a6a-acd8-7682d998b9c8")
-		)
-		(pin "5"
-			(uuid "af940ecb-86af-4b01-b93c-2c4edddac6a8")
-		)
-		(pin "3"
-			(uuid "6954717f-37e7-48d8-8641-92a8fdf3a055")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "U12")
-					(unit 2)
 				)
 			)
 		)
@@ -3986,215 +4333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 109.22 182.88 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "417651de-f4e3-43f6-b640-dd8a4c18a352")
-		(property "Reference" "U12"
-			(at 107.188 176.276 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074HIDR"
-			(at 113.7055 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "3248075e-e7be-4a22-9eb3-4efe8b8e7461")
-		)
-		(pin "14"
-			(uuid "221d2637-c763-41b8-bbb3-1050a28e3fe4")
-		)
-		(pin "13"
-			(uuid "e14280bb-b63f-417b-8ba4-017fbdb5c814")
-		)
-		(pin "8"
-			(uuid "95f90eb5-83e6-4039-a6bd-cb41057872b6")
-		)
-		(pin "7"
-			(uuid "bbd41537-58ff-4696-bcf5-91e9f9180c35")
-		)
-		(pin "9"
-			(uuid "2ee83c6b-d7de-4b99-8662-3dbb133a23a1")
-		)
-		(pin "10"
-			(uuid "0deb7603-1dde-4c19-bfe3-fb334fdddfe6")
-		)
-		(pin "2"
-			(uuid "933eeb2b-83cb-4413-9c2f-c68dd647419e")
-		)
-		(pin "1"
-			(uuid "f3526418-e758-47a8-bf87-25e3dc3ab4ad")
-		)
-		(pin "6"
-			(uuid "79e91f7e-a85b-4007-a439-96f05d53da24")
-		)
-		(pin "11"
-			(uuid "8cdd4efb-a16b-4333-bda9-15f2c37bdab8")
-		)
-		(pin "4"
-			(uuid "d4a55705-b0fe-4a6a-acd8-7682d998b9c9")
-		)
-		(pin "5"
-			(uuid "af940ecb-86af-4b01-b93c-2c4edddac6a9")
-		)
-		(pin "3"
-			(uuid "6954717f-37e7-48d8-8641-92a8fdf3a056")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "U12")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 109.22 142.24 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "481f6fbc-69be-4e67-8ed2-f7023e3b2a4a")
-		(property "Reference" "U12"
-			(at 105.41 135.89 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074HIDR"
-			(at 113.7055 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "3248075e-e7be-4a22-9eb3-4efe8b8e7462")
-		)
-		(pin "14"
-			(uuid "221d2637-c763-41b8-bbb3-1050a28e3fe5")
-		)
-		(pin "13"
-			(uuid "e14280bb-b63f-417b-8ba4-017fbdb5c815")
-		)
-		(pin "8"
-			(uuid "95f90eb5-83e6-4039-a6bd-cb41057872b7")
-		)
-		(pin "7"
-			(uuid "bbd41537-58ff-4696-bcf5-91e9f9180c36")
-		)
-		(pin "9"
-			(uuid "2ee83c6b-d7de-4b99-8662-3dbb133a23a2")
-		)
-		(pin "10"
-			(uuid "0deb7603-1dde-4c19-bfe3-fb334fdddfe7")
-		)
-		(pin "2"
-			(uuid "933eeb2b-83cb-4413-9c2f-c68dd647419f")
-		)
-		(pin "1"
-			(uuid "f3526418-e758-47a8-bf87-25e3dc3ab4ae")
-		)
-		(pin "6"
-			(uuid "79e91f7e-a85b-4007-a439-96f05d53da25")
-		)
-		(pin "11"
-			(uuid "8cdd4efb-a16b-4333-bda9-15f2c37bdab9")
-		)
-		(pin "4"
-			(uuid "d4a55705-b0fe-4a6a-acd8-7682d998b9ca")
-		)
-		(pin "5"
-			(uuid "af940ecb-86af-4b01-b93c-2c4edddac6aa")
-		)
-		(pin "3"
-			(uuid "6954717f-37e7-48d8-8641-92a8fdf3a057")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "U12")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 190.5 0)
 		(unit 1)
@@ -4255,111 +4393,6 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
 					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 46.99 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f8faa53-6d20-48f2-913e-8c36c33cf946")
-		(property "Reference" "U12"
-			(at 43.18 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074HIDR"
-			(at 60.96 158.0449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "3248075e-e7be-4a22-9eb3-4efe8b8e7463")
-		)
-		(pin "14"
-			(uuid "221d2637-c763-41b8-bbb3-1050a28e3fe6")
-		)
-		(pin "13"
-			(uuid "e14280bb-b63f-417b-8ba4-017fbdb5c816")
-		)
-		(pin "8"
-			(uuid "95f90eb5-83e6-4039-a6bd-cb41057872b8")
-		)
-		(pin "7"
-			(uuid "bbd41537-58ff-4696-bcf5-91e9f9180c37")
-		)
-		(pin "9"
-			(uuid "2ee83c6b-d7de-4b99-8662-3dbb133a23a3")
-		)
-		(pin "10"
-			(uuid "0deb7603-1dde-4c19-bfe3-fb334fdddfe8")
-		)
-		(pin "2"
-			(uuid "933eeb2b-83cb-4413-9c2f-c68dd64741a0")
-		)
-		(pin "1"
-			(uuid "f3526418-e758-47a8-bf87-25e3dc3ab4af")
-		)
-		(pin "6"
-			(uuid "79e91f7e-a85b-4007-a439-96f05d53da26")
-		)
-		(pin "11"
-			(uuid "8cdd4efb-a16b-4333-bda9-15f2c37bdaba")
-		)
-		(pin "4"
-			(uuid "d4a55705-b0fe-4a6a-acd8-7682d998b9cb")
-		)
-		(pin "5"
-			(uuid "af940ecb-86af-4b01-b93c-2c4edddac6ab")
-		)
-		(pin "3"
-			(uuid "6954717f-37e7-48d8-8641-92a8fdf3a058")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -4631,293 +4664,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PTA4543-2015CPB104:PTA4543-2015CPB103")
-		(at 22.86 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89e58e6a-41ef-4f07-b13f-4767759c004f")
-		(property "Reference" "VR9"
-			(at 15.494 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PTA4543-2015CPB103"
-			(at 18.034 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PTA45432015CPB503"
-			(at 110.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PTA4543-2015CPB503.pdf"
-			(at 210.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low profile slide potentionmeter"
-			(at 16.51 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "21.5"
-			(at 410.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 510.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTA4543-2015CPB104"
-			(at 610.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PTA45432015CPB10"
-			(at 710.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTA4543-2015CPB104?qs=Zq5ylnUbLm5bgYHDzxuH5g%3D%3D"
-			(at 810.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 910.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1010.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "19a9b826-1734-487a-a356-4e60ffdfee27")
-		)
-		(pin "MH1"
-			(uuid "6a435c7e-58b5-4e8f-98ae-79813219cb09")
-		)
-		(pin "MH3"
-			(uuid "3fa3b608-75cd-4cd2-9f1e-96b3238962d8")
-		)
-		(pin "1"
-			(uuid "3d9a1d18-0d15-4c36-841c-5f68e3f14c34")
-		)
-		(pin "2"
-			(uuid "3dee1beb-c0a1-4907-ad78-c029fc7d52f2")
-		)
-		(pin "MH2"
-			(uuid "4a0f7c73-3f23-4d5b-9eb3-5ccfab6e8883")
-		)
-		(pin "MH4"
-			(uuid "a2f40987-4085-4c4c-a05d-4c5624bf6783")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "VR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTA4544-2015DPA103:PTA4544-2015DPA103")
-		(at 92.71 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a61744ba-0a28-422b-bfbd-4a7dba9ef3e0")
-		(property "Reference" "VR10"
-			(at 102.362 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PTA4544-2015DPA103"
-			(at 102.362 152.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1_2"
-			(uuid "172f088f-8cef-4f53-9d18-e9dbaaa3a1be")
-		)
-		(pin "MH3"
-			(uuid "66324ccc-e72d-44db-ad45-a03ffc0c6115")
-		)
-		(pin "MH1"
-			(uuid "4091b3b1-b12d-4007-a26a-62c1318c538d")
-		)
-		(pin "MH2"
-			(uuid "35b9225f-8e04-4827-8dca-0aa297209564")
-		)
-		(pin "2_1"
-			(uuid "d84c040d-6261-479b-959a-173220f7fda4")
-		)
-		(pin "1_1"
-			(uuid "c9babd83-bb99-44f7-bc74-444066148503")
-		)
-		(pin "MH4"
-			(uuid "81457cca-a535-48c0-b73f-c4922b2d9d76")
-		)
-		(pin "3_2"
-			(uuid "1c3ee707-c59b-4df8-a2d2-ad41d8c89aaf")
-		)
-		(pin "3_1"
-			(uuid "190cc34f-b694-45a9-a784-35d4b82be212")
-		)
-		(pin "2_2"
-			(uuid "f7b43fac-7679-4008-8512-40001ef57d32")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "VR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NRJ4HF-1:NRJ4HF-1")
-		(at 170.18 140.97 0)
-		(mirror y)
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 43.18 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac280367-b64a-4ba9-8308-f2d5154396b9")
-		(property "Reference" "J5"
-			(at 160.02 151.13 0)
+		(uuid "a30ab390-c86a-4a49-8964-5e30d9bafb3c")
+		(property "Reference" "IC40"
+			(at 59.69 154.8698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NRJ4HF-1"
-			(at 160.02 153.67 0)
+		(property "Value" "TL074HIDR"
+			(at 59.69 157.4098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NRJ4HF1"
-			(at 148.59 235.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hf-1"
-			(at 148.59 335.89 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 67.31 251.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,17 +4699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Phone Connectors W/CHASSIS GROUND"
-			(at 170.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.7"
-			(at 148.59 535.89 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 67.31 351.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,8 +4709,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Neutrik"
-			(at 148.59 635.89 0)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 67.31 551.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,8 +4728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NRJ4HF-1"
-			(at 148.59 735.89 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 651.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,8 +4738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "550-10284G"
-			(at 148.59 835.89 0)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 67.31 751.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,8 +4748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NRJ4HF-1?qs=k%252BYsFdH4oLjyfmglMcnMhg%3D%3D"
-			(at 148.59 935.89 0)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 67.31 851.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,8 +4758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 148.59 1035.89 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 67.31 951.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,8 +4768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 148.59 1135.89 0)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 67.31 1051.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,28 +4778,62 @@
 				(hide yes)
 			)
 		)
-		(pin "G1"
-			(uuid "ba4ca344-19ea-4361-ade8-3c99a26a1bf5")
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 67.31 1151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "T1"
-			(uuid "ba348a6b-4fbf-4ad1-ab49-86b029312367")
+		(pin "12"
+			(uuid "5c0dbf1e-6bd8-477e-bac0-97464f3d591f")
 		)
-		(pin "TN1"
-			(uuid "32c594e2-277b-436f-bb3d-226a3c450555")
+		(pin "10"
+			(uuid "fdd7141e-ebee-48e2-aa70-f3107b464f0c")
 		)
-		(pin "S1"
-			(uuid "f9946781-86be-489f-be00-d719810d1c1a")
+		(pin "9"
+			(uuid "47bbaa46-22f3-458c-abd7-a48736cd9c11")
 		)
-		(pin "MH1"
-			(uuid "6b79d0c9-11de-4d08-a72b-609f0f1843da")
+		(pin "5"
+			(uuid "d9260dfc-1680-48b9-81fe-dc3c910af356")
 		)
-		(pin "MH2"
-			(uuid "380effd4-ef4d-4d61-a036-a4eff78d777b")
+		(pin "6"
+			(uuid "3f1c3104-609c-4b20-86b7-5a79fc0b4037")
+		)
+		(pin "11"
+			(uuid "113355bd-79d6-4fb3-b8b4-7f8d752bb82a")
+		)
+		(pin "7"
+			(uuid "70e47935-3861-495b-9ba5-a9b59b11d034")
+		)
+		(pin "8"
+			(uuid "11077774-a5e1-44f1-b6dc-8d7827c317db")
+		)
+		(pin "13"
+			(uuid "f20fcfce-8ebd-4856-8c3a-af16f3f77675")
+		)
+		(pin "14"
+			(uuid "fc63a095-2d06-46a6-a8fb-21c43f7a82a2")
+		)
+		(pin "1"
+			(uuid "f0c0a6a6-4f21-4fbf-b297-c4379a63ec64")
+		)
+		(pin "4"
+			(uuid "e4b8336c-3731-4e53-9ed6-3e6616a0b9dd")
+		)
+		(pin "2"
+			(uuid "036b39ad-6df9-4933-8679-f379cca227e9")
+		)
+		(pin "3"
+			(uuid "f17c530c-71e3-4fc0-bf87-514e859a6c2b")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "J5")
+					(reference "IC40")
 					(unit 1)
 				)
 			)
@@ -5293,6 +5100,534 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
 					(reference "#PWR0402")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 105.41 137.16 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9c6cf6-8139-4e92-ae3f-e7b15fad507b")
+		(property "Reference" "IC40"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 129.54 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 129.54 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 105.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 129.54 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 129.54 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 129.54 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 129.54 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 129.54 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 129.54 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 129.54 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5c0dbf1e-6bd8-477e-bac0-97464f3d591f")
+		)
+		(pin "10"
+			(uuid "fdd7141e-ebee-48e2-aa70-f3107b464f0c")
+		)
+		(pin "9"
+			(uuid "47bbaa46-22f3-458c-abd7-a48736cd9c11")
+		)
+		(pin "5"
+			(uuid "d9260dfc-1680-48b9-81fe-dc3c910af356")
+		)
+		(pin "6"
+			(uuid "3f1c3104-609c-4b20-86b7-5a79fc0b4037")
+		)
+		(pin "11"
+			(uuid "113355bd-79d6-4fb3-b8b4-7f8d752bb82a")
+		)
+		(pin "7"
+			(uuid "70e47935-3861-495b-9ba5-a9b59b11d034")
+		)
+		(pin "8"
+			(uuid "11077774-a5e1-44f1-b6dc-8d7827c317db")
+		)
+		(pin "13"
+			(uuid "f20fcfce-8ebd-4856-8c3a-af16f3f77675")
+		)
+		(pin "14"
+			(uuid "fc63a095-2d06-46a6-a8fb-21c43f7a82a2")
+		)
+		(pin "1"
+			(uuid "f0c0a6a6-4f21-4fbf-b297-c4379a63ec64")
+		)
+		(pin "4"
+			(uuid "e4b8336c-3731-4e53-9ed6-3e6616a0b9dd")
+		)
+		(pin "2"
+			(uuid "036b39ad-6df9-4933-8679-f379cca227e9")
+		)
+		(pin "3"
+			(uuid "f17c530c-71e3-4fc0-bf87-514e859a6c2b")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "IC40")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 43.18 177.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89f63eb-ac4c-4656-86d7-4b2f75b092c6")
+		(property "Reference" "IC40"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 67.31 272.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 67.31 372.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 67.31 572.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 67.31 672.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 67.31 772.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 67.31 872.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 67.31 972.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 67.31 1072.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 67.31 1172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5c0dbf1e-6bd8-477e-bac0-97464f3d591f")
+		)
+		(pin "10"
+			(uuid "fdd7141e-ebee-48e2-aa70-f3107b464f0c")
+		)
+		(pin "9"
+			(uuid "47bbaa46-22f3-458c-abd7-a48736cd9c11")
+		)
+		(pin "5"
+			(uuid "d9260dfc-1680-48b9-81fe-dc3c910af356")
+		)
+		(pin "6"
+			(uuid "3f1c3104-609c-4b20-86b7-5a79fc0b4037")
+		)
+		(pin "11"
+			(uuid "113355bd-79d6-4fb3-b8b4-7f8d752bb82a")
+		)
+		(pin "7"
+			(uuid "70e47935-3861-495b-9ba5-a9b59b11d034")
+		)
+		(pin "8"
+			(uuid "11077774-a5e1-44f1-b6dc-8d7827c317db")
+		)
+		(pin "13"
+			(uuid "f20fcfce-8ebd-4856-8c3a-af16f3f77675")
+		)
+		(pin "14"
+			(uuid "fc63a095-2d06-46a6-a8fb-21c43f7a82a2")
+		)
+		(pin "1"
+			(uuid "f0c0a6a6-4f21-4fbf-b297-c4379a63ec64")
+		)
+		(pin "4"
+			(uuid "e4b8336c-3731-4e53-9ed6-3e6616a0b9dd")
+		)
+		(pin "2"
+			(uuid "036b39ad-6df9-4933-8679-f379cca227e9")
+		)
+		(pin "3"
+			(uuid "f17c530c-71e3-4fc0-bf87-514e859a6c2b")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "IC40")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 105.41 177.8 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec13add4-ce50-474e-8a2c-567ef152dd02")
+		(property "Reference" "IC40"
+			(at 110.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 129.54 272.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 129.54 372.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 105.41 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 129.54 572.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 129.54 672.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 129.54 772.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 129.54 872.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 129.54 972.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 129.54 1072.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 129.54 1172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5c0dbf1e-6bd8-477e-bac0-97464f3d591f")
+		)
+		(pin "10"
+			(uuid "fdd7141e-ebee-48e2-aa70-f3107b464f0c")
+		)
+		(pin "9"
+			(uuid "47bbaa46-22f3-458c-abd7-a48736cd9c11")
+		)
+		(pin "5"
+			(uuid "d9260dfc-1680-48b9-81fe-dc3c910af356")
+		)
+		(pin "6"
+			(uuid "3f1c3104-609c-4b20-86b7-5a79fc0b4037")
+		)
+		(pin "11"
+			(uuid "113355bd-79d6-4fb3-b8b4-7f8d752bb82a")
+		)
+		(pin "7"
+			(uuid "70e47935-3861-495b-9ba5-a9b59b11d034")
+		)
+		(pin "8"
+			(uuid "11077774-a5e1-44f1-b6dc-8d7827c317db")
+		)
+		(pin "13"
+			(uuid "f20fcfce-8ebd-4856-8c3a-af16f3f77675")
+		)
+		(pin "14"
+			(uuid "fc63a095-2d06-46a6-a8fb-21c43f7a82a2")
+		)
+		(pin "1"
+			(uuid "f0c0a6a6-4f21-4fbf-b297-c4379a63ec64")
+		)
+		(pin "4"
+			(uuid "e4b8336c-3731-4e53-9ed6-3e6616a0b9dd")
+		)
+		(pin "2"
+			(uuid "036b39ad-6df9-4933-8679-f379cca227e9")
+		)
+		(pin "3"
+			(uuid "f17c530c-71e3-4fc0-bf87-514e859a6c2b")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
+					(reference "IC40")
+					(unit 4)
 				)
 			)
 		)

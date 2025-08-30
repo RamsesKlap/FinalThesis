@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -188,6 +189,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Elektroonika/Interface.md",
     "Elektroonika/Digitaal/MCU.md",
     "Untitled.md",
     "Elektroonika/ADSR.md",
@@ -197,7 +199,6 @@
     "Elektroonika/Waveform Select.md",
     "Elektroonika/Digitaal/ADC.md",
     "Elektroonika/Digitaal/DAC.md",
-    "Elektroonika/Interface.md",
     "Elektroonika/LFO.md",
     "Elektroonika/Moduleerimis rattad.md",
     "Elektroonika/Octave Select.md",

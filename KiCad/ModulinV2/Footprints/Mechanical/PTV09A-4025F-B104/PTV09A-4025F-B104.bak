@@ -285,8 +285,8 @@
 		)
 		(symbol "PTV09A-4025F-B104_Alt_1_1"
 			(rectangle
-				(start 0 -2.54)
-				(end 10.16 -5.08)
+				(start 0 -1.27)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -297,7 +297,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -6.35) (xy 3.81 -6.35) (xy 5.08 -5.08) (xy 6.35 -6.35) (xy 5.08 -6.35)
+					(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.81 -3.81) (xy 5.08 -5.08) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -3.81 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -8.89 90)
+				(at 3.81 -7.62 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects

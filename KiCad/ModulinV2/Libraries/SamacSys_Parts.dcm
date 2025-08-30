@@ -1,0 +1,273 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ADS7041IDCUR
+D Ultra-Low Power and Ultra-Small Size SAR ADC | 10 Bit | 1MSPS | Single Ended
+K
+F http://www.ti.com/lit/gpn/ads7041
+$ENDCMP
+#
+$CMP ADS7866IDBVT
+D Texas Instruments ADS7866IDBVT, 12 bit Serial ADC,, 6-Pin SOT-23
+K
+F http://www.ti.com/lit/ds/symlink/ads7868.pdf
+$ENDCMP
+#
+$CMP AS3310D
+D AS3310D
+K
+F https://www.alfarzpp.lv/eng/sc/AS3310.pdf
+$ENDCMP
+#
+$CMP NRJ4HF-1
+D Phone Connectors W/CHASSIS GROUND
+K
+F https://www.neutrik.com/en/product/nrj4hf-1
+$ENDCMP
+#
+$CMP PJ-002B
+D 2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector
+K
+F https://www.sameskydevices.com/product/resource/pj-002b.pdf
+$ENDCMP
+#
+$CMP TSM-103-01-T-DV
+D 6 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip
+K
+F http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf
+$ENDCMP
+#
+$CMP TSW-104-07-G-S
+D Samtec, TSW, 4 Way, 1 Row, Straight Pin Header
+K
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP TSW-104-07-T-D
+D 8 Position, Classic PCB Header Strips, 0.100&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP DAC60501ZDGSR
+D Digital to Analog Converters - DAC True 12-bit, 1-ch, SPI/I2C, voltage-output DAC in WSON package with precision internal reference 10-VSSOP -40 to 125
+K
+F https://www.ti.com/lit/gpn/DAC60501
+$ENDCMP
+#
+$CMP CD4028BM96
+D TEXAS INSTRUMENTS - CD4028BM96 - BCD to Decimal Decoder, 10 Output, 3 V to 18 V, SOIC-16
+K
+F https://www.ti.com/lit/ds/symlink/cd4028b.pdf?ts=1623397506826&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DCD4028BM96
+$ENDCMP
+#
+$CMP DS3502U+
+D Digital Potentiometer ICs High-Voltage NV I2C
+K
+F https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf
+$ENDCMP
+#
+$CMP 1N5822
+D Obsolete - Schottky Barrier Rectifier, 3.0 A, 40 V
+K
+F https://www.onsemi.com/download/data-sheet/pdf/1N5820-D.PDF
+$ENDCMP
+#
+$CMP CDBU0530
+D COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf
+$ENDCMP
+#
+$CMP ES1B-E3_5AT
+D Rectifiers 1.0 Amp 100 Volt 30 Amp IFSM
+K
+F https://componentsearchengine.com/Datasheets/2/ES1B-E3_5AT.pdf
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf
+$ENDCMP
+#
+$CMP 150060RS75000
+D WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM
+K
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+$CMP 150060VS75000
+D 2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000
+K
+F https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf
+$ENDCMP
+#
+$CMP 150212M173123
+D Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead
+K
+F https://www.we-online.com/components/products/datasheet/150212M173123.pdf
+$ENDCMP
+#
+$CMP NC7SZ74K8X
+D Power down high impedance inputs/output; Overvoltage tolerant inputs facilitate 5V to 3V translation; Space saving US8 surface mount package; High Output Drive; +/- 24 mA at 3V VCC; MicroPak Pb-Free leadless package; Ultra High Speed; tPD 2.6 ns Typ into 50 pF at 5V VCC; Broad VCC Operating Range; 1.65V to 5.5V; Patented noise/EMI reduction circuitry implemented
+K
+F https://www.onsemi.com/pub/Collateral/NC7SZ74-D.PDF
+$ENDCMP
+#
+$CMP SN74AHC1G02DBVR
+D Single 2-Input Positive-NOR Gate
+K
+F http://www.ti.com/lit/gpn/sn74ahc1g02
+$ENDCMP
+#
+$CMP SN74AHC1G08DBVR
+D Texas Instruments SN74AHC1G08DBVR, 2-Input AND Logic Gate, 2  5.5 V, 5-Pin SOT-23
+K
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=SN74AHC1G08&&fileType=pdf
+$ENDCMP
+#
+$CMP SN74AHCT1G00DBVR
+D Single 2-Input Positive-NAND Gate
+K
+F http://www.ti.com/lit/gpn/sn74ahct1g00
+$ENDCMP
+#
+$CMP SN74HC193DR
+D 4-Bit Synchronous Up/Down Counters (Dual Clock With Clear)
+K
+F http://www.ti.com/lit/gpn/SN74HC193
+$ENDCMP
+#
+$CMP SN74LV10ADR
+D Triple 3-Input Positive-NAND Gate
+K
+F http://www.ti.com/lit/gpn/sn74lv10a
+$ENDCMP
+#
+$CMP STM32F401RET6
+D ARM Cortex-M4 32b MCU+FPU
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf
+$ENDCMP
+#
+$CMP STM32F401VET6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://www.st.com/resource/en/datasheet/stm32f401ve.pdf
+$ENDCMP
+#
+$CMP TMUX4051DYYRQ1
+D Multiplexer Switch ICs Automotive, +/-12-V, 8:1 one-channel multiplexer with 1.8-V compatible logic 16-SOT-23-THIN -55 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1707929398960
+$ENDCMP
+#
+$CMP TMUX4052DYYR
+D Multiplexer Switch ICs +/-12-V 4:1 2-chan nel multiplexer with
+K
+F https://www.ti.com/lit/ds/symlink/tmux4052.pdf?ts=1747896308568&ref_url=https%253A%252F%252Fwww.mouser.kr%252F
+$ENDCMP
+#
+$CMP EG4208A
+D SLIDE, 200mA, 30VDC 4PDT, On-On Through Hole, Right Angle
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/EG4208A.pdf
+$ENDCMP
+#
+$CMP PEC12R-3220F-S0024
+D Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW
+K
+F https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf
+$ENDCMP
+#
+$CMP PTA4543-2015CPB104
+D Low profile slide potentionmeter
+K
+F https://componentsearchengine.com/Datasheets/1/PTA4543-2015CPB503.pdf
+$ENDCMP
+#
+$CMP PTV09A-4025F-B104
+D 100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks
+K
+F https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed
+$ENDCMP
+#
+$CMP TL072HIDDFR
+D TL072HIDDFR
+K
+F https://www.ti.com/lit/gpn/TL072H
+$ENDCMP
+#
+$CMP TL072HIDR
+D Dual-channel low input bias current standard op amp
+K
+F https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1631525097016&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL072H
+$ENDCMP
+#
+$CMP TL074HIDR
+D Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation
+K
+F https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H
+$ENDCMP
+#
+$CMP EXB-2HV102JV
+D Resistor Networks & Arrays 1K OHM 5%
+K
+F https://www.onlinecomponents.com/en/productdetail/panasonic/exb2hv102jv-44449185.html?utm_campaign=searchads360feed&utm_content=instock&utm_term=EXB-2HV102JV&gad_source=1&gad_campaignid=6573380531&gbraid=0AAAAADkP1yax3FVTjJW5ima0NZqzfA4GN&gclid=Cj0KCQjwgI
+$ENDCMP
+#
+$CMP L7812CD2T-TR
+D Linear Voltage Regulators 12V 1.0A Positive
+K
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7912CD2T-TR
+D L7912CD2T-TR, Voltage Regulator, Negative 1.5A -12 V, 3-Pin D2PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf
+$ENDCMP
+#
+$CMP LM2576S-12_NOPB
+D SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf
+$ENDCMP
+#
+$CMP NCP5500DADJR2G
+D Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices
+K
+F https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF
+$ENDCMP
+#
+$CMP E-ULN2003D1013TR
+D Trans Darlington NPN 50V 0.5A 16-Pin SO T/R - Tape and Reel
+K
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf
+$ENDCMP
+#
+$CMP MMBFJ201
+D N-Channel General Purpose Amplifier
+K
+F https://www.onsemi.com/pub/Collateral/MMBFJ202-D.PDF
+$ENDCMP
+#
+$CMP AS3360D
+D Dual Voltage Controlled Amplifier (VCA)
+K
+F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
+$ENDCMP
+#
+$CMP AS3340
+D AS3340
+K
+F https://www.alfarzpp.lv/eng/sc/AS3340.pdf
+$ENDCMP
+#
+#End Doc Library

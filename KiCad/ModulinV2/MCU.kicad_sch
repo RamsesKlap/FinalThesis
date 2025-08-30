@@ -12,597 +12,6 @@
 		(comment 2 "By: Rasmus Palk")
 	)
 	(lib_symbols
-		(symbol "150212M173123:150212M173123"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0.254 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "150212M173123"
-				(at 0.254 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "150212M173123"
-				(at 29.21 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150212M173123.pdf"
-				(at 29.21 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead"
-				(at 26.416 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 29.21 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 29.21 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "150212M173123"
-				(at 29.21 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 29.21 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 29.21 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 29.21 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 29.21 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "150212M173123_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 3.81 -7.62) (xy 1.27 -7.62) (xy 1.27 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 1.27 -12.7) (xy 3.81 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.81 -3.81) (xy 6.35 -2.54) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 0 0 255 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.35) (xy 3.81 -8.89) (xy 6.35 -7.62) (xy 3.81 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 0 255 0 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -11.43) (xy 3.81 -13.97) (xy 6.35 -12.7) (xy 3.81 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 0 0 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.27) (xy 6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -2.54)
-					(end 8.89 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -6.35) (xy 6.35 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -7.62)
-					(end 8.89 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -11.43) (xy 6.35 -13.97)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.35 -12.7)
-					(end 8.89 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "150212M173123_1_1"
-				(rectangle
-					(start 0 0)
-					(end 8.89 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -12.7 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CDBU0530:CDBU0530"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CDBU0530"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DIOM179X85N"
-				(at 11.43 -97.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf"
-				(at 11.43 -197.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.85"
-				(at 11.43 -397.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Comchip Technology"
-				(at 11.43 -497.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CDBU0530"
-				(at 11.43 -597.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "750-CDBU0530"
-				(at 11.43 -697.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0530?qs=tw%252BuQ%2FB6PO1p1lVxjOIVLQ%3D%3D"
-				(at 11.43 -797.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "CDBU0530"
-				(at 11.43 -897.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbu0530/comchip-technology?utm_currency=USD&region=nac"
-				(at 11.43 -997.46 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CDBU0530_0_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 6.35 2.54) (xy 6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.08 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CDBU0530_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1221,12 +630,603 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PEC12R-3220F-S0024:PEC12R-3220F-S0024"
+		(symbol "SamacSys_Parts:150212M173123"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 2.032 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "150212M173123"
+				(at 2.032 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "150212M173123"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150212M173123.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead"
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150212M173123"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "150212M173123_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 3.81 -7.62) (xy 1.27 -7.62) (xy 1.27 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 1.27 -12.7) (xy 3.81 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -3.81) (xy 6.35 -2.54) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 3.81 -8.89) (xy 6.35 -7.62) (xy 3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 255 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -11.43) (xy 3.81 -13.97) (xy 6.35 -12.7) (xy 3.81 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.27) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -2.54)
+					(end 8.89 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -6.35) (xy 6.35 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -7.62)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -11.43) (xy 6.35 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 -12.7)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "150212M173123_1_1"
+				(rectangle
+					(start 0 0)
+					(end 8.89 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -12.7 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:CDBU0530"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.938 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CDBU0530"
+				(at 11.938 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DIOM179X85N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)"
+				(at 24.13 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.85"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CDBU0530"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CDBU0530"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0530?qs=tw%252BuQ%2FB6PO1p1lVxjOIVLQ%3D%3D"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CDBU0530"
+				(at 11.43 -897.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbu0530/comchip-technology?utm_currency=USD&region=nac"
+				(at 11.43 -997.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CDBU0530_0_1"
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 6.35 2.54) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.08 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CDBU0530_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:PEC12R-3220F-S0024"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "S"
-				(at 21.59 15.24 0)
+				(at 16.256 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 				)
 			)
 			(property "Value" "PEC12R-3220F-S0024"
-				(at 21.59 12.7 0)
+				(at 16.256 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 				)
 			)
 			(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
-				(at 8.128 29.464 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 			(symbol "PEC12R-3220F-S0024_0_1"
 				(polyline
 					(pts
-						(xy 8.89 7.62) (xy 8.89 5.08) (xy 10.16 5.08)
+						(xy 3.81 0) (xy 3.81 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1357,7 +1357,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 3.81) (xy 15.24 3.81)
+						(xy 5.08 -3.81) (xy 10.16 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -1368,7 +1368,7 @@
 					)
 				)
 				(circle
-					(center 10.5655 5.0863)
+					(center 5.4855 -2.5337)
 					(radius 0.3591)
 					(stroke
 						(width 0)
@@ -1380,7 +1380,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 2.54) (xy 12.7 3.81)
+						(xy 7.62 -5.08) (xy 7.62 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -1391,7 +1391,7 @@
 					)
 				)
 				(circle
-					(center 14.7931 5.0863)
+					(center 9.7131 -2.5337)
 					(radius 0.3591)
 					(stroke
 						(width 0)
@@ -1403,7 +1403,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 7.62) (xy 16.51 5.08) (xy 15.24 5.08)
+						(xy 11.43 0) (xy 11.43 -2.54) (xy 10.16 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1416,8 +1416,8 @@
 			)
 			(symbol "PEC12R-3220F-S0024_1_1"
 				(rectangle
-					(start 5.08 7.62)
-					(end 20.32 -8.89)
+					(start 0 0)
+					(end 15.24 -16.51)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1427,7 +1427,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name "MH1"
 						(effects
@@ -1445,7 +1445,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -13.97 90)
+					(at 2.54 -21.59 90)
 					(length 5.08)
 					(name "CH_A"
 						(effects
@@ -1463,7 +1463,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 12.7 270)
+					(at 3.81 5.08 270)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1481,7 +1481,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -13.97 90)
+					(at 7.62 -21.59 90)
 					(length 5.08)
 					(name "COM"
 						(effects
@@ -1499,7 +1499,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 12.7 270)
+					(at 11.43 5.08 270)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1517,7 +1517,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -13.97 90)
+					(at 12.7 -21.59 90)
 					(length 5.08)
 					(name "CH_B"
 						(effects
@@ -1535,7 +1535,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(name "MH2"
 						(effects
@@ -1555,28 +1555,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "STM32F401RET6:STM32F401RET6_Alt"
+		(symbol "SamacSys_Parts:STM32F401RET6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 45.974 -1.27 0)
+				(at 49.53 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "STM32F401RET6"
-				(at 52.578 -3.302 0)
+				(at 49.53 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 45.72 0 0)
+			(property "Footprint" "QFP50P1200X1200X160-64N"
+				(at 49.53 -84.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf"
+				(at 49.53 -184.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ARM Cortex-M4 32b MCU+FPU"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1584,25 +1606,77 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 45.72 0 0)
+			(property "Height" "1.6"
+				(at 49.53 -384.76 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 45.72 0 0)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 49.53 -484.76 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "STM32F401RET6_Alt_1_1"
+			(property "Manufacturer_Part_Number" "STM32F401RET6"
+				(at 49.53 -584.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STM32F401RET6"
+				(at 49.53 -684.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F401RET6?qs=s5SkPsIz108eLldhTu8INg%3D%3D"
+				(at 49.53 -784.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "STM32F401RET6"
+				(at 49.53 -884.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stm32f401ret6/stmicroelectronics?utm_currency=USD&region=nac"
+				(at 49.53 -984.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STM32F401RET6_1_1"
 				(rectangle
 					(start 0 0)
 					(end 43.18 -78.74)
@@ -2769,157 +2843,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TSM-103-01-T-DV:TSM-103-01-T-DV"
+		(symbol "SamacSys_Parts:TSM-103-01-T-DV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3163,12 +3087,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TSW-104-07-G-S:TSW-104-07-G-S"
+		(symbol "SamacSys_Parts:TSW-104-07-G-S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 5.08 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3177,7 +3101,7 @@
 				)
 			)
 			(property "Value" "TSW-104-07-G-S"
-				(at 0.254 2.54 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3186,7 +3110,7 @@
 				)
 			)
 			(property "Footprint" "TSW10407GS"
-				(at 11.43 -97.46 0)
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3196,7 +3120,7 @@
 				)
 			)
 			(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-				(at 11.43 -197.46 0)
+				(at 16.51 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3206,7 +3130,7 @@
 				)
 			)
 			(property "Description" "Samtec, TSW, 4 Way, 1 Row, Straight Pin Header"
-				(at -5.08 -2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3215,7 +3139,7 @@
 				)
 			)
 			(property "Height" ""
-				(at 11.43 -397.46 0)
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3225,7 +3149,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "SAMTEC"
-				(at 11.43 -497.46 0)
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3235,7 +3159,7 @@
 				)
 			)
 			(property "Manufacturer_Part_Number" "TSW-104-07-G-S"
-				(at 11.43 -597.46 0)
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3245,7 +3169,7 @@
 				)
 			)
 			(property "Mouser Part Number" "200-TSW10407GS"
-				(at 11.43 -697.46 0)
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3255,7 +3179,7 @@
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-G-S?qs=hzq9O0YpnZuXshDH2O29kQ%3D%3D"
-				(at 11.43 -797.46 0)
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3265,7 +3189,7 @@
 				)
 			)
 			(property "Arrow Part Number" "TSW-104-07-G-S"
-				(at 11.43 -897.46 0)
+				(at 16.51 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3275,7 +3199,7 @@
 				)
 			)
 			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-g-s/samtec?utm_currency=USD&region=nac"
-				(at 11.43 -997.46 0)
+				(at 16.51 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3286,8 +3210,8 @@
 			)
 			(symbol "TSW-104-07-G-S_1_1"
 				(rectangle
-					(start 0 0)
-					(end 5.08 -12.7)
+					(start 5.08 2.54)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3297,7 +3221,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -3315,7 +3239,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -3333,7 +3257,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -3351,7 +3275,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -3361,6 +3285,708 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:USBLC6-2SC6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-6N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "USBLC6-2SC6"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-USBLC6-2SC6"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "USBLC6-2SC6"
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6/stmicroelectronics?utm_currency=USD&region=europe"
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 22.86 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -25.4) (xy 22.86 -25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -13.97)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -8.89) (xy 5.08 -3.81) (xy 8.89 -6.35) (xy 5.08 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -21.59) (xy 2.54 -21.59) (xy 2.54 -13.97) (xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -24.13) (xy 5.08 -19.05) (xy 8.89 -21.59) (xy 5.08 -24.13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -8.89) (xy 8.89 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -11.43) (xy 8.89 -16.51) (xy 12.7 -13.97) (xy 8.89 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -13.97) (xy 0 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -21.59) (xy 13.97 -21.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -24.13) (xy 8.89 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -2.54)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -6.35) (xy 11.43 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -6.35)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -16.51) (xy 12.7 -15.24) (xy 12.7 -12.7) (xy 13.97 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -21.59) (xy 11.43 -25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -21.59)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 11.43 -25.4)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -13.97) (xy 22.86 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -6.35) (xy 8.89 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -8.89) (xy 13.97 -3.81) (xy 17.78 -6.35) (xy 13.97 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -24.13) (xy 13.97 -19.05) (xy 17.78 -21.59) (xy 13.97 -24.13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -8.89) (xy 17.78 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -21.59) (xy 20.32 -21.59) (xy 20.32 -6.35) (xy 17.78 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -24.13) (xy 17.78 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 20.32 -13.97)
+					(radius 0.3401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start 0 0)
+					(end 22.86 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -25.4 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -13.97 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -25.4 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4047,558 +4673,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USBLC6-2SC6:USBLC6-2SC6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at -11.176 10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "USBLC6-2SC6"
-				(at -11.176 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-6N"
-				(at 12.7 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"
-				(at 12.7 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin"
-				(at -23.368 10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 12.7 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 12.7 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "USBLC6-2SC6"
-				(at 12.7 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-USBLC6-2SC6"
-				(at 12.7 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
-				(at 12.7 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "USBLC6-2SC6"
-				(at 12.7 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6/stmicroelectronics?utm_currency=USD&region=europe"
-				(at 12.7 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "USBLC6-2SC6_0_1"
-				(polyline
-					(pts
-						(xy -11.43 3.81) (xy 11.43 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -11.43 -19.05) (xy 11.43 -19.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 -7.62)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -2.54) (xy -6.35 2.54) (xy -2.54 0) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -15.24) (xy -8.89 -15.24) (xy -8.89 -7.62) (xy -8.89 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -17.78) (xy -6.35 -12.7) (xy -2.54 -15.24) (xy -6.35 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -10.16) (xy 1.27 -7.62) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -7.62) (xy -11.43 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -15.24) (xy 2.54 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -17.78) (xy -2.54 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -10.16) (xy 1.27 -8.89) (xy 1.27 -6.35) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -15.24) (xy 0 -19.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -15.24)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -19.05)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 11.43 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 2.54) (xy 6.35 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -17.78) (xy 2.54 -12.7) (xy 6.35 -15.24) (xy 2.54 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -15.24) (xy 8.89 -15.24) (xy 8.89 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -17.78) (xy 6.35 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -7.62)
-					(radius 0.3401)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USBLC6-2SC6_1_1"
-				(rectangle
-					(start -11.43 6.35)
-					(end 11.43 -21.59)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -16.51 3.81 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -16.51 -7.62 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -16.51 -19.05 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 3.81 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -19.05 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5140,6 +5214,12 @@
 		(uuid "120f7efd-7f7a-4a7d-bca3-edcd336e4b7e")
 	)
 	(junction
+		(at 86.36 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13077712-23fd-45b5-a31a-b98b779d7aa6")
+	)
+	(junction
 		(at 125.73 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5176,16 +5256,16 @@
 		(uuid "2f0815ba-acdb-45a0-a76e-90ca1162cfa3")
 	)
 	(junction
-		(at 86.36 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35f002ca-4f84-4366-a359-a55066f84c69")
-	)
-	(junction
 		(at 137.16 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37971ee9-748a-4f88-8f8f-9a5dcfe0fe71")
+	)
+	(junction
+		(at 83.82 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381965b0-a0fd-4739-95a6-4fd671960192")
 	)
 	(junction
 		(at 267.97 110.49)
@@ -5198,12 +5278,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472acf80-1cf7-4c89-9900-db2854cbee98")
-	)
-	(junction
-		(at 78.74 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ad24f07-bc61-49f8-8eaa-e39ed37cbb6c")
 	)
 	(junction
 		(at 144.78 187.96)
@@ -5230,10 +5304,28 @@
 		(uuid "60179c2d-caca-4544-ad7b-534ea2673acc")
 	)
 	(junction
+		(at 81.28 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6d0e14-eb64-4bd4-986d-c0c59d951ef3")
+	)
+	(junction
 		(at 247.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ec2c2b-211f-4670-ae36-976723bdf6f1")
+	)
+	(junction
+		(at 78.74 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74afb264-4798-41e0-97d3-36d82589bc1e")
+	)
+	(junction
+		(at 140.97 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "793c55e4-b725-4a46-9d1c-c51bc01c8fe0")
 	)
 	(junction
 		(at 40.64 165.1)
@@ -5242,28 +5334,10 @@
 		(uuid "7987aa91-002f-456d-b850-a26a3b82781b")
 	)
 	(junction
-		(at 140.97 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c8d6b05-ed3d-483b-a2d5-e055d9f8e3ea")
-	)
-	(junction
 		(at 86.36 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ef76044-a2ed-4a6e-b520-c04ebf904c8c")
-	)
-	(junction
-		(at 60.96 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89fa6cab-dbd2-483c-9b33-ec72cf5fff50")
-	)
-	(junction
-		(at 63.5 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e09d8da-c259-42d1-b982-eaa49954ea49")
 	)
 	(junction
 		(at 133.35 30.48)
@@ -5294,12 +5368,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3fabe7d-7952-4ab0-9472-0f18b2894cc1")
-	)
-	(junction
-		(at 81.28 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c79a05db-dbca-4bc6-a52b-52c43e64e55c")
 	)
 	(junction
 		(at 43.18 149.86)
@@ -5348,12 +5416,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0815791-8781-495c-87fb-f049549e0d06")
-	)
-	(junction
-		(at 83.82 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f99d3c46-a15d-45f6-a2fe-216f42306bf3")
 	)
 	(junction
 		(at 166.37 30.48)
@@ -5507,7 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 21.59) (xy 83.82 21.59)
+			(xy 76.2 21.59) (xy 78.74 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5544,16 +5606,6 @@
 			(type default)
 		)
 		(uuid "14fce600-0b08-4881-9bf6-a8523a4d7de8")
-	)
-	(wire
-		(pts
-			(xy 60.96 21.59) (xy 62.23 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150e96d3-d2cd-42fb-a0a4-26fb8006af90")
 	)
 	(wire
 		(pts
@@ -5667,6 +5719,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 21.59) (xy 81.28 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ff6374-fc8d-456d-83d9-e6c3eb0dac79")
+	)
+	(wire
+		(pts
 			(xy 241.3 77.47) (xy 241.3 78.74)
 		)
 		(stroke
@@ -5764,16 +5826,6 @@
 			(type default)
 		)
 		(uuid "31afdf54-8853-40fa-9944-c4805c3760ab")
-	)
-	(wire
-		(pts
-			(xy 78.74 21.59) (xy 81.28 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324dc241-fd91-463c-8e8f-9a4171badc6b")
 	)
 	(wire
 		(pts
@@ -6037,6 +6089,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 21.59) (xy 83.82 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f338e20-1db2-4ef4-975b-1626175fda4f")
+	)
+	(wire
+		(pts
 			(xy 254 80.01) (xy 254 77.47)
 		)
 		(stroke
@@ -6097,6 +6159,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 21.59) (xy 86.36 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc22e35-fec9-46ee-a7dc-41f80d774846")
+	)
+	(wire
+		(pts
 			(xy 242.57 118.11) (xy 248.92 118.11)
 		)
 		(stroke
@@ -6134,6 +6206,16 @@
 			(type default)
 		)
 		(uuid "717f3ed4-7427-4b59-ad50-1ba61185b6e4")
+	)
+	(wire
+		(pts
+			(xy 86.36 21.59) (xy 92.71 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7226a566-3963-4962-9531-dbb59e621413")
 	)
 	(wire
 		(pts
@@ -6577,16 +6659,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 21.59) (xy 86.36 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad1cfc8-c7ad-4f3b-bf71-45753229a1ab")
-	)
-	(wire
-		(pts
 			(xy 137.16 172.72) (xy 139.7 172.72)
 		)
 		(stroke
@@ -6594,16 +6666,6 @@
 			(type default)
 		)
 		(uuid "9ea3e2e9-31a6-4d86-85cd-c00969812dd0")
-	)
-	(wire
-		(pts
-			(xy 63.5 21.59) (xy 66.04 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fbe5ae4-dbe6-434d-b890-8e2d07be657c")
 	)
 	(wire
 		(pts
@@ -7127,16 +7189,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 21.59) (xy 92.71 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec018674-b0e7-4e81-9c7a-afeb9a6a86b7")
-	)
-	(wire
-		(pts
 			(xy 40.64 167.64) (xy 40.64 170.18)
 		)
 		(stroke
@@ -7144,16 +7196,6 @@
 			(type default)
 		)
 		(uuid "f139df70-ff8b-477d-a6c8-39654a36f01a")
-	)
-	(wire
-		(pts
-			(xy 58.42 21.59) (xy 60.96 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ab4277-c585-4580-90aa-dc86cec946bc")
 	)
 	(wire
 		(pts
@@ -7174,6 +7216,16 @@
 			(type default)
 		)
 		(uuid "f3de759f-51de-4b36-b6bf-f16964701ffe")
+	)
+	(wire
+		(pts
+			(xy 60.96 21.59) (xy 62.23 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e53145-1a7a-40a0-9ed9-702628810ff8")
 	)
 	(wire
 		(pts
@@ -7244,16 +7296,6 @@
 			(type default)
 		)
 		(uuid "fdf4d97b-d73e-4220-bcee-0db5ecbad2a0")
-	)
-	(wire
-		(pts
-			(xy 76.2 21.59) (xy 78.74 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fedc403a-2f14-4bf9-bafa-d9e8cb7e9b8d")
 	)
 	(label "BOOT"
 		(at 267.97 81.28 180)
@@ -7876,42 +7918,35 @@
 		(uuid "fc9599af-3fc8-431a-8825-e761e04ffc27")
 	)
 	(symbol
-		(lib_id "TSM-103-01-T-DV:TSM-103-01-T-DV")
-		(at 185.42 148.59 0)
+		(lib_id "SamacSys_Parts:USBLC6-2SC6")
+		(at 72.39 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0586a1ee-a940-4398-bff2-2c2f875c51a2")
-		(property "Reference" "J2"
-			(at 194.564 140.462 0)
+		(fields_autoplaced yes)
+		(uuid "04e780f7-31e2-45b9-9ab4-b35a4f7502ad")
+		(property "Reference" "IC1"
+			(at 101.6 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TSM-103-01-T-DV"
-			(at 194.564 143.002 0)
+		(property "Value" "USBLC6-2SC6"
+			(at 101.6 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TSM-103-YY-ZZZ-DV"
-			(at 201.93 243.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf"
-			(at 201.93 343.51 0)
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
+			(at 167.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,17 +7955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip"
-			(at 185.42 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 201.93 543.51 0)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"
+			(at 267.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,8 +7965,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 201.93 643.51 0)
+		(property "Description" "TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin"
+			(at 72.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 467.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,8 +7984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TSM-103-01-T-DV"
-			(at 201.93 743.51 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 567.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,8 +7994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-TSM10301TDV"
-			(at 201.93 843.51 0)
+		(property "Manufacturer_Part_Number" "USBLC6-2SC6"
+			(at 667.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,8 +8004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-103-01-T-DV?qs=rHlcMk0NooKyEZ6pJLBE2A%3D%3D"
-			(at 201.93 943.51 0)
+		(property "Mouser Part Number" "511-USBLC6-2SC6"
+			(at 767.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,8 +8014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "TSM-103-01-T-DV"
-			(at 201.93 1043.51 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
+			(at 867.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,8 +8024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsm-103-01-t-dv/samtec?region=europe"
-			(at 201.93 1143.51 0)
+		(property "Arrow Part Number" "USBLC6-2SC6"
+			(at 967.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,28 +8034,38 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "92576d49-6faa-4b6b-817f-e7787dd8c862")
-		)
-		(pin "5"
-			(uuid "a74a47db-eaa0-4e51-89f6-f40e92c25921")
-		)
-		(pin "2"
-			(uuid "41d68d60-d445-4a7a-a702-b50670ba31c7")
-		)
-		(pin "4"
-			(uuid "295c4b38-4313-4eb1-89ff-0004f8318d59")
-		)
-		(pin "6"
-			(uuid "ac8e009f-dd7b-42d5-913d-1b55e236ba78")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6/stmicroelectronics?utm_currency=USD&region=europe"
+			(at 1067.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "58f1e9ca-5cde-40b1-bbe8-f42ff8a913da")
+			(uuid "dcbf2f7a-4ec5-4f07-b67d-2028b9f5f918")
+		)
+		(pin "1"
+			(uuid "451b1b5c-7524-45b6-9777-c97bd8145198")
+		)
+		(pin "2"
+			(uuid "b7f5f2cb-58f6-40d2-a4e4-2e97c33d2f35")
+		)
+		(pin "5"
+			(uuid "91ad07cd-8fde-4d8d-a4e1-a61d533745ee")
+		)
+		(pin "4"
+			(uuid "3aade8a0-9fa6-4e70-8438-29a0a554a22d")
+		)
+		(pin "6"
+			(uuid "a2e5d4bb-71b3-46ea-b68b-0935ff3a0e43")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "J2")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -8227,159 +8272,6 @@
 		)
 	)
 	(symbol
-		(lib_id "USBLC6-2SC6:USBLC6-2SC6")
-		(at 78.74 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b8368bd-3c32-490a-85ae-b7402d5e5b67")
-		(property "Reference" "IC2"
-			(at 102.108 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 104.648 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-6N"
-			(at 173.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf"
-			(at 273.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS Diode Array Uni-Directional USBLC6-2SC6 17V, SOT-23 6-Pin"
-			(at 67.818 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 473.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 573.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USBLC6-2SC6"
-			(at 673.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-USBLC6-2SC6"
-			(at 773.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
-			(at 873.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "USBLC6-2SC6"
-			(at 973.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6/stmicroelectronics?utm_currency=USD&region=europe"
-			(at 1073.66 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7a5087c0-4db5-4cb8-baec-5b1f4286ab95")
-		)
-		(pin "3"
-			(uuid "a5b67ca6-7619-4288-aebc-88f23ff0bf62")
-		)
-		(pin "1"
-			(uuid "3dd7d80f-e9e7-4954-a738-f164eebf8e5e")
-		)
-		(pin "5"
-			(uuid "1c83f023-18e8-488c-84aa-7aad6f109efb")
-		)
-		(pin "4"
-			(uuid "bf4f64e0-6ab9-427f-b825-f0ccd8339c2f")
-		)
-		(pin "2"
-			(uuid "b93bb7d6-9349-4d2d-a66d-ce3ed9e6c78b")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 255.27 130.81 0)
 		(unit 1)
@@ -8440,6 +8332,333 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:STM32F401RET6")
+		(at 45.72 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0efd3c3a-165b-4ff8-b66e-96672ab8afbb")
+		(property "Reference" "IC41"
+			(at 92.456 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F401RET6"
+			(at 92.456 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:QFP50P1200X1200X160-64N"
+			(at 95.25 111.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf"
+			(at 95.25 211.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM Cortex-M4 32b MCU+FPU"
+			(at 45.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 95.25 411.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 95.25 511.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32F401RET6"
+			(at 95.25 611.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STM32F401RET6"
+			(at 95.25 711.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F401RET6?qs=s5SkPsIz108eLldhTu8INg%3D%3D"
+			(at 95.25 811.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STM32F401RET6"
+			(at 95.25 911.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stm32f401ret6/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 95.25 1011.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "47"
+			(uuid "cfc367a0-4795-456e-94a2-8e0ffc2a3bf9")
+		)
+		(pin "18"
+			(uuid "92a01bca-6318-4bf2-b035-0593289bd3e8")
+		)
+		(pin "38"
+			(uuid "8ddcf5e6-85ca-4242-96f3-4b0f40d2a7c8")
+		)
+		(pin "14"
+			(uuid "2ac9ec56-7d9d-4de4-9d70-851a145ce613")
+		)
+		(pin "53"
+			(uuid "f47dc0cc-5d89-4fb6-9360-e7ec4f902f2a")
+		)
+		(pin "35"
+			(uuid "0abc3b56-f8d8-40ba-a6ea-5898738d7bf9")
+		)
+		(pin "46"
+			(uuid "b7b59ebb-0716-4d33-9122-e5e4d9e461c1")
+		)
+		(pin "4"
+			(uuid "7bbb8f4c-2785-4aac-bfbb-ee53b7439136")
+		)
+		(pin "26"
+			(uuid "fa05cba9-211d-42a2-bd07-f0ec5e404438")
+		)
+		(pin "9"
+			(uuid "0b1c6c0f-99c9-4dd7-ba45-43057238001b")
+		)
+		(pin "32"
+			(uuid "10fe4ebb-3ff5-4bef-9781-47fe277f2da8")
+		)
+		(pin "48"
+			(uuid "32dec408-6118-43b6-9b88-9172b3ac9da9")
+		)
+		(pin "37"
+			(uuid "bd9d61b7-bbaa-4dd5-8a40-2ced85c64021")
+		)
+		(pin "23"
+			(uuid "3ed445bb-b486-47a5-8987-13eb127a233a")
+		)
+		(pin "64"
+			(uuid "deb4a77f-6e3d-40a7-a781-61284ebdfc74")
+		)
+		(pin "7"
+			(uuid "968385cb-fdd4-44c6-9cb3-71d05a48188c")
+		)
+		(pin "6"
+			(uuid "677a9133-a334-4b0e-b75f-795ccaab1b31")
+		)
+		(pin "24"
+			(uuid "cf1a229d-7b77-47f9-bc1d-8a94ebf0821c")
+		)
+		(pin "2"
+			(uuid "33238c1f-43a9-4990-8e09-5031c66e382c")
+		)
+		(pin "54"
+			(uuid "c7832f63-2b06-434a-83c4-914e6457c3f8")
+		)
+		(pin "40"
+			(uuid "2a923c9d-122d-49b3-9443-735247774837")
+		)
+		(pin "52"
+			(uuid "38cc9d77-e76d-484a-bd70-5e8b13e6f114")
+		)
+		(pin "58"
+			(uuid "b834c3a2-328c-411c-888a-e4f074d0e87c")
+		)
+		(pin "31"
+			(uuid "fa99bc5f-ab57-4a90-ba9b-e668e281d7ad")
+		)
+		(pin "19"
+			(uuid "1c9a04de-e3bf-45e4-b5d2-04957d5c7961")
+		)
+		(pin "30"
+			(uuid "06118045-dfca-4cc1-a898-f6163da6bdd4")
+		)
+		(pin "10"
+			(uuid "449b7a9b-95e0-4760-8427-6ab6b66f9117")
+		)
+		(pin "1"
+			(uuid "b64347ba-ad0f-42b5-bc7f-6e1c57072c3f")
+		)
+		(pin "36"
+			(uuid "9f5d0f2e-527b-4517-88db-e3a84a77a680")
+		)
+		(pin "56"
+			(uuid "4ca34b3e-5305-483d-812b-458d22695cb9")
+		)
+		(pin "22"
+			(uuid "a0a78572-9789-4036-8e41-8b8d3076cdc7")
+		)
+		(pin "3"
+			(uuid "0e435b14-d442-4215-aa9a-4fed459db74f")
+		)
+		(pin "8"
+			(uuid "585dce41-a47d-4cf9-abe0-f96220e0f8b0")
+		)
+		(pin "60"
+			(uuid "9ae4ac7e-bd95-43de-b69d-c75405087d8d")
+		)
+		(pin "29"
+			(uuid "0fb0d1d9-e377-4c7a-8403-82803cd9200e")
+		)
+		(pin "62"
+			(uuid "e90bd715-31c1-44bf-a527-3862c6e9d649")
+		)
+		(pin "63"
+			(uuid "5e407ede-437d-4b59-900e-44429eff83eb")
+		)
+		(pin "59"
+			(uuid "d706e26d-fc34-403e-a9b5-21a7d185690e")
+		)
+		(pin "41"
+			(uuid "39212cfc-8037-4e7c-b93d-56eea0795af8")
+		)
+		(pin "50"
+			(uuid "da53aab8-50b7-4904-a18a-3646d7b04700")
+		)
+		(pin "55"
+			(uuid "7fde11fc-b9c1-4dd5-994d-952950b2f32f")
+		)
+		(pin "16"
+			(uuid "84d1b02e-51e6-4f2f-ad4c-cd2952698b36")
+		)
+		(pin "15"
+			(uuid "8d46db6e-db19-44df-b486-a53a50d706c8")
+		)
+		(pin "39"
+			(uuid "590f15bc-a89d-4373-8111-d1a588bd5909")
+		)
+		(pin "25"
+			(uuid "e20f60c0-0820-4e32-a451-c5ee2c2de835")
+		)
+		(pin "12"
+			(uuid "efa025e0-5e00-470d-91a8-32ae8b2163f8")
+		)
+		(pin "61"
+			(uuid "6f8ee9d9-e6fc-4e2e-9a5f-51f770800699")
+		)
+		(pin "5"
+			(uuid "28b8dc90-2e59-4486-ae16-c4dab61c67ff")
+		)
+		(pin "13"
+			(uuid "f380b6ad-2449-435c-9b2f-b417c884f85c")
+		)
+		(pin "51"
+			(uuid "323daaf7-1be4-481a-9edd-f573c8d58cb5")
+		)
+		(pin "49"
+			(uuid "4a9967e1-210a-4595-a26e-6594b131ce94")
+		)
+		(pin "11"
+			(uuid "6b81dddf-17ef-4b55-80b3-a509cbcba286")
+		)
+		(pin "45"
+			(uuid "5ae071a7-09c1-4f7d-aa9e-5ecb8de2c885")
+		)
+		(pin "44"
+			(uuid "8ff797bb-19fe-4bbf-86d1-a40c16567241")
+		)
+		(pin "43"
+			(uuid "3c310d32-7fd1-44fe-a4ea-70b9b5bac82a")
+		)
+		(pin "42"
+			(uuid "6d1c1720-ebd4-47e1-8b5c-eda44ff90fc3")
+		)
+		(pin "17"
+			(uuid "1ab3635c-f7fa-4de3-879a-7db56d8761d9")
+		)
+		(pin "33"
+			(uuid "bdbf91c8-d0dc-4f82-8fbf-b8c32722e856")
+		)
+		(pin "27"
+			(uuid "c0ee0277-c3a7-448d-8ef9-20cbe11aa2f8")
+		)
+		(pin "20"
+			(uuid "b94f483e-6b8f-415f-b21b-9ae681b03401")
+		)
+		(pin "21"
+			(uuid "50d10050-5a62-4999-9588-f3161ddaaae5")
+		)
+		(pin "28"
+			(uuid "c6aa7f34-c58b-4dce-8e90-3adc5161994a")
+		)
+		(pin "57"
+			(uuid "86fa4e33-6279-4926-b877-553a0800b65a")
+		)
+		(pin "34"
+			(uuid "db35c8d9-b094-41a4-8a13-7b0add25feee")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "IC41")
 					(unit 1)
 				)
 			)
@@ -9184,160 +9403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PEC12R-3220F-S0024:PEC12R-3220F-S0024")
-		(at 132.08 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32e4c936-3718-4a03-905a-dfd081f3fc0c")
-		(property "Reference" "S1"
-			(at 162.052 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PEC12R-3220F-S0024"
-			(at 162.052 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PEC12R3220FS0024"
-			(at 153.67 242.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf"
-			(at 153.67 342.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
-			(at 140.208 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "22.5"
-			(at 153.67 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 153.67 642.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PEC12R-3220F-S0024"
-			(at 153.67 742.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PEC12R3220FS0024"
-			(at 153.67 842.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC12R-3220F-S0024?qs=%252B9%2Fcbd0IE0Tm%252BWkxcjszVA%3D%3D"
-			(at 153.67 942.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "PEC12R-3220F-S0024"
-			(at 153.67 1042.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec12r-3220f-s0024/bourns?region=nac"
-			(at 153.67 1142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MH1"
-			(uuid "7c9c1284-7c4a-4628-a1ca-141740be574c")
-		)
-		(pin "B1"
-			(uuid "2b979e65-d1ac-4058-a9a5-be305b41f898")
-		)
-		(pin "A1"
-			(uuid "8665ba2e-ec85-4b55-8c0b-558c8fcb1559")
-		)
-		(pin "C1"
-			(uuid "a491b821-24b3-472b-a1e1-8df38fa80123")
-		)
-		(pin "1"
-			(uuid "1950d492-991e-4606-828e-b86cc8b3e0e2")
-		)
-		(pin "MH2"
-			(uuid "eabd2ba8-3f0a-4434-ac58-8aa5d526ec09")
-		)
-		(pin "2"
-			(uuid "267d16c0-88d2-4a00-b850-5aeb463db324")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 163.83 30.48 90)
 		(unit 1)
@@ -9468,43 +9533,33 @@
 		)
 	)
 	(symbol
-		(lib_id "150212M173123:150212M173123")
-		(at 226.06 38.1 180)
+		(lib_id "SamacSys_Parts:PEC12R-3220F-S0024")
+		(at 137.16 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43a46ab4-4ac7-4ffb-a8f8-eaa454396f6f")
-		(property "Reference" "LED1"
-			(at 222.1865 17.78 0)
+		(uuid "42970023-3d77-4fef-88e7-f4b8a7ea1356")
+		(property "Reference" "S5"
+			(at 165.1 148.5198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150212M173123"
-			(at 222.1865 20.32 0)
+		(property "Value" "PEC12R-3220F-S0024"
+			(at 165.1 151.0598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "150212M173123"
-			(at 196.85 -56.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150212M173123.pdf"
-			(at 196.85 -156.82 0)
+		(property "Footprint" "SamacSys_Parts:PEC12R3220FS0024"
+			(at 158.75 234.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,17 +9568,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead"
-			(at 199.644 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 196.85 -356.82 0)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf"
+			(at 158.75 334.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,8 +9578,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 196.85 -456.82 0)
+		(property "Description" "Encoders HORZ 24DET 24PULSE 20mm SHAFT SPST SW"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "22.5"
+			(at 158.75 534.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,8 +9597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "150212M173123"
-			(at 196.85 -556.82 0)
+		(property "Manufacturer_Name" "Bourns"
+			(at 158.75 634.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,8 +9607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 196.85 -656.82 0)
+		(property "Manufacturer_Part_Number" "PEC12R-3220F-S0024"
+			(at 158.75 734.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,8 +9617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 196.85 -756.82 0)
+		(property "Mouser Part Number" "652-PEC12R3220FS0024"
+			(at 158.75 834.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,8 +9627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 196.85 -856.82 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PEC12R-3220F-S0024?qs=%252B9%2Fcbd0IE0Tm%252BWkxcjszVA%3D%3D"
+			(at 158.75 934.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,8 +9637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 196.85 -956.82 0)
+		(property "Arrow Part Number" "PEC12R-3220F-S0024"
+			(at 158.75 1034.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,22 +9647,41 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "9732c938-4233-425f-9ce1-980693cba4f8")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec12r-3220f-s0024/bourns?region=nac"
+			(at 158.75 1134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH2"
+			(uuid "e8cf4252-6d33-40a7-ab23-14b5a01aa0b4")
+		)
+		(pin "C1"
+			(uuid "5bc93ea3-baea-4304-ab69-6a5a6c7f6fab")
 		)
 		(pin "1"
-			(uuid "94fb03ef-7b63-47d0-9412-3479efc9da8f")
+			(uuid "c685bb5b-abf3-4200-b611-ce1ac342f310")
 		)
-		(pin "4"
-			(uuid "49ca91af-8bbe-40ba-8ce5-ecf720fc8546")
+		(pin "A1"
+			(uuid "aaa860b7-bb44-4721-80f6-a5240d8a2f22")
+		)
+		(pin "B1"
+			(uuid "a9185d1d-d241-4b6c-aa80-603222f84291")
 		)
 		(pin "2"
-			(uuid "8b98d455-3977-4924-89d7-879b5c341dbf")
+			(uuid "cb256b66-c38c-4d04-a46b-4dcd06d4844c")
+		)
+		(pin "MH1"
+			(uuid "31700fe0-2d26-44e4-8eae-5c1445388d88")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "LED1")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -10008,6 +10082,152 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150212M173123")
+		(at 226.06 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5851af9d-247a-4ccf-8375-8f77f8066648")
+		(property "Reference" "LED2"
+			(at 222.1865 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150212M173123"
+			(at 222.1865 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:150212M173123"
+			(at 196.85 -56.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150212M173123.pdf"
+			(at 196.85 -156.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red, Green, Blue (RGB) 620nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2V Red, 2.8V Green, 2.8V Blue 4-SMD, J-Lead"
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 196.85 -356.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 196.85 -456.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150212M173123"
+			(at 196.85 -556.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 196.85 -656.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 196.85 -756.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 196.85 -856.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 196.85 -956.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7f6bc3bc-3497-48b1-9946-8071755d2239")
+		)
+		(pin "3"
+			(uuid "34102f87-a210-409b-97fe-86877d87dd06")
+		)
+		(pin "1"
+			(uuid "89513c22-6aa2-4427-99b3-37aed0e766cc")
+		)
+		(pin "2"
+			(uuid "9b330b68-6be1-46f2-904b-8547dd4a661e")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -10823,146 +11043,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CDBU0530:CDBU0530")
-		(at 60.96 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81d2dc59-71fe-4cf4-9eaa-5e727eda50de")
-		(property "Reference" "D1"
-			(at 53.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CDBU0530"
-			(at 53.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOM179X85N"
-			(at 49.53 52.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf"
-			(at 49.53 -47.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)"
-			(at 60.96 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.85"
-			(at 49.53 -247.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at 49.53 -347.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDBU0530"
-			(at 49.53 -447.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "750-CDBU0530"
-			(at 49.53 -547.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0530?qs=tw%252BuQ%2FB6PO1p1lVxjOIVLQ%3D%3D"
-			(at 49.53 -647.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CDBU0530"
-			(at 49.53 -747.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbu0530/comchip-technology?utm_currency=USD&region=nac"
-			(at 49.53 -847.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36604499-7017-4452-8513-48270c946bd4")
-		)
-		(pin "1"
-			(uuid "6ba3304c-7d54-413c-bcfa-3d1513401812")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 148.59 140.97 0)
 		(unit 1)
@@ -11168,152 +11248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TSW-104-07-G-S:TSW-104-07-G-S")
-		(at 246.38 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "883ef345-2766-492a-b530-90af5ec0b0f3")
-		(property "Reference" "J3"
-			(at 243.84 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSW-104-07-G-S"
-			(at 243.84 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TSW10407GS"
-			(at 234.95 -63.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
-			(at 234.95 -163.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Samtec, TSW, 4 Way, 1 Row, Straight Pin Header"
-			(at 251.46 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 234.95 -363.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 234.95 -463.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSW-104-07-G-S"
-			(at 234.95 -563.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "200-TSW10407GS"
-			(at 234.95 -663.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-G-S?qs=hzq9O0YpnZuXshDH2O29kQ%3D%3D"
-			(at 234.95 -763.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TSW-104-07-G-S"
-			(at 234.95 -863.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-g-s/samtec?utm_currency=USD&region=nac"
-			(at 234.95 -963.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "97736f52-22ff-4691-b09e-98d0f96ac52c")
-		)
-		(pin "4"
-			(uuid "8982e656-e276-4ddd-ac4d-cb56d84c9748")
-		)
-		(pin "1"
-			(uuid "4f713c34-80c8-49d5-87da-dcba2bf79ebd")
-		)
-		(pin "2"
-			(uuid "d2e029cc-2159-498c-8b7b-afca28c30fa0")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 21.59 0)
 		(unit 1)
@@ -11405,7 +11339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 15.24 143.51 0)
 			(effects
 				(font
@@ -12173,6 +12107,152 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TSW-104-07-G-S")
+		(at 251.46 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bccf0c3c-ca6d-45ee-8be1-96f016caa3d9")
+		(property "Reference" "J5"
+			(at 243.84 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-104-07-G-S"
+			(at 243.84 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSW10407GS"
+			(at 234.95 -63.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 234.95 -163.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec, TSW, 4 Way, 1 Row, Straight Pin Header"
+			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 234.95 -363.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 234.95 -463.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-104-07-G-S"
+			(at 234.95 -563.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10407GS"
+			(at 234.95 -663.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-104-07-G-S?qs=hzq9O0YpnZuXshDH2O29kQ%3D%3D"
+			(at 234.95 -763.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSW-104-07-G-S"
+			(at 234.95 -863.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsw-104-07-g-s/samtec?utm_currency=USD&region=nac"
+			(at 234.95 -963.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac4479a-b9ba-4de4-946a-3a9275362c4d")
+		)
+		(pin "3"
+			(uuid "91154268-f52f-466e-9813-feab03dc0d76")
+		)
+		(pin "2"
+			(uuid "7ee09156-cd9b-4f51-8fd7-a28ae0125645")
+		)
+		(pin "4"
+			(uuid "53b223c6-7afe-4894-86a1-ec61770fb5ae")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 269.24 74.93 90)
 		(unit 1)
@@ -12713,261 +12793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "STM32F401RET6:STM32F401RET6_Alt")
-		(at 45.72 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cedc940b-4cb3-4710-85d6-f88710d0bf7c")
-		(property "Reference" "IC1"
-			(at 89.916 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM32F401RET6"
-			(at 89.916 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "45"
-			(uuid "ec71dcb0-fb1a-4e01-adfd-bac5fe306eac")
-		)
-		(pin "33"
-			(uuid "25f39dfa-df40-424c-8297-681ee5704eef")
-		)
-		(pin "18"
-			(uuid "b45b3478-5c71-4200-ba22-039414af6453")
-		)
-		(pin "9"
-			(uuid "0e36090f-2eb9-4c8b-8fbf-d744b903df63")
-		)
-		(pin "47"
-			(uuid "18781014-ab68-4b43-ba4e-e628ca0bc4f5")
-		)
-		(pin "60"
-			(uuid "143a11f1-1a16-42d9-acb4-8d8b17793fbd")
-		)
-		(pin "32"
-			(uuid "1c632500-05ef-4b24-b356-44fcc0c5f4aa")
-		)
-		(pin "51"
-			(uuid "e932461e-be65-4f20-814f-e582603fcda1")
-		)
-		(pin "29"
-			(uuid "b0ec1e5a-e32d-4f60-8de4-94af85e1456a")
-		)
-		(pin "4"
-			(uuid "62a275d7-061f-4638-9f23-dcf35964aee9")
-		)
-		(pin "1"
-			(uuid "01c65722-bda6-4727-b29f-bc0c575cf41a")
-		)
-		(pin "50"
-			(uuid "1828714a-3c04-4383-b510-1047b2bc6d3a")
-		)
-		(pin "39"
-			(uuid "c9ebaf34-6f1a-4bda-a208-63281573cd6c")
-		)
-		(pin "14"
-			(uuid "c5a5d385-6079-4956-85c9-d63f57ad2133")
-		)
-		(pin "61"
-			(uuid "bfe4e16b-14bc-4f87-8c58-a81609ad1785")
-		)
-		(pin "10"
-			(uuid "ff3c1f0c-a777-4bb6-8455-a19808a54b41")
-		)
-		(pin "57"
-			(uuid "ab01b0eb-ccc2-4a1b-bf7d-c9bb2bc71de3")
-		)
-		(pin "53"
-			(uuid "a7894559-893e-434b-a053-20ab064ae399")
-		)
-		(pin "27"
-			(uuid "5ac3e459-efd9-4d34-84d1-67b0def372cd")
-		)
-		(pin "44"
-			(uuid "0f53a7dc-3e9d-4d27-849f-e0339bf6e7aa")
-		)
-		(pin "8"
-			(uuid "634dd139-0ffa-429a-8982-c1dfab4e3a63")
-		)
-		(pin "49"
-			(uuid "757b4cda-284c-44cb-9588-2175581918af")
-		)
-		(pin "46"
-			(uuid "5c1ad5ea-5cb8-489f-ab65-90c890fbb4f8")
-		)
-		(pin "17"
-			(uuid "4e2afd05-e50a-4ce9-bfad-7d7b0e066585")
-		)
-		(pin "25"
-			(uuid "ba6162a0-4897-4e6e-a2ac-e714d202d786")
-		)
-		(pin "22"
-			(uuid "a25903ad-423a-4bf5-9ffb-92785e2a50f1")
-		)
-		(pin "54"
-			(uuid "282837f5-4c9b-47c4-893f-a684b2cddf24")
-		)
-		(pin "2"
-			(uuid "79c927e9-5a9d-4b03-b815-37c74ca08529")
-		)
-		(pin "62"
-			(uuid "7642f1ec-2966-4ab1-aff8-0a195ed61d15")
-		)
-		(pin "28"
-			(uuid "beccf10b-e2e6-433e-8772-0705714da016")
-		)
-		(pin "55"
-			(uuid "e2e071db-90c9-4ded-9194-2a2159700d4f")
-		)
-		(pin "56"
-			(uuid "2af490a3-6e35-45a3-a625-6e6993de5293")
-		)
-		(pin "31"
-			(uuid "65fccc50-6ecd-417a-b561-d33ba7c98d8d")
-		)
-		(pin "5"
-			(uuid "43538747-dba3-48dd-9f4c-64b81f9bce5a")
-		)
-		(pin "41"
-			(uuid "92b46d5a-2787-41ce-a300-04eff60e59e7")
-		)
-		(pin "3"
-			(uuid "eb7f6fba-cd73-4dcb-8bbc-996e9fa71fa1")
-		)
-		(pin "12"
-			(uuid "11e7dc64-db7d-47f6-a135-a66d470951f6")
-		)
-		(pin "13"
-			(uuid "adbc60dc-eb0f-47a9-a4e9-564c62e74b89")
-		)
-		(pin "30"
-			(uuid "3119c5d6-5268-4a4b-a1af-05ab9e90f8be")
-		)
-		(pin "23"
-			(uuid "b38272fb-ebbd-4555-ae98-81f3a62e5a2b")
-		)
-		(pin "43"
-			(uuid "b397d9fe-09dd-440f-ba1d-03fffd04590d")
-		)
-		(pin "36"
-			(uuid "f1dc6d5c-2845-4969-9f1e-df906b3075f6")
-		)
-		(pin "15"
-			(uuid "00d37788-a2df-4ea6-9c94-f796a1f2373c")
-		)
-		(pin "34"
-			(uuid "e79047d1-9192-483d-95ef-ccfa26a35c04")
-		)
-		(pin "11"
-			(uuid "c452071f-d758-43ca-a73a-b807600ff059")
-		)
-		(pin "52"
-			(uuid "d3e7c04f-2ab8-44a0-b03c-2870ade87638")
-		)
-		(pin "63"
-			(uuid "f6a20209-b8c5-4834-a184-70d4f90f92a5")
-		)
-		(pin "20"
-			(uuid "1cb7b323-a318-4695-b802-cda22059f7d4")
-		)
-		(pin "40"
-			(uuid "24e17177-9d84-414d-bcbc-537209f71d3f")
-		)
-		(pin "21"
-			(uuid "5a9e9c1a-d41c-4de9-8ed6-3e601a7c9115")
-		)
-		(pin "48"
-			(uuid "6b6ebc36-3cc1-4e3e-aabc-797941fe003c")
-		)
-		(pin "19"
-			(uuid "5bc21f93-c624-4750-97b8-2f8bdd06930f")
-		)
-		(pin "26"
-			(uuid "4abf760c-a8cf-42e0-bb7b-b179b033b767")
-		)
-		(pin "16"
-			(uuid "a44a7465-233b-4225-a28e-7ebf1f2650b1")
-		)
-		(pin "35"
-			(uuid "5c157d0f-61ae-4a3d-a204-d2b63594b909")
-		)
-		(pin "42"
-			(uuid "6e57d5cd-c575-4f6a-a866-ac1768a5f3e5")
-		)
-		(pin "64"
-			(uuid "3a2b5dd6-2da0-4305-aa8c-10932e102d63")
-		)
-		(pin "6"
-			(uuid "bd138690-37c0-40b8-b556-a9856a967e31")
-		)
-		(pin "59"
-			(uuid "0d8c6355-842a-49b4-8230-b9a98dee801b")
-		)
-		(pin "7"
-			(uuid "2fd3331e-c917-4ed8-a62c-0622e762e4f5")
-		)
-		(pin "38"
-			(uuid "4735ef76-3a06-4717-9402-63096e4fac82")
-		)
-		(pin "58"
-			(uuid "9a5b9fc5-7c62-489d-b959-d841aceef68d")
-		)
-		(pin "37"
-			(uuid "5b7fe4c1-4c83-4c2b-8437-d7eb2b23af63")
-		)
-		(pin "24"
-			(uuid "bd4cc408-5ab6-4920-8db0-973556cf205e")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 34.29 0)
 		(unit 1)
@@ -13191,7 +13016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 271.78 24.13 0)
 			(effects
 				(font
@@ -13231,6 +13056,158 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TSM-103-01-T-DV")
+		(at 185.42 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de007889-0a55-4db1-be6e-771699852794")
+		(property "Reference" "J3"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSM-103-01-T-DV"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TSM-103-YY-ZZZ-DV"
+			(at 201.93 243.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf"
+			(at 201.93 343.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 201.93 543.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 201.93 643.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSM-103-01-T-DV"
+			(at 201.93 743.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSM10301TDV"
+			(at 201.93 843.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-103-01-T-DV?qs=rHlcMk0NooKyEZ6pJLBE2A%3D%3D"
+			(at 201.93 943.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TSM-103-01-T-DV"
+			(at 201.93 1043.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tsm-103-01-t-dv/samtec?region=europe"
+			(at 201.93 1143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "621b0b02-7da9-4fb4-a16c-8f4e5701cd08")
+		)
+		(pin "2"
+			(uuid "6e4869a0-17f4-485e-a439-52839423bcec")
+		)
+		(pin "3"
+			(uuid "9e2c4178-62b4-4ecc-98a8-60763de27739")
+		)
+		(pin "6"
+			(uuid "fd933e20-e689-423d-968a-c2043c74df61")
+		)
+		(pin "1"
+			(uuid "50a8b62f-76f3-4272-a829-98d58fe43144")
+		)
+		(pin "4"
+			(uuid "25b8187c-5f3e-4c08-9c03-a242a6f91c45")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13573,6 +13550,146 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CDBU0530")
+		(at 60.96 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed355fda-5ce7-4bc6-b551-d7d939031918")
+		(property "Reference" "D8"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CDBU0530"
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:DIOM179X85N"
+			(at 49.53 52.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1389965.pdf"
+			(at 49.53 -47.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.85"
+			(at 49.53 -247.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 49.53 -347.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDBU0530"
+			(at 49.53 -447.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CDBU0530"
+			(at 49.53 -547.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBU0530?qs=tw%252BuQ%2FB6PO1p1lVxjOIVLQ%3D%3D"
+			(at 49.53 -647.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CDBU0530"
+			(at 49.53 -747.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbu0530/comchip-technology?utm_currency=USD&region=nac"
+			(at 49.53 -847.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3bcaf74-5bb5-4b89-8ce1-7b5dca4ade14")
+		)
+		(pin "2"
+			(uuid "c3053551-c103-43e1-bc19-2034c97243d2")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "D8")
 					(unit 1)
 				)
 			)

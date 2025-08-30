@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 0 0)
+			(at -3.81 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "200k"
+			(at -2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "SEN0299_0_1"
 			(rectangle
-				(start -3.81 -1.27)
-				(end 3.81 -3.81)
+				(start -3.81 -1.524)
+				(end 2.54 -3.556)
 				(stroke
 					(width 0)
 					(type default)
@@ -63,7 +63,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 2.54 0) (xy 2.54 -1.27)
+					(xy 0.381 -0.635) (xy 1.143 -0.635) (xy 1.143 -1.397)
 				)
 				(stroke
 					(width 0)
@@ -75,7 +75,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy -2.54 -5.08)
+					(xy 1.016 -0.762) (xy -3.048 -4.318)
 				)
 				(stroke
 					(width 0)
@@ -87,14 +87,6 @@
 			)
 		)
 		(symbol "SEN0299_1_1"
-			(text "200k"
-				(at 0 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -6.35 -2.54 0)
 				(length 2.54)
@@ -114,7 +106,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects

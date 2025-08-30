@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 11.43 5.08 0)
+			(at 18.288 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "CDBU0530"
-			(at 11.43 2.54 0)
+			(at 18.288 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 			)
 		)
 		(property "Description" "COMCHIP TECHNOLOGY CDBU0530, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)"
-			(at 0 0 0)
+			(at 22.352 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

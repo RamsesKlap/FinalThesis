@@ -9,7 +9,146 @@
 		(comment 2 "By: Rasmus Palk")
 	)
 	(lib_symbols
-		(symbol "150060RS75000:150060RS75000"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:150060RS75000"
 			(pin_names
 				(hide yes)
 			)
@@ -269,7 +408,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CD4028BM96:CD4028BM96"
+		(symbol "SamacSys_Parts:CD4028BM96"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -693,151 +832,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "E-ULN2003D1013TR:E-ULN2003D1013TR"
+		(symbol "SamacSys_Parts:E-ULN2003D1013TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 5.588 7.874 0)
+				(at 0.762 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -846,7 +846,7 @@
 				)
 			)
 			(property "Value" "E-ULN2003D1013TR"
-				(at 5.588 5.334 0)
+				(at 0.762 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -955,8 +955,8 @@
 			)
 			(symbol "E-ULN2003D1013TR_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 21.59 -20.32)
+					(start 0 0)
+					(end 16.51 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -966,7 +966,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "IN_1"
 						(effects
@@ -984,7 +984,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
 					(name "IN_2"
 						(effects
@@ -1002,7 +1002,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name "IN_3"
 						(effects
@@ -1020,7 +1020,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 5.08)
 					(name "IN_4"
 						(effects
@@ -1038,7 +1038,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 5.08)
 					(name "IN_5"
 						(effects
@@ -1056,7 +1056,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -12.7 0)
+					(at -5.08 -15.24 0)
 					(length 5.08)
 					(name "IN_6"
 						(effects
@@ -1074,7 +1074,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
+					(at -5.08 -17.78 0)
 					(length 5.08)
 					(name "IN_7"
 						(effects
@@ -1092,7 +1092,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -17.78 0)
+					(at -5.08 -20.32 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1110,7 +1110,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 0 180)
+					(at 21.59 -2.54 180)
 					(length 5.08)
 					(name "OUT_1"
 						(effects
@@ -1128,7 +1128,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -2.54 180)
+					(at 21.59 -5.08 180)
 					(length 5.08)
 					(name "OUT_2"
 						(effects
@@ -1146,7 +1146,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -5.08 180)
+					(at 21.59 -7.62 180)
 					(length 5.08)
 					(name "OUT_3"
 						(effects
@@ -1164,7 +1164,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -7.62 180)
+					(at 21.59 -10.16 180)
 					(length 5.08)
 					(name "OUT_4"
 						(effects
@@ -1182,7 +1182,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -10.16 180)
+					(at 21.59 -12.7 180)
 					(length 5.08)
 					(name "OUT_5"
 						(effects
@@ -1200,7 +1200,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -12.7 180)
+					(at 21.59 -15.24 180)
 					(length 5.08)
 					(name "OUT_6"
 						(effects
@@ -1218,7 +1218,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -15.24 180)
+					(at 21.59 -17.78 180)
 					(length 5.08)
 					(name "OUT_7"
 						(effects
@@ -1236,7 +1236,7 @@
 					)
 				)
 				(pin passive line
-					(at 26.67 -17.78 180)
+					(at 21.59 -20.32 180)
 					(length 5.08)
 					(name "DIODES"
 						(effects
@@ -1256,12 +1256,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EXB-2HV102JV:EXB-2HV102JV"
+		(symbol "SamacSys_Parts:EXB-2HV102JV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "RN"
-				(at 4.064 7.366 0)
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 				)
 			)
 			(property "Value" "EXB-2HV102JV"
-				(at 4.064 4.826 0)
+				(at 0 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 				)
 			)
 			(property "Description" "Resistor Networks & Arrays 1K OHM 5%"
-				(at 9.144 8.89 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 			(symbol "EXB-2HV102JV_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 6.35 0)
+						(xy 0 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1392,7 +1392,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 6.35 -5.08)
+						(xy 0 -7.62) (xy 1.27 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1404,7 +1404,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 6.35 -10.16)
+						(xy 0 -12.7) (xy 1.27 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1416,7 +1416,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -15.24) (xy 6.35 -15.24)
+						(xy 0 -17.78) (xy 1.27 -17.78)
 					)
 					(stroke
 						(width 0)
@@ -1428,7 +1428,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -20.32) (xy 6.35 -20.32)
+						(xy 0 -22.86) (xy 1.27 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -1440,7 +1440,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -25.4) (xy 6.35 -25.4)
+						(xy 0 -27.94) (xy 1.27 -27.94)
 					)
 					(stroke
 						(width 0)
@@ -1452,7 +1452,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -30.48) (xy 6.35 -30.48)
+						(xy 0 -33.02) (xy 1.27 -33.02)
 					)
 					(stroke
 						(width 0)
@@ -1464,7 +1464,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -35.56) (xy 6.35 -35.56)
+						(xy 0 -38.1) (xy 1.27 -38.1)
 					)
 					(stroke
 						(width 0)
@@ -1475,8 +1475,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 1.27)
-					(end 13.97 -1.27)
+					(start 1.27 -1.27)
+					(end 8.89 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1486,8 +1486,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -3.81)
-					(end 13.97 -6.35)
+					(start 1.27 -6.35)
+					(end 8.89 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1497,8 +1497,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -8.89)
-					(end 13.97 -11.43)
+					(start 1.27 -11.43)
+					(end 8.89 -13.97)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1508,8 +1508,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -13.97)
-					(end 13.97 -16.51)
+					(start 1.27 -16.51)
+					(end 8.89 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1519,8 +1519,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -19.05)
-					(end 13.97 -21.59)
+					(start 1.27 -21.59)
+					(end 8.89 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1530,8 +1530,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -24.13)
-					(end 13.97 -26.67)
+					(start 1.27 -26.67)
+					(end 8.89 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1541,8 +1541,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -29.21)
-					(end 13.97 -31.75)
+					(start 1.27 -31.75)
+					(end 8.89 -34.29)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1552,8 +1552,8 @@
 					)
 				)
 				(rectangle
-					(start 6.35 -34.29)
-					(end 13.97 -36.83)
+					(start 1.27 -36.83)
+					(end 8.89 -39.37)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1564,7 +1564,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 0) (xy 15.24 0)
+						(xy 8.89 -2.54) (xy 10.16 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1576,7 +1576,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -5.08) (xy 15.24 -5.08)
+						(xy 8.89 -7.62) (xy 10.16 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -1588,7 +1588,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -10.16) (xy 15.24 -10.16)
+						(xy 8.89 -12.7) (xy 10.16 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1600,7 +1600,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -15.24) (xy 15.24 -15.24)
+						(xy 8.89 -17.78) (xy 10.16 -17.78)
 					)
 					(stroke
 						(width 0)
@@ -1612,7 +1612,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -20.32) (xy 15.24 -20.32)
+						(xy 8.89 -22.86) (xy 10.16 -22.86)
 					)
 					(stroke
 						(width 0)
@@ -1624,7 +1624,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -25.4) (xy 15.24 -25.4)
+						(xy 8.89 -27.94) (xy 10.16 -27.94)
 					)
 					(stroke
 						(width 0)
@@ -1636,7 +1636,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -30.48) (xy 15.24 -30.48)
+						(xy 8.89 -33.02) (xy 10.16 -33.02)
 					)
 					(stroke
 						(width 0)
@@ -1648,7 +1648,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -35.56) (xy 15.24 -35.56)
+						(xy 8.89 -38.1) (xy 10.16 -38.1)
 					)
 					(stroke
 						(width 0)
@@ -1661,8 +1661,8 @@
 			)
 			(symbol "EXB-2HV102JV_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -38.1)
+					(start 0 0)
+					(end 10.16 -40.64)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1672,7 +1672,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 0 0)
+					(at 5.08 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1680,7 +1680,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -5.08 0)
+					(at 5.08 -7.62 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1688,7 +1688,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -10.16 0)
+					(at 5.08 -12.7 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -15.24 0)
+					(at 5.08 -17.78 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1704,7 +1704,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -20.32 0)
+					(at 5.08 -22.86 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1712,7 +1712,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -25.4 0)
+					(at 5.08 -27.94 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1720,7 +1720,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -30.48 0)
+					(at 5.08 -33.02 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1728,7 +1728,7 @@
 					)
 				)
 				(text "1k"
-					(at 10.16 -35.56 0)
+					(at 5.08 -38.1 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1736,7 +1736,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1754,7 +1754,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1772,7 +1772,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1790,7 +1790,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
+					(at -5.08 -17.78 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1808,7 +1808,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -20.32 0)
+					(at -5.08 -22.86 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1826,7 +1826,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -25.4 0)
+					(at -5.08 -27.94 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1844,7 +1844,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -30.48 0)
+					(at -5.08 -33.02 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1862,7 +1862,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 0)
+					(at -5.08 -38.1 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1880,7 +1880,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1898,7 +1898,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at 15.24 -7.62 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1916,7 +1916,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -10.16 180)
+					(at 15.24 -12.7 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1934,7 +1934,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -15.24 180)
+					(at 15.24 -17.78 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1952,7 +1952,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -20.32 180)
+					(at 15.24 -22.86 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1970,7 +1970,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -25.4 180)
+					(at 15.24 -27.94 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1988,7 +1988,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 15.24 -33.02 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2006,7 +2006,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -35.56 180)
+					(at 15.24 -38.1 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -4024,7 +4024,7 @@
 		(uuid "1b9d2578-8fa7-412b-9053-1001fee0a0d5")
 	)
 	(label "R1"
-		(at 66.4078 27.94 180)
+		(at 66.04 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4986,8 +4986,190 @@
 		)
 	)
 	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 27.94 0)
+		(lib_id "SamacSys_Parts:EXB-2HV102JV")
+		(at 25.4 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd7458e-8ba1-4eec-8902-4f4f9e1a88d2")
+		(property "Reference" "RN1"
+			(at 30.48 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EXB-2HV102JV"
+			(at 30.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EXB2HV102JV"
+			(at 44.45 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onlinecomponents.com/en/productdetail/panasonic/exb2hv102jv-44449185.html?utm_campaign=searchads360feed&utm_content=instock&utm_term=EXB-2HV102JV&gad_source=1&gad_campaignid=6573380531&gbraid=0AAAAADkP1yax3FVTjJW5ima0NZqzfA4GN&gclid=Cj0KCQjwgI"
+			(at 44.45 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Networks & Arrays 1K OHM 5%"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 44.45 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 44.45 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EXB-2HV102JV"
+			(at 44.45 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EXB-2HV102JV"
+			(at 44.45 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-2HV102JV?qs=oE3VwAv%2FYtkhk%252Bvg87pJMg%3D%3D"
+			(at 44.45 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "EXB-2HV102JV"
+			(at 44.45 917.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/exb-2hv102jv/panasonic?utm_currency=USD&region=nac"
+			(at 44.45 1017.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "2a44486c-ef53-4ed9-a1c9-719763f3ab0a")
+		)
+		(pin "5"
+			(uuid "6f7f5aab-4697-4c24-9ba3-744f436e2c92")
+		)
+		(pin "12"
+			(uuid "092aaaa5-de0a-4e9d-bb16-29e37e27a0c7")
+		)
+		(pin "6"
+			(uuid "03f74321-cfe5-4814-aab3-72f15fa2697a")
+		)
+		(pin "11"
+			(uuid "5990daff-aa21-4acb-bbd1-c1ffbd0d3581")
+		)
+		(pin "16"
+			(uuid "e8de8275-8988-4df7-a761-d1f23ca14d83")
+		)
+		(pin "15"
+			(uuid "41e13fc2-5a17-437f-907a-1fd64a188dfc")
+		)
+		(pin "10"
+			(uuid "e253fcf5-76ce-40e7-958c-eac29c4468b2")
+		)
+		(pin "1"
+			(uuid "436aee36-f581-48e8-b583-f3f04c6b19a3")
+		)
+		(pin "3"
+			(uuid "48971def-ed6f-4a8b-817b-55841aa092e4")
+		)
+		(pin "9"
+			(uuid "b79231b0-bedb-4ef6-9044-8afb49fcf180")
+		)
+		(pin "2"
+			(uuid "26b24a05-0844-44d6-9026-7af177f2fb62")
+		)
+		(pin "8"
+			(uuid "07592c9d-f5f5-4f4a-80b2-118dc9b55dbb")
+		)
+		(pin "13"
+			(uuid "3888626a-e907-45df-b458-b6a233deb443")
+		)
+		(pin "4"
+			(uuid "9b289de1-c466-4c32-9b5d-df7915f375c2")
+		)
+		(pin "7"
+			(uuid "9f912cb7-02f9-468f-ac36-aba693d567df")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4995,9 +5177,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "117e2074-b0d7-451a-90f4-3eb37fdf87f7")
-		(property "Reference" "LED16"
-			(at 104.14 17.78 0)
+		(uuid "1e7f0106-5b33-4f0a-9238-f536c1d6bc18")
+		(property "Reference" "LED12"
+			(at 104.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,15 +5187,15 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 104.14 20.32 0)
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 121.59 0)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 154.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 221.59 0)
+			(at 99.06 254.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5215,7 @@
 			)
 		)
 		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 27.94 0)
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5224,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 99.06 421.59 0)
+			(at 99.06 454.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +5234,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 521.59 0)
+			(at 99.06 554.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5244,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 621.59 0)
+			(at 99.06 654.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5254,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 721.59 0)
+			(at 99.06 754.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5264,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 821.59 0)
+			(at 99.06 854.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5274,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 99.06 921.59 0)
+			(at 99.06 954.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5284,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 99.06 1021.59 0)
+			(at 99.06 1054.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,22 +5294,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee36256e-a50d-4e1c-b4e6-515e8e25b35d")
+			(uuid "b84c8d55-0072-4ef7-a06e-a02b54ce9906")
 		)
 		(pin "2"
-			(uuid "0bfee98c-b13f-4f0d-a737-6b8d98429b76")
+			(uuid "399c2bf9-00d3-46e6-a59f-ea26ae994f1a")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED16")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "150060RS75000:150060RS75000")
+		(lib_id "power:GND")
+		(at 198.12 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2210b5fe-a533-4034-a771-4685367fe2a4")
+		(property "Reference" "#PWR0232"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18090127-450a-48d8-bc5e-4c665c2ec397")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
 		(at 111.76 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -5136,9 +5384,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1af7460f-4f10-4445-a58c-d241de7e1dc0")
-		(property "Reference" "LED17"
-			(at 104.14 34.29 0)
+		(uuid "2dc14838-76d2-41b9-a3e5-6c9afbab3e7f")
+		(property "Reference" "LED5"
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,14 +5394,14 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 104.14 36.83 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
 			(at 99.06 138.1 0)
 			(effects
 				(font
@@ -5253,10 +5501,358 @@
 			)
 		)
 		(pin "1"
-			(uuid "340cf350-1735-4c82-af17-6128436785b5")
+			(uuid "66b5bdb7-7d7c-4a24-b341-915f4d2d7ded")
 		)
 		(pin "2"
-			(uuid "f5e6f4d9-3514-40e8-a094-b7e26160725c")
+			(uuid "31e30876-e289-4a01-937b-4aa3c55d7b90")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f162c80-5e2f-43b4-84c7-77218e3b2772")
+		(property "Reference" "#PWR0257"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1060836-2975-4ba4-9052-16c4aa998402")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 82.55 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33185d80-d5db-425c-b4b5-c9d1329d56ff")
+		(property "Reference" "LED1"
+			(at 74.93 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 74.93 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 69.85 121.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 69.85 221.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 421.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 69.85 521.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 69.85 621.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 69.85 721.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 69.85 821.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 69.85 921.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 1021.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f89d7260-5fc3-4378-a59c-86f96981e4f7")
+		)
+		(pin "2"
+			(uuid "c1f0ccdc-9ca1-42e4-b80e-ea57066dc3fe")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421706de-645a-4e29-b0a3-b137b6e996f7")
+		(property "Reference" "LED17"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 99.06 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 99.06 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 99.06 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 99.06 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 99.06 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 99.06 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 1023.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 1123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa98c8fb-fecf-4091-8440-a09a2b757952")
+		)
+		(pin "2"
+			(uuid "cddfa081-dfd3-45a3-9209-69a7d45723dc")
 		)
 		(instances
 			(project "ModulinV2"
@@ -5268,7 +5864,289 @@
 		)
 	)
 	(symbol
-		(lib_id "CD4028BM96:CD4028BM96")
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4701cd8b-9efb-4b91-85ff-eeea6220a0e0")
+		(property "Reference" "LED19"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 99.06 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 99.06 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 99.06 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 99.06 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 99.06 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 99.06 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 987.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 1087.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc25608b-7cae-4c2b-9b3d-43745220314c")
+		)
+		(pin "2"
+			(uuid "33ab26dd-e7b2-4dc2-b874-5474e80d7fac")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 82.55 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f71316-c6bc-43a4-8b41-23e2f5b523bd")
+		(property "Reference" "LED18"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 74.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 69.85 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 69.85 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 82.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 69.85 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 69.85 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 69.85 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 69.85 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 69.85 987.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 1087.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32698eb1-dd07-41ee-af16-80d6b44bef3d")
+		)
+		(pin "2"
+			(uuid "7aaf9ec2-20bb-4887-95b6-eb806efca13d")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CD4028BM96")
 		(at 198.12 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5276,8 +6154,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1eb912a2-3c3c-499e-b32d-37ca71e7b293")
-		(property "Reference" "IC33"
+		(uuid "4a4da44b-9c7e-439c-8eea-2ec9a4008245")
+		(property "Reference" "IC18"
 			(at 210.82 19.05 0)
 			(effects
 				(font
@@ -5293,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
 			(at 219.71 121.59 0)
 			(effects
 				(font
@@ -5392,654 +6270,58 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "bfd630e7-4781-40ad-b575-18866c5ad5ae")
-		)
-		(pin "9"
-			(uuid "9e966e97-0554-4555-8569-972177f1b675")
-		)
-		(pin "14"
-			(uuid "b32ec547-9259-4a08-96ac-c627a948f94e")
-		)
-		(pin "10"
-			(uuid "582e5da5-feba-4894-b584-d87ea5928e42")
-		)
-		(pin "1"
-			(uuid "ec451ec7-997c-44b0-839f-e2576a06d225")
-		)
 		(pin "7"
-			(uuid "852f6cc4-176a-47fa-9c05-234b54e707d1")
-		)
-		(pin "15"
-			(uuid "6237b0cb-cd92-4d08-bfa2-6f2ef97dae7f")
-		)
-		(pin "6"
-			(uuid "b5d57cd4-93bc-4d83-bef5-68260f5d5b6d")
-		)
-		(pin "13"
-			(uuid "0ce111d4-6d18-4df7-87ab-639c31551a9b")
-		)
-		(pin "12"
-			(uuid "10f6560b-82c7-4a00-9833-059ee0710805")
+			(uuid "2dd74899-be96-40fc-8abd-72e8ecd54c09")
 		)
 		(pin "11"
-			(uuid "0936c622-fe11-4152-b502-850be3666538")
+			(uuid "5cdcbf41-b536-4e83-80a4-fbcb4f171fb2")
 		)
-		(pin "2"
-			(uuid "e3d10394-bab5-4c85-b24e-a6b61072fc06")
+		(pin "10"
+			(uuid "b6d7f475-5b8e-4952-a3fa-73a712d91e42")
 		)
-		(pin "3"
-			(uuid "7af2cac6-b87e-4ce0-bf41-0b4a2c7cefad")
+		(pin "6"
+			(uuid "18e80ab3-f307-412f-9132-6b4faa47b40c")
 		)
 		(pin "5"
-			(uuid "ca9a58e5-c6ff-4b29-a454-2b6f17729f6b")
+			(uuid "3dbdb37f-b2e1-4c8d-8871-6c2e4fcf5531")
 		)
 		(pin "8"
-			(uuid "d31120e2-f991-4fb1-8dfc-9990eba6a7b8")
+			(uuid "50dda403-6aea-47b1-a6d5-cc685bd8a7c5")
+		)
+		(pin "2"
+			(uuid "b6a69f93-fdbf-475b-9085-61c1e55cd28b")
 		)
 		(pin "16"
-			(uuid "e7e50406-622f-46a1-806a-48cae535afa6")
+			(uuid "d2373ee4-6e18-4958-9eeb-01eaacdc5964")
 		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "IC33")
-					(unit 1)
-				)
-			)
+		(pin "3"
+			(uuid "df1eccad-35a9-4a5c-9186-7ad01eba6ff5")
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2210b5fe-a533-4034-a771-4685367fe2a4")
-		(property "Reference" "#PWR0232"
-			(at 198.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "7efdfb1b-795c-41eb-a135-01eb740e38c0")
 		)
-		(property "Value" "GND"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "9"
+			(uuid "6ce88d41-14b0-4ae3-89b8-ad2bea63811e")
 		)
-		(property "Footprint" ""
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "12"
+			(uuid "c6546b43-0342-4bdb-9274-d3efdc07df8b")
 		)
 		(pin "1"
-			(uuid "18090127-450a-48d8-bc5e-4c665c2ec397")
+			(uuid "fb2e5871-1666-4694-95ed-3720787be941")
 		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "#PWR0232")
-					(unit 1)
-				)
-			)
+		(pin "13"
+			(uuid "e7311019-11ae-428b-8f5c-ffa2da352b20")
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f162c80-5e2f-43b4-84c7-77218e3b2772")
-		(property "Reference" "#PWR0257"
-			(at 140.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "14"
+			(uuid "b8a48497-b7b7-4326-8b1b-58a5a89ec73f")
 		)
-		(property "Value" "GND"
-			(at 140.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1060836-2975-4ba4-9052-16c4aa998402")
+		(pin "15"
+			(uuid "765ad8eb-5377-467a-8b13-7b4d43fbd24f")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "#PWR0257")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 82.55 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "416bbd47-8f67-4c1a-97ac-7ef5f63f0b60")
-		(property "Reference" "LED12"
-			(at 74.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 74.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 69.85 138.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 69.85 238.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 82.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 69.85 438.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 69.85 538.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 69.85 638.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 69.85 738.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 69.85 838.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 938.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 1038.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "751a4316-0acf-40fb-a926-323eaadf224f")
-		)
-		(pin "2"
-			(uuid "bb2f3caf-3f28-489d-9a41-0009bef7250b")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 82.55 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "500cf8bc-4ce2-462f-a0ce-2cb6a02321d7")
-		(property "Reference" "LED22"
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 74.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 69.85 223.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 69.85 323.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 82.55 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 69.85 523.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 69.85 623.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 69.85 723.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 69.85 823.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 69.85 923.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 1023.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 1123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "299d687a-6e48-403c-abda-0a6735abcc74")
-		)
-		(pin "2"
-			(uuid "911e0f69-329a-4f23-bf4b-0e3545dffa68")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXB-2HV102JV:EXB-2HV102JV")
-		(at 20.32 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bdeb53e-107f-4c21-a2b8-d0fe7192b668")
-		(property "Reference" "RN1"
-			(at 30.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXB-2HV102JV"
-			(at 30.48 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EXB2HV102JV"
-			(at 39.37 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onlinecomponents.com/en/productdetail/panasonic/exb2hv102jv-44449185.html?utm_campaign=searchads360feed&utm_content=instock&utm_term=EXB-2HV102JV&gad_source=1&gad_campaignid=6573380531&gbraid=0AAAAADkP1yax3FVTjJW5ima0NZqzfA4GN&gclid=Cj0KCQjwgI"
-			(at 39.37 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor Networks & Arrays 1K OHM 5%"
-			(at 29.464 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 39.37 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 39.37 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EXB-2HV102JV"
-			(at 39.37 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-EXB-2HV102JV"
-			(at 39.37 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-2HV102JV?qs=oE3VwAv%2FYtkhk%252Bvg87pJMg%3D%3D"
-			(at 39.37 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "EXB-2HV102JV"
-			(at 39.37 920.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/exb-2hv102jv/panasonic?utm_currency=USD&region=nac"
-			(at 39.37 1020.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "703cee68-bf48-4f3f-9f87-c50b6781a4ba")
-		)
-		(pin "3"
-			(uuid "0c5f6577-e845-4edf-bca4-e357d9a0a5c6")
-		)
-		(pin "4"
-			(uuid "c12dc183-d704-48ef-9478-84f60daf1cd4")
-		)
-		(pin "9"
-			(uuid "1361cccf-afc9-451a-a7b3-7434683f38af")
-		)
-		(pin "5"
-			(uuid "505b1ed5-6531-4fb2-b959-ca81dcb41f23")
-		)
-		(pin "1"
-			(uuid "2527a3e0-fd7c-4e39-8794-95bdb977c869")
-		)
-		(pin "2"
-			(uuid "3c91214e-6ff6-4c02-aa0d-8ee797cabf97")
-		)
-		(pin "6"
-			(uuid "3aead848-3fcf-41a0-b64b-2c7e39e39cb4")
-		)
-		(pin "7"
-			(uuid "6aaa06d7-38f0-4d56-9cb9-9068a7f08224")
-		)
-		(pin "15"
-			(uuid "03915bef-cd46-4e7e-b35c-574621189c8a")
-		)
-		(pin "13"
-			(uuid "545baaa9-d779-4fbb-aef1-209eb63d4fb2")
-		)
-		(pin "14"
-			(uuid "1be881d7-9363-4cb4-8c87-408b38cc67b1")
-		)
-		(pin "11"
-			(uuid "5411e149-1a50-4755-af4e-24874bfe30f8")
-		)
-		(pin "12"
-			(uuid "961e248d-3d76-4438-8e9f-48cf59d310a2")
-		)
-		(pin "8"
-			(uuid "5b68daaa-afe5-4825-ac1c-c29db97cc882")
-		)
-		(pin "16"
-			(uuid "32ebb112-e8fb-4f8c-aab9-6302108771f6")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "RN1")
+					(reference "IC18")
 					(unit 1)
 				)
 			)
@@ -6244,54 +6526,53 @@
 		)
 	)
 	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 113.03 0)
-		(mirror y)
+		(lib_id "SamacSys_Parts:E-ULN2003D1013TR")
+		(at 146.05 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "684d4015-2a6c-4fe8-ac99-40f6be568c77")
-		(property "Reference" "LED23"
-			(at 104.14 102.87 0)
+		(uuid "647fd6ee-034a-4be5-a60f-2e490e4ae32f")
+		(property "Reference" "IC16"
+			(at 154.305 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150060RS75000"
-			(at 104.14 105.41 0)
+		(property "Value" "E-ULN2003D1013TR"
+			(at 154.305 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 206.68 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
+			(at 200.66 116.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 306.68 0)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf"
+			(at 200.66 216.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 113.03 0)
+		(property "Description" "Trans Darlington NPN 50V 0.5A 16-Pin SO T/R - Tape and Reel"
+			(at 146.05 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,129 +6580,161 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 99.06 506.68 0)
+		(property "Height" "1.75"
+			(at 200.66 416.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 606.68 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 200.66 516.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 706.68 0)
+		(property "Manufacturer_Part_Number" "E-ULN2003D1013TR"
+			(at 200.66 616.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 806.68 0)
+		(property "Mouser Part Number" "511-E-ULN2003D1013TR"
+			(at 200.66 716.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 906.68 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/E-ULN2003D1013TR?qs=RMKZFpOXosE33%2Fk5HgpQgg%3D%3D"
+			(at 200.66 816.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 99.06 1006.68 0)
+			(at 200.66 916.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 99.06 1106.68 0)
+			(at 200.66 1016.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f9aa9afa-2159-41bf-8048-a74df11e1f1d")
-		)
 		(pin "2"
-			(uuid "b130906c-d1eb-4549-bae0-ea6cb785b9a8")
+			(uuid "97f5eb1c-68e6-4b0c-8e8e-0c0e192885b7")
+		)
+		(pin "1"
+			(uuid "1cddd7ee-8965-420e-aab5-8b5b88ea8c58")
+		)
+		(pin "3"
+			(uuid "a9e818d7-405f-494e-b5fd-879b7be3ec0e")
+		)
+		(pin "8"
+			(uuid "a269b220-bc8e-4ca8-b307-d23fd1b70b08")
+		)
+		(pin "13"
+			(uuid "b936bbd9-258c-41d9-befd-288766f1a7b4")
+		)
+		(pin "9"
+			(uuid "3606d449-c9fc-41b0-9625-39b7e55e7419")
+		)
+		(pin "15"
+			(uuid "5da4cfe2-cbb3-4404-8c61-aea5f59dde28")
+		)
+		(pin "16"
+			(uuid "b032bc03-6acb-4e86-bd94-472e8c31d397")
+		)
+		(pin "5"
+			(uuid "b8d9ad5f-7d0e-464c-a730-38cde3e9c763")
+		)
+		(pin "6"
+			(uuid "4827f629-168b-4b28-9ccc-c568dfa9e687")
+		)
+		(pin "4"
+			(uuid "9ef0437f-92c3-40a9-a380-2a39183ffb42")
+		)
+		(pin "11"
+			(uuid "186071ce-4323-44c0-b5d6-3ec6084960cb")
+		)
+		(pin "7"
+			(uuid "a483fe2e-825a-4d1b-afd1-29364b35aef8")
+		)
+		(pin "12"
+			(uuid "509e96f0-7bd3-4a42-b376-d52df1ffceed")
+		)
+		(pin "14"
+			(uuid "ffcfb924-1d6e-491c-b281-766cf48e934d")
+		)
+		(pin "10"
+			(uuid "83a33eb3-90ae-4bb8-8f9c-540bf05cb751")
 		)
 		(instances
-			(project "ModulinV2"
+			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED23")
+					(reference "IC16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EXB-2HV102JV:EXB-2HV102JV")
-		(at 20.32 93.98 0)
+		(lib_id "SamacSys_Parts:E-ULN2003D1013TR")
+		(at 146.05 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ddfc7f2-8c3b-4c92-a405-acedb46cc3e8")
-		(property "Reference" "RN2"
-			(at 30.48 86.36 0)
+		(uuid "67db70af-7878-46d9-baa7-bd4ed30ef7df")
+		(property "Reference" "IC17"
+			(at 154.305 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EXB-2HV102JV"
-			(at 30.48 88.9 0)
+		(property "Value" "E-ULN2003D1013TR"
+			(at 154.305 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "EXB2HV102JV"
-			(at 39.37 188.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onlinecomponents.com/en/productdetail/panasonic/exb2hv102jv-44449185.html?utm_campaign=searchads360feed&utm_content=instock&utm_term=EXB-2HV102JV&gad_source=1&gad_campaignid=6573380531&gbraid=0AAAAADkP1yax3FVTjJW5ima0NZqzfA4GN&gclid=Cj0KCQjwgI"
-			(at 39.37 288.9 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
+			(at 200.66 154.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,17 +6743,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor Networks & Arrays 1K OHM 5%"
-			(at 29.464 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 39.37 488.9 0)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf"
+			(at 200.66 254.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,8 +6753,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 39.37 588.9 0)
+		(property "Description" "Trans Darlington NPN 50V 0.5A 16-Pin SO T/R - Tape and Reel"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 200.66 454.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,8 +6772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "EXB-2HV102JV"
-			(at 39.37 688.9 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 200.66 554.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,8 +6782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EXB-2HV102JV"
-			(at 39.37 788.9 0)
+		(property "Manufacturer_Part_Number" "E-ULN2003D1013TR"
+			(at 200.66 654.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,8 +6792,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-2HV102JV?qs=oE3VwAv%2FYtkhk%252Bvg87pJMg%3D%3D"
-			(at 39.37 888.9 0)
+		(property "Mouser Part Number" "511-E-ULN2003D1013TR"
+			(at 200.66 754.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,8 +6802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "EXB-2HV102JV"
-			(at 39.37 988.9 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/E-ULN2003D1013TR?qs=RMKZFpOXosE33%2Fk5HgpQgg%3D%3D"
+			(at 200.66 854.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,8 +6812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/exb-2hv102jv/panasonic?utm_currency=USD&region=nac"
-			(at 39.37 1088.9 0)
+		(property "Arrow Part Number" ""
+			(at 200.66 954.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,58 +6822,68 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "93392cf4-ae36-46ed-8c42-ccfeb5629752")
-		)
-		(pin "3"
-			(uuid "94a0ad31-a2d7-4240-9836-e41aeacab669")
-		)
-		(pin "4"
-			(uuid "2a078182-32f1-4b50-bb3b-814d9dd3b4f6")
-		)
-		(pin "9"
-			(uuid "b9af086e-0fe9-4a72-9546-e31abacf2bf0")
-		)
-		(pin "5"
-			(uuid "61b8072f-0740-41b7-8d99-c9f799c9052a")
-		)
-		(pin "1"
-			(uuid "b17d2466-8e48-4702-a6c8-4eb0589388b8")
+		(property "Arrow Price/Stock" ""
+			(at 200.66 1054.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a4521aca-62c9-4164-a7d9-5d2805d09b88")
+			(uuid "4a0f6050-22a9-496b-a2e9-1d3f08c0a711")
 		)
-		(pin "6"
-			(uuid "49d68017-2796-4aef-b1ac-29b6d57be1e3")
+		(pin "1"
+			(uuid "6111d7db-f5ee-4890-8d54-130a2568716a")
 		)
-		(pin "7"
-			(uuid "870b0be7-3221-4d4f-a1b5-aae309567613")
-		)
-		(pin "15"
-			(uuid "7ea08a95-8476-4ca4-acc2-b633f79e8f72")
-		)
-		(pin "13"
-			(uuid "28ac226c-ead1-4b07-b68a-0ddfafed4159")
-		)
-		(pin "14"
-			(uuid "dc4d8d5a-bd04-4b63-8f03-bf5940a91c50")
-		)
-		(pin "11"
-			(uuid "d546c91f-3ad5-410e-9f34-1617aa917342")
-		)
-		(pin "12"
-			(uuid "d1dc2c67-2a27-48d0-bf06-d5aef8c7131a")
+		(pin "3"
+			(uuid "167184c2-87f2-4be9-9df3-ffca6f50dec0")
 		)
 		(pin "8"
-			(uuid "8c03b300-0ca7-4bd1-9b7e-63ff04a975f3")
+			(uuid "c84dc6a5-af2d-4401-a8f2-c5f01b479674")
+		)
+		(pin "13"
+			(uuid "40427699-e7b2-4613-a3be-e9487991770d")
+		)
+		(pin "9"
+			(uuid "497197ae-1399-4bbc-a0a7-6884f6ebe847")
+		)
+		(pin "15"
+			(uuid "906bab8b-0cce-494a-9979-205f1177f904")
 		)
 		(pin "16"
-			(uuid "5967a99d-581d-4669-b715-9b6deefda9e1")
+			(uuid "50264496-a336-420c-bf93-8ae99c6f1f88")
+		)
+		(pin "5"
+			(uuid "f72c2f05-39f4-44d4-93b5-4a2be395bd9c")
+		)
+		(pin "6"
+			(uuid "382c0f77-2bee-4bea-882b-064a9e4b11df")
+		)
+		(pin "4"
+			(uuid "b61a8ac3-d70f-4443-9f85-3cf45c5ad2ca")
+		)
+		(pin "11"
+			(uuid "d85676f1-c8d7-4a12-af4e-60ea5d0453b4")
+		)
+		(pin "7"
+			(uuid "6fd50e93-d1dd-4d3f-b1cf-8164f3c5af25")
+		)
+		(pin "12"
+			(uuid "fd489a16-c61e-4734-98d2-13a7b1d3e83a")
+		)
+		(pin "14"
+			(uuid "4258101f-ad98-4d58-a5e9-8e090de5486d")
+		)
+		(pin "10"
+			(uuid "a5efaada-e3f5-475e-8caa-83785de281c1")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "RN2")
+					(reference "IC17")
 					(unit 1)
 				)
 			)
@@ -6703,350 +7026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 271.78 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7d116f-5938-4126-ab2c-d9fd3b32ce6d")
-		(property "Reference" "C115"
-			(at 275.59 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 275.59 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.8148 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b9a1aa2-0d49-4d88-b851-7d5441f447c3")
-		)
-		(pin "2"
-			(uuid "47fde1f6-74fc-466e-840d-6f6b55255f13")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "C115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7df43c33-3301-4e96-a116-ab25763ca63a")
-		(property "Reference" "LED24"
-			(at 104.14 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 104.14 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 223.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 323.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 99.06 523.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 623.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 723.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 823.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 923.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 1023.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 99.06 1123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4897630f-f26f-48e6-8ddf-0e6550d673e7")
-		)
-		(pin "2"
-			(uuid "4c434b2f-66ff-473c-9b8d-a57c2d785dc8")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e5adc1f-5c74-41fc-bf85-273f88818fdc")
-		(property "Reference" "#PWR0233"
-			(at 223.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6064f51-c0b4-44ca-99cf-91a92e95ee56")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "#PWR0233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91cc08db-e80e-4612-9e19-a49ceeb16c69")
-		(property "Reference" "#PWR0295"
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef8a9a1b-29b2-4bd5-bc78-aeae165f8916")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "#PWR0295")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
+		(lib_id "SamacSys_Parts:150060RS75000")
 		(at 82.55 113.03 0)
 		(mirror y)
 		(unit 1)
@@ -7055,9 +7035,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a331d71-7358-42ba-a0de-262edc466a72")
-		(property "Reference" "LED21"
-			(at 74.93 102.87 0)
+		(uuid "7a849fb2-21e2-40ba-b3b4-5534a3e69b66")
+		(property "Reference" "LED14"
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,14 +7045,14 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 74.93 105.41 0)
+			(at 74.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
 			(at 69.85 206.68 0)
 			(effects
 				(font
@@ -7172,15 +7152,358 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3de6a6f-96a3-4208-a18c-5e0cf28f843b")
+			(uuid "f2c6b7fb-7c9f-49e5-b5c2-9be176b58712")
 		)
 		(pin "2"
-			(uuid "2eb56ba3-c5bb-4b6e-bceb-20a75279431b")
+			(uuid "2641edff-4b90-4ff1-a5bd-9912d70353f9")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED21")
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 271.78 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d7d116f-5938-4126-ab2c-d9fd3b32ce6d")
+		(property "Reference" "C115"
+			(at 275.59 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 275.59 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.8148 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b9a1aa2-0d49-4d88-b851-7d5441f447c3")
+		)
+		(pin "2"
+			(uuid "47fde1f6-74fc-466e-840d-6f6b55255f13")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 223.52 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e5adc1f-5c74-41fc-bf85-273f88818fdc")
+		(property "Reference" "#PWR0233"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6064f51-c0b4-44ca-99cf-91a92e95ee56")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 82.55 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d51aec-a3aa-494f-9660-b7ef5bf24ecd")
+		(property "Reference" "LED3"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 74.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 69.85 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 69.85 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 69.85 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 69.85 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 69.85 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 69.85 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 69.85 938.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 1038.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bdefdcc-3248-4146-8cd8-cc626827e5fd")
+		)
+		(pin "2"
+			(uuid "0a3b49c6-57f3-4fb8-9356-8705abb4f2c4")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 223.52 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91cc08db-e80e-4612-9e19-a49ceeb16c69")
+		(property "Reference" "#PWR0295"
+			(at 223.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef8a9a1b-29b2-4bd5-bc78-aeae165f8916")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "#PWR0295")
 					(unit 1)
 				)
 			)
@@ -7257,147 +7580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 82.55 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fbf4ae7-b111-4ff6-a12e-89b0937318e2")
-		(property "Reference" "LED14"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 74.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 69.85 171.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 69.85 271.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 69.85 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 69.85 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 69.85 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 69.85 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 69.85 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 1071.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5edf77c-0261-476f-99ee-a505cea1fa2c")
-		)
-		(pin "2"
-			(uuid "b7a1f4bd-d4e3-4f20-8abe-e655d8a8ac31")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 83.82 0)
 		(unit 1)
@@ -7458,6 +7640,288 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
 					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 82.55 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac54702a-35c0-48a1-8e7f-49380d7e9eb8")
+		(property "Reference" "LED15"
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 74.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 69.85 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 69.85 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 69.85 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 69.85 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 69.85 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 69.85 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 69.85 1023.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 1123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ba368e8-4463-4f93-86ac-ff58053b8e6e")
+		)
+		(pin "2"
+			(uuid "099f1899-6148-4579-89c2-9592b6934431")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d8c70c-caa7-4752-878c-a82cd93c8c9d")
+		(property "Reference" "LED13"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 104.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 99.06 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 99.06 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 99.06 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 99.06 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 99.06 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 99.06 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 971.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 1071.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9225e4-fb9c-48ed-932e-d4cff875d396")
+		)
+		(pin "2"
+			(uuid "2a9f993c-5bbb-4dd9-bd5c-1909b2010011")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -7596,7 +8060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CD4028BM96:CD4028BM96")
+		(lib_id "SamacSys_Parts:CD4028BM96")
 		(at 198.12 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7604,8 +8068,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1bd91d6-cfd6-4791-9c87-7f1e9ae4fa17")
-		(property "Reference" "IC38"
+		(uuid "cb514914-73d5-41ed-bca0-30863c1c1252")
+		(property "Reference" "IC19"
 			(at 210.82 63.5 0)
 			(effects
 				(font
@@ -7621,7 +8085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
 			(at 219.71 166.04 0)
 			(effects
 				(font
@@ -7720,65 +8184,558 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "e4b55a2f-082d-4a54-b426-4512a256cb3c")
-		)
-		(pin "9"
-			(uuid "c1d837fc-e61a-4a2a-8889-e65d2f3d2023")
-		)
-		(pin "14"
-			(uuid "8f459474-495e-4b76-b4d6-56bbf19a00a0")
-		)
-		(pin "10"
-			(uuid "ed172e60-f50b-4be1-a321-937a256f2020")
-		)
-		(pin "1"
-			(uuid "15ac4791-a176-4290-9bce-f78bd48b16f5")
-		)
 		(pin "7"
-			(uuid "7bff1e68-9745-4dad-9115-f704ba958a66")
-		)
-		(pin "15"
-			(uuid "dfab2674-9333-47bb-8782-de6a493047f2")
-		)
-		(pin "6"
-			(uuid "2bc12011-69a8-473c-91a2-033019435a19")
-		)
-		(pin "13"
-			(uuid "1ee1c3f0-7192-4ba3-bfe1-f17e77a31baa")
-		)
-		(pin "12"
-			(uuid "90510c08-ed51-4f35-8c1f-03a7011a7b70")
+			(uuid "2a3baa94-5a40-4ae4-9780-9047098a36df")
 		)
 		(pin "11"
-			(uuid "673096df-e3f3-4176-baa5-ab0b70f243c2")
+			(uuid "c0180621-d6df-40c0-9d7b-5f24b9cd6bad")
 		)
-		(pin "2"
-			(uuid "b5dccb2a-5ba6-4f37-ad18-3b057bc122d0")
+		(pin "10"
+			(uuid "0c8e7333-61c2-4afb-8df4-2ac80d3d5c27")
 		)
-		(pin "3"
-			(uuid "e4ba4bf2-9dce-48a0-918b-cb3abbf67c45")
+		(pin "6"
+			(uuid "a091d79e-a01f-49f7-8f5c-0063b39ffac2")
 		)
 		(pin "5"
-			(uuid "a0968831-7e9f-4069-a551-f67f9453fa56")
+			(uuid "b5f87224-774c-4165-a4a1-d2c479dc5c1f")
 		)
 		(pin "8"
-			(uuid "6c2e9d0f-b58d-4a5d-8f40-ffc99698c6a3")
+			(uuid "61c0cd01-80c2-403b-9f0b-588e475f83ee")
+		)
+		(pin "2"
+			(uuid "0c67d7fc-81c6-4761-863d-384b133a663e")
 		)
 		(pin "16"
-			(uuid "59214325-7365-402b-a3c2-b62fad74f952")
+			(uuid "fe31f4a7-416e-48c8-b305-47e8ad69faeb")
+		)
+		(pin "3"
+			(uuid "9e91af59-ea5f-4001-864f-1f574e4f4d07")
+		)
+		(pin "4"
+			(uuid "3fa564be-e623-401a-aa2c-6b07c0aca832")
+		)
+		(pin "9"
+			(uuid "52ec2453-4a1b-4b4b-b578-261490e17eae")
+		)
+		(pin "12"
+			(uuid "2062e615-25c5-46e0-a42f-5c70f1bd4a14")
+		)
+		(pin "1"
+			(uuid "fbe835d4-b775-4e50-b05c-eec1007dd6a3")
+		)
+		(pin "13"
+			(uuid "e3511f4a-456f-4874-9e03-8589ab5eb62b")
+		)
+		(pin "14"
+			(uuid "92f0addb-665e-461d-af44-e6734c7f9b33")
+		)
+		(pin "15"
+			(uuid "6e7268df-e859-429a-a96b-aed0a695338b")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "IC38")
+					(reference "IC19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "150060RS75000:150060RS75000")
+		(lib_id "Device:C")
+		(at 271.78 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb91fca2-8db4-4641-9662-134a1d5042b8")
+		(property "Reference" "C102"
+			(at 275.59 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 275.59 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.8148 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7768d1fb-c289-4773-b791-3af825febedd")
+		)
+		(pin "2"
+			(uuid "227e1d79-95f9-466d-a6ba-c2269f416828")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 82.55 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce9f6a70-3e6a-45a4-b1a1-be444af9eaba")
+		(property "Reference" "LED11"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 69.85 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 69.85 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 82.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 69.85 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 69.85 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 69.85 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 69.85 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 69.85 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 69.85 971.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 1071.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aba3366d-9500-4442-ba3f-7b92d45c5aab")
+		)
+		(pin "2"
+			(uuid "c66c0c7d-1f26-414b-878f-4e1323fee85b")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4e65af-83fb-4075-8510-b210b86c0531")
+		(property "Reference" "LED16"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 206.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 99.06 306.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 99.06 506.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 99.06 606.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 99.06 706.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 99.06 806.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 99.06 906.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 1006.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 1106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b2a3ef-d3a1-49fd-a57a-7aadf92d4989")
+		)
+		(pin "2"
+			(uuid "94b1ff9a-33a0-4d25-870a-fca6f35d7e66")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
+		(at 111.76 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9b5e2e-9d09-4790-9b57-f8553fb02783")
+		(property "Reference" "LED4"
+			(at 104.14 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 99.06 121.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
+			(at 99.06 221.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 99.06 421.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 99.06 521.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS75000"
+			(at 99.06 621.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060RS75000"
+			(at 99.06 721.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
+			(at 99.06 821.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 921.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 1021.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71a29ac7-cec4-4874-aef4-c256dab9a77e")
+		)
+		(pin "2"
+			(uuid "754ba460-18fd-4466-9008-30f4fa694da7")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:150060RS75000")
 		(at 82.55 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -7787,9 +8744,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb38ae2b-5cd0-4d9e-8460-78fca33017f3")
-		(property "Reference" "LED13"
-			(at 74.93 50.8 0)
+		(uuid "fd480ce7-566d-4d2a-beed-15262c6067c0")
+		(property "Reference" "LED6"
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,14 +8754,14 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 74.93 53.34 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
 			(at 69.85 154.61 0)
 			(effects
 				(font
@@ -7904,541 +8861,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7a318e6-8a0a-4888-9c26-2f922f245791")
+			(uuid "ac9bcef0-c5df-4c91-830f-7974718911f9")
 		)
 		(pin "2"
-			(uuid "5f77a737-e269-4343-86c2-de5919168b4e")
+			(uuid "0acbe935-eaac-43bc-a145-c07fd679e4b6")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED13")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 271.78 152.4 180)
+		(lib_id "SamacSys_Parts:EXB-2HV102JV")
+		(at 25.4 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb91fca2-8db4-4641-9662-134a1d5042b8")
-		(property "Reference" "C102"
-			(at 275.59 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 275.59 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.8148 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7768d1fb-c289-4773-b791-3af825febedd")
-		)
-		(pin "2"
-			(uuid "227e1d79-95f9-466d-a6ba-c2269f416828")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5ae5cec-5fb7-4b13-9a15-803e2b03242f")
-		(property "Reference" "LED19"
-			(at 104.14 67.31 0)
+		(uuid "fde89d08-4c0e-411f-9fad-bd4e7a1bb7bf")
+		(property "Reference" "RN3"
+			(at 30.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150060RS75000"
-			(at 104.14 69.85 0)
+		(property "Value" "EXB-2HV102JV"
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 171.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 271.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 99.06 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 99.06 1071.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc7f59b2-9002-4449-b58c-cf72c68ffd97")
-		)
-		(pin "2"
-			(uuid "b47d573a-37f8-48e6-8fa9-eb304c9074e9")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5c44d8e-8ad5-462e-ac42-c5983aa66803")
-		(property "Reference" "LED20"
-			(at 104.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 104.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 187.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 287.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 99.06 487.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 587.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 687.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 887.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 987.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 99.06 1087.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dbb9263-b13b-4df5-8cff-7afbe30131ec")
-		)
-		(pin "2"
-			(uuid "89f93863-ceb9-4893-bbfa-7956fdfd0c41")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 82.55 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e99ffddd-3a35-4554-90e1-b4fbef89b09d")
-		(property "Reference" "LED15"
-			(at 74.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 74.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 69.85 187.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 69.85 287.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 69.85 487.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 69.85 587.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 69.85 687.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 69.85 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 69.85 887.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 987.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 1087.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c555b4d7-8a84-473c-91f4-2e3a447e7212")
-		)
-		(pin "2"
-			(uuid "4e27a8e0-2636-4e57-bcf4-236458e34746")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "E-ULN2003D1013TR:E-ULN2003D1013TR")
-		(at 140.97 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f980dd41-b6d5-44d9-bb9a-e3143650838b")
-		(property "Reference" "IC37"
-			(at 154.305 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "E-ULN2003D1013TR"
-			(at 154.305 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-16N"
-			(at 195.58 157.15 0)
+		(property "Footprint" "SamacSys_Parts:EXB2HV102JV"
+			(at 44.45 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,8 +8911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf"
-			(at 195.58 257.15 0)
+		(property "Datasheet" "https://www.onlinecomponents.com/en/productdetail/panasonic/exb2hv102jv-44449185.html?utm_campaign=searchads360feed&utm_content=instock&utm_term=EXB-2HV102JV&gad_source=1&gad_campaignid=6573380531&gbraid=0AAAAADkP1yax3FVTjJW5ima0NZqzfA4GN&gclid=Cj0KCQjwgI"
+			(at 44.45 286.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,8 +8921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Trans Darlington NPN 50V 0.5A 16-Pin SO T/R - Tape and Reel"
-			(at 140.97 62.23 0)
+		(property "Description" "Resistor Networks & Arrays 1K OHM 5%"
+			(at 25.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,18 +8930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.75"
-			(at 195.58 457.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 195.58 557.15 0)
+		(property "Height" "0.55"
+			(at 44.45 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,8 +8940,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "E-ULN2003D1013TR"
-			(at 195.58 657.15 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 44.45 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,8 +8950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "511-E-ULN2003D1013TR"
-			(at 195.58 757.15 0)
+		(property "Manufacturer_Part_Number" "EXB-2HV102JV"
+			(at 44.45 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,8 +8960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/E-ULN2003D1013TR?qs=RMKZFpOXosE33%2Fk5HgpQgg%3D%3D"
-			(at 195.58 857.15 0)
+		(property "Mouser Part Number" "667-EXB-2HV102JV"
+			(at 44.45 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,8 +8970,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 195.58 957.15 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-2HV102JV?qs=oE3VwAv%2FYtkhk%252Bvg87pJMg%3D%3D"
+			(at 44.45 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,8 +8980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 195.58 1057.15 0)
+		(property "Arrow Part Number" "EXB-2HV102JV"
+			(at 44.45 986.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,522 +8990,68 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "a2389689-e2fb-47a5-b3f8-d38d80f5de33")
-		)
-		(pin "2"
-			(uuid "5469e8a4-3ac9-455b-a0ff-3dff129b4cfe")
-		)
-		(pin "15"
-			(uuid "229ed4e7-c6d3-4a39-9ffa-3f46b6d32183")
-		)
-		(pin "6"
-			(uuid "efdfabd6-9d0c-4345-89b3-48557ea9ce6d")
-		)
-		(pin "1"
-			(uuid "c506e2d1-27c3-4084-ba6e-aa525f7a5c14")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/exb-2hv102jv/panasonic?utm_currency=USD&region=nac"
+			(at 44.45 1086.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "14"
-			(uuid "e84221c7-3cb6-4481-9d3b-72fd0c752cc7")
-		)
-		(pin "7"
-			(uuid "0f5e1031-61b6-462c-9c19-e249cd019cfd")
-		)
-		(pin "3"
-			(uuid "0304a097-3f01-4797-9c52-0fd55fcd3f02")
-		)
-		(pin "4"
-			(uuid "440ce9bc-d447-4123-acca-761ad7defbf2")
-		)
-		(pin "8"
-			(uuid "c0e16147-a0d2-42b6-a5fb-3124479747e2")
-		)
-		(pin "10"
-			(uuid "2bd86fe8-39c7-47a8-93a1-12cadd61c5a1")
-		)
-		(pin "9"
-			(uuid "4d4a07b9-65fe-4c60-936b-b3be133e1ffe")
-		)
-		(pin "13"
-			(uuid "490f3a85-8154-43ab-bb46-b20443d86a1c")
-		)
-		(pin "11"
-			(uuid "736e084d-ef3e-43b5-bae4-b98a59089235")
-		)
-		(pin "12"
-			(uuid "f80ec5f3-94bf-43e6-b01a-4ef96ddfd50e")
-		)
-		(pin "16"
-			(uuid "b6d72a4f-4589-4c14-9c7c-1723054f2522")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "IC37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 111.76 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadf11b2-3eef-43ed-b0dd-82650ec78b77")
-		(property "Reference" "LED18"
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 99.06 154.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 99.06 254.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 111.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 99.06 454.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 99.06 554.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 99.06 654.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 99.06 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 99.06 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 954.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 99.06 1054.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79e0d126-8cc8-4252-a886-98210ecc649b")
-		)
-		(pin "2"
-			(uuid "9187ccb8-50c4-48a1-b56e-602fecf58d10")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060RS75000:150060RS75000")
-		(at 82.55 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb229c55-657a-4d33-a82d-6fe639b21b0d")
-		(property "Reference" "LED11"
-			(at 74.93 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 74.93 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 69.85 121.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150060RS75000.pdf"
-			(at 69.85 221.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM"
-			(at 82.55 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 69.85 421.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 69.85 521.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060RS75000"
-			(at 69.85 621.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060RS75000"
-			(at 69.85 721.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"
-			(at 69.85 821.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 921.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 1021.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90c757c8-7c42-4c72-9773-1a18d0fcc132")
-		)
-		(pin "2"
-			(uuid "6c45433f-fff8-40c6-b121-2228a100a903")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "E-ULN2003D1013TR:E-ULN2003D1013TR")
-		(at 140.97 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0c361a-cce6-4b48-983f-17ed7511b1cc")
-		(property "Reference" "IC36"
-			(at 154.305 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "E-ULN2003D1013TR"
-			(at 154.305 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-16N"
-			(at 195.58 119.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf"
-			(at 195.58 219.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trans Darlington NPN 50V 0.5A 16-Pin SO T/R - Tape and Reel"
-			(at 140.97 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 195.58 419.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 195.58 519.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "E-ULN2003D1013TR"
-			(at 195.58 619.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-E-ULN2003D1013TR"
-			(at 195.58 719.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/E-ULN2003D1013TR?qs=RMKZFpOXosE33%2Fk5HgpQgg%3D%3D"
-			(at 195.58 819.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 195.58 919.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 195.58 1019.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
+			(uuid "3a1d821f-7835-4c1e-bd12-23b054b95389")
 		)
 		(pin "5"
-			(uuid "f3853398-53bf-4453-aa1b-bc930ec3e117")
-		)
-		(pin "2"
-			(uuid "3625d527-a30e-4286-8394-f2a7080bcd78")
-		)
-		(pin "15"
-			(uuid "92d2bc93-8d70-4321-8792-8bc1a9d58613")
-		)
-		(pin "6"
-			(uuid "0a3b9d60-b8f9-4811-abf8-309005dd5a30")
-		)
-		(pin "1"
-			(uuid "e4566d51-b583-458b-86e0-29971a879d29")
-		)
-		(pin "14"
-			(uuid "6b1552ff-6666-469a-9d13-0ad22dfe845d")
-		)
-		(pin "7"
-			(uuid "f8cc075c-6546-42ce-8d4f-d7eb9127a52e")
-		)
-		(pin "3"
-			(uuid "94e1a414-494f-455b-ae57-c31e223792b3")
-		)
-		(pin "4"
-			(uuid "97743bae-081c-4917-adfa-3adfaea24a29")
-		)
-		(pin "8"
-			(uuid "8bfda95e-dff6-4220-9dce-8d1068c94bd9")
-		)
-		(pin "10"
-			(uuid "8cd84297-c8d1-475b-acd8-f762e1337bf2")
-		)
-		(pin "9"
-			(uuid "614867db-dacb-4df6-bb4d-bae878a403c6")
-		)
-		(pin "13"
-			(uuid "392162e6-5022-4cec-941e-d47de62c53f8")
-		)
-		(pin "11"
-			(uuid "7bc72c00-dfd6-405c-8e1e-93cddf6760e8")
+			(uuid "d7fcb21f-6760-4773-894f-4369bd094bdf")
 		)
 		(pin "12"
-			(uuid "9f7f7ae7-40d7-46fc-8c29-c61dc6b57a32")
+			(uuid "2c8af244-9d52-4f87-8000-7bb7cbd5da79")
+		)
+		(pin "6"
+			(uuid "2b9849e1-09dd-4d05-bbbf-a312db8f6ab3")
+		)
+		(pin "11"
+			(uuid "546488df-bc2c-48a4-8a32-3d8f6848752d")
 		)
 		(pin "16"
-			(uuid "ad2a0b01-dfda-4038-b495-ca7f827aa1be")
+			(uuid "e200188c-5f4e-4f6b-8ffd-1e3de6b4d81d")
+		)
+		(pin "15"
+			(uuid "427234d6-3aa6-4e96-9290-943477784f4b")
+		)
+		(pin "10"
+			(uuid "a700f959-064f-4cd6-8093-d3b57ec7c33f")
+		)
+		(pin "1"
+			(uuid "f14577f8-0ae4-463d-872e-63d47ed0af1f")
+		)
+		(pin "3"
+			(uuid "d027d469-c435-4439-984c-60ab81784e95")
+		)
+		(pin "9"
+			(uuid "fd6d038b-22ce-4945-bc88-e6a6a9caf7b2")
+		)
+		(pin "2"
+			(uuid "57112582-e199-4847-a890-37d138b36bf9")
+		)
+		(pin "8"
+			(uuid "b43fe98c-fec7-416a-9a73-3882166cbc6f")
+		)
+		(pin "13"
+			(uuid "213390b0-ba74-4640-b466-017bc07a7beb")
+		)
+		(pin "4"
+			(uuid "749b7036-5649-4aed-8267-111f8c4dff16")
+		)
+		(pin "7"
+			(uuid "e9b140fd-9d9a-49e2-9080-d40777ae560e")
 		)
 		(instances
-			(project "ModulinV2"
+			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/ba5ade70-a939-4914-9429-1ad400c74d73/e799dfb0-018d-4a0c-90e3-bc5a892eb818"
-					(reference "IC36")
+					(reference "RN3")
 					(unit 1)
 				)
 			)

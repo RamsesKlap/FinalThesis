@@ -636,331 +636,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DMP610DL-7:DMP610DL-7"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DMP610DL-7"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT96P240X110-3N"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP610DL.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET MOSFET BVDSS: 41V-60V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DMP610DL-7"
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-DMP610DL-7"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP610DL-7?qs=W0yvOO0ixfG00Ba5A4lilA%3D%3D"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "DMP610DL-7"
-				(at 11.43 -898.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp610dl-7/diodes-incorporated?utm_currency=USD&region=europe"
-				(at 11.43 -998.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DMP610DL-7_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1711,12 +1386,337 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "L7812CD2T-TR:L7812CD2T-TR"
+		(symbol "SamacSys_Parts:DMP610DL-7"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DMP610DL-7"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X110-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP610DL.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET MOSFET BVDSS: 41V-60V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DMP610DL-7"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMP610DL-7"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP610DL-7?qs=W0yvOO0ixfG00Ba5A4lilA%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "DMP610DL-7"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp610dl-7/diodes-incorporated?utm_currency=USD&region=europe"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DMP610DL-7_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:L7812CD2T-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 1.27 5.08 0)
+				(at 1.016 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1725,7 +1725,7 @@
 				)
 			)
 			(property "Value" "L7812CD2T-TR"
-				(at 1.27 2.54 0)
+				(at 1.016 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 				)
 			)
 			(property "Footprint" "L7812CD2TTR"
-				(at 19.05 -97.46 0)
+				(at 26.67 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1744,7 +1744,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 19.05 -197.46 0)
+				(at 26.67 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1754,7 +1754,7 @@
 				)
 			)
 			(property "Description" "Linear Voltage Regulators 12V 1.0A Positive"
-				(at -7.62 -2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 				)
 			)
 			(property "Height" "4.81"
-				(at 19.05 -397.46 0)
+				(at 26.67 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1773,7 +1773,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 19.05 -497.46 0)
+				(at 26.67 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 				)
 			)
 			(property "Manufacturer_Part_Number" "L7812CD2T-TR"
-				(at 19.05 -597.46 0)
+				(at 26.67 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 				)
 			)
 			(property "Mouser Part Number" "511-L7812CD2T-TR"
-				(at 19.05 -697.46 0)
+				(at 26.67 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1803,7 +1803,7 @@
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7812CD2T-TR?qs=St21y7kBsOZRCvbPRwGnTg%3D%3D"
-				(at 19.05 -797.46 0)
+				(at 26.67 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 				)
 			)
 			(property "Arrow Part Number" "L7812CD2T-TR"
-				(at 19.05 -897.46 0)
+				(at 26.67 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1823,7 +1823,7 @@
 				)
 			)
 			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7812cd2t-tr/stmicroelectronics?utm_currency=USD&region=europe"
-				(at 19.05 -997.46 0)
+				(at 26.67 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1901,12 +1901,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM2576S-12_NOPB:LM2576S-12_NOPB"
+		(symbol "SamacSys_Parts:LM2576S-12_NOPB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 0.762 7.366 0)
+				(at 0 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 				)
 			)
 			(property "Value" "LM2576S-12_NOPB"
-				(at 0.762 4.826 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2024,8 +2024,8 @@
 			)
 			(symbol "LM2576S-12_NOPB_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -10.16)
+					(start 0 0)
+					(end 20.32 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2035,7 +2035,7 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -2053,7 +2053,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 0)
+					(at -5.08 -6.35 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2071,7 +2071,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 5.08)
 					(name "GND_TAB"
 						(effects
@@ -2089,7 +2089,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
+					(at 25.4 -2.54 180)
 					(length 5.08)
 					(name "FB"
 						(effects
@@ -2107,7 +2107,7 @@
 					)
 				)
 				(pin output line
-					(at 30.48 -3.81 180)
+					(at 25.4 -6.35 180)
 					(length 5.08)
 					(name "VOUT"
 						(effects
@@ -2125,7 +2125,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -7.62 180)
+					(at 25.4 -10.16 180)
 					(length 5.08)
 					(name "~{ON}/OFF"
 						(effects
@@ -2145,12 +2145,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NCP5500DADJR2G:NCP5500DADJR2G"
+		(symbol "SamacSys_Parts:NCP5500DADJR2G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 24.13 5.08 0)
+				(at 2.286 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 				)
 			)
 			(property "Value" "NCP5500DADJR2G"
-				(at 24.13 2.54 0)
+				(at 2.286 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 				)
 			)
 			(property "Footprint" "SOIC127P600X175-8N"
-				(at 24.13 -97.46 0)
+				(at 29.21 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
-				(at 24.13 -197.46 0)
+				(at 29.21 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2188,7 +2188,7 @@
 				)
 			)
 			(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
-				(at -5.08 -2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2197,7 +2197,7 @@
 				)
 			)
 			(property "Height" "1.75"
-				(at 24.13 -397.46 0)
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2207,7 +2207,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "onsemi"
-				(at 24.13 -497.46 0)
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 				)
 			)
 			(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
-				(at 24.13 -597.46 0)
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2227,7 +2227,7 @@
 				)
 			)
 			(property "Mouser Part Number" "863-NCP5500DADJR2G"
-				(at 24.13 -697.46 0)
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2237,7 +2237,7 @@
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
-				(at 24.13 -797.46 0)
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 				)
 			)
 			(property "Arrow Part Number" "NCP5500DADJR2G"
-				(at 24.13 -897.46 0)
+				(at 29.21 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 				)
 			)
 			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
-				(at 24.13 -997.46 0)
+				(at 29.21 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PJ-002B:PJ-002B"
+		(symbol "SamacSys_Parts:PJ-002B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2468,7 +2468,7 @@
 				)
 			)
 			(property "Description" "2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector"
-				(at -6.096 10.16 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2548,8 +2548,8 @@
 			)
 			(symbol "PJ-002B_0_1"
 				(rectangle
-					(start -20.32 3.81)
-					(end -6.35 1.27)
+					(start 0 1.27)
+					(end 13.97 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2560,7 +2560,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -3.81) (xy -7.62 -1.27) (xy -6.35 -1.27)
+						(xy 12.7 -6.35) (xy 12.7 -3.81) (xy 13.97 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2572,7 +2572,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -5.08) (xy -8.89 -3.81) (xy -6.35 -3.81) (xy -7.62 -5.08)
+						(xy 12.7 -7.62) (xy 11.43 -6.35) (xy 13.97 -6.35) (xy 12.7 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -2584,7 +2584,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -5.08) (xy -12.7 -5.08) (xy -13.97 -3.81) (xy -15.24 -5.08)
+						(xy 13.97 -7.62) (xy 7.62 -7.62) (xy 6.35 -6.35) (xy 5.08 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -2597,7 +2597,7 @@
 			)
 			(symbol "PJ-002B_1_1"
 				(pin passive line
-					(at -1.27 2.54 180)
+					(at 19.05 0 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2615,7 +2615,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -1.27 180)
+					(at 19.05 -3.81 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2633,7 +2633,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -5.08 180)
+					(at 19.05 -7.62 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2653,7 +2653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SF-1206F100-2:SF-1206F100-2"
+		(symbol "SamacSys_Parts:SF-1206F100-2"
 			(pin_names
 				(hide yes)
 			)
@@ -3872,28 +3872,28 @@
 		(uuid "b7881956-54dd-44e5-b4ad-d48ae54dbc97")
 	)
 	(junction
-		(at 153.67 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00392f54-4eb8-487e-9c69-b3bd709818f3")
-	)
-	(junction
-		(at 95.25 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "035570b6-a2f8-4265-b81f-402ba3e58ee9")
-	)
-	(junction
 		(at 76.2 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0432fa58-4eac-4b8e-ba0c-6e69ac319e09")
 	)
 	(junction
+		(at 21.59 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0628667e-1a7f-4678-a75c-735bdaa29276")
+	)
+	(junction
 		(at 99.06 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "086282d0-ad97-4ab8-8334-f4cd4223f487")
+	)
+	(junction
+		(at 46.99 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c135f5-9348-4122-bfee-1787d6a7a8af")
 	)
 	(junction
 		(at 95.25 137.16)
@@ -3908,12 +3908,6 @@
 		(uuid "0baa6053-5252-4df6-b0b1-e1467cd1c60a")
 	)
 	(junction
-		(at 20.32 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dc512e3-067b-4e5a-b615-084c1138abe7")
-	)
-	(junction
 		(at 124.46 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3926,28 +3920,22 @@
 		(uuid "162d7721-bc8b-4ae1-865c-519f1b37ed20")
 	)
 	(junction
-		(at 67.31 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f2785c9-67ae-4793-b3d3-4bc1c3161f80")
-	)
-	(junction
-		(at 68.58 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "268b64dd-1a5c-4cbe-bb07-3f2d09f9aa96")
-	)
-	(junction
 		(at 99.06 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28ddf28e-8475-414b-bedd-20fca56d692e")
 	)
 	(junction
-		(at 68.58 139.7)
+		(at 95.25 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "295ec0a7-d979-4a33-b67f-dfaa78ae8009")
+		(uuid "29723d6f-8e6f-492e-ae12-3017d92fa286")
+	)
+	(junction
+		(at 20.32 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe5938b-e637-4d56-9814-f57e37d1104c")
 	)
 	(junction
 		(at 93.98 99.06)
@@ -3977,13 +3965,19 @@
 		(at 20.32 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43ef57eb-8ee2-47c4-9629-2d937f41c06b")
+		(uuid "3ae832f9-d8b4-4fe0-853e-06a8577c671b")
 	)
 	(junction
-		(at 21.59 57.15)
+		(at 46.99 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4429a1f3-6439-4c47-9d76-e958d94dbff9")
+		(uuid "4cf3089c-853f-410e-9a13-cee66cb48e89")
+	)
+	(junction
+		(at 68.58 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f748745-b6bc-478a-9a24-7ce4016d4a8f")
 	)
 	(junction
 		(at 76.2 24.13)
@@ -3992,28 +3986,16 @@
 		(uuid "57e52ae2-efdd-4329-abf9-d80712f15943")
 	)
 	(junction
-		(at 68.58 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d20dfca-9b5b-4304-981c-69a68bf2bd99")
-	)
-	(junction
 		(at 50.8 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "604238e2-df55-42f7-9a7d-47048e9c98fe")
 	)
 	(junction
-		(at 95.25 139.7)
+		(at 68.58 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62d2c514-73bd-45d6-bebb-d123e7667550")
-	)
-	(junction
-		(at 20.32 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "687616d1-0936-40f4-82da-c9a483ef7366")
+		(uuid "641a36f8-1fe6-4e17-a8ef-5dfe6379518b")
 	)
 	(junction
 		(at 76.2 83.82)
@@ -4022,22 +4004,16 @@
 		(uuid "6d87cceb-c918-4388-a070-ac55f695a186")
 	)
 	(junction
-		(at 153.67 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6eaf0407-ce79-4293-b412-a27da4ef507a")
-	)
-	(junction
 		(at 76.2 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8059577c-4d26-4f8b-8a8f-40ebc03ebf47")
 	)
 	(junction
-		(at 21.59 87.63)
+		(at 95.25 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8271f905-b2ec-45c5-a1da-af7903330a2f")
+		(uuid "82384638-cb6e-4c1f-b8a5-f3a62a3e449e")
 	)
 	(junction
 		(at 124.46 26.67)
@@ -4064,10 +4040,22 @@
 		(uuid "91220a01-608d-433a-9fdb-297b03c75c97")
 	)
 	(junction
+		(at 68.58 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97998e5f-08c0-441e-b52f-41b0d38d905d")
+	)
+	(junction
 		(at 99.06 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97f5b1e3-92dd-4ecd-b2a7-02ec89477b07")
+	)
+	(junction
+		(at 142.24 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983f5b84-bf67-43ad-983b-45ce18ed6a6f")
 	)
 	(junction
 		(at 88.9 31.75)
@@ -4082,16 +4070,16 @@
 		(uuid "a061a230-60eb-4825-b8ff-8f764a47f2ef")
 	)
 	(junction
-		(at 68.58 121.92)
+		(at 153.67 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a307f311-992e-4916-b47f-0aabfb2e29c1")
+		(uuid "a538d213-a1a0-4617-9fe4-cfd40dc97999")
 	)
 	(junction
-		(at 142.24 64.77)
+		(at 68.58 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a469591c-aefb-47eb-9d12-059cc8003fdf")
+		(uuid "ab3e63c5-ee7b-4590-b2bb-1dc7b6ce9ee2")
 	)
 	(junction
 		(at 50.8 173.99)
@@ -4106,22 +4094,34 @@
 		(uuid "abcd428e-94d0-4575-a15b-292e470ca946")
 	)
 	(junction
+		(at 153.67 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3f50ae-8347-4f7b-8cbd-5b6753d5174e")
+	)
+	(junction
 		(at 58.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac964560-5d02-4c6d-8278-c2d46f62193c")
 	)
 	(junction
-		(at 46.99 184.15)
+		(at 20.32 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae4c8adb-d934-4a8b-a6c1-8f52f18a8f68")
+		(uuid "ae3a5c08-a544-4326-ab55-eb3d268e41fd")
 	)
 	(junction
 		(at 153.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4c95d63-f4b3-4b66-b634-2356ed372498")
+	)
+	(junction
+		(at 20.32 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97f03e9-9d08-4907-bf21-b7ed193e4635")
 	)
 	(junction
 		(at 36.83 31.75)
@@ -4136,34 +4136,28 @@
 		(uuid "d73812f6-b3ab-4cda-92f1-d30d8cae5ded")
 	)
 	(junction
-		(at 46.99 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7e6630d-d9a4-4f9e-bb81-5d1781311ec0")
-	)
-	(junction
-		(at 20.32 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d849d24d-1e42-4d18-91c7-ba75412450d2")
-	)
-	(junction
 		(at 52.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d951933b-fb91-454a-a5e9-352f5dc916f7")
 	)
 	(junction
+		(at 67.31 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcec3d94-bbb1-42d9-b159-ba7419895a23")
+	)
+	(junction
+		(at 21.59 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7fda42a-bebd-4471-bbe5-0db3031a4a9f")
+	)
+	(junction
 		(at 95.25 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f712adba-8936-429e-a657-946bc82247c2")
-	)
-	(junction
-		(at 46.99 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fec006c6-86f8-4835-be6e-c29051c75d24")
 	)
 	(wire
 		(pts
@@ -4207,16 +4201,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 181.61) (xy 68.58 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dfe367-a9cd-49f7-b84d-3fc09e6dbcf7")
-	)
-	(wire
-		(pts
 			(xy 130.81 54.61) (xy 124.46 54.61)
 		)
 		(stroke
@@ -4234,16 +4218,6 @@
 			(type default)
 		)
 		(uuid "0f66adc3-5e2b-4ab8-a3e5-01f281cf5826")
-	)
-	(wire
-		(pts
-			(xy 95.25 137.16) (xy 95.25 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc9b405-43a2-4813-a22e-a9f14caf5803")
 	)
 	(wire
 		(pts
@@ -4277,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 166.37) (xy 20.32 173.99)
+			(xy 20.32 163.83) (xy 20.32 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4297,13 +4271,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 139.7) (xy 95.25 142.24)
+			(xy 68.58 137.16) (xy 68.58 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1941f3f3-2fdb-47ef-82c6-b979cd058722")
+		(uuid "17b33c18-9fe8-4446-9c46-522b0e0721e3")
 	)
 	(wire
 		(pts
@@ -4317,6 +4291,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 139.7) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5b649c-cd30-4f09-8bf2-b0bc2f81f2d4")
+	)
+	(wire
+		(pts
 			(xy 95.25 173.99) (xy 99.06 173.99)
 		)
 		(stroke
@@ -4324,6 +4308,16 @@
 			(type default)
 		)
 		(uuid "2400602c-8c78-4765-b103-5c93e069dc77")
+	)
+	(wire
+		(pts
+			(xy 21.59 83.82) (xy 21.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ebcaee-fff0-44e2-b114-897b7d1046ab")
 	)
 	(wire
 		(pts
@@ -4377,23 +4371,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 184.15) (xy 20.32 186.69)
+			(xy 21.59 53.34) (xy 21.59 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3148e5f3-6b0a-40be-abe1-178224d3049c")
+		(uuid "2c5ae293-356a-435f-a052-b3df2453ed71")
 	)
 	(wire
 		(pts
-			(xy 20.32 163.83) (xy 20.32 166.37)
+			(xy 21.59 87.63) (xy 21.59 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32b58b54-03c2-463f-bb0e-80e1e74b45cd")
+		(uuid "3176ca83-ec4e-4244-b87e-40c010a31cc3")
 	)
 	(wire
 		(pts
@@ -4457,23 +4451,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 31.75) (xy 76.2 31.75)
+			(xy 142.24 64.77) (xy 153.67 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d29ba1f-54ab-4a75-a020-530ff9908a21")
-	)
-	(wire
-		(pts
-			(xy 46.99 184.15) (xy 46.99 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff7f5a2-1695-4b34-915b-dad9fad1b5a6")
+		(uuid "400544c6-0024-4f38-941a-d734c5ecc3cc")
 	)
 	(wire
 		(pts
@@ -4507,16 +4491,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 68.58 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48cc0284-91a3-4721-ab2b-a46a3f22ae46")
-	)
-	(wire
-		(pts
 			(xy 52.07 53.34) (xy 58.42 53.34)
 		)
 		(stroke
@@ -4534,6 +4508,16 @@
 			(type default)
 		)
 		(uuid "4a1aaf35-ebce-4da1-a26f-0c1f9e942773")
+	)
+	(wire
+		(pts
+			(xy 68.58 121.92) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a28c0aa-1e76-413b-9ed3-f0db98159522")
 	)
 	(wire
 		(pts
@@ -4557,13 +4541,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 137.16) (xy 46.99 139.7)
+			(xy 20.32 121.92) (xy 20.32 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d4d3a12-b5a4-4161-a083-af454d438899")
+		(uuid "4d41efec-b917-4ac2-b3cf-c6676283958b")
+	)
+	(wire
+		(pts
+			(xy 21.59 57.15) (xy 21.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8760ec-6d08-4c84-84fc-b9b071addede")
 	)
 	(wire
 		(pts
@@ -4584,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "50e9da9a-f28d-43f0-a367-0174caffa844")
+	)
+	(wire
+		(pts
+			(xy 67.31 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5345a8a6-09c2-46b3-a238-dc52dd4ede27")
 	)
 	(wire
 		(pts
@@ -4637,16 +4641,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 119.38) (xy 20.32 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4469c2-79aa-42ad-9552-80b0fb70b274")
-	)
-	(wire
-		(pts
 			(xy 55.88 24.13) (xy 57.15 24.13)
 		)
 		(stroke
@@ -4687,13 +4681,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 139.7) (xy 20.32 142.24)
+			(xy 20.32 184.15) (xy 20.32 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "627621ca-8fc4-4ff1-bb01-df352cbaa12f")
+		(uuid "619665e4-ba09-42bc-a49a-5c8f6b0650e0")
 	)
 	(wire
 		(pts
@@ -4737,6 +4731,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 139.7) (xy 95.25 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68833d84-69c9-4138-9304-6d91241f7f5f")
+	)
+	(wire
+		(pts
 			(xy 52.07 87.63) (xy 52.07 99.06)
 		)
 		(stroke
@@ -4767,13 +4771,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 153.67 64.77)
+			(xy 68.58 184.15) (xy 68.58 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7031ea9a-1acb-47bf-8a69-b29d78fc0bc3")
+		(uuid "70824af9-2814-4f09-8c19-cebd8a4da77c")
 	)
 	(wire
 		(pts
@@ -4807,6 +4811,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 181.61) (xy 20.32 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791527fd-2299-4d78-a2b4-c2272be83ad3")
+	)
+	(wire
+		(pts
 			(xy 76.2 77.47) (xy 85.09 77.47)
 		)
 		(stroke
@@ -4824,16 +4838,6 @@
 			(type default)
 		)
 		(uuid "79c49f3a-4980-4bc3-afdc-0e3697a0995d")
-	)
-	(wire
-		(pts
-			(xy 21.59 87.63) (xy 21.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1b4a27-02ff-4097-ae41-f1090460e7ca")
 	)
 	(wire
 		(pts
@@ -4897,16 +4901,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 181.61) (xy 20.32 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "815bf6fe-98df-48ff-9f1d-d00e2fdfddc4")
-	)
-	(wire
-		(pts
 			(xy 124.46 26.67) (xy 130.81 26.67)
 		)
 		(stroke
@@ -4914,16 +4908,6 @@
 			(type default)
 		)
 		(uuid "81be4af6-aca3-48a5-be42-7d89a33652ac")
-	)
-	(wire
-		(pts
-			(xy 21.59 53.34) (xy 21.59 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844cc051-e5dd-4bc1-833d-9ac7909dbc34")
 	)
 	(wire
 		(pts
@@ -4977,23 +4961,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 121.92) (xy 20.32 129.54)
+			(xy 95.25 181.61) (xy 95.25 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916bacf5-8078-448b-b960-8642150c6600")
+	)
+	(wire
+		(pts
+			(xy 20.32 119.38) (xy 20.32 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9670edcf-afc0-4b86-b9ab-ddc8bce3a339")
-	)
-	(wire
-		(pts
-			(xy 21.59 83.82) (xy 21.59 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971ed8b3-c02d-4d7d-9f44-5e7e951a26ad")
 	)
 	(wire
 		(pts
@@ -5024,6 +5008,26 @@
 			(type default)
 		)
 		(uuid "9870d9d0-1bd0-4422-9c4f-35c2bee5cf4d")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998fb531-874c-4cc5-9725-09383524a14c")
+	)
+	(wire
+		(pts
+			(xy 68.58 181.61) (xy 68.58 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09bfd6a-9e38-4c9d-a8a1-fc3a5bcc30a7")
 	)
 	(wire
 		(pts
@@ -5097,36 +5101,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 68.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b859645b-1ef4-4ae2-97bc-b1bee2aaa177")
-	)
-	(wire
-		(pts
-			(xy 46.99 139.7) (xy 46.99 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8fa1e3d-e18e-4690-be05-ac72c92bb7f3")
-	)
-	(wire
-		(pts
-			(xy 68.58 184.15) (xy 68.58 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba018dc4-f5f1-4d3c-b4db-7a7110d1aba5")
-	)
-	(wire
-		(pts
 			(xy 36.83 31.75) (xy 67.31 31.75)
 		)
 		(stroke
@@ -5137,13 +5111,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 137.16) (xy 68.58 139.7)
+			(xy 20.32 137.16) (xy 20.32 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb422d53-8a08-4c6e-aecd-51056a4c2923")
+		(uuid "bbb9c10b-99e1-4721-96c2-0c6c5d8314a4")
 	)
 	(wire
 		(pts
@@ -5187,16 +5161,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 181.61) (xy 95.25 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf7f5c9a-9bf1-414e-8a39-8582bae3c26e")
-	)
-	(wire
-		(pts
 			(xy 124.46 36.83) (xy 142.24 36.83)
 		)
 		(stroke
@@ -5207,13 +5171,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 26.67) (xy 153.67 29.21)
+			(xy 20.32 139.7) (xy 20.32 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5a05692-e12a-47bb-97e6-140630977a9b")
+		(uuid "c14a8a8d-2bb2-4c36-9f8c-f6fabca9c596")
+	)
+	(wire
+		(pts
+			(xy 68.58 166.37) (xy 68.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c498d258-3f20-48f6-80e5-36b3d1a5d858")
 	)
 	(wire
 		(pts
@@ -5234,16 +5208,6 @@
 			(type default)
 		)
 		(uuid "cf23a265-89ea-4fc2-a466-49457908dba6")
-	)
-	(wire
-		(pts
-			(xy 46.99 181.61) (xy 46.99 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d22afc58-fbe8-4e69-b7bb-0bc777a84ed0")
 	)
 	(wire
 		(pts
@@ -5287,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 26.67) (xy 153.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99b50d6-df79-472c-8cc0-abd227914f9f")
+	)
+	(wire
+		(pts
 			(xy 93.98 99.06) (xy 93.98 92.71)
 		)
 		(stroke
@@ -5294,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "dabf7662-e276-4aca-a56d-b90d5812c385")
+	)
+	(wire
+		(pts
+			(xy 20.32 166.37) (xy 20.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad9969c-6359-4249-953a-db1f9a7ba0fa")
 	)
 	(wire
 		(pts
@@ -5314,6 +5298,16 @@
 			(type default)
 		)
 		(uuid "ddea326c-1cd2-4ceb-a1bd-d1339448aad2")
+	)
+	(wire
+		(pts
+			(xy 68.58 139.7) (xy 68.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1278c6c-f937-4b79-b740-f84340fda08d")
 	)
 	(wire
 		(pts
@@ -5347,13 +5341,23 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 137.16) (xy 95.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e747fece-cacb-4bf7-a209-e21e1542f4e8")
+	)
+	(wire
+		(pts
 			(xy 95.25 184.15) (xy 95.25 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea0e10e3-8723-4aab-924e-b1677f9a9ea2")
+		(uuid "e7d04a05-9e83-4c9a-8ce4-c7d0ae6f4dc7")
 	)
 	(wire
 		(pts
@@ -5377,16 +5381,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 137.16) (xy 20.32 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33e655b-f86f-4aa8-967a-bdb76a53fffa")
-	)
-	(wire
-		(pts
 			(xy 72.39 24.13) (xy 76.2 24.13)
 		)
 		(stroke
@@ -5394,16 +5388,6 @@
 			(type default)
 		)
 		(uuid "f39ac254-4484-4a91-9b77-933786e5a18b")
-	)
-	(wire
-		(pts
-			(xy 21.59 57.15) (xy 21.59 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43c0860-76da-4cae-8c4b-1b040dc27d99")
 	)
 	(wire
 		(pts
@@ -5427,16 +5411,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 68.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7902473-919a-48fb-a9e7-a490a0ce6569")
-	)
-	(wire
-		(pts
 			(xy 76.2 54.61) (xy 76.2 53.34)
 		)
 		(stroke
@@ -5454,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "fb041ef1-4fbf-4f55-9d29-21e9f9e350f4")
+	)
+	(wire
+		(pts
+			(xy 46.99 184.15) (xy 46.99 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff741093-2e7c-4b67-8a62-9fddf0aa7ec6")
 	)
 	(symbol
 		(lib_id "1N5822:1N5822")
@@ -5483,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOAD3070W130L950D530"
+		(property "Footprint" "SamacSys_Parts:DIOAD3070W130L950D530"
 			(at -35.23 93.98 0)
 			(effects
 				(font
@@ -5735,165 +5719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NCP5500DADJR2G:NCP5500DADJR2G")
-		(at 73.66 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "054b5626-dc84-466b-9340-2dddc9793b6c")
-		(property "Reference" "IC30"
-			(at 81.915 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP5500DADJR2G"
-			(at 81.915 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 97.79 261.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
-			(at 97.79 361.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
-			(at 68.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 97.79 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 97.79 661.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
-			(at 97.79 761.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NCP5500DADJR2G"
-			(at 97.79 861.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
-			(at 97.79 961.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NCP5500DADJR2G"
-			(at 97.79 1061.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
-			(at 97.79 1161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f44b73eb-6048-4084-a5c2-1ee0bbf7a214")
-		)
-		(pin "6"
-			(uuid "b1d57c9b-30f4-4445-9987-d90645f0c3b8")
-		)
-		(pin "2"
-			(uuid "4fa4f7f4-a0b8-4aa7-bcc3-fef939d8ceae")
-		)
-		(pin "1"
-			(uuid "637a1727-16f4-4d9b-8122-362a2f57265e")
-		)
-		(pin "8"
-			(uuid "a03abe37-b37e-4de5-930c-47019e096d2b")
-		)
-		(pin "7"
-			(uuid "b893fd80-4938-4e2e-89be-86f1c41b1d10")
-		)
-		(pin "4"
-			(uuid "a349607d-5b2d-458c-95a9-898a475fdabc")
-		)
-		(pin "3"
-			(uuid "4dbb40dd-d443-44e6-8ee0-7d5decf1c376")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP5500DADJR2G:NCP5500DADJR2G")
+		(lib_id "SamacSys_Parts:NCP5500DADJR2G")
 		(at 73.66 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5901,8 +5727,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "082e0a00-93a7-4feb-a2fb-8578fc52b6cb")
-		(property "Reference" "IC29"
+		(uuid "02c1b0c0-e639-4816-ada4-60c750b09d7d")
+		(property "Reference" "IC27"
 			(at 81.915 114.3 0)
 			(effects
 				(font
@@ -5918,8 +5744,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 97.79 216.84 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+			(at 102.87 214.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5755,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
-			(at 97.79 316.84 0)
+			(at 102.87 314.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5765,7 @@
 			)
 		)
 		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
-			(at 68.58 121.92 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5774,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 97.79 516.84 0)
+			(at 102.87 514.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +5784,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 97.79 616.84 0)
+			(at 102.87 614.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5794,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
-			(at 97.79 716.84 0)
+			(at 102.87 714.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5804,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-NCP5500DADJR2G"
-			(at 97.79 816.84 0)
+			(at 102.87 814.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5814,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
-			(at 97.79 916.84 0)
+			(at 102.87 914.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +5824,7 @@
 			)
 		)
 		(property "Arrow Part Number" "NCP5500DADJR2G"
-			(at 97.79 1016.84 0)
+			(at 102.87 1014.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +5834,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
-			(at 97.79 1116.84 0)
+			(at 102.87 1114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,34 +5843,186 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "e5942fd5-2324-47ed-aedf-c82bef7a9e51")
-		)
-		(pin "6"
-			(uuid "4ebf5127-4bfb-477d-b840-291112eaa4f2")
-		)
-		(pin "2"
-			(uuid "803ef3a3-93c2-40ee-8e53-5c18926c7370")
-		)
 		(pin "1"
-			(uuid "bb0da223-c300-48f8-b744-c0174f29d1d3")
-		)
-		(pin "8"
-			(uuid "fef5d47b-3b76-4ce6-9310-1b4cb5f79b05")
-		)
-		(pin "7"
-			(uuid "da3762be-e729-4526-a5da-7891478c6b03")
+			(uuid "d912671a-ed84-419c-ae66-b48ab37a3e9e")
 		)
 		(pin "4"
-			(uuid "8bf315dd-7bac-49c9-a13b-816f18c356d7")
+			(uuid "ab3d36d8-8776-44eb-9981-020386c43c7b")
+		)
+		(pin "6"
+			(uuid "fb3d17f6-a577-4841-a9dd-d657b062f4b9")
+		)
+		(pin "7"
+			(uuid "87ec288b-a843-4494-b7be-b5bd9665245d")
+		)
+		(pin "5"
+			(uuid "aba7f311-d5a6-4632-a391-60af71f2fc1e")
 		)
 		(pin "3"
-			(uuid "a138bab5-7682-4c47-a00e-92bd33ee745e")
+			(uuid "eced7cfa-9546-483d-b078-ce3c5789c286")
+		)
+		(pin "2"
+			(uuid "74908db8-f72a-4325-b14d-a5f5b5816b2b")
+		)
+		(pin "8"
+			(uuid "c4ddaf9c-b998-420d-874a-62b1bc22c70e")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC29")
+					(reference "IC27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LM2576S-12_NOPB")
+		(at 26.67 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05ff567d-e195-465c-9655-4b63e60eaf08")
+		(property "Reference" "IC36"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2576S-12_NOPB"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TO170P1435X465-6N"
+			(at 63.5 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf"
+			(at 63.5 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator"
+			(at 26.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.65"
+			(at 63.5 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 63.5 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2576S-12/NOPB"
+			(at 63.5 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "926-LM2576S-12/NOPB"
+			(at 63.5 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576S-12-NOPB?qs=X1J7HmVL2ZFNh71Bqi5%2F%2FQ%3D%3D"
+			(at 63.5 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LM2576S-12/NOPB"
+			(at 63.5 941.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2576s-12nopb/texas-instruments?utm_currency=USD&region=nac"
+			(at 63.5 1041.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ed9e59a1-6566-4889-a034-25d7f3d22eaf")
+		)
+		(pin "6"
+			(uuid "9a00cd1f-ef52-49b3-8351-a11d59059afc")
+		)
+		(pin "1"
+			(uuid "f6cd712a-3877-4ca7-8d33-5e1113aa8c51")
+		)
+		(pin "5"
+			(uuid "36e2b64b-f743-404d-bc80-20061cb0effd")
+		)
+		(pin "4"
+			(uuid "c1efb75b-be26-442a-8905-753486298a2c")
+		)
+		(pin "2"
+			(uuid "d7a8f63e-bb57-417e-8b30-0bafdc96523d")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC36")
 					(unit 1)
 				)
 			)
@@ -6179,6 +6157,148 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150060VS75000:150060VS75000")
+		(at 255.27 22.86 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13fa4e1e-9552-4a51-8465-a45b7e013f79")
+		(property "Reference" "LED7"
+			(at 259.588 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060VS75000"
+			(at 262.128 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 348.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
+			(at 448.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
+			(at 255.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 648.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 748.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060VS75000"
+			(at 848.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060VS75000"
+			(at 948.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
+			(at 1048.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1148.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1248.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67f7beb9-a69f-4235-ac69-c696ccc0e48d")
+		)
+		(pin "1"
+			(uuid "ef9d0aa2-bd9f-403e-9336-40ee6a8674ab")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -7064,147 +7184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "150060VS75000:150060VS75000")
-		(at 255.27 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35b00511-62fa-4af6-a343-24a639ac12d4")
-		(property "Reference" "LED8"
-			(at 259.334 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150060VS75000"
-			(at 261.874 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 348.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
-			(at 448.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
-			(at 255.27 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 648.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 748.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060VS75000"
-			(at 848.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060VS75000"
-			(at 948.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
-			(at 1048.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1148.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "679c5497-d5a3-44f4-825d-4de6cd0dedc9")
-		)
-		(pin "2"
-			(uuid "c701ccc0-bd1a-4c18-884a-014041bb87c6")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 68.58 119.38 0)
 		(unit 1)
@@ -7271,205 +7250,54 @@
 		)
 	)
 	(symbol
-		(lib_id "LM2576S-12_NOPB:LM2576S-12_NOPB")
-		(at 21.59 80.01 0)
+		(lib_id "150060VS75000:150060VS75000")
+		(at 271.78 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a1657ef-ff5d-4f7c-b288-b41674e7b610")
-		(property "Reference" "IC32"
-			(at 36.83 72.39 0)
+		(uuid "3c385e63-0325-4b5b-ad8e-788fd33f2023")
+		(property "Reference" "LED20"
+			(at 277.114 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LM2576S-12_NOPB"
-			(at 36.83 74.93 0)
+		(property "Value" "150060VS75000"
+			(at 279.654 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TO170P1435X465-6N"
-			(at 58.42 174.93 0)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 365.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf"
-			(at 58.42 274.93 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
+			(at 465.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator"
-			(at 21.59 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.65"
-			(at 58.42 474.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 58.42 574.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LM2576S-12/NOPB"
-			(at 58.42 674.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "926-LM2576S-12/NOPB"
-			(at 58.42 774.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576S-12-NOPB?qs=X1J7HmVL2ZFNh71Bqi5%2F%2FQ%3D%3D"
-			(at 58.42 874.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "LM2576S-12/NOPB"
-			(at 58.42 974.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2576s-12nopb/texas-instruments?utm_currency=USD&region=nac"
-			(at 58.42 1074.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "84f1a524-a6bb-4bc2-8f09-7a62b61d65db")
-		)
-		(pin "2"
-			(uuid "471efb2d-ca99-4b95-a117-54de15ec9d6e")
-		)
-		(pin "5"
-			(uuid "6d046361-7f77-4b2a-9c6a-d7c350d450c9")
-		)
-		(pin "4"
-			(uuid "68909e1e-fbc0-4cdb-b9dd-b293348f6c3a")
-		)
-		(pin "1"
-			(uuid "d248c885-e41e-4ed9-a55e-acc0f0e60944")
-		)
-		(pin "3"
-			(uuid "a9ad31b4-2eee-48b0-ae8b-6459d3a1ab27")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SF-1206F100-2:SF-1206F100-2")
-		(at 38.1 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a3866e4-b335-4f2b-9a19-56bef87e2eec")
-		(property "Reference" "F1"
-			(at 46.99 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SF-1206F100-2"
-			(at 46.99 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FUSC3116X70N"
-			(at 52.07 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/SF-1206F100-2.pdf"
-			(at 52.07 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Fuses 1A Fast Acting 1206 SinglFuse"
-			(at 38.1 24.13 0)
+		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
+			(at 271.78 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,86 +7305,86 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
-			(at 52.07 420.32 0)
+		(property "Height" "0.8"
+			(at 665.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 52.07 520.32 0)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 765.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SF-1206F100-2"
-			(at 52.07 620.32 0)
+		(property "Manufacturer_Part_Number" "150060VS75000"
+			(at 865.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 52.07 720.32 0)
+		(property "Mouser Part Number" "710-150060VS75000"
+			(at 965.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 52.07 820.32 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
+			(at 1065.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "SF-1206F100-2"
-			(at 52.07 920.32 0)
+		(property "Arrow Part Number" ""
+			(at 1165.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sf-1206f100-2/bourns?region=nac"
-			(at 52.07 1020.32 0)
+		(property "Arrow Price/Stock" ""
+			(at 1265.43 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "9162f194-1734-42bd-b3ae-bbe0b0da9c8f")
+			(uuid "c7b0ddd3-d7ee-4fbc-b7af-0a73be614c70")
 		)
 		(pin "1"
-			(uuid "6ebdcc7e-eb83-45b5-bb4f-5fa5c2ae4d03")
+			(uuid "207bfc8a-42fd-4c33-ba50-29e6416cbaed")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "F1")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -7704,43 +7532,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PJ-002B:PJ-002B")
-		(at 38.1 26.67 0)
+		(lib_id "SamacSys_Parts:NCP5500DADJR2G")
+		(at 25.4 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f989c1f-483e-4ba2-90bd-d64ca868d94f")
-		(property "Reference" "J4"
-			(at 24.765 17.78 0)
+		(uuid "3ef0fa72-8c66-4f05-b34e-de9b6b0e3cdd")
+		(property "Reference" "IC28"
+			(at 33.655 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PJ-002B"
-			(at 24.765 20.32 0)
+		(property "Value" "NCP5500DADJR2G"
+			(at 33.655 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PJ002B"
-			(at 54.61 121.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/pj-002b.pdf"
-			(at 54.61 221.59 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+			(at 54.61 258.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,17 +7567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector"
-			(at 32.004 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11.2"
-			(at 54.61 421.59 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
+			(at 54.61 358.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,8 +7577,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 54.61 521.59 0)
+		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 54.61 558.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,8 +7596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PJ-002B"
-			(at 54.61 621.59 0)
+		(property "Manufacturer_Name" "onsemi"
+			(at 54.61 658.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,8 +7606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "490-PJ-002B"
-			(at 54.61 721.59 0)
+		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
+			(at 54.61 758.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,8 +7616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ-002B?qs=WyjlAZoYn50SMITIyTH%252BIw%3D%3D"
-			(at 54.61 821.59 0)
+		(property "Mouser Part Number" "863-NCP5500DADJR2G"
+			(at 54.61 858.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,8 +7626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "PJ-002B"
-			(at 54.61 921.59 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
+			(at 54.61 958.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,8 +7636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pj-002b/cui-devices?utm_currency=USD&region=nac"
-			(at 54.61 1021.59 0)
+		(property "Arrow Part Number" "NCP5500DADJR2G"
+			(at 54.61 1058.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,19 +7646,44 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "ec5ab7dd-81d0-479f-a7c3-8c61627ee8fd")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
+			(at 54.61 1158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "a57d6867-3c7a-4102-bd12-90e9fd359952")
+			(uuid "139f2a14-4631-4c0b-861e-159a800f544c")
+		)
+		(pin "4"
+			(uuid "1da9514d-4e9e-4976-b68d-8dab4ca20192")
+		)
+		(pin "6"
+			(uuid "9cc397d2-76be-4cbd-b551-dc3510be161e")
+		)
+		(pin "7"
+			(uuid "8d348df7-ac03-46b2-a7fa-34ff4aed81b2")
+		)
+		(pin "5"
+			(uuid "c7a4306a-34a7-4445-af18-7e4e1b478aea")
+		)
+		(pin "3"
+			(uuid "7422c3c6-9928-4c0b-a594-f58ec01067da")
 		)
 		(pin "2"
-			(uuid "b1a37619-de99-4ae3-9416-85fdb9e647ac")
+			(uuid "0a671711-5350-4f6a-8907-e4493ca85e03")
+		)
+		(pin "8"
+			(uuid "022d9be5-32d4-4aba-976b-cea7b8f04e18")
 		)
 		(instances
-			(project ""
+			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "J4")
+					(reference "IC28")
 					(unit 1)
 				)
 			)
@@ -7910,6 +7753,147 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150060VS75000:150060VS75000")
+		(at 271.78 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44b03e5b-27bb-4c84-8865-95aa0d773a4b")
+		(property "Reference" "LED9"
+			(at 276.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150060VS75000"
+			(at 279.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 365.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
+			(at 465.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 665.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 765.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060VS75000"
+			(at 865.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150060VS75000"
+			(at 965.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
+			(at 1065.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1165.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1265.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bdd81cf-48fa-4de7-a6fa-c671f625f06c")
+		)
+		(pin "1"
+			(uuid "55ae60ca-3432-4c39-8115-1ead685e288a")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -8110,6 +8094,292 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:L7812CD2T-TR")
+		(at 135.89 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55c9791d-b0bd-4589-8e8c-e2f6b3578d45")
+		(property "Reference" "IC26"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7812CD2T-TR"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:L7812CD2TTR"
+			(at 162.56 146.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+			(at 162.56 246.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulators 12V 1.0A Positive"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.81"
+			(at 162.56 446.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 162.56 546.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L7812CD2T-TR"
+			(at 162.56 646.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L7812CD2T-TR"
+			(at 162.56 746.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7812CD2T-TR?qs=St21y7kBsOZRCvbPRwGnTg%3D%3D"
+			(at 162.56 846.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "L7812CD2T-TR"
+			(at 162.56 946.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7812cd2t-tr/stmicroelectronics?utm_currency=USD&region=europe"
+			(at 162.56 1046.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2e554705-c73f-425f-919a-7e373b45bfdd")
+		)
+		(pin "2"
+			(uuid "960f968c-7e53-462d-abd8-8c311b302020")
+		)
+		(pin "1"
+			(uuid "abda65ee-4223-434a-9dab-74b0581353ff")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PJ-002B")
+		(at 17.78 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563f103f-c671-4955-8ac6-e5e1b8079f92")
+		(property "Reference" "J9"
+			(at 24.765 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-002B"
+			(at 24.765 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PJ002B"
+			(at 34.29 119.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/pj-002b.pdf"
+			(at 34.29 219.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector"
+			(at 17.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.2"
+			(at 34.29 419.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 34.29 519.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PJ-002B"
+			(at 34.29 619.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-PJ-002B"
+			(at 34.29 719.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/PJ-002B?qs=WyjlAZoYn50SMITIyTH%252BIw%3D%3D"
+			(at 34.29 819.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PJ-002B"
+			(at 34.29 919.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pj-002b/cui-devices?utm_currency=USD&region=nac"
+			(at 34.29 1019.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5b45972-91ac-4706-90ac-55e1460f89b9")
+		)
+		(pin "1"
+			(uuid "0a4aa5c8-c806-4db8-99cc-a451ea7053a8")
+		)
+		(pin "3"
+			(uuid "c2e2fc1c-c26d-48e1-94c4-89f4c7dd346f")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8450,6 +8720,149 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:DMP610DL-7")
+		(at 67.31 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a79c8a-2f99-4b54-9191-6a951a66c3d2")
+		(property "Reference" "Q2"
+			(at 64.77 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP610DL-7"
+			(at 64.77 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT96P240X110-3N"
+			(at 166.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP610DL.pdf"
+			(at 266.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 41V-60V"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 466.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 566.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMP610DL-7"
+			(at 666.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMP610DL-7"
+			(at 766.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP610DL-7?qs=W0yvOO0ixfG00Ba5A4lilA%3D%3D"
+			(at 866.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "DMP610DL-7"
+			(at 966.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp610dl-7/diodes-incorporated?utm_currency=USD&region=europe"
+			(at 1066.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90ca6c75-d5a6-430a-bf3a-510f65db880d")
+		)
+		(pin "2"
+			(uuid "c6d419e2-0fb6-4e64-b154-d127a505cb70")
+		)
+		(pin "1"
+			(uuid "7e69841d-55ed-4e62-8c7f-ee6ebb6517b0")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 21.59 46.99 0)
 		(unit 1)
@@ -8712,149 +9125,6 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "#PWR0262")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DMP610DL-7:DMP610DL-7")
-		(at 67.31 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e798fe5-53e2-4a19-ab17-edd8df3d1e00")
-		(property "Reference" "Q3"
-			(at 64.77 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMP610DL-7"
-			(at 64.77 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT96P240X110-3N"
-			(at 166.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP610DL.pdf"
-			(at 266.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET MOSFET BVDSS: 41V-60V"
-			(at 67.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 466.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 566.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMP610DL-7"
-			(at 666.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-DMP610DL-7"
-			(at 766.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP610DL-7?qs=W0yvOO0ixfG00Ba5A4lilA%3D%3D"
-			(at 866.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMP610DL-7"
-			(at 966.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp610dl-7/diodes-incorporated?utm_currency=USD&region=europe"
-			(at 1066.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b5e11a6-8162-4e54-bc57-ba42d14be929")
-		)
-		(pin "3"
-			(uuid "da11a36b-8694-46f2-9e25-363acb7fe6dd")
-		)
-		(pin "2"
-			(uuid "f1d752be-ccf8-48b1-b4c0-25e06b0b514d")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9195,6 +9465,164 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:NCP5500DADJR2G")
+		(at 25.4 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889b519a-99ef-4ed6-a80f-a7d0ab3d0563")
+		(property "Reference" "IC37"
+			(at 33.655 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP5500DADJR2G"
+			(at 33.655 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+			(at 54.61 214.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
+			(at 54.61 314.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 54.61 514.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 54.61 614.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
+			(at 54.61 714.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NCP5500DADJR2G"
+			(at 54.61 814.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
+			(at 54.61 914.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "NCP5500DADJR2G"
+			(at 54.61 1014.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
+			(at 54.61 1114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8caa0b2b-6312-4642-b112-ebac08dbfb77")
+		)
+		(pin "4"
+			(uuid "aa7dc80c-9e09-4c12-af09-976d9cdae2b7")
+		)
+		(pin "6"
+			(uuid "5cb95862-7d74-49fc-bffc-c4b722674310")
+		)
+		(pin "7"
+			(uuid "493255a3-8f55-4bb1-aa39-105d8c19524f")
+		)
+		(pin "5"
+			(uuid "300cfdf7-78dc-42fe-838e-1c5c23ea7555")
+		)
+		(pin "3"
+			(uuid "4a56b8d8-cee6-4b26-8174-6002362a11e2")
+		)
+		(pin "2"
+			(uuid "2d425cbb-8173-47c0-8234-1b518e28e610")
+		)
+		(pin "8"
+			(uuid "fe382b00-122b-4f63-93c8-b921732aff6a")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 186.69 0)
 		(unit 1)
@@ -9322,147 +9750,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "#PWR0236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "150060VS75000:150060VS75000")
-		(at 271.78 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f74e24d-f3f3-4921-9553-47a6e2e7a559")
-		(property "Reference" "LED9"
-			(at 276.098 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150060VS75000"
-			(at 278.638 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 365.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
-			(at 465.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
-			(at 271.78 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 665.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 765.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060VS75000"
-			(at 865.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060VS75000"
-			(at 965.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
-			(at 1065.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1165.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1265.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f613d24e-9421-4df8-9790-d92377d7d73e")
-		)
-		(pin "2"
-			(uuid "c7d5d606-e8e4-42be-9381-b27dc111f7d0")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -9674,316 +9961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LM2576S-12_NOPB:LM2576S-12_NOPB")
-		(at 21.59 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d95227d-3582-4b9d-9720-40d5d525041b")
-		(property "Reference" "IC31"
-			(at 36.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2576S-12_NOPB"
-			(at 36.83 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TO170P1435X465-6N"
-			(at 58.42 144.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf"
-			(at 58.42 244.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator"
-			(at 21.59 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.65"
-			(at 58.42 444.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 58.42 544.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LM2576S-12/NOPB"
-			(at 58.42 644.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "926-LM2576S-12/NOPB"
-			(at 58.42 744.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576S-12-NOPB?qs=X1J7HmVL2ZFNh71Bqi5%2F%2FQ%3D%3D"
-			(at 58.42 844.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "LM2576S-12/NOPB"
-			(at 58.42 944.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2576s-12nopb/texas-instruments?utm_currency=USD&region=nac"
-			(at 58.42 1044.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "149ff446-8a3d-4aea-a478-45b115139134")
-		)
-		(pin "2"
-			(uuid "3a8aec3d-be92-402a-b964-adb1c3be28dc")
-		)
-		(pin "5"
-			(uuid "81eb746f-da37-4d72-aedf-2db0d12e33e2")
-		)
-		(pin "4"
-			(uuid "af1de009-19bd-4c88-bac8-1f8c13401d16")
-		)
-		(pin "1"
-			(uuid "5bf439ca-c07b-4179-8c84-4d425762e6da")
-		)
-		(pin "3"
-			(uuid "6708878a-3d9d-427c-b8ac-533eebe92bb8")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP5500DADJR2G:NCP5500DADJR2G")
-		(at 25.4 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ecbfd55-4210-469f-910c-fd44bdd0bf19")
-		(property "Reference" "IC27"
-			(at 33.655 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP5500DADJR2G"
-			(at 33.655 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 49.53 216.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
-			(at 49.53 316.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 49.53 516.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 49.53 616.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
-			(at 49.53 716.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NCP5500DADJR2G"
-			(at 49.53 816.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
-			(at 49.53 916.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NCP5500DADJR2G"
-			(at 49.53 1016.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
-			(at 49.53 1116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "47e36294-42fd-466b-8f89-11c22c1952d0")
-		)
-		(pin "6"
-			(uuid "5b8c798b-cf4c-4d0c-8aaf-8bcbad7f1162")
-		)
-		(pin "2"
-			(uuid "6cab6a80-8e44-4962-840b-2b8cb7a2ff80")
-		)
-		(pin "1"
-			(uuid "a4287094-73e6-4091-a406-19f98606b9c8")
-		)
-		(pin "8"
-			(uuid "7ed521e0-0223-4e2d-9db8-6fb0eeece0c3")
-		)
-		(pin "7"
-			(uuid "6c2837a5-ef07-4b28-b5a9-c8fb38f89e98")
-		)
-		(pin "4"
-			(uuid "8e9d651e-5f3b-421a-9c27-1b1f72fd774c")
-		)
-		(pin "3"
-			(uuid "eda1c6d7-fb79-420d-afc7-443394e03423")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 255.27 68.58 0)
 		(unit 1)
@@ -10187,16 +10164,15 @@
 	)
 	(symbol
 		(lib_id "150060VS75000:150060VS75000")
-		(at 255.27 22.86 90)
-		(mirror x)
+		(at 255.27 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4ec8c25-8557-462b-9beb-7e388242e7c9")
-		(property "Reference" "LED7"
-			(at 259.588 24.13 0)
+		(uuid "a37cdd20-45f9-49a4-8be9-90afcc4ed121")
+		(property "Reference" "LED8"
+			(at 260.35 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10181,7 @@
 			)
 		)
 		(property "Value" "150060VS75000"
-			(at 261.874 24.13 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,8 +10189,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 348.92 35.56 0)
+		(property "Footprint" "SamacSys_Parts:LEDC1608X80N"
+			(at 348.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
-			(at 448.92 35.56 0)
+			(at 448.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10210,7 @@
 			)
 		)
 		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
-			(at 255.27 22.86 0)
+			(at 255.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +10219,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 648.92 35.56 0)
+			(at 648.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10229,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 748.92 35.56 0)
+			(at 748.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10239,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060VS75000"
-			(at 848.92 35.56 0)
+			(at 848.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10249,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150060VS75000"
-			(at 948.92 35.56 0)
+			(at 948.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10259,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
-			(at 1048.92 35.56 0)
+			(at 1048.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10269,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 1148.92 35.56 0)
+			(at 1148.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10279,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1248.92 35.56 0)
+			(at 1248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,16 +10288,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "bf8797cc-6977-4542-acbf-f0c9f69608c6")
-		)
 		(pin "2"
-			(uuid "e81c4d9c-31c2-4377-8cdc-879b2d24a935")
+			(uuid "02ec7253-8e0d-40bb-a57c-75bb1bd484e4")
+		)
+		(pin "1"
+			(uuid "5a013f0b-513a-45d7-8a62-0784525dfd83")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "LED7")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -10388,6 +10364,158 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:LM2576S-12_NOPB")
+		(at 26.67 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a63cae05-e269-4b63-a5c4-87e4097e8fa5")
+		(property "Reference" "IC31"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2576S-12_NOPB"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TO170P1435X465-6N"
+			(at 63.5 172.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100036591.pdf"
+			(at 63.5 272.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SIMPLE SWITCHER&#174; 40V, 3A Low Component Count Step-Down Regulator"
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.65"
+			(at 63.5 472.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 63.5 572.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2576S-12/NOPB"
+			(at 63.5 672.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "926-LM2576S-12/NOPB"
+			(at 63.5 772.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576S-12-NOPB?qs=X1J7HmVL2ZFNh71Bqi5%2F%2FQ%3D%3D"
+			(at 63.5 872.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LM2576S-12/NOPB"
+			(at 63.5 972.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm2576s-12nopb/texas-instruments?utm_currency=USD&region=nac"
+			(at 63.5 1072.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ff5a97f-8e3a-4c5b-88cc-9d850369ed56")
+		)
+		(pin "6"
+			(uuid "65190297-8e92-4fdb-8300-d42acc4e723b")
+		)
+		(pin "1"
+			(uuid "cd045e08-9b56-4611-b0fd-9fa37fe658c0")
+		)
+		(pin "5"
+			(uuid "66fc5bba-8d70-4543-966c-9710d798c258")
+		)
+		(pin "4"
+			(uuid "0f56004b-3506-44b7-ac15-fbd0206be6c5")
+		)
+		(pin "2"
+			(uuid "4a29ddc3-d6b9-4750-bb29-a01f5b1f1be6")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC31")
 					(unit 1)
 				)
 			)
@@ -11284,6 +11412,149 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:L7812CD2T-TR")
+		(at 135.89 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfdb5837-0061-4ffe-8dbe-12f61294cfae")
+		(property "Reference" "IC32"
+			(at 142.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7812CD2T-TR"
+			(at 142.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:L7812CD2TTR"
+			(at 162.56 119.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+			(at 162.56 219.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulators 12V 1.0A Positive"
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.81"
+			(at 162.56 419.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 162.56 519.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L7812CD2T-TR"
+			(at 162.56 619.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L7812CD2T-TR"
+			(at 162.56 719.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7812CD2T-TR?qs=St21y7kBsOZRCvbPRwGnTg%3D%3D"
+			(at 162.56 819.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "L7812CD2T-TR"
+			(at 162.56 919.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7812cd2t-tr/stmicroelectronics?utm_currency=USD&region=europe"
+			(at 162.56 1019.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e7ae4f95-45a6-448d-9386-9473ec768727")
+		)
+		(pin "2"
+			(uuid "e52ce023-b43b-4489-a402-12ba964987ee")
+		)
+		(pin "1"
+			(uuid "64a92399-80eb-440a-9385-622adcb3b5e4")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 170.18 0)
 		(unit 1)
@@ -11494,164 +11765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NCP5500DADJR2G:NCP5500DADJR2G")
-		(at 25.4 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf25f861-e404-43c8-9c72-5746f80f7032")
-		(property "Reference" "IC28"
-			(at 33.655 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP5500DADJR2G"
-			(at 33.655 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 49.53 261.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
-			(at 49.53 361.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
-			(at 20.32 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 49.53 561.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 49.53 661.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
-			(at 49.53 761.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NCP5500DADJR2G"
-			(at 49.53 861.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
-			(at 49.53 961.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "NCP5500DADJR2G"
-			(at 49.53 1061.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
-			(at 49.53 1161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5063369a-47a7-4e11-914f-a40e1d3df5a4")
-		)
-		(pin "6"
-			(uuid "997c8665-85ce-4005-a31d-7e9be7a101ad")
-		)
-		(pin "2"
-			(uuid "3aafdb69-3407-4194-86f3-0ff0fd07e56c")
-		)
-		(pin "1"
-			(uuid "7b9b2889-cc2e-40cc-b5c2-fd00acaf22ce")
-		)
-		(pin "8"
-			(uuid "ef7ea129-5f51-4052-a49f-3cef00cf8c16")
-		)
-		(pin "7"
-			(uuid "9ccab403-9a30-4e0a-862b-0faafec994ea")
-		)
-		(pin "4"
-			(uuid "d7ea8daa-2833-48a6-8b45-61977128ad8e")
-		)
-		(pin "3"
-			(uuid "fb2e8e55-52c7-45c7-bf56-82e0d338fa54")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VA")
 		(at 99.06 163.83 0)
 		(unit 1)
@@ -11712,6 +11825,304 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NCP5500DADJR2G")
+		(at 73.66 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4713514-1dd8-4218-b757-de07b3828dc0")
+		(property "Reference" "IC29"
+			(at 81.915 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP5500DADJR2G"
+			(at 81.915 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
+			(at 102.87 258.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP5500-D.PDF"
+			(at 102.87 358.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Output Current up to 500 mA; 2.9% Output Voltage Accuracy; Low Dropout Voltage (230 mV at 500 mA); Enable Control Pin (NCP5500 / NCV5500); Reverse Bias Protection; Short Circuit Protection; Thermal Shutdown; Wide Operating Temperature Range NCV5500 / NCV5501; -40 C to +125 C Ambient Temperature NCP5500 / NCP5501; -40 C to +85 C Ambient Temperature; NCV Prefix for Applications that Require Site and Change Control; Stable with Low Cost Ceramic Capacitors; These are Pb-Free Devices"
+			(at 73.66 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 102.87 558.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 102.87 658.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCP5500DADJR2G"
+			(at 102.87 758.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NCP5500DADJR2G"
+			(at 102.87 858.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP5500DADJR2G?qs=t2BMfLoP1KROPqNiMyI6pA%3D%3D"
+			(at 102.87 958.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "NCP5500DADJR2G"
+			(at 102.87 1058.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ncp5500dadjr2g/on-semiconductor?region=nac"
+			(at 102.87 1158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0497817d-93e3-4c1e-aa66-7c8aed586e35")
+		)
+		(pin "4"
+			(uuid "360506b4-cb01-43a5-9c08-27f74facb2e3")
+		)
+		(pin "6"
+			(uuid "833e049b-6819-4560-8187-3044f4e3b736")
+		)
+		(pin "7"
+			(uuid "0097741d-9314-4d87-8227-2cfcbd016045")
+		)
+		(pin "5"
+			(uuid "5a81f564-00bc-4d28-aaba-9a3bac370701")
+		)
+		(pin "3"
+			(uuid "c3ad58ff-311d-4181-a5a5-a3db13eacf98")
+		)
+		(pin "2"
+			(uuid "84f20f15-1963-410a-b7ab-3f49fdf20250")
+		)
+		(pin "8"
+			(uuid "35f3034d-c236-4270-a150-b6177f7e1f9d")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "IC29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SF-1206F100-2")
+		(at 38.1 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4774e02-1c75-4f1c-8465-ca6f95879f9c")
+		(property "Reference" "F2"
+			(at 46.99 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SF-1206F100-2"
+			(at 46.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:FUSC3116X70N"
+			(at 52.07 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/SF-1206F100-2.pdf"
+			(at 52.07 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses 1A Fast Acting 1206 SinglFuse"
+			(at 38.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 52.07 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 52.07 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206F100-2"
+			(at 52.07 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 52.07 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 52.07 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SF-1206F100-2"
+			(at 52.07 920.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sf-1206f100-2/bourns?region=nac"
+			(at 52.07 1020.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfca5fd9-c49a-45e5-94e2-c296199d94d6")
+		)
+		(pin "1"
+			(uuid "20978dbd-10aa-4ea8-81dc-335e83d1bd1a")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -11877,7 +12288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOAD3070W130L950D530"
+		(property "Footprint" "SamacSys_Parts:DIOAD3070W130L950D530"
 			(at -35.23 63.5 0)
 			(effects
 				(font
@@ -12326,149 +12737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "L7812CD2T-TR:L7812CD2T-TR")
-		(at 135.89 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e987ea58-b048-4137-9277-1e83866111e1")
-		(property "Reference" "IC26"
-			(at 142.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7812CD2T-TR"
-			(at 142.24 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "L7812CD2TTR"
-			(at 154.94 121.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 154.94 221.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulators 12V 1.0A Positive"
-			(at 128.27 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.81"
-			(at 154.94 421.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 154.94 521.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "L7812CD2T-TR"
-			(at 154.94 621.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-L7812CD2T-TR"
-			(at 154.94 721.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7812CD2T-TR?qs=St21y7kBsOZRCvbPRwGnTg%3D%3D"
-			(at 154.94 821.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "L7812CD2T-TR"
-			(at 154.94 921.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7812cd2t-tr/stmicroelectronics?utm_currency=USD&region=europe"
-			(at 154.94 1021.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dfa53e6-5209-4f9c-8a16-265dfe492ef6")
-		)
-		(pin "2"
-			(uuid "e7365494-bedb-4618-ad86-963ebe29dcb0")
-		)
-		(pin "3"
-			(uuid "70be3e26-f75b-486e-816d-f5196e47bd4a")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 54.61 121.92 0)
 		(unit 1)
@@ -12602,147 +12870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "150060VS75000:150060VS75000")
-		(at 271.78 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eede3153-91ab-4099-a8da-ac3c99ebd4bf")
-		(property "Reference" "LED10"
-			(at 276.098 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150060VS75000"
-			(at 278.638 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LEDC1608X80N"
-			(at 365.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
-			(at 465.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000"
-			(at 271.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 665.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 765.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150060VS75000"
-			(at 865.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150060VS75000"
-			(at 965.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
-			(at 1065.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 1165.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1265.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d8990cc-40b8-44ee-bd9f-a2d63e45028a")
-		)
-		(pin "2"
-			(uuid "f676130f-2529-4784-9622-c8d31a04222f")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 102.87 166.37 0)
 		(unit 1)
@@ -12804,148 +12931,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "L7812CD2T-TR:L7812CD2T-TR")
-		(at 135.89 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2bc1fda-90c0-49fe-aa0a-b63a5b375186")
-		(property "Reference" "IC39"
-			(at 142.24 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7812CD2T-TR"
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "L7812CD2TTR"
-			(at 154.94 149.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 154.94 249.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulators 12V 1.0A Positive"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.81"
-			(at 154.94 449.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 154.94 549.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "L7812CD2T-TR"
-			(at 154.94 649.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-L7812CD2T-TR"
-			(at 154.94 749.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7812CD2T-TR?qs=St21y7kBsOZRCvbPRwGnTg%3D%3D"
-			(at 154.94 849.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "L7812CD2T-TR"
-			(at 154.94 949.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7812cd2t-tr/stmicroelectronics?utm_currency=USD&region=europe"
-			(at 154.94 1049.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a8bd656-ad8f-450d-a37d-e7c6070d8b09")
-		)
-		(pin "2"
-			(uuid "77899e7c-85d8-4f37-b7cd-633dc461a890")
-		)
-		(pin "3"
-			(uuid "44481759-8650-402d-a433-ff108ff0a45c")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "IC39")
 					(unit 1)
 				)
 			)

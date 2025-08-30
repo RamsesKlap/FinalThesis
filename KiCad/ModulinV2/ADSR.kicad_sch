@@ -9,430 +9,6 @@
 		(comment 2 "By: Rasmus Palk")
 	)
 	(lib_symbols
-		(symbol "AS3310D:AS3310D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 5.334 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "AS3310D"
-				(at 5.334 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P620X175-16N"
-				(at 34.29 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
-				(at 34.29 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "AS3310D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 34.29 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
-				(at 34.29 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "AS3310D"
-				(at 34.29 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 34.29 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 34.29 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 34.29 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 34.29 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "AS3310D_1_1"
-				(rectangle
-					(start 5.08 0)
-					(end 25.4 -35.56)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 0)
-					(length 5.08)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "TRIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "VCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -24.13 0)
-					(length 5.08)
-					(name "VCD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "CCOMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name "POWER_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "ATK_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -11.43 180)
-					(length 5.08)
-					(name "ENV_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -15.24 180)
-					(length 5.08)
-					(name "IIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -20.32 180)
-					(length 5.08)
-					(name "VCS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -24.13 180)
-					(length 5.08)
-					(name "VCR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -29.21 180)
-					(length 5.08)
-					(name "CAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -33.02 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -530,373 +106,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DS3502U+:DS3502U+"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "VR"
-				(at 5.588 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DS3502U+"
-				(at 5.588 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP50P490X110-10N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
-				(at 9.398 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Analog Devices"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DS3502U+"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "700-DS3502U"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "DS3502U+"
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DS3502U+_0_1"
-				(polyline
-					(pts
-						(xy 15.24 -8.89) (xy 15.24 -7.62) (xy 20.32 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -11.43) (xy 20.32 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -11.43) (xy 17.78 -10.16) (xy 17.78 -12.7) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -15.24) (xy 15.24 -15.24) (xy 15.24 -13.97) (xy 13.97 -13.97) (xy 13.97 -8.89) (xy 16.51 -8.89)
-						(xy 16.51 -13.97) (xy 15.24 -13.97)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DS3502U+_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 0)
-					(length 5.08)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -3.81 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -11.43 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1170,768 +379,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EG4208A:EG4208A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 5.588 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EG4208A"
-				(at 5.588 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EG4208A"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG4208A.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "SLIDE, 200mA, 30VDC 4PDT, On-On Through Hole, Right Angle"
-				(at 14.478 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EG4208A"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "612-EG4208A"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 26.67 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 26.67 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "EG4208A_0_1"
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 8.89 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 8.89 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -22.86) (xy 8.89 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -33.02) (xy 8.89 -33.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 13.97 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -2.54)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -12.7) (xy 13.97 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -12.7)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -22.86) (xy 13.97 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -22.86)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -33.02) (xy 13.97 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -33.02)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 0)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -5.08)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -10.16)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -15.24)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -20.32)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -25.4)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -30.48)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 13.97 -35.56)
-					(radius 0.3978)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 0) (xy 13.97 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -5.08) (xy 13.97 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -10.16) (xy 13.97 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -15.24) (xy 13.97 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -17.78) (xy 5.08 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -20.32) (xy 13.97 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -25.4) (xy 13.97 -25.4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -27.94) (xy 5.08 -27.94)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -30.48) (xy 13.97 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -35.56) (xy 13.97 -35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -38.1) (xy 5.08 -38.1)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "EG4208A_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -43.18)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -20.32 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -25.4 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -30.48 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -35.56 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -40.64 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2118,27 +565,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt"
+		(symbol "SamacSys_Parts:AS3310D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RV"
-				(at 0 0 0)
+			(property "Reference" "IC"
+				(at 34.29 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "AS3310D"
+				(at 34.29 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SOIC127P620X175-16N"
+				(at 34.29 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "AS3310D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2147,60 +616,344 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "1.75"
+				(at 34.29 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
+				(at 34.29 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "AS3310D"
+				(at 34.29 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "PTV09A-4025F-B104_Alt_1_1"
+			(property "Mouser Part Number" ""
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 34.29 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 34.29 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AS3310D_1_1"
 				(rectangle
-					(start 0 -1.27)
-					(end 7.62 -3.81)
+					(start 0 0)
+					(end 20.32 -35.56)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.81 -3.81) (xy 5.08 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "VCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -24.13 0)
+					(length 5.08)
+					(name "VCD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -29.21 0)
+					(length 5.08)
+					(name "CCOMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "POWER_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "ATK_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -11.43 180)
+					(length 5.08)
+					(name "ENV_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "IIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "VCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -24.13 180)
+					(length 5.08)
+					(name "VCR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -29.21 180)
+					(length 5.08)
+					(name "CAP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2216,8 +969,903 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -7.62 90)
-					(length 2.54)
+					(at 25.4 -33.02 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:DS3502U+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DS3502U+"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP50P490X110-10N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DS3502U+"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "700-DS3502U"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "DS3502U+"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DS3502U+_0_1"
+				(polyline
+					(pts
+						(xy 10.16 -11.43) (xy 10.16 -10.16) (xy 15.24 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -13.97) (xy 15.24 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -13.97) (xy 12.7 -12.7) (xy 12.7 -15.24) (xy 11.43 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -17.78) (xy 10.16 -17.78) (xy 10.16 -16.51) (xy 8.89 -16.51) (xy 8.89 -11.43) (xy 11.43 -11.43)
+						(xy 11.43 -16.51) (xy 10.16 -16.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DS3502U+_1_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -6.35 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -13.97 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:EG4208A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EG4208A"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EG4208A"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG4208A.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SLIDE, 200mA, 30VDC 4PDT, On-On Through Hole, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EG4208A"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-EG4208A"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EG4208A_0_1"
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 3.81 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -25.4) (xy 3.81 -25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -35.56) (xy 3.81 -35.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -5.08)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -15.24) (xy 8.89 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -15.24)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -25.4) (xy 8.89 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -25.4)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -35.56) (xy 8.89 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -35.56)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -2.54)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -7.62)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -12.7)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -17.78)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -22.86)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -27.94)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -33.02)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 -38.1)
+					(radius 0.3978)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -12.7) (xy 8.89 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -17.78) (xy 8.89 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -20.32) (xy 0 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -22.86) (xy 8.89 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -27.94) (xy 8.89 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -30.48) (xy 0 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -33.02) (xy 8.89 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -38.1) (xy 8.89 -38.1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -40.64) (xy 0 -40.64)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EG4208A_1_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -2234,8 +1882,8 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
+					(at -5.08 -15.24 0)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -2243,7 +1891,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2251,21 +1899,44 @@
 						)
 					)
 				)
-			)
-			(symbol "PTV09A-4025F-B104_Alt_2_1"
-				(rectangle
-					(start 0 -1.27)
-					(end 11.43 -6.35)
-					(stroke
-						(width 0)
-						(type default)
+				(pin passive line
+					(at -5.08 -25.4 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type background)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -3.81 0)
+					(at -5.08 -35.56 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -43.18 0)
 					(length 5.08)
 					(name "MH1"
 						(effects
@@ -2283,7 +1954,151 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -3.81 180)
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -22.86 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -27.94 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -33.02 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -38.1 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -43.18 180)
 					(length 5.08)
 					(name "MH2"
 						(effects
@@ -2303,29 +2118,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL074HIDR:TL074HIDRx4"
+		(symbol "SamacSys_Parts:PTV09A-4025F-B104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 6.35 0)
-				(do_not_autoplace)
+			(property "Reference" "VR"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "TL074HIDR"
-				(at 8.382 4.826 0)
+			(property "Value" "PTV09A-4025F-B104"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at -3.81 6.35 0)
+			(property "Footprint" "PTV09A4025FB104"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2333,21 +2169,73 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -3.81 6.35 0)
+			(property "Height" "25.5"
+				(at 24.13 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -3.81 6.35 0)
+			(property "Manufacturer_Name" "Bourns"
+				(at 24.13 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-PTV09A4025FB104"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PTV09A-4025F-B104"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
@@ -2359,10 +2247,261 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_1_1"
+			(symbol "PTV09A-4025F-B104_1_1"
+				(rectangle
+					(start 2.54 0)
+					(end 10.16 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 6.35 -3.81) (xy 5.08 -3.81) (xy 6.35 -2.54) (xy 7.62 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PTV09A-4025F-B104_2_1"
+				(rectangle
+					(start 5.08 0)
+					(end 16.51 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:TL074HIDR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 5.588 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TL074HIDR"
+				(at 5.588 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-14N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL074HIDR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TL074HIDR"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "TL074HIDR"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TL074HIDR_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -2374,7 +2513,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2392,7 +2531,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -2410,7 +2549,7 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 5.08 270)
+					(at 5.08 0 270)
 					(length 2.54)
 					(name "V+"
 						(effects
@@ -2428,7 +2567,7 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 -5.08 90)
+					(at 5.08 -10.16 90)
 					(length 2.54)
 					(name "V-"
 						(effects
@@ -2446,7 +2585,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2464,10 +2603,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_2_1"
+			(symbol "TL074HIDR_2_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -2479,7 +2618,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2497,7 +2636,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -2515,7 +2654,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2533,10 +2672,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_3_1"
+			(symbol "TL074HIDR_3_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -2548,7 +2687,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2566,7 +2705,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -2584,7 +2723,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2602,10 +2741,10 @@
 					)
 				)
 			)
-			(symbol "TL074HIDRx4_4_1"
+			(symbol "TL074HIDR_4_1"
 				(polyline
 					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
+						(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -2617,7 +2756,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 2.54 0)
+					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2635,7 +2774,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 -2.54 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -2653,7 +2792,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -3492,12 +3631,6 @@
 		(uuid "08489249-544b-45c4-9845-61023d1d4775")
 	)
 	(junction
-		(at 54.61 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e88e13b-cb88-4ae9-b10a-55ab0367f1a4")
-	)
-	(junction
 		(at 180.34 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3514,12 +3647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14018ed9-5150-4f6d-a128-7949dd6b3ee1")
-	)
-	(junction
-		(at 54.61 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14f91b02-4963-419a-b4d9-04633e7b4f6b")
 	)
 	(junction
 		(at 44.45 190.5)
@@ -3546,6 +3673,12 @@
 		(uuid "1d3f2e9f-f3e2-4329-9ce8-c6aec64237e0")
 	)
 	(junction
+		(at 29.21 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29a78c2d-f2ca-46af-a459-a7bd81231123")
+	)
+	(junction
 		(at 41.91 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3558,10 +3691,46 @@
 		(uuid "2d672ba3-3d39-411f-b9fa-578f4c5096a4")
 	)
 	(junction
-		(at 36.83 186.69)
+		(at 54.61 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ce5d5c3-8f90-4f55-ac99-cc0aba80859d")
+		(uuid "3213ecdf-1bc8-4f64-a7cb-0ef6f609e9c5")
+	)
+	(junction
+		(at 29.21 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32ba6339-63c7-466b-89ca-7bb75be91aa0")
+	)
+	(junction
+		(at 29.21 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e010d5-cd5b-43e5-9921-499eed3f9b97")
+	)
+	(junction
+		(at 54.61 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a38a0c6-89c1-4185-9eb0-37115fe3eb31")
+	)
+	(junction
+		(at 44.45 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3af91779-c52d-4787-9117-8f88f87c9bfb")
+	)
+	(junction
+		(at 15.24 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b6d8853-090d-4cd0-ae80-2b62b1e894e3")
+	)
+	(junction
+		(at 54.61 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9e3dd4-9209-4eab-bffc-cb91ab649a16")
 	)
 	(junction
 		(at 171.45 87.63)
@@ -3582,34 +3751,10 @@
 		(uuid "5168244d-0c35-4303-891e-ff0dcedcf19c")
 	)
 	(junction
-		(at 15.24 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56b58d86-45f8-4a8e-a028-a2a1978fb1ea")
-	)
-	(junction
-		(at 54.61 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56c343fa-99ac-474f-b48a-8b6c5414197d")
-	)
-	(junction
-		(at 54.61 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5abe96c5-0db2-4712-87f3-9bf663b94d0c")
-	)
-	(junction
 		(at 144.78 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b0b91f-f9b2-4c0e-ae35-21f0f1fe9f8a")
-	)
-	(junction
-		(at 29.21 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67d4eeab-6f55-4aef-a71d-722f6b0380dc")
 	)
 	(junction
 		(at 157.48 137.16)
@@ -3628,6 +3773,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73362694-ec24-4969-931e-76e2cdd15487")
+	)
+	(junction
+		(at 29.21 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1d4eee-7334-425e-b662-b5d6ad96b524")
+	)
+	(junction
+		(at 66.04 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a60dec5-1d3a-4a6b-9d61-4bf72cd49cc5")
 	)
 	(junction
 		(at 157.48 187.96)
@@ -3658,18 +3815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92ea4cf6-2976-49e7-b938-cb23a49dca1b")
-	)
-	(junction
-		(at 29.21 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "941d0c81-4af4-4205-a389-58eb5faec3c4")
-	)
-	(junction
-		(at 44.45 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "989ea0e1-e2e8-4f33-9146-9fac76c8f0e0")
 	)
 	(junction
 		(at 151.13 144.78)
@@ -3714,16 +3859,16 @@
 		(uuid "ab05f88f-2df3-410b-a1bd-1a0ff16394fb")
 	)
 	(junction
+		(at 36.83 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1429f19-3062-47ef-bcf0-09fbfe909c6b")
+	)
+	(junction
 		(at 132.08 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6323d77-5129-4593-badd-83029555dd9a")
-	)
-	(junction
-		(at 66.04 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd7f030a-4eec-440c-828b-67437c7a64f1")
 	)
 	(junction
 		(at 151.13 165.1)
@@ -3804,22 +3949,16 @@
 		(uuid "ef522dca-3a14-4f18-b802-c4d917ef92e2")
 	)
 	(junction
-		(at 29.21 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1d0e249-9755-4b49-9b0d-8489f5b1082a")
-	)
-	(junction
 		(at 41.91 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e71d76-2d33-4937-aa6b-c3d83148ed48")
 	)
 	(junction
-		(at 29.21 115.57)
+		(at 54.61 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff6ed574-0746-4136-95c9-abdac79787ea")
+		(uuid "fd52cf07-d8ea-4c54-b1a6-937c12f78e8f")
 	)
 	(no_connect
 		(at 259.08 90.17)
@@ -4001,13 +4140,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 186.69) (xy 44.45 190.5)
+			(xy 44.45 175.26) (xy 44.45 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0cc798c9-3ca0-4054-bb80-b17e93ca4ece")
+	)
+	(wire
+		(pts
+			(xy 44.45 186.69) (xy 44.45 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccb0f35-6e0c-4da3-8795-5a404b16e402")
 	)
 	(wire
 		(pts
@@ -4078,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "10c4e064-b69b-4129-a423-0956b5c23185")
+	)
+	(wire
+		(pts
+			(xy 66.04 186.69) (xy 66.04 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e47c24-3588-4b6b-84e6-57851ef00559")
 	)
 	(wire
 		(pts
@@ -4271,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 186.69) (xy 36.83 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a631e4-b8ab-4075-92c2-c31020417679")
+	)
+	(wire
+		(pts
 			(xy 163.83 179.07) (xy 163.83 180.34)
 		)
 		(stroke
@@ -4321,6 +4490,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 111.76) (xy 29.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a633e3-1612-447a-88f3-d157bd8b792e")
+	)
+	(wire
+		(pts
 			(xy 233.68 142.24) (xy 234.95 142.24)
 		)
 		(stroke
@@ -4338,16 +4517,6 @@
 			(type default)
 		)
 		(uuid "271998b1-fc9b-496f-a390-f0c90d55541e")
-	)
-	(wire
-		(pts
-			(xy 44.45 175.26) (xy 44.45 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "275447e1-f698-4858-832e-53478143d16b")
 	)
 	(wire
 		(pts
@@ -4521,16 +4690,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 120.65) (xy 29.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a24cfb5-88e6-4233-85bb-609fa8536546")
-	)
-	(wire
-		(pts
 			(xy 125.73 124.46) (xy 138.43 124.46)
 		)
 		(stroke
@@ -4578,16 +4737,6 @@
 			(type default)
 		)
 		(uuid "3e74ff66-6816-4dde-81db-0babdb32a323")
-	)
-	(wire
-		(pts
-			(xy 29.21 31.75) (xy 29.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1b4b56-7eea-4f17-ac8b-295532c6a439")
 	)
 	(wire
 		(pts
@@ -5351,6 +5500,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 186.69) (xy 15.24 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8572b690-beb2-462c-bf97-ca12cf96077e")
+	)
+	(wire
+		(pts
 			(xy 95.25 105.41) (xy 96.52 105.41)
 		)
 		(stroke
@@ -5551,6 +5710,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 39.37) (xy 29.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0d5d91-583a-49dd-a483-1850ca156986")
+	)
+	(wire
+		(pts
 			(xy 41.91 44.45) (xy 54.61 44.45)
 		)
 		(stroke
@@ -5558,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "9be1c793-73f1-4e8f-9f22-0842af4dbb0c")
+	)
+	(wire
+		(pts
+			(xy 29.21 115.57) (xy 29.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df7b69b-a954-446f-8176-34db795d9b86")
 	)
 	(wire
 		(pts
@@ -5681,7 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 44.45) (xy 29.21 39.37)
+			(xy 29.21 31.75) (xy 29.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5701,13 +5880,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 190.5) (xy 66.04 186.69)
+			(xy 29.21 35.56) (xy 29.21 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7609abf-e672-4f8d-b5f1-ad46d3897b2f")
+		(uuid "a7fe904c-21e4-415c-b33a-712b992ea0c2")
 	)
 	(wire
 		(pts
@@ -5831,16 +6010,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 35.56) (xy 29.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7118f12-5a6e-4246-b6d8-20ffa799fb0e")
-	)
-	(wire
-		(pts
 			(xy 29.21 146.05) (xy 29.21 149.86)
 		)
 		(stroke
@@ -5941,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 111.76) (xy 29.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47e078b-16b3-4a94-a35c-1c8e7ee4ae51")
-	)
-	(wire
-		(pts
 			(xy 212.09 153.67) (xy 213.36 153.67)
 		)
 		(stroke
@@ -5991,7 +6150,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 186.69) (xy 36.83 190.5)
+			(xy 36.83 175.26) (xy 36.83 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6121,16 +6280,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 175.26) (xy 36.83 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70a9bb1-eed0-45c0-9772-fb34cf26c47b")
-	)
-	(wire
-		(pts
 			(xy 21.59 73.66) (xy 29.21 73.66)
 		)
 		(stroke
@@ -6218,16 +6367,6 @@
 			(type default)
 		)
 		(uuid "dfdb6e07-7d5b-4cbb-8e69-24abae579649")
-	)
-	(wire
-		(pts
-			(xy 15.24 186.69) (xy 15.24 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11c3737-35f3-437c-a34d-06ebfef5b0dc")
 	)
 	(wire
 		(pts
@@ -7028,188 +7167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AS3310D:AS3310D")
-		(at 228.6 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0097ede4-8bcf-4233-93f3-c3209d392590")
-		(property "Reference" "IC35"
-			(at 243.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AS3310D"
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P620X175-16N"
-			(at 262.89 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
-			(at 262.89 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "AS3310D"
-			(at 228.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 262.89 477.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
-			(at 262.89 577.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AS3310D"
-			(at 262.89 677.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 262.89 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 262.89 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 262.89 977.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 262.89 1077.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2b22aeb-1bc3-4ada-9ec4-6cc099d2cb28")
-		)
-		(pin "1"
-			(uuid "1262b6c0-3126-4ff4-bbb5-ac24bd56b44e")
-		)
-		(pin "3"
-			(uuid "53906297-3308-4303-aae1-28be9a02481d")
-		)
-		(pin "15"
-			(uuid "31a38af8-47dc-4ce7-ba29-cda48930b14d")
-		)
-		(pin "9"
-			(uuid "b82cb543-7e1d-4dd4-b357-6477aabac123")
-		)
-		(pin "7"
-			(uuid "f2d275fc-23cb-46dd-a645-fad32b210133")
-		)
-		(pin "8"
-			(uuid "b518b223-7157-403b-9db9-c4b4f5920cc6")
-		)
-		(pin "13"
-			(uuid "d0a4422f-def0-4636-9f8c-7b4b4545bc28")
-		)
-		(pin "6"
-			(uuid "485c7b73-d5a7-4952-832f-60a1d04b9e8d")
-		)
-		(pin "11"
-			(uuid "a4915419-bebb-45a2-9044-6cf622d24a8c")
-		)
-		(pin "5"
-			(uuid "d8fba344-ab90-4c52-a6f4-fe2a91fd541d")
-		)
-		(pin "4"
-			(uuid "70c13b80-cc30-478c-af4c-ed5159a031ef")
-		)
-		(pin "12"
-			(uuid "3ddb1e63-2853-4aa0-bee2-685d412c6d47")
-		)
-		(pin "10"
-			(uuid "94b09dc7-5365-464e-942a-b0126b7c44f7")
-		)
-		(pin "14"
-			(uuid "30b3c113-c84d-44a5-8836-51875a112fea")
-		)
-		(pin "16"
-			(uuid "f8cd71e3-ab9e-4d64-b307-df0a3da71a03")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "IC35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 90.17 97.79 0)
 		(unit 1)
@@ -7336,182 +7293,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EG4208A:EG4208A")
-		(at 143.51 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a0eaf6c-4826-4bfa-a683-2ae131e2cc96")
-		(property "Reference" "S3"
-			(at 132.08 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EG4208A"
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EG4208A"
-			(at 116.84 143.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG4208A.pdf"
-			(at 116.84 243.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SLIDE, 200mA, 30VDC 4PDT, On-On Through Hole, Right Angle"
-			(at 129.032 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5"
-			(at 116.84 443.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 116.84 543.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EG4208A"
-			(at 116.84 643.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-EG4208A"
-			(at 116.84 743.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D"
-			(at 116.84 843.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 116.84 943.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 116.84 1043.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "b7402af7-992a-4126-838a-ff2b8f8ee70d")
-		)
-		(pin "MH1"
-			(uuid "ee7e7d0c-0f1a-437c-9161-9e2eed957ebc")
-		)
-		(pin "4"
-			(uuid "5604fd0a-9865-40b1-90fd-996ae788d765")
-		)
-		(pin "12"
-			(uuid "a68e32bc-486b-4998-a6d1-6b9dadd0f432")
-		)
-		(pin "5"
-			(uuid "fb3a6e17-8d8f-4bd0-a0e2-7d0dc6ecb7e5")
-		)
-		(pin "1"
-			(uuid "ccbf063a-80d4-4b97-8911-99735ee94b3c")
-		)
-		(pin "11"
-			(uuid "2267dfa6-7822-4a87-9e24-97fa9e9f8c52")
-		)
-		(pin "MH2"
-			(uuid "833e36a8-3838-464b-9fb7-50ef682660dc")
-		)
-		(pin "8"
-			(uuid "dcc2ed3e-6171-4283-9c48-fdc0bfd608c0")
-		)
-		(pin "10"
-			(uuid "fb6fa696-239d-404d-b546-1bda11727326")
-		)
-		(pin "7"
-			(uuid "a60e09d2-c191-494e-9366-9a533c3f4bac")
-		)
-		(pin "3"
-			(uuid "c1fb28c5-7067-43bb-ac28-248619095df5")
-		)
-		(pin "2"
-			(uuid "6dbdeb12-0982-400c-93ac-833e932af07e")
-		)
-		(pin "6"
-			(uuid "57c043a7-2d4c-402b-b8d8-648663801d79")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -8058,6 +7839,332 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 153.67 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "139d04e6-054f-4e20-8782-cce00102a209")
+		(property "Reference" "IC30"
+			(at 165.608 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 165.608 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 177.8 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 177.8 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 177.8 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 177.8 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 177.8 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 177.8 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 177.8 925.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 177.8 1025.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "89b36eb9-67a7-47f8-ae9a-49afdaa86ec8")
+		)
+		(pin "4"
+			(uuid "2783033a-a571-4f41-aaa9-9b817ea90f58")
+		)
+		(pin "2"
+			(uuid "7793c0e8-c6c6-48be-90c9-dff9d4afc89f")
+		)
+		(pin "10"
+			(uuid "0a78f4f6-f66c-4b04-95dc-14b7d451f1ad")
+		)
+		(pin "13"
+			(uuid "48b10f85-232b-4a3b-8047-282d27f12886")
+		)
+		(pin "6"
+			(uuid "428430ce-efd3-4960-85eb-234bff5f247d")
+		)
+		(pin "9"
+			(uuid "5059b8b3-2d05-4bb3-8c68-03b698265e8d")
+		)
+		(pin "1"
+			(uuid "eb42fb9e-ff82-4872-bf8d-571c90e457aa")
+		)
+		(pin "8"
+			(uuid "89d5bec4-9042-4ef9-a824-e0445154b00e")
+		)
+		(pin "3"
+			(uuid "c97590dc-8ecd-4f5a-9261-e8cf33230b03")
+		)
+		(pin "5"
+			(uuid "c67314d9-fdda-438d-9079-48b3759a64a8")
+		)
+		(pin "12"
+			(uuid "e1b78c6a-9097-4896-afc1-8f87ed80bb51")
+		)
+		(pin "11"
+			(uuid "1dd6e93a-e8e0-4cf1-9e86-34c2d59fe9f7")
+		)
+		(pin "7"
+			(uuid "d712d091-83af-4b89-87b7-6a8662422483")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "IC30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 88.9 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c7cdb3-f71c-468b-88e8-331aeafd7307")
+		(property "Reference" "VR12"
+			(at 87.63 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 87.63 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 183.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 283.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 483.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 583.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 683.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 783.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 883.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 983.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 1083.82 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "30d166a0-3296-4faa-b16c-ed83ef07b526")
+		)
+		(pin "1"
+			(uuid "71745d31-1039-4b9b-b3bb-39e437caa398")
+		)
+		(pin "MH2"
+			(uuid "3061933c-b96e-4b18-8aa5-b68db76b78f4")
+		)
+		(pin "MH1"
+			(uuid "4d9057a7-18e1-47b5-90b8-be1a44f91fc5")
+		)
+		(pin "2"
+			(uuid "59b566ac-a4de-4f99-8956-3064e270a1f5")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 166.37 0)
 		(unit 1)
@@ -8594,85 +8701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 87.63 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20848771-15c4-414c-b3a7-510df740714a")
-		(property "Reference" "RV20"
-			(at 87.63 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 87.63 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "36111946-085b-4ba2-bcf1-73303d447f74")
-		)
-		(pin "2"
-			(uuid "e85b056e-f2dc-48d2-901d-d3a9ffe160e6")
-		)
-		(pin "1"
-			(uuid "de653577-ae08-4c4d-9285-8131c5a184ed")
-		)
-		(pin "MH1"
-			(uuid "539a1bfa-53db-4e7a-871d-7634d29ec0bc")
-		)
-		(pin "3"
-			(uuid "33f5560a-fe76-4bdc-8128-8eccb4b9adda")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 74.93 0)
 		(unit 1)
@@ -8734,111 +8762,6 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "#PWR0318")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 157.48 71.12 0)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25e4752b-7566-4911-8836-281235eff700")
-		(property "Reference" "U10"
-			(at 153.67 64.262 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074HIDR"
-			(at 163.83 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01c81734-5683-4f14-ad08-a675eef47a62")
-		)
-		(pin "6"
-			(uuid "99f94c8f-bf46-47a3-a5e3-56c549fc2f18")
-		)
-		(pin "13"
-			(uuid "88271a29-0f00-407f-8ca1-a31b529e7924")
-		)
-		(pin "4"
-			(uuid "40a6eea3-6460-4da8-887b-52c559552434")
-		)
-		(pin "14"
-			(uuid "23ec2b42-3a83-4a03-9f15-fcbfcca63a26")
-		)
-		(pin "12"
-			(uuid "8ac245c1-be2a-48e6-b9d2-8cf0020f495d")
-		)
-		(pin "11"
-			(uuid "ee9b2156-da8e-472c-a23c-759eca7a61aa")
-		)
-		(pin "9"
-			(uuid "1828e055-c14a-4a15-a070-32df8479f19f")
-		)
-		(pin "5"
-			(uuid "79ece7b0-3efb-40b8-8dc6-8c2dc21ecda5")
-		)
-		(pin "2"
-			(uuid "c3c0d46b-790a-4e91-a33f-7961066f2482")
-		)
-		(pin "10"
-			(uuid "08c8c744-828b-4a4d-b2cc-738c99116888")
-		)
-		(pin "8"
-			(uuid "c1eaaeb6-7df1-4eba-8baf-a8c139fc0b0c")
-		)
-		(pin "3"
-			(uuid "589aa7fd-28d9-4bc8-9cbe-4c90bc49dd83")
-		)
-		(pin "7"
-			(uuid "a65610f7-fc97-46b9-b537-295504368d35")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "U10")
-					(unit 3)
 				)
 			)
 		)
@@ -8908,6 +8831,188 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:AS3310D")
+		(at 233.68 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c20b8c0-db57-48db-a34c-0b16bcdabbf0")
+		(property "Reference" "IC38"
+			(at 243.84 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3310D"
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P620X175-16N"
+			(at 267.97 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
+			(at 267.97 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "AS3310D"
+			(at 233.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 267.97 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
+			(at 267.97 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AS3310D"
+			(at 267.97 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 267.97 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 267.97 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 917.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 267.97 1017.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "c9f49f35-b446-4320-a4db-1730f8bc3d18")
+		)
+		(pin "3"
+			(uuid "032064b6-44f8-4f78-9cf4-4ffa32f1839b")
+		)
+		(pin "7"
+			(uuid "1a464d5a-96fe-45c2-8330-55a811709849")
+		)
+		(pin "4"
+			(uuid "a6297824-e5a2-4d29-83c1-bc3e8499f83f")
+		)
+		(pin "11"
+			(uuid "68fbae5f-b2f0-492e-93dc-c5fbb25ba3d4")
+		)
+		(pin "5"
+			(uuid "1b378025-a847-4f63-8707-15d8b76520f6")
+		)
+		(pin "6"
+			(uuid "14991857-362a-4aff-916c-358461627261")
+		)
+		(pin "13"
+			(uuid "1001c386-39ac-45a8-a4f0-d493c28ed52f")
+		)
+		(pin "12"
+			(uuid "9ec2d1fa-390d-4f14-87df-370d0e0c39c1")
+		)
+		(pin "2"
+			(uuid "52eee7fc-1b14-416c-88a7-36ef8f5febd5")
+		)
+		(pin "1"
+			(uuid "f8076963-f02a-4505-a4ec-de62e63e2939")
+		)
+		(pin "14"
+			(uuid "1fab0c8b-4754-43c5-80ca-e718ad561379")
+		)
+		(pin "8"
+			(uuid "68e92bd9-ee5c-4f48-a144-4eae4e376014")
+		)
+		(pin "16"
+			(uuid "9ae441fe-3c6d-4776-9c7e-0704b7411251")
+		)
+		(pin "9"
+			(uuid "2a11bb1b-fb62-41fa-8cb3-11e5cbe6d280")
+		)
+		(pin "10"
+			(uuid "1d6b9940-7633-4e1f-961f-8e36d5da0094")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "IC38")
 					(unit 1)
 				)
 			)
@@ -9246,6 +9351,182 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 153.67 76.2 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3789e389-9965-4e1c-8332-a4431ed7bdef")
+		(property "Reference" "IC30"
+			(at 163.322 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 163.322 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 177.8 -18.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 177.8 -118.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 177.8 -318.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 -418.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 177.8 -518.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 177.8 -618.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 177.8 -718.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 177.8 -818.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 177.8 -918.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "89b36eb9-67a7-47f8-ae9a-49afdaa86ec8")
+		)
+		(pin "4"
+			(uuid "2783033a-a571-4f41-aaa9-9b817ea90f58")
+		)
+		(pin "2"
+			(uuid "7793c0e8-c6c6-48be-90c9-dff9d4afc89f")
+		)
+		(pin "10"
+			(uuid "0a78f4f6-f66c-4b04-95dc-14b7d451f1ad")
+		)
+		(pin "13"
+			(uuid "48b10f85-232b-4a3b-8047-282d27f12886")
+		)
+		(pin "6"
+			(uuid "428430ce-efd3-4960-85eb-234bff5f247d")
+		)
+		(pin "9"
+			(uuid "5059b8b3-2d05-4bb3-8c68-03b698265e8d")
+		)
+		(pin "1"
+			(uuid "eb42fb9e-ff82-4872-bf8d-571c90e457aa")
+		)
+		(pin "8"
+			(uuid "89d5bec4-9042-4ef9-a824-e0445154b00e")
+		)
+		(pin "3"
+			(uuid "c97590dc-8ecd-4f5a-9261-e8cf33230b03")
+		)
+		(pin "5"
+			(uuid "c67314d9-fdda-438d-9079-48b3759a64a8")
+		)
+		(pin "12"
+			(uuid "e1b78c6a-9097-4896-afc1-8f87ed80bb51")
+		)
+		(pin "11"
+			(uuid "1dd6e93a-e8e0-4cf1-9e86-34c2d59fe9f7")
+		)
+		(pin "7"
+			(uuid "d712d091-83af-4b89-87b7-6a8662422483")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "IC30")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 36.83 180)
 		(unit 1)
@@ -9316,33 +9597,55 @@
 		)
 	)
 	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 157.48 87.63 0)
-		(unit 4)
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 88.9 111.76 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d72554f-ec14-4c50-a8cc-a42751828611")
-		(property "Reference" "U10"
-			(at 153.67 81.28 0)
-			(do_not_autoplace yes)
+		(fields_autoplaced yes)
+		(uuid "3bf1a6c7-4d92-4b90-9fd4-282633f1bf5f")
+		(property "Reference" "VR14"
+			(at 87.63 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TL074HIDR"
-			(at 163.576 83.566 0)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 87.63 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 81.28 0)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 183.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 283.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,71 +9653,96 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 81.28 0)
+		(property "Height" "25.5"
+			(at 483.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 81.28 0)
+		(property "Manufacturer_Name" "Bourns"
+			(at 583.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "01c81734-5683-4f14-ad08-a675eef47a63")
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 683.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "99f94c8f-bf46-47a3-a5e3-56c549fc2f19")
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 783.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "13"
-			(uuid "88271a29-0f00-407f-8ca1-a31b529e7925")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 883.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "40a6eea3-6460-4da8-887b-52c559552435")
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 983.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "23ec2b42-3a83-4a03-9f15-fcbfcca63a27")
-		)
-		(pin "12"
-			(uuid "8ac245c1-be2a-48e6-b9d2-8cf0020f495e")
-		)
-		(pin "11"
-			(uuid "ee9b2156-da8e-472c-a23c-759eca7a61ab")
-		)
-		(pin "9"
-			(uuid "1828e055-c14a-4a15-a070-32df8479f1a0")
-		)
-		(pin "5"
-			(uuid "79ece7b0-3efb-40b8-8dc6-8c2dc21ecda6")
-		)
-		(pin "2"
-			(uuid "c3c0d46b-790a-4e91-a33f-7961066f2483")
-		)
-		(pin "10"
-			(uuid "08c8c744-828b-4a4d-b2cc-738c99116889")
-		)
-		(pin "8"
-			(uuid "c1eaaeb6-7df1-4eba-8baf-a8c139fc0b0d")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 1083.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "589aa7fd-28d9-4bc8-9cbe-4c90bc49dd84")
+			(uuid "1bb48182-401d-4089-b87e-4cb3ff4ba47b")
 		)
-		(pin "7"
-			(uuid "a65610f7-fc97-46b9-b537-295504368d36")
+		(pin "1"
+			(uuid "c2ba0c5e-9dd6-4f08-90b2-f0338ee0ed65")
+		)
+		(pin "MH2"
+			(uuid "3061933c-b96e-4b18-8aa5-b68db76b78f4")
+		)
+		(pin "MH1"
+			(uuid "4d9057a7-18e1-47b5-90b8-be1a44f91fc5")
+		)
+		(pin "2"
+			(uuid "b05a18d3-8db2-45d8-9f02-0e486caed1bf")
 		)
 		(instances
-			(project ""
+			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "U10")
-					(unit 4)
+					(reference "VR14")
+					(unit 1)
 				)
 			)
 		)
@@ -9547,170 +9875,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DS3502U+:DS3502U+")
-		(at 29.21 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ead0589-73b1-456f-ae38-40110ba062c1")
-		(property "Reference" "VR4"
-			(at 41.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS3502U+"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at 50.8 233.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
-			(at 50.8 333.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
-			(at 38.608 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 50.8 533.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 50.8 633.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DS3502U+"
-			(at 50.8 733.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-DS3502U"
-			(at 50.8 833.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
-			(at 50.8 933.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DS3502U+"
-			(at 50.8 1033.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
-			(at 50.8 1133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69567404-82a3-4d1c-bec8-c87597a54ba7")
-		)
-		(pin "9"
-			(uuid "5179d83a-9922-4ae8-9a80-b66469ad5064")
-		)
-		(pin "8"
-			(uuid "e8c317ba-bd23-493b-8561-911d2c2e2fd4")
-		)
-		(pin "2"
-			(uuid "35a9737f-a064-4bc6-9b40-6e5f77a1d9ab")
-		)
-		(pin "6"
-			(uuid "9ee08e5a-9a20-4aa8-82f4-bb0627da97ad")
-		)
-		(pin "5"
-			(uuid "00b1af81-759f-4e0a-901b-20edf096d3a8")
-		)
-		(pin "3"
-			(uuid "2174f236-6cc1-4f33-94e4-790296cfe322")
-		)
-		(pin "4"
-			(uuid "79366251-fd39-4c95-b03e-57d1c849a1d6")
-		)
-		(pin "7"
-			(uuid "38896533-d20d-448d-b2f8-45336b01d83d")
-		)
-		(pin "10"
-			(uuid "6b992b84-e1e2-4478-a082-f163d98ea4e1")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -10059,43 +10223,33 @@
 		)
 	)
 	(symbol
-		(lib_id "DS3502U+:DS3502U+")
-		(at 29.21 24.13 0)
+		(lib_id "SamacSys_Parts:EG4208A")
+		(at 138.43 45.72 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49bff9b7-d589-41da-b9cf-f28dcafa6660")
-		(property "Reference" "VR1"
-			(at 41.91 16.51 0)
+		(uuid "4ab5cc24-a125-4725-8577-d570a756bd34")
+		(property "Reference" "S2"
+			(at 132.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DS3502U+"
-			(at 41.91 19.05 0)
+		(property "Value" "EG4208A"
+			(at 132.08 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at 50.8 119.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
-			(at 50.8 219.05 0)
+		(property "Footprint" "SamacSys_Parts:EG4208A"
+			(at 111.76 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,17 +10258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
-			(at 38.608 15.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 50.8 419.05 0)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG4208A.pdf"
+			(at 111.76 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,8 +10268,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 50.8 519.05 0)
+		(property "Description" "SLIDE, 200mA, 30VDC 4PDT, On-On Through Hole, Right Angle"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 111.76 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,8 +10287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DS3502U+"
-			(at 50.8 619.05 0)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 111.76 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,8 +10297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "700-DS3502U"
-			(at 50.8 719.05 0)
+		(property "Manufacturer_Part_Number" "EG4208A"
+			(at 111.76 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,8 +10307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
-			(at 50.8 819.05 0)
+		(property "Mouser Part Number" "612-EG4208A"
+			(at 111.76 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,8 +10317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "DS3502U+"
-			(at 50.8 919.05 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D"
+			(at 111.76 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,8 +10327,18 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
-			(at 50.8 1019.05 0)
+		(property "Arrow Part Number" ""
+			(at 111.76 940.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 1040.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,117 +10348,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1f9765e-36f7-4db8-adb7-fe156c459c28")
+			(uuid "143d0729-abf8-484f-8a08-5ceb1e69a237")
 		)
 		(pin "9"
-			(uuid "295dfc36-1291-4209-a6f9-bbec1dab36ef")
+			(uuid "1763cc0a-df8b-4de2-83f3-9dce5017c9c3")
 		)
-		(pin "8"
-			(uuid "04ef121d-dab4-4455-a980-5334831fd605")
-		)
-		(pin "2"
-			(uuid "42064fdf-ba98-41ac-8f2b-069bbb4627df")
+		(pin "MH2"
+			(uuid "9da2896a-05a6-429a-9257-80ed04bbc78b")
 		)
 		(pin "6"
-			(uuid "50146e76-eef6-43d1-aa75-89f3c6efbd4f")
+			(uuid "754e39cf-73ac-4628-846d-3a7f9e7db100")
+		)
+		(pin "12"
+			(uuid "a89a245b-7ea6-4873-8f0f-c851230b1a29")
 		)
 		(pin "5"
-			(uuid "133a923e-123f-4794-80da-a4ce007cc79c")
+			(uuid "6ef225cf-9e90-451d-a3fe-1b663946a6c6")
+		)
+		(pin "2"
+			(uuid "31d2da3a-a876-496f-93ce-029350ed2133")
 		)
 		(pin "3"
-			(uuid "bb006997-f4d4-46e4-8311-7942de1391b3")
+			(uuid "fc999112-55ce-4ee7-9cf2-4f68f0d219b0")
 		)
 		(pin "4"
-			(uuid "e7ea0177-aaed-466f-87b6-2bd434ab9ab7")
+			(uuid "9c353da0-23b4-4b90-a0be-36fae9879359")
 		)
 		(pin "7"
-			(uuid "1eba8276-4177-40bc-9db3-4bf30606b6fa")
+			(uuid "5057b174-9d5e-4e53-a099-b2d204652e0d")
+		)
+		(pin "MH1"
+			(uuid "38e3d6c4-dbca-4154-bf86-71f99282f40e")
+		)
+		(pin "11"
+			(uuid "cf783472-d753-47aa-9d01-8d18484c40b4")
+		)
+		(pin "8"
+			(uuid "350baa88-bfd7-4a52-a080-4b9b7a9e26fb")
 		)
 		(pin "10"
-			(uuid "b1450d4a-3944-45d0-8247-2c45d28e8fd3")
+			(uuid "88195a72-6779-4730-9ea7-d8b6de771694")
 		)
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "VR1")
+					(reference "S2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 49.53 171.45 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d3e5ce2-f4f1-4c17-b3fd-a50cb8303b6d")
-		(property "Reference" "RV21"
-			(at 55.245 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 55.245 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "55b2849c-89b3-4d18-812a-e0e846b4a38e")
-		)
-		(pin "2"
-			(uuid "0a66972e-55a6-486f-90f6-791e7f31f125")
-		)
-		(pin "1"
-			(uuid "904d3f16-f418-4a86-ade0-f64d5a912707")
-		)
-		(pin "MH1"
-			(uuid "d1c7785b-a24e-4678-84bb-28b52c3bb2dc")
-		)
-		(pin "3"
-			(uuid "5bc9635d-c77e-4eb8-be3a-dbb3d8c4e82f")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV21")
-					(unit 2)
 				)
 			)
 		)
@@ -10325,7 +10424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 208.28 153.67 0)
 			(effects
 				(font
@@ -10966,6 +11065,155 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 44.45 184.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e346928-3a95-422b-bbbc-e33bb14ff099")
+		(property "Reference" "VR14"
+			(at 55.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 55.245 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 68.58 279.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 68.58 379.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 68.58 579.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 68.58 679.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 68.58 779.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 68.58 879.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 68.58 979.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 68.58 1079.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 68.58 1179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "379748da-9257-492f-a14d-e5f2fa929eeb")
+		)
+		(pin "1"
+			(uuid "dbbd2c03-cc25-41f7-afff-07906122cc6f")
+		)
+		(pin "MH2"
+			(uuid "c76ce643-ff6b-47c2-bf60-2f52267a1472")
+		)
+		(pin "MH1"
+			(uuid "edc39c87-e4f8-4416-bd7f-8a79e3f2bf41")
+		)
+		(pin "2"
+			(uuid "f2db4e35-c68b-4611-bb35-f43303cae6bc")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 264.16 30.48 0)
 		(unit 1)
@@ -11099,6 +11347,155 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 15.24 172.72 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6552daf9-8fa0-408f-b530-2f11d22221d8")
+		(property "Reference" "VR10"
+			(at 26.035 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 26.035 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 39.37 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 39.37 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 15.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 39.37 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 39.37 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 39.37 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 39.37 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 39.37 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 39.37 1067.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 39.37 1167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "379748da-9257-492f-a14d-e5f2fa929eeb")
+		)
+		(pin "1"
+			(uuid "dbbd2c03-cc25-41f7-afff-07906122cc6f")
+		)
+		(pin "MH2"
+			(uuid "3061933c-b96e-4b18-8aa5-b68db76b78f4")
+		)
+		(pin "MH1"
+			(uuid "4d9057a7-18e1-47b5-90b8-be1a44f91fc5")
+		)
+		(pin "2"
+			(uuid "f2db4e35-c68b-4611-bb35-f43303cae6bc")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 55.88 0)
 		(unit 1)
@@ -11163,188 +11560,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "C137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AS3310D:AS3310D")
-		(at 228.6 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68d80fe6-158c-4589-965a-c22559aa3f20")
-		(property "Reference" "IC34"
-			(at 243.84 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AS3310D"
-			(at 243.84 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P620X175-16N"
-			(at 262.89 117.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
-			(at 262.89 217.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "AS3310D"
-			(at 228.6 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 262.89 417.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
-			(at 262.89 517.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AS3310D"
-			(at 262.89 617.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 262.89 717.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 262.89 817.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 262.89 917.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 262.89 1017.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "348c055c-3091-44bd-bbfc-a1c4fefbd432")
-		)
-		(pin "1"
-			(uuid "414c41fc-3e05-4c3d-afea-d66c4c919db9")
-		)
-		(pin "3"
-			(uuid "a2922af2-5b48-4737-bd12-4ee629172eca")
-		)
-		(pin "15"
-			(uuid "6a947d58-a1e1-43d8-bb0f-33fe168e7613")
-		)
-		(pin "9"
-			(uuid "b95029ba-7293-4689-800a-e6506f95de83")
-		)
-		(pin "7"
-			(uuid "0c89d0ac-d803-48da-ab10-b0840ff74674")
-		)
-		(pin "8"
-			(uuid "9b68a3db-e7e2-4684-86a3-cfe2f1eb6952")
-		)
-		(pin "13"
-			(uuid "9dfd1728-4b94-427c-b390-9bdc74f6257e")
-		)
-		(pin "6"
-			(uuid "a94725a5-4a0d-450a-bd39-eca74f6e044c")
-		)
-		(pin "11"
-			(uuid "b30302cf-2efd-41fd-b554-4912cb8ebbcf")
-		)
-		(pin "5"
-			(uuid "814065a7-6982-4bfd-a254-858a62bed0ff")
-		)
-		(pin "4"
-			(uuid "f702098f-2634-4713-98bd-8676521ca4b1")
-		)
-		(pin "12"
-			(uuid "e2bedf29-3d63-4eea-b1df-f4d3197d5710")
-		)
-		(pin "10"
-			(uuid "6533ff22-5b08-4a2c-af70-13fd55f705ea")
-		)
-		(pin "14"
-			(uuid "a06661c8-b62a-44cb-81bc-5d76745e70ec")
-		)
-		(pin "16"
-			(uuid "2d5272e9-f8b3-49cf-805d-d281e317afd8")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "IC34")
 					(unit 1)
 				)
 			)
@@ -11483,35 +11698,52 @@
 		)
 	)
 	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 87.63 147.32 90)
-		(unit 1)
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 153.67 50.8 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a544d39-f195-4440-ac31-e040af0730b1")
-		(property "Reference" "RV22"
-			(at 87.63 142.2399 90)
+		(uuid "6c985991-a8b6-44e3-8b95-453d7dca6cf5")
+		(property "Reference" "IC30"
+			(at 162.56 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 87.63 144.7799 90)
+		(property "Value" "TL074HIDR"
+			(at 162.56 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 147.32 0)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 177.8 145.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 177.8 245.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11519,44 +11751,123 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 147.32 0)
+		(property "Height" "1.75"
+			(at 177.8 445.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 147.32 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 545.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "MH2"
-			(uuid "36111946-085b-4ba2-bcf1-73303d447f75")
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 177.8 645.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 177.8 745.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 177.8 845.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 177.8 945.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 177.8 1045.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "89b36eb9-67a7-47f8-ae9a-49afdaa86ec8")
+		)
+		(pin "4"
+			(uuid "2783033a-a571-4f41-aaa9-9b817ea90f58")
 		)
 		(pin "2"
-			(uuid "b81b20b7-e2f9-41b2-97a8-9084f3fa131b")
+			(uuid "7793c0e8-c6c6-48be-90c9-dff9d4afc89f")
+		)
+		(pin "10"
+			(uuid "0a78f4f6-f66c-4b04-95dc-14b7d451f1ad")
+		)
+		(pin "13"
+			(uuid "48b10f85-232b-4a3b-8047-282d27f12886")
+		)
+		(pin "6"
+			(uuid "428430ce-efd3-4960-85eb-234bff5f247d")
+		)
+		(pin "9"
+			(uuid "5059b8b3-2d05-4bb3-8c68-03b698265e8d")
 		)
 		(pin "1"
-			(uuid "4bb7985a-865e-4369-9095-6e439749c965")
+			(uuid "eb42fb9e-ff82-4872-bf8d-571c90e457aa")
 		)
-		(pin "MH1"
-			(uuid "539a1bfa-53db-4e7a-871d-7634d29ec0bd")
+		(pin "8"
+			(uuid "89d5bec4-9042-4ef9-a824-e0445154b00e")
 		)
 		(pin "3"
-			(uuid "4997fa86-7671-4c51-b8a0-e8214c82ac9f")
+			(uuid "c97590dc-8ecd-4f5a-9261-e8cf33230b03")
+		)
+		(pin "5"
+			(uuid "c67314d9-fdda-438d-9079-48b3759a64a8")
+		)
+		(pin "12"
+			(uuid "e1b78c6a-9097-4896-afc1-8f87ed80bb51")
+		)
+		(pin "11"
+			(uuid "1dd6e93a-e8e0-4cf1-9e86-34c2d59fe9f7")
+		)
+		(pin "7"
+			(uuid "d712d091-83af-4b89-87b7-6a8662422483")
 		)
 		(instances
-			(project "ModulinV2"
+			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV22")
-					(unit 1)
+					(reference "IC30")
+					(unit 2)
 				)
 			)
 		)
@@ -12108,33 +12419,53 @@
 		)
 	)
 	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 157.48 55.88 0)
-		(unit 2)
+		(lib_id "SamacSys_Parts:DS3502U+")
+		(at 34.29 21.59 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7cd31c1e-ef5f-49ad-ba86-70b58c965287")
-		(property "Reference" "U10"
-			(at 153.924 49.276 0)
-			(do_not_autoplace yes)
+		(fields_autoplaced yes)
+		(uuid "7a8cae13-1351-4e1c-9a8d-e39e0ffb4eb4")
+		(property "Reference" "VR1"
+			(at 41.91 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL074HIDR"
-			(at 163.83 52.324 0)
+		(property "Value" "DS3502U+"
+			(at 41.91 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 49.53 0)
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
+			(at 55.88 116.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
+			(at 55.88 216.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
+			(at 34.29 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,71 +12473,111 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 49.53 0)
+		(property "Height" "1.1"
+			(at 55.88 416.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 49.53 0)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 55.88 516.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "01c81734-5683-4f14-ad08-a675eef47a64")
+		(property "Manufacturer_Part_Number" "DS3502U+"
+			(at 55.88 616.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "99f94c8f-bf46-47a3-a5e3-56c549fc2f1a")
+		(property "Mouser Part Number" "700-DS3502U"
+			(at 55.88 716.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "13"
-			(uuid "88271a29-0f00-407f-8ca1-a31b529e7926")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
+			(at 55.88 816.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "40a6eea3-6460-4da8-887b-52c559552436")
+		(property "Arrow Part Number" "DS3502U+"
+			(at 55.88 916.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "23ec2b42-3a83-4a03-9f15-fcbfcca63a28")
-		)
-		(pin "12"
-			(uuid "8ac245c1-be2a-48e6-b9d2-8cf0020f495f")
-		)
-		(pin "11"
-			(uuid "ee9b2156-da8e-472c-a23c-759eca7a61ac")
-		)
-		(pin "9"
-			(uuid "1828e055-c14a-4a15-a070-32df8479f1a1")
-		)
-		(pin "5"
-			(uuid "79ece7b0-3efb-40b8-8dc6-8c2dc21ecda7")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
+			(at 55.88 1016.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c3c0d46b-790a-4e91-a33f-7961066f2484")
+			(uuid "5234ef4a-d4ac-4350-935d-a4175501c317")
 		)
-		(pin "10"
-			(uuid "08c8c744-828b-4a4d-b2cc-738c9911688a")
-		)
-		(pin "8"
-			(uuid "c1eaaeb6-7df1-4eba-8baf-a8c139fc0b0e")
-		)
-		(pin "3"
-			(uuid "589aa7fd-28d9-4bc8-9cbe-4c90bc49dd85")
+		(pin "9"
+			(uuid "15e5a449-ab84-4559-aab8-e428b34f2f4e")
 		)
 		(pin "7"
-			(uuid "a65610f7-fc97-46b9-b537-295504368d37")
+			(uuid "3bbbf062-765b-4202-b576-dcd0489b629b")
+		)
+		(pin "10"
+			(uuid "70011328-5901-47d3-9f16-4f5973c01676")
+		)
+		(pin "1"
+			(uuid "023f01a2-56b9-4819-9661-ffe355a0d4f5")
+		)
+		(pin "5"
+			(uuid "64e73881-6591-4a6b-a0ee-c932e3d20fb7")
+		)
+		(pin "6"
+			(uuid "d6f676a2-3aae-48e3-a49c-f7daf1b6b0db")
+		)
+		(pin "4"
+			(uuid "b024325d-23e2-4c88-9d51-533327e806c9")
+		)
+		(pin "8"
+			(uuid "b4b43734-67f5-4f7d-863d-6803ea0044bb")
+		)
+		(pin "3"
+			(uuid "71870b5f-6f18-4440-a463-6306ac1d668e")
 		)
 		(instances
-			(project ""
+			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "U10")
-					(unit 2)
+					(reference "VR1")
+					(unit 1)
 				)
 			)
 		)
@@ -12276,6 +12647,170 @@
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:DS3502U+")
+		(at 34.29 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8099fd35-be26-46b8-b21c-43f39db13e81")
+		(property "Reference" "VR3"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS3502U+"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
+			(at 55.88 192.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
+			(at 55.88 292.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 55.88 492.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 55.88 592.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DS3502U+"
+			(at 55.88 692.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-DS3502U"
+			(at 55.88 792.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
+			(at 55.88 892.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "DS3502U+"
+			(at 55.88 992.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
+			(at 55.88 1092.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9533aa7b-bb9c-4bc3-a1eb-4bf969088999")
+		)
+		(pin "9"
+			(uuid "d760dcef-4657-433a-b7d5-7a43c0429c92")
+		)
+		(pin "7"
+			(uuid "2f4b70c4-551c-4274-a14f-52ba7dbc178c")
+		)
+		(pin "10"
+			(uuid "1c31c459-7c43-4eb9-a1dd-8cd0cb9eebf9")
+		)
+		(pin "1"
+			(uuid "66259226-98ad-4c29-9eac-53bd173ad461")
+		)
+		(pin "5"
+			(uuid "3e9cda8f-f511-4823-bff9-9497de492b1e")
+		)
+		(pin "6"
+			(uuid "9a34bace-0cfe-4932-9176-24525cfb434b")
+		)
+		(pin "4"
+			(uuid "7d736ae2-ce1f-47a6-8e95-42f2387f1840")
+		)
+		(pin "8"
+			(uuid "062a1258-2afb-4f0b-99f9-3144e14b7bbb")
+		)
+		(pin "3"
+			(uuid "9f22fb48-db77-4bf3-a478-ca3ef0577cb2")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -12492,83 +13027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 20.32 171.45 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88dc2fdc-8dcc-4511-ba0c-f63e24caf501")
-		(property "Reference" "RV19"
-			(at 26.035 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 26.035 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "36111946-085b-4ba2-bcf1-73303d447f76")
-		)
-		(pin "2"
-			(uuid "0a66972e-55a6-486f-90f6-791e7f31f124")
-		)
-		(pin "1"
-			(uuid "904d3f16-f418-4a86-ade0-f64d5a912706")
-		)
-		(pin "MH1"
-			(uuid "539a1bfa-53db-4e7a-871d-7634d29ec0be")
-		)
-		(pin "3"
-			(uuid "5bc9635d-c77e-4eb8-be3a-dbb3d8c4e82e")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV19")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 163.83 161.29 180)
 		(unit 1)
@@ -12633,85 +13091,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "C134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 87.63 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a7bc128-24e2-4767-8892-689fff82a807")
-		(property "Reference" "RV19"
-			(at 87.63 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 87.63 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "36111946-085b-4ba2-bcf1-73303d447f77")
-		)
-		(pin "2"
-			(uuid "0a66972e-55a6-486f-90f6-791e7f31f126")
-		)
-		(pin "1"
-			(uuid "904d3f16-f418-4a86-ade0-f64d5a912708")
-		)
-		(pin "MH1"
-			(uuid "539a1bfa-53db-4e7a-871d-7634d29ec0bf")
-		)
-		(pin "3"
-			(uuid "5bc9635d-c77e-4eb8-be3a-dbb3d8c4e830")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV19")
 					(unit 1)
 				)
 			)
@@ -12976,85 +13355,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "#PWR0343")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 87.63 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91789ab8-220f-4524-8826-a4c3df016424")
-		(property "Reference" "RV21"
-			(at 87.63 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 87.63 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "36111946-085b-4ba2-bcf1-73303d447f78")
-		)
-		(pin "2"
-			(uuid "827bf014-2ee4-474b-8ae0-d99470bfda4f")
-		)
-		(pin "1"
-			(uuid "2e4675da-2412-4ba3-bd7f-1ed39a7e2d7d")
-		)
-		(pin "MH1"
-			(uuid "539a1bfa-53db-4e7a-871d-7634d29ec0c0")
-		)
-		(pin "3"
-			(uuid "10ecbeda-5ff7-49c4-b6c9-610309f0790d")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV21")
 					(unit 1)
 				)
 			)
@@ -13601,6 +13901,188 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:AS3310D")
+		(at 233.68 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a94fa30e-ce50-4b95-a1d3-0c595a20772b")
+		(property "Reference" "IC34"
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS3310D"
+			(at 243.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P620X175-16N"
+			(at 267.97 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alfarzpp.lv/eng/sc/AS3310.pdf"
+			(at 267.97 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "AS3310D"
+			(at 233.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 267.97 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALFA ELECTRONICS CO.,LTD"
+			(at 267.97 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AS3310D"
+			(at 267.97 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 267.97 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 267.97 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 977.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 267.97 1077.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "d160b8a4-5118-41e5-9c95-06bc81ee822e")
+		)
+		(pin "3"
+			(uuid "cbe0eb69-1d27-4aea-9645-73247a776bf1")
+		)
+		(pin "7"
+			(uuid "47ecbd09-aa77-4199-9657-11310dd1e5b7")
+		)
+		(pin "4"
+			(uuid "8fbaba66-2e27-402f-90da-f4bef6fe72c0")
+		)
+		(pin "11"
+			(uuid "ff94373c-db13-4443-9e49-ac299a8f6051")
+		)
+		(pin "5"
+			(uuid "52245c16-8c23-4937-abf8-309a29f44be6")
+		)
+		(pin "6"
+			(uuid "657eb47e-0a9c-4a83-8492-59ee3306c6fc")
+		)
+		(pin "13"
+			(uuid "7e962a97-8304-479d-bed4-0571a7e697d0")
+		)
+		(pin "12"
+			(uuid "5deb1200-aa71-436e-b8d6-c5a244132b0f")
+		)
+		(pin "2"
+			(uuid "d88b38da-b493-4bce-b2f2-ab2be85f6eaf")
+		)
+		(pin "1"
+			(uuid "5a072280-823c-4f8e-81da-073ab48b2b0e")
+		)
+		(pin "14"
+			(uuid "50fa8fb6-34a2-4743-b4f6-8fdefe5063ff")
+		)
+		(pin "8"
+			(uuid "eaa0befa-e706-4835-a998-be4eaf5b74ea")
+		)
+		(pin "16"
+			(uuid "62907917-0cda-46bc-935b-9d44aeeb04b6")
+		)
+		(pin "9"
+			(uuid "01aacbd9-1cf8-47f9-a723-0b1c61e3b675")
+		)
+		(pin "10"
+			(uuid "59176e0b-eca0-472a-9bc2-2ff9df20df0f")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "IC34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 161.29 180)
 		(unit 1)
@@ -13671,83 +14153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 49.53 182.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aac48818-646e-491a-a453-85e891742403")
-		(property "Reference" "RV22"
-			(at 55.245 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 55.245 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "1b58429b-153d-4f31-aac8-244a0bbaff33")
-		)
-		(pin "2"
-			(uuid "0a66972e-55a6-486f-90f6-791e7f31f127")
-		)
-		(pin "1"
-			(uuid "904d3f16-f418-4a86-ade0-f64d5a912709")
-		)
-		(pin "MH1"
-			(uuid "6474d464-176c-412d-8ece-4aba0e30c08c")
-		)
-		(pin "3"
-			(uuid "5bc9635d-c77e-4eb8-be3a-dbb3d8c4e831")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV22")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 208.28 142.24 180)
 		(unit 1)
@@ -13773,7 +14178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 208.28 142.24 0)
 			(effects
 				(font
@@ -13977,7 +14382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -14088,6 +14493,181 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:TL074HIDR")
+		(at 153.67 82.55 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31df836-bb27-485a-aa6a-260d832f7843")
+		(property "Reference" "IC30"
+			(at 164.084 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074HIDR"
+			(at 164.084 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 177.8 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
+			(at 177.8 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 177.8 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL074HIDR"
+			(at 177.8 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDR"
+			(at 177.8 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
+			(at 177.8 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TL074HIDR"
+			(at 177.8 977.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
+			(at 177.8 1077.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "89b36eb9-67a7-47f8-ae9a-49afdaa86ec8")
+		)
+		(pin "4"
+			(uuid "2783033a-a571-4f41-aaa9-9b817ea90f58")
+		)
+		(pin "2"
+			(uuid "7793c0e8-c6c6-48be-90c9-dff9d4afc89f")
+		)
+		(pin "10"
+			(uuid "0a78f4f6-f66c-4b04-95dc-14b7d451f1ad")
+		)
+		(pin "13"
+			(uuid "48b10f85-232b-4a3b-8047-282d27f12886")
+		)
+		(pin "6"
+			(uuid "428430ce-efd3-4960-85eb-234bff5f247d")
+		)
+		(pin "9"
+			(uuid "5059b8b3-2d05-4bb3-8c68-03b698265e8d")
+		)
+		(pin "1"
+			(uuid "eb42fb9e-ff82-4872-bf8d-571c90e457aa")
+		)
+		(pin "8"
+			(uuid "89d5bec4-9042-4ef9-a824-e0445154b00e")
+		)
+		(pin "3"
+			(uuid "c97590dc-8ecd-4f5a-9261-e8cf33230b03")
+		)
+		(pin "5"
+			(uuid "c67314d9-fdda-438d-9079-48b3759a64a8")
+		)
+		(pin "12"
+			(uuid "e1b78c6a-9097-4896-afc1-8f87ed80bb51")
+		)
+		(pin "11"
+			(uuid "1dd6e93a-e8e0-4cf1-9e86-34c2d59fe9f7")
+		)
+		(pin "7"
+			(uuid "d712d091-83af-4b89-87b7-6a8662422483")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "IC30")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 60.96 97.79 0)
 		(unit 1)
@@ -14179,7 +14759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 238.76 153.67 0)
 			(effects
 				(font
@@ -14286,6 +14866,170 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "C133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:DS3502U+")
+		(at 34.29 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb027464-e979-4773-9857-5ae512fbd17b")
+		(property "Reference" "VR2"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS3502U+"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
+			(at 55.88 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
+			(at 55.88 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 55.88 454.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 55.88 554.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DS3502U+"
+			(at 55.88 654.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-DS3502U"
+			(at 55.88 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
+			(at 55.88 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "DS3502U+"
+			(at 55.88 954.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
+			(at 55.88 1054.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a54fd05f-13da-404f-b57c-c2901db2cd0a")
+		)
+		(pin "9"
+			(uuid "af9472ac-d3be-4d43-b161-8499c4261628")
+		)
+		(pin "7"
+			(uuid "b7409699-3be6-4d82-8650-1ad2d17ec558")
+		)
+		(pin "10"
+			(uuid "6cb3766f-410b-42b8-988b-aa09c0d93357")
+		)
+		(pin "1"
+			(uuid "b0f75ebe-a9d9-4d9f-8e70-789d6fa6e7cd")
+		)
+		(pin "5"
+			(uuid "24a3b99a-7cd8-4b9d-bb0a-c33fc08498fa")
+		)
+		(pin "6"
+			(uuid "1ed641ed-0637-4ec3-ba79-fd7aaf661fef")
+		)
+		(pin "4"
+			(uuid "b23b2cdc-542e-4d45-b417-325d75d67036")
+		)
+		(pin "8"
+			(uuid "7cb5b0be-8d7e-4aa0-909d-e7725b55cc7b")
+		)
+		(pin "3"
+			(uuid "744bf7a0-7d22-48e9-9969-509172cc9445")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR2")
 					(unit 1)
 				)
 			)
@@ -14428,6 +15172,157 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 88.9 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beafb94e-1f75-4601-b7ee-a0b7136586cb")
+		(property "Reference" "VR15"
+			(at 87.63 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 87.63 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 183.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 283.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 483.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 583.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 683.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 783.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 883.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 983.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 1083.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "efaf7426-9acb-419d-8bae-226933f1147b")
+		)
+		(pin "1"
+			(uuid "c30ca0e7-574b-4686-b0f6-edf728a0f6a6")
+		)
+		(pin "MH2"
+			(uuid "3061933c-b96e-4b18-8aa5-b68db76b78f4")
+		)
+		(pin "MH1"
+			(uuid "4d9057a7-18e1-47b5-90b8-be1a44f91fc5")
+		)
+		(pin "2"
+			(uuid "e67b155a-2585-4bf9-985e-359e02fe4354")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 224.79 88.9 0)
 		(unit 1)
@@ -14494,43 +15389,35 @@
 		)
 	)
 	(symbol
-		(lib_id "DS3502U+:DS3502U+")
-		(at 29.21 62.23 0)
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 88.9 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0469add-65c1-4684-b895-21d8bfa87a87")
-		(property "Reference" "VR2"
-			(at 41.91 54.61 0)
+		(uuid "c036a7ac-e530-4869-a8b6-a863e7357ca0")
+		(property "Reference" "VR13"
+			(at 87.63 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DS3502U+"
-			(at 41.91 57.15 0)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 87.63 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at 50.8 157.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
-			(at 50.8 257.15 0)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 183.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14539,17 +15426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
-			(at 38.608 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 50.8 457.15 0)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 283.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14558,8 +15436,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 50.8 557.15 0)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 88.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 483.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,8 +15455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DS3502U+"
-			(at 50.8 657.15 0)
+		(property "Manufacturer_Name" "Bourns"
+			(at 583.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,8 +15465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "700-DS3502U"
-			(at 50.8 757.15 0)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 683.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14588,8 +15475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
-			(at 50.8 857.15 0)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 783.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,8 +15485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "DS3502U+"
-			(at 50.8 957.15 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 883.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14608,8 +15495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
-			(at 50.8 1057.15 0)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 983.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14618,40 +15505,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0928b894-679e-47d9-a264-6109e1d1cf82")
-		)
-		(pin "9"
-			(uuid "bcd12308-0883-453e-942c-19d4539e4f11")
-		)
-		(pin "8"
-			(uuid "773971d9-70e0-46d1-9d0f-973ebbb4262b")
-		)
-		(pin "2"
-			(uuid "1b1ee21c-44bd-43d3-b546-fcbaf7b6084a")
-		)
-		(pin "6"
-			(uuid "850db7cf-4338-4167-8e4a-1ce980481710")
-		)
-		(pin "5"
-			(uuid "664b4ecd-9024-44da-9684-5e5e35148e06")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 1083.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "029bcb84-06b3-414a-8227-cc0a76d668dd")
+			(uuid "f8c79f58-a9a4-49c0-8875-8d0272bc8127")
 		)
-		(pin "4"
-			(uuid "d180e997-d5d1-4bf1-966c-62f6f7978886")
+		(pin "1"
+			(uuid "5b9fee23-1f8c-4f64-8077-0cc62f54fce8")
 		)
-		(pin "7"
-			(uuid "45cdd0c4-9915-4451-a24d-4c142626b211")
+		(pin "MH2"
+			(uuid "3061933c-b96e-4b18-8aa5-b68db76b78f4")
 		)
-		(pin "10"
-			(uuid "d7c539f4-917a-4158-a0ab-d1d4db892130")
+		(pin "MH1"
+			(uuid "4d9057a7-18e1-47b5-90b8-be1a44f91fc5")
+		)
+		(pin "2"
+			(uuid "02ed4b98-29e6-4f27-82e5-3ec7bc396a58")
 		)
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "VR2")
+					(reference "VR13")
 					(unit 1)
 				)
 			)
@@ -14722,170 +15604,6 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "R149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DS3502U+:DS3502U+")
-		(at 29.21 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2ff9922-7b79-4605-bb90-d69285e10bd0")
-		(property "Reference" "VR3"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS3502U+"
-			(at 41.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP50P490X110-10N"
-			(at 50.8 195.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
-			(at 50.8 295.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
-			(at 38.608 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 50.8 495.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 50.8 595.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DS3502U+"
-			(at 50.8 695.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-DS3502U"
-			(at 50.8 795.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
-			(at 50.8 895.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DS3502U+"
-			(at 50.8 995.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
-			(at 50.8 1095.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4ccf851-982d-4c49-95e7-b0e999e0de86")
-		)
-		(pin "9"
-			(uuid "3950511a-0c40-4841-97a3-f4dede2db34d")
-		)
-		(pin "8"
-			(uuid "f6963fff-10d9-4dc8-ae4e-603187007a1e")
-		)
-		(pin "2"
-			(uuid "3d914aa0-774e-450e-8d4e-982e62096c23")
-		)
-		(pin "6"
-			(uuid "920768f6-35c1-4fc7-9755-c5a3dcbf40b1")
-		)
-		(pin "5"
-			(uuid "feca1444-917f-4be8-bc0b-00b4495e0992")
-		)
-		(pin "3"
-			(uuid "8226c18f-7a98-4481-ac2f-422ab54b8f9c")
-		)
-		(pin "4"
-			(uuid "ff58af1e-e3b6-485d-bbbf-e6af39234dcc")
-		)
-		(pin "7"
-			(uuid "20f69e78-16fd-4e08-8aab-818315b02bc7")
-		)
-		(pin "10"
-			(uuid "06f88214-a3ed-409b-82c3-88ace9f809d0")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -15085,6 +15803,155 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "#PWR0331")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 15.24 184.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d00c1538-80f4-4825-a537-0e5271e22c14")
+		(property "Reference" "VR12"
+			(at 26.035 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 26.035 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 39.37 279.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 39.37 379.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 15.24 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 39.37 579.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 39.37 679.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 39.37 779.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 39.37 879.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 39.37 979.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 39.37 1079.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 39.37 1179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "379748da-9257-492f-a14d-e5f2fa929eeb")
+		)
+		(pin "1"
+			(uuid "dbbd2c03-cc25-41f7-afff-07906122cc6f")
+		)
+		(pin "MH2"
+			(uuid "8bdbc271-139e-46a6-ae58-faca7a333f72")
+		)
+		(pin "MH1"
+			(uuid "0206d05d-1ef0-4194-ab17-c4c1040fb07f")
+		)
+		(pin "2"
+			(uuid "f2db4e35-c68b-4611-bb35-f43303cae6bc")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR12")
+					(unit 2)
 				)
 			)
 		)
@@ -15362,33 +16229,202 @@
 		)
 	)
 	(symbol
-		(lib_id "TL074HIDR:TL074HIDRx4")
-		(at 157.48 35.56 0)
+		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
+		(at 44.45 172.72 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ec1735-a7d7-4f42-bc99-73deddcca601")
+		(property "Reference" "VR13"
+			(at 55.245 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTV09A-4025F-B104"
+			(at 55.245 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
+			(at 68.58 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+			(at 68.58 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.5"
+			(at 68.58 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 68.58 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
+			(at 68.58 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV09A4025FB104"
+			(at 68.58 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
+			(at 68.58 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTV09A-4025F-B104"
+			(at 68.58 1067.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
+			(at 68.58 1167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "379748da-9257-492f-a14d-e5f2fa929eeb")
+		)
+		(pin "1"
+			(uuid "dbbd2c03-cc25-41f7-afff-07906122cc6f")
+		)
+		(pin "MH2"
+			(uuid "32b8d7b9-123f-4add-85c1-cc3488e9111a")
+		)
+		(pin "MH1"
+			(uuid "8765c5d6-3a8d-4745-8885-0fd306c2cd8f")
+		)
+		(pin "2"
+			(uuid "f2db4e35-c68b-4611-bb35-f43303cae6bc")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
+					(reference "VR13")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:DS3502U+")
+		(at 34.29 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7d071a0-f76a-40c1-8659-424c558f7064")
-		(property "Reference" "U10"
-			(at 153.67 29.21 0)
-			(do_not_autoplace yes)
+		(fields_autoplaced yes)
+		(uuid "da665133-57e8-4a58-80ee-05af7eb3082c")
+		(property "Reference" "VR4"
+			(at 41.91 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL074HIDR"
-			(at 165.608 31.496 0)
+		(property "Value" "DS3502U+"
+			(at 41.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 29.21 0)
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
+			(at 55.88 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/256/DS3502-1292478.pdf"
+			(at 55.88 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer ICs High-Voltage NV I2C"
+			(at 34.29 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15396,70 +16432,110 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 29.21 0)
+		(property "Height" "1.1"
+			(at 55.88 530.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 29.21 0)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 55.88 630.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "01c81734-5683-4f14-ad08-a675eef47a65")
+		(property "Manufacturer_Part_Number" "DS3502U+"
+			(at 55.88 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "99f94c8f-bf46-47a3-a5e3-56c549fc2f1b")
+		(property "Mouser Part Number" "700-DS3502U"
+			(at 55.88 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "13"
-			(uuid "88271a29-0f00-407f-8ca1-a31b529e7927")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS3502U%2b?qs=CDqwynd4ZNp8GRBM8vXsLQ%3D%3D"
+			(at 55.88 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "40a6eea3-6460-4da8-887b-52c559552437")
+		(property "Arrow Part Number" "DS3502U+"
+			(at 55.88 1030.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "23ec2b42-3a83-4a03-9f15-fcbfcca63a29")
-		)
-		(pin "12"
-			(uuid "8ac245c1-be2a-48e6-b9d2-8cf0020f4960")
-		)
-		(pin "11"
-			(uuid "ee9b2156-da8e-472c-a23c-759eca7a61ad")
-		)
-		(pin "9"
-			(uuid "1828e055-c14a-4a15-a070-32df8479f1a2")
-		)
-		(pin "5"
-			(uuid "79ece7b0-3efb-40b8-8dc6-8c2dc21ecda8")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ds3502u/maxim-integrated?region=nac"
+			(at 55.88 1130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c3c0d46b-790a-4e91-a33f-7961066f2485")
+			(uuid "c25a54c7-cbb0-4c43-aacb-743249d8483d")
 		)
-		(pin "10"
-			(uuid "08c8c744-828b-4a4d-b2cc-738c9911688b")
-		)
-		(pin "8"
-			(uuid "c1eaaeb6-7df1-4eba-8baf-a8c139fc0b0f")
-		)
-		(pin "3"
-			(uuid "589aa7fd-28d9-4bc8-9cbe-4c90bc49dd86")
+		(pin "9"
+			(uuid "d31157eb-b9d4-46ab-a138-6d7cef4c7f12")
 		)
 		(pin "7"
-			(uuid "a65610f7-fc97-46b9-b537-295504368d38")
+			(uuid "dfabb4a4-11ed-46fd-84f5-3cf26d755920")
+		)
+		(pin "10"
+			(uuid "09eab0d3-39f2-494d-8312-1f6186a763a4")
+		)
+		(pin "1"
+			(uuid "f9c8befc-abde-41a1-9c37-d759374adfa2")
+		)
+		(pin "5"
+			(uuid "ecebd00a-9531-4ddc-aa05-a8d191093ced")
+		)
+		(pin "6"
+			(uuid "413a1367-38a9-40ee-9d74-03ba2be0993a")
+		)
+		(pin "4"
+			(uuid "9386b452-4984-4261-9e40-4262a2ad838d")
+		)
+		(pin "8"
+			(uuid "8d662bf1-93e2-48db-8696-952003a934fc")
+		)
+		(pin "3"
+			(uuid "42567cef-fc43-4a9f-928c-500786466dd2")
 		)
 		(instances
-			(project ""
+			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "U10")
+					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -16199,83 +17275,6 @@
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
 					(reference "#PWR0325")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTV09A-4025F-B104:PTV09A-4025F-B104_Alt")
-		(at 20.32 182.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f95bb1c6-a384-4a84-8df6-ec2473817bd0")
-		(property "Reference" "RV20"
-			(at 26.035 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 26.035 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH2"
-			(uuid "9c1a47b4-735a-413e-ba25-0a48ef3652c4")
-		)
-		(pin "2"
-			(uuid "0a66972e-55a6-486f-90f6-791e7f31f128")
-		)
-		(pin "1"
-			(uuid "904d3f16-f418-4a86-ade0-f64d5a91270a")
-		)
-		(pin "MH1"
-			(uuid "413aa716-f981-4b48-94ca-9d3fa544f6f5")
-		)
-		(pin "3"
-			(uuid "5bc9635d-c77e-4eb8-be3a-dbb3d8c4e832")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/72de756e-4613-4cf7-8685-e4594fe0f098"
-					(reference "RV20")
-					(unit 2)
 				)
 			)
 		)
