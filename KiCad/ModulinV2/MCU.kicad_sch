@@ -2843,6 +2843,357 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:TL3365AF180QG"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -0.254 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL3365AF180QG"
+				(at -0.254 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TL3365AF180QG"
+				(at 2.54 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3365AF180QG.pdf"
+				(at 2.54 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+				(at -13.97 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+				(at 2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.75"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL3365AF180QG"
+				(at 19.558 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-TL3365AF180QG"
+				(at 19.558 -34.544 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3365AF180QG?qs=xQzBpF%2FAFTo%252BA4IL7l2Rvw%3D%3D"
+				(at 19.558 -37.084 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TL3365AF180QG_0_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.2645)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.2645)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.2645)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -2.54)
+					(radius 0.2645)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 8.89 -3.81) (xy 8.89 -1.27) (xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL3365AF180QG_1_0"
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:TSM-103-01-T-DV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3837,156 +4188,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5098,7 +5299,7 @@
 		(uuid fb383173-7d03-4182-929a-47c66dd48d88)
 	)
 	(rectangle
-		(start 231.14 60.325)
+		(start 216.535 60.325)
 		(end 283.845 99.695)
 		(stroke
 			(width 0)
@@ -5181,7 +5382,7 @@
 	)
 	(text "Reset and Boot buttons"
 		(exclude_from_sim no)
-		(at 248.158 67.564 0)
+		(at 249.936 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,12 +5401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f0f8bab-9532-4201-b615-55f367083da8")
-	)
-	(junction
-		(at 269.24 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fc69cc9-5665-464c-a3d0-df363c14d83a")
 	)
 	(junction
 		(at 130.81 154.94)
@@ -5250,6 +5445,12 @@
 		(uuid "25301071-07cb-47c5-9b2c-8e75bdb3b9b7")
 	)
 	(junction
+		(at 251.46 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9faf87-94ab-48c4-808f-d95dd120abe0")
+	)
+	(junction
 		(at 182.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5268,10 +5469,28 @@
 		(uuid "381965b0-a0fd-4739-95a6-4fd671960192")
 	)
 	(junction
+		(at 228.6 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a9d4b6-1ab2-46f5-8496-ec4d32c66cc2")
+	)
+	(junction
+		(at 271.78 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445e9952-3376-407f-97b5-111975bcdbad")
+	)
+	(junction
 		(at 267.97 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4563105b-d321-42cf-8afb-eb1aeb3dea43")
+	)
+	(junction
+		(at 233.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468c6ff7-cc8b-491e-b279-bddce5f73a70")
 	)
 	(junction
 		(at 267.97 118.11)
@@ -5310,7 +5529,7 @@
 		(uuid "6d6d0e14-eb64-4bd4-986d-c0c59d951ef3")
 	)
 	(junction
-		(at 247.65 90.17)
+		(at 233.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ec2c2b-211f-4670-ae36-976723bdf6f1")
@@ -5364,12 +5583,6 @@
 		(uuid "bfb729a7-28dc-4a40-b9a2-070e2f82ddc2")
 	)
 	(junction
-		(at 247.65 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3fabe7d-7952-4ab0-9472-0f18b2894cc1")
-	)
-	(junction
 		(at 43.18 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5392,6 +5605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec29a8b-97d0-4008-a348-b91a166d5576")
+	)
+	(junction
+		(at 271.78 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0df2491-9a61-43f1-8aca-52bc8ab945db")
 	)
 	(junction
 		(at 40.64 170.18)
@@ -5428,6 +5647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc899e46-113e-496d-a21e-62ff19f68f54")
+	)
+	(junction
+		(at 227.33 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe377e40-c24b-4eaa-b7a4-4425d7e3b426")
 	)
 	(no_connect
 		(at 40.64 180.34)
@@ -5499,23 +5724,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 68.58) (xy 269.24 69.85)
+			(xy 251.46 73.66) (xy 251.46 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06ddcb70-a29d-4b57-a35b-0d57abaacd0b")
-	)
-	(wire
-		(pts
-			(xy 247.65 90.17) (xy 254 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08cacc15-8bd6-4e1b-ad47-15bf1df18b8f")
 	)
 	(wire
 		(pts
@@ -5709,13 +5924,23 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 91.44) (xy 269.24 90.17)
+			(xy 271.78 87.63) (xy 271.78 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "228f4c13-f513-4cd4-a8f2-d51e7db8a7ff")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fa7e20-f1a4-4cf0-8d31-825016a7e1ce")
 	)
 	(wire
 		(pts
@@ -5726,16 +5951,6 @@
 			(type default)
 		)
 		(uuid "24ff6374-fc8d-456d-83d9-e6c3eb0dac79")
-	)
-	(wire
-		(pts
-			(xy 241.3 77.47) (xy 241.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2698fbf7-2575-4ab4-b737-74418199fc0c")
 	)
 	(wire
 		(pts
@@ -5779,7 +5994,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 88.9) (xy 241.3 90.17)
+			(xy 227.33 88.9) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +6014,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 90.17) (xy 247.65 90.17)
+			(xy 227.33 90.17) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5906,6 +6121,16 @@
 			(type default)
 		)
 		(uuid "464f57c8-d91b-4ced-9917-8dc78d785349")
+	)
+	(wire
+		(pts
+			(xy 271.78 77.47) (xy 271.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46edbb61-f66d-4217-88a6-3e20cbaa4163")
 	)
 	(wire
 		(pts
@@ -6069,6 +6294,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 67.31) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0c0833-f7f5-4929-9394-44655a82dc03")
+	)
+	(wire
+		(pts
 			(xy 184.15 153.67) (xy 185.42 153.67)
 		)
 		(stroke
@@ -6099,13 +6334,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 254 77.47)
+			(xy 271.78 74.93) (xy 273.05 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "614c628a-932e-4de5-86b5-a2e0ac16d01a")
+		(uuid "60f0ea7d-0f32-49a7-9fe2-3e3585609004")
 	)
 	(wire
 		(pts
@@ -6449,6 +6684,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 88.9) (xy 228.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a17c56-779e-44fc-b68a-a146e16208e3")
+	)
+	(wire
+		(pts
 			(xy 248.92 157.48) (xy 248.92 156.21)
 		)
 		(stroke
@@ -6466,6 +6711,16 @@
 			(type default)
 		)
 		(uuid "88d4f1e3-5922-40dc-a83e-9d68158945f0")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a74b7da-d6ed-4b88-bf87-99399251da1a")
 	)
 	(wire
 		(pts
@@ -6556,16 +6811,6 @@
 			(type default)
 		)
 		(uuid "921b589f-a2ba-48cb-aef8-794e74d2bff6")
-	)
-	(wire
-		(pts
-			(xy 247.65 76.2) (xy 247.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93131507-778e-49f5-bb12-4f920b6e6928")
 	)
 	(wire
 		(pts
@@ -6739,13 +6984,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 77.47) (xy 241.3 77.47)
+			(xy 251.46 74.93) (xy 251.46 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae28526e-64d7-45da-beda-614948b51e05")
+		(uuid "ad7a13d9-75b2-42ae-8a49-337d22344c78")
 	)
 	(wire
 		(pts
@@ -6759,7 +7004,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 91.44) (xy 247.65 90.17)
+			(xy 233.68 91.44) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6796,16 +7041,6 @@
 			(type default)
 		)
 		(uuid "b956e273-9fa5-4475-b8b8-e8013d5745d9")
-	)
-	(wire
-		(pts
-			(xy 267.97 81.28) (xy 269.24 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba71649d-4edc-4b9c-9bb5-fc6fdfc95c32")
 	)
 	(wire
 		(pts
@@ -6859,6 +7094,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 74.93) (xy 271.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c332a4da-da91-4ade-b619-2fcb250bfd11")
+	)
+	(wire
+		(pts
 			(xy 149.86 168.91) (xy 149.86 172.72)
 		)
 		(stroke
@@ -6899,7 +7144,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 87.63) (xy 254 90.17)
+			(xy 233.68 82.55) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6956,16 +7201,6 @@
 			(type default)
 		)
 		(uuid "ccbf0c36-6852-4e70-b069-44e6a7323601")
-	)
-	(wire
-		(pts
-			(xy 254 77.47) (xy 247.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdffc212-e646-45c9-83f0-8b37baa42f95")
 	)
 	(wire
 		(pts
@@ -7069,16 +7304,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 82.55) (xy 269.24 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da254fc2-de72-42b6-8557-ad305d1eb047")
-	)
-	(wire
-		(pts
 			(xy 21.59 187.96) (xy 25.4 187.96)
 		)
 		(stroke
@@ -7096,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "dad3d715-62aa-419e-b396-751d9e01f6f4")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 233.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1d0f24-b1a2-4674-a6c1-1a3a13d8ce41")
 	)
 	(wire
 		(pts
@@ -7136,6 +7371,16 @@
 			(type default)
 		)
 		(uuid "e431c3bb-eeae-47ca-96ae-526e9e68b7c0")
+	)
+	(wire
+		(pts
+			(xy 228.6 68.58) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61b81a9-7605-496a-9737-770c49a8b334")
 	)
 	(wire
 		(pts
@@ -7269,16 +7514,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 80.01) (xy 269.24 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faaf8298-bbb3-4762-bdb5-5b2de806e237")
-	)
-	(wire
-		(pts
 			(xy 267.97 109.22) (xy 267.97 110.49)
 		)
 		(stroke
@@ -7298,12 +7533,12 @@
 		(uuid "fdf4d97b-d73e-4220-bcee-0db5ecbad2a0")
 	)
 	(label "BOOT"
-		(at 267.97 81.28 180)
+		(at 273.05 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0172f67d-319e-4bec-a68d-77a39e46988a")
 	)
@@ -7628,7 +7863,7 @@
 		(uuid "d3f22316-56c5-48fb-8a52-1f8255496cb9")
 	)
 	(label "NRST"
-		(at 247.65 76.2 0)
+		(at 233.68 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7927,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e780f7-31e2-45b9-9ab4-b35a4f7502ad")
-		(property "Reference" "IC1"
+		(property "Reference" "IC3"
 			(at 101.6 165.0999 90)
 			(effects
 				(font
@@ -8065,7 +8300,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "IC1")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "088592bf-32b7-4809-8f23-89dab73d9fca")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 165.1 176.53 0)
 			(effects
 				(font
@@ -8200,7 +8435,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08f42b0e-8b6f-4957-8cdc-407294450015")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR019"
 			(at 124.46 176.53 0)
 			(effects
 				(font
@@ -8265,7 +8500,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR09")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6013ec-5abe-44f6-8733-e1baa553a78d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -8331,7 +8566,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0efd3c3a-165b-4ff8-b66e-96672ab8afbb")
-		(property "Reference" "IC41"
+		(property "Reference" "IC2"
 			(at 92.456 32.258 0)
 			(effects
 				(font
@@ -8658,7 +8893,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "IC41")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -8743,7 +8978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bfab681-d4de-4eb8-b39b-891dee0665e8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 264.16 25.4 0)
 			(effects
 				(font
@@ -8793,7 +9028,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8801,7 +9036,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 269.24 68.58 0)
+		(at 251.46 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8809,8 +9044,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c20ebf9-863a-4884-8e1a-411dcd09a815")
-		(property "Reference" "#PWR034"
-			(at 269.24 72.39 0)
+		(property "Reference" "#PWR044"
+			(at 251.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +9054,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 269.24 63.5 0)
+			(at 251.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +9062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 68.58 0)
+			(at 251.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +9071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 68.58 0)
+			(at 251.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +9080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 68.58 0)
+			(at 251.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +9094,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR034")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8875,7 +9110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c8be157-6cb9-40d9-b663-9efd484d3f32")
-		(property "Reference" "TP8"
+		(property "Reference" "TP1"
 			(at 88.9 142.7479 0)
 			(effects
 				(font
@@ -8926,7 +9161,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8942,7 +9177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1e023e-624d-4ede-b1cf-f99877ec06de")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR030"
 			(at 203.2 162.56 0)
 			(effects
 				(font
@@ -8992,7 +9227,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR020")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9008,7 +9243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f674a06-68f7-4431-bd62-e8d76f7e299a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 144.78 195.58 0)
 			(effects
 				(font
@@ -9058,7 +9293,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2558dcbf-a644-4037-bce2-fef8f2587d0a")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 205.74 34.544 90)
 			(effects
 				(font
@@ -9196,7 +9431,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9212,7 +9447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27d70705-e4ad-4113-9513-49d6eee6ede1")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 135.89 135.89 90)
 			(effects
 				(font
@@ -9264,7 +9499,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9280,7 +9515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ac7de1-9fce-4b17-8241-16f67d04a244")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR043"
 			(at 267.97 125.73 0)
 			(effects
 				(font
@@ -9330,7 +9565,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR033")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9346,7 +9581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "326d1afb-e86f-439d-9899-c6e2bd680522")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR036"
 			(at 248.92 151.13 0)
 			(effects
 				(font
@@ -9396,7 +9631,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9412,7 +9647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "396ecd77-3399-4f93-92b4-c105668088ae")
-		(property "Reference" "TP13"
+		(property "Reference" "TP5"
 			(at 160.528 25.4 90)
 			(effects
 				(font
@@ -9461,7 +9696,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP13")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9477,7 +9712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403b2645-581b-44ac-b97b-83142209bcf0")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 144.018 25.4 90)
 			(effects
 				(font
@@ -9526,7 +9761,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP9")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42970023-3d77-4fef-88e7-f4b8a7ea1356")
-		(property "Reference" "S5"
+		(property "Reference" "S1"
 			(at 165.1 148.5198 0)
 			(effects
 				(font
@@ -9681,7 +9916,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "S5")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -9689,7 +9924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 91.44 0)
+		(at 233.68 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9697,8 +9932,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46bbd396-65ee-4780-9171-8c3920b003e2")
-		(property "Reference" "#PWR025"
-			(at 247.65 97.79 0)
+		(property "Reference" "#PWR035"
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 96.52 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,7 +9959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +9982,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475bf2d8-4e9d-4122-b539-6b01728b3464")
-		(property "Reference" "TP11"
+		(property "Reference" "TP2"
 			(at 128.27 182.3719 0)
 			(effects
 				(font
@@ -9814,7 +10049,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP11")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9830,7 +10065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd05f9d-e9d4-43cc-9288-b96a1df560d7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 144.78 176.53 0)
 			(effects
 				(font
@@ -9880,7 +10115,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9896,7 +10131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503b8c83-659f-4064-942a-61c08fe78481")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 132.08 166.37 90)
 			(effects
 				(font
@@ -9948,7 +10183,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9964,7 +10199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c89f66-dbf2-4408-9dce-6c8ebd74c151")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR031"
 			(at 212.09 152.4 0)
 			(effects
 				(font
@@ -10014,7 +10249,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567b0cbe-6986-4b7f-b2d6-529237946bc4")
-		(property "Reference" "TP12"
+		(property "Reference" "TP6"
 			(at 166.37 182.3719 0)
 			(effects
 				(font
@@ -10081,7 +10316,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP12")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10097,7 +10332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5851af9d-247a-4ccf-8375-8f77f8066648")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 222.1865 17.78 0)
 			(effects
 				(font
@@ -10227,7 +10462,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5adae516-c258-4e30-bb15-9b842409d5f4")
-		(property "Reference" "TP14"
+		(property "Reference" "TP7"
 			(at 177.038 25.4 90)
 			(effects
 				(font
@@ -10292,7 +10527,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP14")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10307,7 +10542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6092fc0e-044f-4288-98dd-f6942843ecb5")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 205.74 25.654 90)
 			(effects
 				(font
@@ -10359,7 +10594,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10375,7 +10610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a1522f-bde5-4de2-9056-c0d90878290d")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 152.4 24.1299 0)
 			(effects
 				(font
@@ -10429,7 +10664,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10445,7 +10680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7262dae4-9fc0-424c-a19e-3b4a7378ecc4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 86.36 190.5 0)
 			(effects
 				(font
@@ -10495,7 +10730,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10511,7 +10746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "789d6639-c2ae-4b04-82c7-13206f81fd43")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -10561,7 +10796,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10576,7 +10811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79cd5223-456f-45bb-9041-2ea216b87c94")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 64.77 160.0199 0)
 			(effects
 				(font
@@ -10630,7 +10865,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10646,7 +10881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c83aa62-49f0-4cd9-b034-a1d7463d2521")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 48.26 24.13 0)
 			(effects
 				(font
@@ -10696,7 +10931,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10782,7 +11017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f497723-424a-4898-ba34-f058518b0045")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -10832,7 +11067,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10840,7 +11075,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 83.82 0)
+		(at 233.68 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10849,7 +11084,7 @@
 		(fields_autoplaced yes)
 		(uuid "803068c8-aa02-4477-b686-12fbbba4f863")
 		(property "Reference" "C10"
-			(at 257.81 82.5499 0)
+			(at 237.49 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +11093,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 257.81 85.0899 0)
+			(at 237.49 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254.9652 87.63 0)
+			(at 234.6452 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +11111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 83.82 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +11120,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 254 83.82 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +11153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c626e3-5fea-4dd8-a4f3-1dc43aa34445")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR020"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -10968,7 +11203,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR010")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10984,7 +11219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80dee25d-0d56-4f48-bb0d-ba1bea622c36")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 157.48 166.37 90)
 			(effects
 				(font
@@ -11036,7 +11271,164 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R6")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TL3365AF180QG")
+		(at 224.79 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "832054aa-0f7c-4d81-9abd-c09d8ddf0ca7")
+		(property "Reference" "S5"
+			(at 220.726 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL3365AF180QG"
+			(at 223.266 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TL3365AF180QG"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3365AF180QG.pdf"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 212.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.75"
+			(at 214.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 217.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL3365AF180QG"
+			(at 256.794 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TL3365AF180QG"
+			(at 259.334 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3365AF180QG?qs=xQzBpF%2FAFTo%252BA4IL7l2Rvw%3D%3D"
+			(at 261.874 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 245.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "09ad3acb-2922-4cad-a1da-524648e0b567")
+		)
+		(pin "2"
+			(uuid "d811e291-3600-48e6-b44b-658177e7fdc8")
+		)
+		(pin "3"
+			(uuid "f2ac5300-98fa-4b67-929f-44489971d2a0")
+		)
+		(pin "1"
+			(uuid "39e1efb2-4c32-4901-b2fc-b9b098ff81a0")
+		)
+		(instances
+			(project ""
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86adfd9c-da58-4ec6-a1a7-fd59bc3eb601")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 148.59 144.78 0)
 			(effects
 				(font
@@ -11101,7 +11493,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11257,7 +11649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bb8fb53-3642-4361-b12a-aff2b45566f1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR018"
 			(at 92.71 27.94 0)
 			(effects
 				(font
@@ -11307,7 +11699,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR08")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11323,7 +11715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc1bc5b-1bc0-4160-a5a0-d5bf0ccec41d")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 25.4 142.24 0)
 			(effects
 				(font
@@ -11420,7 +11812,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943698f1-cba9-43cd-bd20-6550bcd5bf61")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 127.508 25.4 90)
 			(effects
 				(font
@@ -11485,7 +11877,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a18d156-2ec0-431e-a4c3-6ad1e9656093")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 133.35 24.13 0)
 			(effects
 				(font
@@ -11551,7 +11943,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11566,7 +11958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a682f05c-2676-434b-89e2-c340639002e7")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 205.74 16.764 90)
 			(effects
 				(font
@@ -11618,7 +12010,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11626,7 +12018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 269.24 86.36 0)
+		(at 271.78 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11634,8 +12026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77eee7e-4ffd-4f3b-9170-e29406769a14")
-		(property "Reference" "R13"
-			(at 271.78 85.0899 0)
+		(property "Reference" "R17"
+			(at 274.32 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +12036,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 271.78 87.6299 0)
+			(at 274.32 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +12045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.462 86.36 90)
+			(at 270.002 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +12054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 86.36 0)
+			(at 271.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +12063,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 269.24 86.36 0)
+			(at 271.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,77 +12080,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 241.3 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a84fd987-d129-41e6-81bc-5fcef0f17ad3")
-		(property "Reference" "SW1"
-			(at 242.57 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RST"
-			(at 242.57 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 241.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "519c6bc0-5d68-41ff-ab6f-58185fc7e7e7")
-		)
-		(pin "2"
-			(uuid "5b969f36-a1e4-45d0-9214-2836ab9b47a5")
-		)
-		(instances
-			(project ""
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "SW1")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11774,7 +12096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab73673b-653e-4274-a84d-9aa7c137fde2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 62.23 152.4 0)
 			(effects
 				(font
@@ -11824,7 +12146,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11840,7 +12162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed2c10f-3ddc-4656-9666-a2038ed58e3b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR037"
 			(at 248.92 163.83 0)
 			(effects
 				(font
@@ -11890,7 +12212,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11906,7 +12228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af741cea-cba1-499d-97a3-8fc80fdb4539")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 55.88 160.0199 0)
 			(effects
 				(font
@@ -11960,7 +12282,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12116,7 +12438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bccf0c3c-ca6d-45ee-8be1-96f016caa3d9")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 243.84 16.51 0)
 			(effects
 				(font
@@ -12246,77 +12568,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 269.24 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf8d1795-660e-48f6-baa8-cad7cb4fdcb8")
-		(property "Reference" "SW2"
-			(at 270.51 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 270.51 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 269.24 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e96de7c-ac99-4e40-a738-537225c4a5d1")
-		)
-		(pin "2"
-			(uuid "8db56b70-f934-4e85-a3f6-b08ff791bb61")
-		)
-		(instances
-			(project "ModulinV2"
-				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "SW2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12332,7 +12584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c05dc542-8ba3-4358-aaed-b8b3cfb46fdd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 158.75 162.56 0)
 			(effects
 				(font
@@ -12382,7 +12634,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12468,7 +12720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2d05f93-bdc2-41cf-83b8-99227a79c345")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 71.12 24.13 0)
 			(effects
 				(font
@@ -12518,7 +12770,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12596,16 +12848,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 91.44 0)
+		(at 271.78 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5290325-0896-45b6-9897-bed6519e2d9d")
-		(property "Reference" "#PWR035"
-			(at 269.24 97.79 0)
+		(property "Reference" "#PWR045"
+			(at 271.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,7 +12865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 96.52 0)
+			(at 271.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +12873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 91.44 0)
+			(at 271.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +12882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 91.44 0)
+			(at 271.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +12891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 91.44 0)
+			(at 271.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +12905,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR035")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12670,7 +12921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80f29cb-a7dd-4c12-ab25-ecf402f0a4dc")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 21.59 195.58 0)
 			(effects
 				(font
@@ -12720,7 +12971,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12736,7 +12987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac5c9af-6ec6-4145-8d22-7604feae0460")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR034"
 			(at 242.57 125.73 0)
 			(effects
 				(font
@@ -12786,7 +13037,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR024")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12802,7 +13053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf1dce1e-a1c1-47dd-ba6b-77bcf5494dd0")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR038"
 			(at 251.46 40.64 0)
 			(effects
 				(font
@@ -12852,7 +13103,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR028")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12868,7 +13119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d1757c-b17b-4e26-a467-0bf586189f6e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 53.34 172.72 0)
 			(effects
 				(font
@@ -12918,7 +13169,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12934,7 +13185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c132d7-17d1-4453-9564-518a397a4009")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR046"
 			(at 279.4 25.4 0)
 			(effects
 				(font
@@ -12984,7 +13235,164 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR036")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TL3365AF180QG")
+		(at 256.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8ccf4e7-4442-48f5-9a95-61f892bffd8e")
+		(property "Reference" "S6"
+			(at 255.016 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL3365AF180QG"
+			(at 255.016 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TL3365AF180QG"
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3365AF180QG.pdf"
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 259.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.75"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL3365AF180QG"
+			(at 276.098 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TL3365AF180QG"
+			(at 276.098 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3365AF180QG?qs=xQzBpF%2FAFTo%252BA4IL7l2Rvw%3D%3D"
+			(at 276.098 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 273.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "32e61819-5a34-427e-8070-825f070a0df1")
+		)
+		(pin "2"
+			(uuid "20d9368e-17e5-4aa2-88eb-170bcb986cd0")
+		)
+		(pin "3"
+			(uuid "c3946d84-7fe5-4ec1-9209-dab34c443a1e")
+		)
+		(pin "1"
+			(uuid "687fbb6c-997f-4e67-a004-603a27e1611e")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -13000,7 +13408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8d6584-1927-4969-b158-50b36d636e20")
-		(property "Reference" "JP1"
+		(property "Reference" "JP3"
 			(at 271.78 17.78 0)
 			(effects
 				(font
@@ -13055,7 +13463,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -13223,7 +13631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00c0bb4-82c1-4ec2-ad49-cf78df0beb36")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 185.42 24.1299 0)
 			(effects
 				(font
@@ -13277,7 +13685,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13363,7 +13771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6572b8c-e995-48c1-8b43-a5d73ab24f00")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 149.86 24.13 0)
 			(effects
 				(font
@@ -13413,7 +13821,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR016")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13429,7 +13837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7226deb-2294-491c-8c35-827d438417e3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR014"
 			(at 62.23 24.13 0)
 			(effects
 				(font
@@ -13479,7 +13887,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR04")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13565,7 +13973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed355fda-5ce7-4bc6-b551-d7d939031918")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 53.34 142.24 0)
 			(effects
 				(font
@@ -13689,7 +14097,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "D8")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13705,7 +14113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed58a0f7-b614-490f-9b5d-da0d1a88e889")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR028"
 			(at 166.37 24.13 0)
 			(effects
 				(font
@@ -13755,7 +14163,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13771,7 +14179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee48f6f0-aae5-4286-af06-717d51a16825")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 168.91 24.1299 0)
 			(effects
 				(font
@@ -13825,7 +14233,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13840,7 +14248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2d91ba6-41f8-49b5-aca0-bda5b79548c9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR033"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -13890,7 +14298,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR023")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14046,7 +14454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb0c33fa-bdec-495c-9b8e-b34ba0257f9e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 222.25 163.83 0)
 			(effects
 				(font
@@ -14096,7 +14504,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14112,7 +14520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8c0876-d7ae-4423-a91a-cfa255f9b6ce")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR042"
 			(at 267.97 113.03 0)
 			(effects
 				(font
@@ -14162,7 +14570,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "#PWR032")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14247,7 +14655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe89f24d-7880-4144-944c-45c65f65d2b0")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 135.89 24.1299 0)
 			(effects
 				(font
@@ -14301,7 +14709,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/2f38494c-2f9d-4537-8bdc-28b3add05107"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)

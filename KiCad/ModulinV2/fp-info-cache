@@ -1,4 +1,4 @@
-64992591128487
+66749312257343
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94933,6 +94933,13 @@ MOSFET (P-Channel)
 0
 3
 3
+SamacSys_Parts
+TL3365AF180QG
+TL3365AF180QG-3
+Switch
+0
+4
+4
 SamacSys_Parts
 TO170P1435X465-6N
 KTT0005B
