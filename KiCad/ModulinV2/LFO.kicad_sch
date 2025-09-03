@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e38987d5-c979-4135-8aa1-befe530f2941")
+	(paper "A4")
+	(title_block
+		(comment 1 "Instructor: Kaiser Pärnamets")
+		(comment 2 "By: Rasmus Palk")
+	)
+	(lib_symbols)
+)

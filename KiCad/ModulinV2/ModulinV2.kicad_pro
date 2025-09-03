@@ -718,6 +718,10 @@
     [
       "e9498aae-6574-4e4e-b792-2c2c867ca344",
       "Tuning"
+    ],
+    [
+      "36c25953-dc85-43c1-9102-37dfd95b11fe",
+      "LFO"
     ]
   ],
   "text_variables": {}

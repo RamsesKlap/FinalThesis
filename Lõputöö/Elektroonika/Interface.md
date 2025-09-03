@@ -63,5 +63,20 @@
 	- **Reageerimisaeg:** $3\:\micro s$ 
 	- **Survevahemik:** 20 - 2 000 g
 
+LOW 0.5, HIGH 2.5
+- R1 20k
+- R2 10k
+- R3 10k
+
+LOW 0.5, HIGH 2
+- R1 30k
+- R2 12k
+- R3 20k
+
+LOW 1, HIGH 2
+- R1 10k
+- R2 10k
+- R3 20k
+
 ------------
 ### Signaali suund: [[VCO]]
