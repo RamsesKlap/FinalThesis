@@ -1,0 +1,182 @@
+(footprint "VLS6045"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VLS6045")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9a46ef1a-e81c-4cdb-86ba-d333bb453a0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VLS6045"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1dec6ff-bf97-4b57-a364-ee66fbd2f353")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cf2b736-60f4-439e-9f21-b82bdcfa0561")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15c83202-aed3-4f92-8ff5-91fc575f296b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.95 0)
+		(end -3.95 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8071949a-1e82-4e89-b5be-101d7c1a812c")
+	)
+	(fp_line
+		(start -5.05 -4.2)
+		(end 4.2 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41218835-d8dc-475f-b8f3-213b0be5f0c1")
+	)
+	(fp_line
+		(start -5.05 4.2)
+		(end -5.05 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b948f000-fd7b-4052-ad5a-9844749ec992")
+	)
+	(fp_line
+		(start 4.2 -4.2)
+		(end 4.2 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f670dd55-e36a-4bbf-9fd6-7cb66984761f")
+	)
+	(fp_line
+		(start 4.2 4.2)
+		(end -5.05 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a8dfde5-f9c6-4a2e-9b12-bcce36d3ccb0")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a65f9bbb-b3e6-4a3a-b2fa-7c3df9efd1c4")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ca29bf5-f626-4bd8-8be1-db6fa8bae7e9")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dcf8be0-ce28-4719-a746-fff5f1e3b479")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6de61f9f-8530-4051-8742-7579bdb9f9b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a50f45b4-c2b7-437a-9e23-17a76ef38aed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9905adb9-96d1-4566-94fc-d299757b61bd")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.9 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03d47c97-fbfa-49be-849a-dec0784d462c")
+	)
+	(embedded_fonts no)
+	(model "VLS6045EX-680M.stp"
+		(offset
+			(xyz 0 0 2.259999957)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

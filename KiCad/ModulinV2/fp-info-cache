@@ -1,4 +1,4 @@
-66749312257343
+79047534571200
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94710,6 +94710,20 @@ LED (Multiple)
 4
 4
 SamacSys_Parts
+CAPC1608X90N
+0603 (0.8mm)
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC1608X95N
+0603_2023
+Capacitor
+0
+2
+2
+SamacSys_Parts
 DIOAD3070W130L950D530
 1N5822
 Diode
@@ -94744,6 +94758,13 @@ Switch
 0
 14
 14
+SamacSys_Parts
+ETQP5M220YSC
+ETQP5MxxxYSC
+Inductor
+0
+2
+2
 SamacSys_Parts
 EXB2HV102JV
 EXB-2HV102JV-5
@@ -94843,6 +94864,13 @@ Integrated Circuit
 100
 100
 SamacSys_Parts
+RB14DE1100
+
+
+0
+3
+3
+SamacSys_Parts
 SOIC127P600X175-8N
 SOIC-8 NB CASE 751-07
 Integrated Circuit
@@ -94934,6 +94962,13 @@ MOSFET (P-Channel)
 3
 3
 SamacSys_Parts
+SPDT
+
+
+0
+3
+3
+SamacSys_Parts
 TL3365AF180QG
 TL3365AF180QG-3
 Switch
@@ -94968,6 +95003,20 @@ Connector
 0
 4
 4
+SamacSys_Parts
+TestPointLoop
+
+
+0
+1
+1
+SamacSys_Parts
+VLS6045
+VLS6045
+Inductor
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
