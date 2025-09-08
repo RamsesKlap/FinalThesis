@@ -4473,7 +4473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:PV36W201C01B00"
 			(at 27.94 156.21 0)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c490615-a19a-46e7-ad44-e05c0ff1e678")
-		(property "Reference" "TP62"
+		(property "Reference" "TP2"
 			(at 173.99 129.5399 90)
 			(effects
 				(font
@@ -5329,7 +5329,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "TP62")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba1d7aeb-10ea-4afb-834f-a9e289e1fa47")
-		(property "Reference" "TP61"
+		(property "Reference" "TP1"
 			(at 18.288 156.21 90)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082"
-					(reference "TP61")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

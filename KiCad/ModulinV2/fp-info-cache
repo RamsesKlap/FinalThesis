@@ -1,4 +1,4 @@
-79047534571200
+91348895937799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94710,6 +94710,20 @@ LED (Multiple)
 4
 4
 SamacSys_Parts
+C0805
+C0805
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC1005X56N
+0402 (1005 Metric)_2024-55
+Capacitor
+0
+2
+2
+SamacSys_Parts
 CAPC1608X90N
 0603 (0.8mm)
 Capacitor
@@ -94723,6 +94737,27 @@ Capacitor
 0
 2
 2
+SamacSys_Parts
+CAPC3216X180N
+CL31B225KBHNNNE
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPPRD500W65D1275H2700
+ECA-1HM102
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CX2016FB24000B0FZZH1
+2 mm x 1.6 mm x 0.45 mm	
+Crystal or Oscillator
+0
+4
+4
 SamacSys_Parts
 DIOAD3070W130L950D530
 1N5822
@@ -94758,6 +94793,13 @@ Switch
 0
 14
 14
+SamacSys_Parts
+ESK-_8X11_
+ESK-(8x11)
+Capacitor
+0
+2
+2
 SamacSys_Parts
 ETQP5M220YSC
 ETQP5MxxxYSC
@@ -94849,6 +94891,13 @@ Variable Resistor
 0
 5
 5
+SamacSys_Parts
+PV36W201C01B00
+PV36W
+Resistor
+0
+3
+3
 SamacSys_Parts
 QFP50P1200X1200X160-64N
 STM32F401RET6

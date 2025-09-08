@@ -5437,7 +5437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02517085-535d-4e7d-b6fd-e4adeb2dfbe7")
-		(property "Reference" "C100"
+		(property "Reference" "C102"
 			(at 64.77 152.3999 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.9948 149.86 0)
 			(effects
 				(font
@@ -5491,7 +5491,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C100")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a81bae-8d3d-44bd-a5b1-fd39e939a314")
-		(property "Reference" "C96"
+		(property "Reference" "C98"
 			(at 31.75 152.3999 0)
 			(effects
 				(font
@@ -5525,7 +5525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 26.9748 149.86 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C96")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -5753,7 +5753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0af0136b-9577-46dd-8061-981dda01ceb8")
-		(property "Reference" "#PWR0241"
+		(property "Reference" "#PWR0243"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -5803,7 +5803,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0241")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d39cf02-7789-4d92-9dbf-9a7566a3b951")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0218"
 			(at 21.59 101.6 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0216")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -5953,7 +5953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f33e9cc-c078-4f8b-a191-2d1dd38d0dfb")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0235"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0233")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1708c0d3-babc-4aab-b628-05c092bdfc5c")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0245"
 			(at 262.89 29.21 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0243")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200a97f8-b125-48c8-88c3-517698b4e819")
-		(property "Reference" "C102"
+		(property "Reference" "C104"
 			(at 76.2 152.3999 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 71.4248 149.86 0)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C102")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -6155,7 +6155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20844267-04f0-48aa-b993-d3405a24c5c1")
-		(property "Reference" "C101"
+		(property "Reference" "C103"
 			(at 64.77 177.7999 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.9948 175.26 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C101")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220224ed-5858-43a9-9b5a-4e3e5eba105f")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0241"
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -6275,7 +6275,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0239")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -6362,7 +6362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279e93db-db73-4d08-b26d-d3100899bec5")
-		(property "Reference" "C108"
+		(property "Reference" "C110"
 			(at 152.4 177.7999 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 147.6248 175.26 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C108")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4c8d70-e4ea-49ee-bdef-5b38b4e3e1cf")
-		(property "Reference" "TP66"
+		(property "Reference" "TP59"
 			(at 45.72 47.4979 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP66")
+					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -6499,7 +6499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c898aa5-23b6-4d7b-a765-7ab99ee0a568")
-		(property "Reference" "C98"
+		(property "Reference" "C100"
 			(at 46.99 33.0199 0)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 42.2148 30.48 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C98")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d210547-c3b8-4aa8-abb8-3dbe990318dc")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0232"
 			(at 128.27 172.72 0)
 			(effects
 				(font
@@ -6619,7 +6619,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0230")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3491536b-dc60-4ca2-8560-87a82d8bca4c")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0221"
 			(at 39.37 172.72 0)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0219")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -6947,7 +6947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a7a78e-1105-4321-be28-8f48bc99f237")
-		(property "Reference" "TP69"
+		(property "Reference" "TP56"
 			(at 26.67 129.5399 90)
 			(effects
 				(font
@@ -6998,7 +6998,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP69")
+					(reference "TP56")
 					(unit 1)
 				)
 			)
@@ -7014,7 +7014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36c73d42-f558-40a3-b19c-b5ebca6608e0")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0224"
 			(at 43.18 71.12 0)
 			(effects
 				(font
@@ -7064,7 +7064,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0222")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -7080,7 +7080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3842a281-e539-4b44-ba88-b348b8290bd4")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0240"
 			(at 160.02 190.5 0)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0238")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4141cc77-93f9-43c7-8e74-92485b1bf903")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0225"
 			(at 45.72 124.46 0)
 			(effects
 				(font
@@ -7196,7 +7196,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0223")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41dcc67a-bc9c-45ca-bb52-b0391e77a474")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0220"
 			(at 27.94 165.1 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0218")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7454,7 +7454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c26ccb0-3fdc-41aa-a00e-79a4e3c73a17")
-		(property "Reference" "C99"
+		(property "Reference" "C101"
 			(at 46.99 58.4199 0)
 			(effects
 				(font
@@ -7472,7 +7472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 42.2148 55.88 0)
 			(effects
 				(font
@@ -7508,7 +7508,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C99")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d12d910-c9be-46cf-b20a-337e338e40ba")
-		(property "Reference" "C94"
+		(property "Reference" "C96"
 			(at 20.32 152.3999 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 15.5448 149.86 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C94")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5690bc-3535-434e-860b-7283b780be16")
-		(property "Reference" "C107"
+		(property "Reference" "C109"
 			(at 120.65 177.7999 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.8748 175.26 0)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C107")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -7664,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5295ee94-fb37-45f4-b2c2-c5fffb77c559")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0236"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -7714,7 +7714,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0234")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -7906,7 +7906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a295eb-d1b8-4e7f-921b-747269c64fe2")
-		(property "Reference" "C103"
+		(property "Reference" "C105"
 			(at 76.2 177.7999 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 71.4248 175.26 0)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C103")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -8046,7 +8046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a9468e-02e1-4050-b845-1d0c9f5eb29e")
-		(property "Reference" "C105"
+		(property "Reference" "C107"
 			(at 109.22 177.7999 0)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.4448 175.26 0)
 			(effects
 				(font
@@ -8100,7 +8100,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C105")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -8116,7 +8116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58c966c8-3790-4045-8b67-639748f0d41c")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0217"
 			(at 16.51 41.91 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0215")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -8428,7 +8428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673ef9d9-5d39-49b6-86ea-cc3d6d96d081")
-		(property "Reference" "C95"
+		(property "Reference" "C97"
 			(at 20.32 177.7999 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 15.5448 175.26 0)
 			(effects
 				(font
@@ -8482,7 +8482,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C95")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -8498,7 +8498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a1d054-9af6-4b06-99d5-d8ca0a70018d")
-		(property "Reference" "C109"
+		(property "Reference" "C111"
 			(at 163.83 177.7999 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.0548 175.26 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C109")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -8568,7 +8568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e9567ec-d523-4c97-8297-7cfe3c8ff6ad")
-		(property "Reference" "TP67"
+		(property "Reference" "TP60"
 			(at 49.53 129.5399 90)
 			(effects
 				(font
@@ -8619,7 +8619,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP67")
+					(reference "TP60")
 					(unit 1)
 				)
 			)
@@ -8635,7 +8635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fdedddc-367f-4157-b429-ecb3a4515b0c")
-		(property "Reference" "C97"
+		(property "Reference" "C99"
 			(at 31.75 177.7999 0)
 			(effects
 				(font
@@ -8653,7 +8653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 26.9748 175.26 0)
 			(effects
 				(font
@@ -8689,7 +8689,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C97")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -8887,7 +8887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "787e1995-29d2-4d45-ad92-993de6982d90")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0226"
 			(at 72.39 152.4 0)
 			(effects
 				(font
@@ -8937,7 +8937,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0224")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -8953,7 +8953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78f51ae4-fc5f-4539-adae-51fe0bfc1aac")
-		(property "Reference" "TP65"
+		(property "Reference" "TP58"
 			(at 45.72 22.0979 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP65")
+					(reference "TP58")
 					(unit 1)
 				)
 			)
@@ -9020,7 +9020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f135d25-3d19-4fba-b81e-8ae2a68ceaa5")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0230"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -9070,7 +9070,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0228")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -9086,7 +9086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801e6e27-4f8a-4299-9ef5-fe957e97d84b")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0229"
 			(at 83.82 195.58 0)
 			(effects
 				(font
@@ -9136,7 +9136,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0227")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -9330,7 +9330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8afbe2ee-f84f-4ead-9ffb-b71df86e87bf")
-		(property "Reference" "C104"
+		(property "Reference" "C106"
 			(at 109.22 152.3999 0)
 			(effects
 				(font
@@ -9348,7 +9348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.4448 149.86 0)
 			(effects
 				(font
@@ -9384,7 +9384,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C104")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -9576,7 +9576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6549ea-af90-4a83-b0d6-bfb4f9a6c47c")
-		(property "Reference" "C106"
+		(property "Reference" "C108"
 			(at 120.65 152.3999 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC1608X95N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.8748 149.86 0)
 			(effects
 				(font
@@ -9630,7 +9630,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "C106")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -9646,7 +9646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90468ef8-0c2a-4e07-bc81-9576698e73aa")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0222"
 			(at 39.37 195.58 0)
 			(effects
 				(font
@@ -9696,7 +9696,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0220")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -9712,7 +9712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92963055-e7f0-43be-87f2-ddb788935472")
-		(property "Reference" "TP70"
+		(property "Reference" "TP57"
 			(at 26.67 134.6199 90)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP70")
+					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9335ef82-1839-4967-94b8-40afedf56916")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0239"
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -9829,7 +9829,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0237")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -10161,7 +10161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0b9d07-64e9-4eaa-b094-e38df12105d6")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0242"
 			(at 177.8 54.61 0)
 			(effects
 				(font
@@ -10211,7 +10211,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0240")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -10585,7 +10585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b964e5-2a5f-4b5c-b4b3-16137a430e16")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0231"
 			(at 116.84 165.1 0)
 			(effects
 				(font
@@ -10635,7 +10635,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0229")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -10721,7 +10721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7230935-b5a4-495f-b75e-341b0df44603")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0237"
 			(at 148.59 177.8 0)
 			(effects
 				(font
@@ -10771,7 +10771,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0235")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -10787,7 +10787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4cf113-c58a-467d-bfd1-75df4eaa4f1e")
-		(property "Reference" "#PWR0242"
+		(property "Reference" "#PWR0244"
 			(at 179.07 29.21 0)
 			(effects
 				(font
@@ -10837,7 +10837,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0242")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -10853,7 +10853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac28a20c-05e0-4520-834c-8490019667b0")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0238"
 			(at 148.59 190.5 0)
 			(effects
 				(font
@@ -10903,7 +10903,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0236")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -11097,7 +11097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0135380-cfab-4ba5-9ef2-d0add58f7bfe")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0227"
 			(at 72.39 165.1 0)
 			(effects
 				(font
@@ -11147,7 +11147,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0225")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a5e366-9740-4735-a96d-ac0f8f9ae87d")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0246"
 			(at 262.89 31.75 0)
 			(effects
 				(font
@@ -11213,7 +11213,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0244")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -11229,7 +11229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca46db4-8554-4fd8-8184-c14d17f1b87d")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0233"
 			(at 128.27 195.58 0)
 			(effects
 				(font
@@ -11279,7 +11279,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0231")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -11295,7 +11295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16d2f14-e8ca-4ee6-9bec-4f97ac3faa04")
-		(property "Reference" "TP68"
+		(property "Reference" "TP61"
 			(at 49.53 134.6199 90)
 			(effects
 				(font
@@ -11346,7 +11346,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP68")
+					(reference "TP61")
 					(unit 1)
 				)
 			)
@@ -11362,7 +11362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c272d04a-76d0-4a45-931e-5cbfdab08d80")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0228"
 			(at 83.82 172.72 0)
 			(effects
 				(font
@@ -11412,7 +11412,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0226")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7fe82ad-aae4-4276-baa0-1e478b84c638")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0223"
 			(at 43.18 45.72 0)
 			(effects
 				(font
@@ -11478,7 +11478,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0221")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -11494,7 +11494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fc5c49-a37d-4c5d-9939-47455d4bc2d6")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0219"
 			(at 27.94 152.4 0)
 			(effects
 				(font
@@ -11544,7 +11544,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0217")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -11560,7 +11560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d41d3bcb-2939-4bae-b09c-e9ebc5d13c8e")
-		(property "Reference" "TP71"
+		(property "Reference" "TP62"
 			(at 249.428 22.86 90)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "TP71")
+					(reference "TP62")
 					(unit 1)
 				)
 			)
@@ -11959,7 +11959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e43d953c-5063-4e7a-a2bb-3ee1660fb5f0")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0234"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -12009,7 +12009,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
-					(reference "#PWR0232")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,128 @@
+(footprint "ESK-_8X11_"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ESK-(8x11)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at -0.3328 -0.1056 0)
+		(layer "F.SilkS")
+		(uuid "b01b1164-d6c6-480c-be86-5aa129e5c3e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ESK-(8X11)"
+		(at -0.3328 -0.1056 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4322227a-4e66-4a1e-9924-b935163ca7a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "822c768f-b9ba-4582-bce0-2d5885e6e9ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15637365-4daa-4881-8f36-02c2ef1fc6e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -0.032 4.799)
+		(end -0.032 4.92198)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7511bd43-3b3b-49b7-89ad-77154e37c4cb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9a379663-34aa-4312-aac2-01ed9d2d471a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c3b000d-5c42-4e17-b1ab-baebe55305ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3328 -0.1056 0)
+		(layer "F.Fab")
+		(uuid "eef423a8-3a78-49d1-9a71-04e17ecd63f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.75)
+		(size 1.275 1.275)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ac2879e-08f3-4ece-8d04-788a60eddb40")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.75)
+		(size 1.275 1.275)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23f5d869-d4b4-4da6-8e2f-d99be18358b6")
+	)
+	(embedded_fonts no)
+	(model "ESK107M050AG3AA.stp"
+		(offset
+			(xyz 0 0 12.47999935)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -90 90)
+		)
+	)
+)
