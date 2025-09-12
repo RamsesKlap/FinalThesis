@@ -3649,7 +3649,7 @@
 		(uuid "14018ed9-5150-4f6d-a128-7949dd6b3ee1")
 	)
 	(junction
-		(at 40.64 242.57)
+		(at 39.37 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15923502-7efa-4212-a8e3-91fc7f6c42a3")
@@ -3733,13 +3733,13 @@
 		(uuid "3a38a0c6-89c1-4185-9eb0-37115fe3eb31")
 	)
 	(junction
-		(at 40.64 238.76)
+		(at 39.37 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3af91779-c52d-4787-9117-8f88f87c9bfb")
 	)
 	(junction
-		(at 11.43 238.76)
+		(at 10.16 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b6d8853-090d-4cd0-ae80-2b62b1e894e3")
@@ -3811,7 +3811,7 @@
 		(uuid "7e1d4eee-7334-425e-b662-b5d6ad96b524")
 	)
 	(junction
-		(at 62.23 238.76)
+		(at 60.96 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a60dec5-1d3a-4a6b-9d61-4bf72cd49cc5")
@@ -3883,7 +3883,7 @@
 		(uuid "ab05f88f-2df3-410b-a1bd-1a0ff16394fb")
 	)
 	(junction
-		(at 33.02 238.76)
+		(at 31.75 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1429f19-3062-47ef-bcf0-09fbfe909c6b")
@@ -3919,7 +3919,7 @@
 		(uuid "c8d36ec4-c01e-4b7b-bd81-9bdd14620f13")
 	)
 	(junction
-		(at 33.02 242.57)
+		(at 31.75 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf329e5-b3fe-4ba4-a644-7bca01ecbc22")
@@ -3937,7 +3937,7 @@
 		(uuid "cf38ac1f-a4d8-46d1-8e5f-2e291f787ae5")
 	)
 	(junction
-		(at 36.83 242.57)
+		(at 35.56 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0487396-9a42-400a-a1b5-d244b235508d")
@@ -4018,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 11.43 227.33) (xy 11.43 238.76)
+			(xy 10.16 220.98) (xy 10.16 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 227.33) (xy 40.64 238.76)
+			(xy 39.37 220.98) (xy 39.37 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 238.76) (xy 40.64 242.57)
+			(xy 39.37 232.41) (xy 39.37 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 238.76) (xy 62.23 242.57)
+			(xy 60.96 232.41) (xy 60.96 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4498,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 238.76) (xy 33.02 242.57)
+			(xy 31.75 232.41) (xy 31.75 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 242.57) (xy 36.83 242.57)
+			(xy 31.75 236.22) (xy 35.56 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 227.33) (xy 62.23 238.76)
+			(xy 60.96 220.98) (xy 60.96 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5668,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 11.43 238.76) (xy 11.43 242.57)
+			(xy 10.16 232.41) (xy 10.16 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6228,7 +6228,7 @@
 	)
 	(wire
 		(pts
-			(xy 11.43 242.57) (xy 33.02 242.57)
+			(xy 10.16 236.22) (xy 31.75 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6388,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 242.57) (xy 36.83 243.84)
+			(xy 35.56 236.22) (xy 35.56 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6418,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 227.33) (xy 33.02 238.76)
+			(xy 31.75 220.98) (xy 31.75 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 242.57) (xy 62.23 242.57)
+			(xy 39.37 236.22) (xy 60.96 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6868,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 242.57) (xy 40.64 242.57)
+			(xy 35.56 236.22) (xy 39.37 236.22)
 		)
 		(stroke
 			(width 0)
@@ -11472,7 +11472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 243.84 0)
+		(at 35.56 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11481,7 +11481,7 @@
 		(fields_autoplaced yes)
 		(uuid "57a315c7-e8f3-4de6-bb4d-1370a7559d2d")
 		(property "Reference" "#PWR0308"
-			(at 36.83 250.19 0)
+			(at 35.56 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 248.92 0)
+			(at 35.56 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,7 +11498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 243.84 0)
+			(at 35.56 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11507,7 +11507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 243.84 0)
+			(at 35.56 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 243.84 0)
+			(at 35.56 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +11802,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 40.64 236.22 0)
+		(at 39.37 229.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11811,7 +11811,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e346928-3a95-422b-bbbc-e33bb14ff099")
 		(property "Reference" "VR10"
-			(at 51.435 231.14 0)
+			(at 50.165 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11819,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 51.435 233.68 0)
+			(at 50.165 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,7 +11827,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 64.77 331.14 0)
+			(at 63.5 324.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,7 +11837,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 64.77 431.14 0)
+			(at 63.5 424.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +11847,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 40.64 236.22 0)
+			(at 39.37 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11856,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 64.77 631.14 0)
+			(at 63.5 624.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11866,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 64.77 731.14 0)
+			(at 63.5 724.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +11876,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 64.77 831.14 0)
+			(at 63.5 824.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +11886,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 64.77 931.14 0)
+			(at 63.5 924.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11896,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 64.77 1031.14 0)
+			(at 63.5 1024.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11906,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 64.77 1131.14 0)
+			(at 63.5 1124.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +11916,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 64.77 1231.14 0)
+			(at 63.5 1224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12084,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 11.43 224.79 0)
+		(at 10.16 218.44 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12093,7 +12093,7 @@
 		(fields_autoplaced yes)
 		(uuid "6552daf9-8fa0-408f-b530-2f11d22221d8")
 		(property "Reference" "VR3"
-			(at 22.225 219.71 0)
+			(at 20.955 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +12101,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 22.225 222.25 0)
+			(at 20.955 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12109,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 35.56 319.71 0)
+			(at 34.29 313.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 35.56 419.71 0)
+			(at 34.29 413.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12129,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 11.43 224.79 0)
+			(at 10.16 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12138,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 35.56 619.71 0)
+			(at 34.29 613.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12148,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 35.56 719.71 0)
+			(at 34.29 713.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +12158,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 35.56 819.71 0)
+			(at 34.29 813.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12168,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 35.56 919.71 0)
+			(at 34.29 913.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12178,7 +12178,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 35.56 1019.71 0)
+			(at 34.29 1013.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,7 +12188,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 35.56 1119.71 0)
+			(at 34.29 1113.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12198,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 35.56 1219.71 0)
+			(at 34.29 1213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17288,7 +17288,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 11.43 236.22 0)
+		(at 10.16 229.87 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17297,7 +17297,7 @@
 		(fields_autoplaced yes)
 		(uuid "d00c1538-80f4-4825-a537-0e5271e22c14")
 		(property "Reference" "VR4"
-			(at 22.225 231.14 0)
+			(at 20.955 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17305,7 +17305,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 22.225 233.68 0)
+			(at 20.955 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17313,7 +17313,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 35.56 331.14 0)
+			(at 34.29 324.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17323,7 +17323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 35.56 431.14 0)
+			(at 34.29 424.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17333,7 +17333,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 11.43 236.22 0)
+			(at 10.16 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17342,7 +17342,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 35.56 631.14 0)
+			(at 34.29 624.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17352,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 35.56 731.14 0)
+			(at 34.29 724.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17362,7 +17362,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 35.56 831.14 0)
+			(at 34.29 824.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17372,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 35.56 931.14 0)
+			(at 34.29 924.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17382,7 +17382,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 35.56 1031.14 0)
+			(at 34.29 1024.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17392,7 +17392,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 35.56 1131.14 0)
+			(at 34.29 1124.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17402,7 +17402,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 35.56 1231.14 0)
+			(at 34.29 1224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17846,7 +17846,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 40.64 224.79 0)
+		(at 39.37 218.44 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17855,7 +17855,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7ec1735-a7d7-4f42-bc99-73deddcca601")
 		(property "Reference" "VR9"
-			(at 51.435 219.71 0)
+			(at 50.165 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17863,7 +17863,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 51.435 222.25 0)
+			(at 50.165 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17871,7 +17871,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 64.77 319.71 0)
+			(at 63.5 313.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,7 +17881,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 64.77 419.71 0)
+			(at 63.5 413.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17891,7 +17891,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 40.64 224.79 0)
+			(at 39.37 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17900,7 +17900,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 64.77 619.71 0)
+			(at 63.5 613.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17910,7 +17910,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 64.77 719.71 0)
+			(at 63.5 713.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17920,7 +17920,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 64.77 819.71 0)
+			(at 63.5 813.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17930,7 +17930,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 64.77 919.71 0)
+			(at 63.5 913.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17940,7 +17940,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 64.77 1019.71 0)
+			(at 63.5 1013.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17950,7 +17950,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 64.77 1119.71 0)
+			(at 63.5 1113.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17960,7 +17960,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 64.77 1219.71 0)
+			(at 63.5 1213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
