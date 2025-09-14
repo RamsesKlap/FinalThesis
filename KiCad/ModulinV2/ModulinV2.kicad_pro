@@ -497,13 +497,23 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}_amounts.csv",
-    "bom_fmt_presets": [],
+    "bom_export_filename": "${PROJECTNAME}_amounts2.csv",
+    "bom_fmt_presets": [
+      {
+        "field_delimiter": ",",
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "name": "AMOUNTS",
+        "ref_delimiter": ",",
+        "ref_range_delimiter": "",
+        "string_delimiter": "\""
+      }
+    ],
     "bom_fmt_settings": {
       "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "AMOUNTS",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -698,24 +708,24 @@
       "VCO"
     ],
     [
+      "9bc61cdb-3471-4563-89f4-fea731357cf2",
+      "Octave Select"
+    ],
+    [
       "ba5ade70-a939-4914-9429-1ad400c74d73",
       "Waveform Select"
+    ],
+    [
+      "e799dfb0-018d-4a0c-90e3-bc5a892eb818",
+      "Selection UI"
     ],
     [
       "a5a8abcc-50bb-4382-96d0-cbdb724bb6e9",
       "VCA"
     ],
     [
-      "9bc61cdb-3471-4563-89f4-fea731357cf2",
-      "Octave Select"
-    ],
-    [
       "f36bc0c9-50e7-404a-b5bb-5b2e43f62359",
       "Powersupply"
-    ],
-    [
-      "e799dfb0-018d-4a0c-90e3-bc5a892eb818",
-      "Selection UI"
     ],
     [
       "72de756e-4613-4cf7-8685-e4594fe0f098",

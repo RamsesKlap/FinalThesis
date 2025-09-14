@@ -1,4 +1,4 @@
-93106394657184
+100139073320775
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94857,6 +94857,13 @@ Connector
 6
 6
 SamacSys_Parts
+OS102011MS2QS1
+OS102011MS2QS1-3
+Switch
+0
+5
+5
+SamacSys_Parts
 PEC12R3220FS0024
 PEC12R-3220F-S0024-2
 Switch
@@ -94883,7 +94890,7 @@ PTA45442015DPA103
 
 0
 10
-9
+10
 SamacSys_Parts
 PTV09A4025FB104
 PTV09A-4025F-B104-2
@@ -94891,6 +94898,13 @@ Variable Resistor
 0
 5
 5
+SamacSys_Parts
+PTV1124420AB104
+PTV112-4420A-B104
+Variable Resistor
+0
+8
+8
 SamacSys_Parts
 PV36W201C01B00
 PV36W
@@ -94926,6 +94940,13 @@ RB14DE1100
 0
 3
 3
+SamacSys_Parts
+SEN0299
+
+
+0
+2
+2
 SamacSys_Parts
 SOIC127P600X175-8N
 SOIC-8 NB CASE 751-07
@@ -95045,6 +95066,13 @@ Connector
 0
 6
 6
+SamacSys_Parts
+TSP-L-0400-203-1%-ST
+
+
+0
+3
+3
 SamacSys_Parts
 TSW-104-XX-YY-D
 TSW-104-XX-YY-D

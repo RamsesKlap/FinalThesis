@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Elektroonika/Interface.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Interface"
             }
           }
         ]
@@ -189,16 +193,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Koosolekud/K5 - 03.06.25.md",
+    "Koosolekud/K6 - 17.06.25.md",
     "Koosolekud/K7 - 09.09.25.md",
     "Elektroonika/Digitaal/DAC.md",
     "Elektroonika/LFO.md",
     "Elektroonika/Digitaal/ADC.md",
-    "Koosolekud/K6 - 17.06.25.md",
     "Koosolekud/K1 - 20.11.24.md",
     "Koosolekud/K2 - 10.02.25.md",
     "Koosolekud/K3 - 17.03.25.md",
     "Koosolekud/K4 - 07.04.25.md",
-    "Koosolekud/K5 - 03.06.25.md",
     "Elektroonika/Interface.md",
     "Koosolekud/Küsimused.md",
     "Elektroonika/Digitaal/MCU.md",
