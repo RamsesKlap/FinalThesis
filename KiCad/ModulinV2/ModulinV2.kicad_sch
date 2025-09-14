@@ -8695,7 +8695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:PTA45442015DPA103"
 			(at 139.7 121.92 0)
 			(effects
 				(font
