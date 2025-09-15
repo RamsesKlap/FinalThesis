@@ -6060,19 +6060,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "55b8e039-fc6d-45d5-8f37-7803c16f1116")
+			(uuid "55b8e039-fc6d-45d5-8f37-7803c16f1117")
 		)
 		(pin "5"
-			(uuid "c5263b77-0dbd-4a90-a282-0079bd4111bf")
+			(uuid "c5263b77-0dbd-4a90-a282-0079bd4111c0")
 		)
 		(pin "4"
-			(uuid "ae966519-8d99-4dd8-af72-0d813ce39921")
+			(uuid "ae966519-8d99-4dd8-af72-0d813ce39922")
 		)
 		(pin "2"
-			(uuid "fd600906-9e94-479c-a0ab-1b0a3119fb77")
+			(uuid "fd600906-9e94-479c-a0ab-1b0a3119fb78")
 		)
 		(pin "1"
-			(uuid "a909bd32-90b4-4151-9616-f6dcddd2df1d")
+			(uuid "a909bd32-90b4-4151-9616-f6dcddd2df1e")
 		)
 		(instances
 			(project ""

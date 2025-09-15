@@ -7830,19 +7830,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "7206a6db-5928-4839-ae76-03cab85cf04e")
+			(uuid "7206a6db-5928-4839-ae76-03cab85cf04f")
 		)
 		(pin "1"
-			(uuid "c052d183-fb03-439c-9501-20a00201fc85")
+			(uuid "c052d183-fb03-439c-9501-20a00201fc86")
 		)
 		(pin "MH1"
-			(uuid "ae83879f-a058-474f-a9d2-e52e8b3c58f4")
+			(uuid "ae83879f-a058-474f-a9d2-e52e8b3c58f6")
 		)
 		(pin "MH2"
-			(uuid "c08ab847-0601-4b29-8400-ee1826f2af9a")
+			(uuid "c08ab847-0601-4b29-8400-ee1826f2af9c")
 		)
 		(pin "2"
-			(uuid "07ebfb4a-364d-4dcb-8e3a-836f43830d78")
+			(uuid "07ebfb4a-364d-4dcb-8e3a-836f43830d79")
 		)
 		(instances
 			(project ""
@@ -8504,10 +8504,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "7206a6db-5928-4839-ae76-03cab85cf04e")
+			(uuid "7206a6db-5928-4839-ae76-03cab85cf050")
 		)
 		(pin "1"
-			(uuid "c052d183-fb03-439c-9501-20a00201fc85")
+			(uuid "c052d183-fb03-439c-9501-20a00201fc87")
 		)
 		(pin "MH1"
 			(uuid "e2aade84-0662-4f8e-9f6a-fb439f887f87")
@@ -8516,7 +8516,7 @@
 			(uuid "d3996c00-85c2-45b5-983e-228adebb8bf0")
 		)
 		(pin "2"
-			(uuid "07ebfb4a-364d-4dcb-8e3a-836f43830d78")
+			(uuid "07ebfb4a-364d-4dcb-8e3a-836f43830d7a")
 		)
 		(instances
 			(project "ModulinV2"
