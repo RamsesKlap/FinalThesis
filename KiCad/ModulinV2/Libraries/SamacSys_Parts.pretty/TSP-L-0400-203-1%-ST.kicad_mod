@@ -136,38 +136,35 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" smd roundrect
 		(at 0 2.54)
 		(size 6 1.5)
-		(drill 1
+		(drill
 			(offset -2 0)
 		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "17b2de42-ca0d-4ca5-9ba3-cfff92304187")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "2" smd roundrect
 		(at 0 0)
 		(size 6 1.5)
-		(drill 1
+		(drill
 			(offset -2 0)
 		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "6b7b2581-44d0-43cf-a33e-1e7d5785fcec")
 	)
-	(pad "3" thru_hole roundrect
+	(pad "3" smd roundrect
 		(at 0 -2.54)
 		(size 6 1.5)
-		(drill 1
+		(drill
 			(offset -2 0)
 		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "fd4503b9-d396-4bac-a0ba-4b741db246af")

@@ -6823,7 +6823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00422897-04ce-4cb9-8fb2-c8b33fe6ed62")
-		(property "Reference" "C140"
+		(property "Reference" "C138"
 			(at 186.69 65.1511 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C140")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26902af5-f4b7-49b5-bc43-5d2b75752e17")
-		(property "Reference" "C142"
+		(property "Reference" "C140"
 			(at 214.884 65.786 0)
 			(effects
 				(font
@@ -7867,7 +7867,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C142")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "292893a3-f083-40c4-8018-944871f89a16")
-		(property "Reference" "C138"
+		(property "Reference" "C136"
 			(at 165.354 26.924 0)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C138")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -8767,7 +8767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42c052e7-c560-4cf6-8539-662d0103b48f")
-		(property "Reference" "C134"
+		(property "Reference" "C132"
 			(at 142.24 26.924 0)
 			(effects
 				(font
@@ -8821,7 +8821,7 @@
 		(instances
 			(project ""
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C134")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -10861,7 +10861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ae0f09-fd10-4202-ad8c-748fa876fc6e")
-		(property "Reference" "C136"
+		(property "Reference" "C134"
 			(at 158.75 62.6109 0)
 			(effects
 				(font
@@ -10915,7 +10915,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C136")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0d96058-d8af-477a-a80b-c0e54c87336a")
-		(property "Reference" "C141"
+		(property "Reference" "C139"
 			(at 214.884 35.814 0)
 			(effects
 				(font
@@ -11251,7 +11251,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C141")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -11691,7 +11691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7bc4a05-8bb0-4fee-a8da-4b3123cb3744")
-		(property "Reference" "C135"
+		(property "Reference" "C133"
 			(at 153.924 26.924 0)
 			(effects
 				(font
@@ -11745,7 +11745,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C135")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -12091,7 +12091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d716ca-70bb-40fd-bc87-fc520d60b8d4")
-		(property "Reference" "C133"
+		(property "Reference" "C131"
 			(at 140.97 93.0909 0)
 			(effects
 				(font
@@ -12145,7 +12145,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C133")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -12227,7 +12227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb758f1b-44ca-4e47-9a3e-127e5633ccf8")
-		(property "Reference" "C137"
+		(property "Reference" "C135"
 			(at 158.75 93.0909 0)
 			(effects
 				(font
@@ -12281,7 +12281,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C137")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -12513,7 +12513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf530f8-6280-46e2-afd8-60c13817bde2")
-		(property "Reference" "C132"
+		(property "Reference" "C130"
 			(at 140.97 62.6109 0)
 			(effects
 				(font
@@ -12567,7 +12567,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C132")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -13331,7 +13331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78ec366-edc0-4f2d-b54a-8a9d6896e75d")
-		(property "Reference" "C139"
+		(property "Reference" "C137"
 			(at 186.69 34.6709 0)
 			(effects
 				(font
@@ -13385,7 +13385,7 @@
 		(instances
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/f36bc0c9-50e7-404a-b5bb-5b2e43f62359"
-					(reference "C139")
+					(reference "C137")
 					(unit 1)
 				)
 			)
