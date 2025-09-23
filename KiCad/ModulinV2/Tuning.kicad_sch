@@ -3032,12 +3032,6 @@
 		(uuid "8faf3ad3-736b-49dd-a33b-127dbee19617")
 	)
 	(junction
-		(at 213.36 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91912e49-3e03-44ab-8328-6e90c78d896f")
-	)
-	(junction
 		(at 63.5 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3120,6 +3114,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed6b94c-5353-48d8-9a10-52639421379b")
+	)
+	(junction
+		(at 213.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efaa5b27-1af0-4e25-967c-ae46963871cc")
 	)
 	(junction
 		(at 242.57 34.29)
@@ -3317,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 74.93) (xy 213.36 74.93)
+			(xy 191.77 73.66) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3517,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 77.47) (xy 187.96 86.36)
+			(xy 187.96 77.47) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 29.21) (xy 191.77 19.05)
+			(xy 191.77 29.21) (xy 191.77 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 208.28 83.82)
+			(xy 213.36 85.09) (xy 208.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 215.9 83.82)
+			(xy 213.36 85.09) (xy 215.9 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4144,16 +4144,6 @@
 			(type default)
 		)
 		(uuid "867b3d5d-fabd-4c42-8687-316270c059a1")
-	)
-	(wire
-		(pts
-			(xy 213.36 74.93) (xy 213.36 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c3a181-ac20-46a5-9cec-e4d9572a8a4a")
 	)
 	(wire
 		(pts
@@ -4457,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 73.66) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72bc283-71ef-4522-9663-09fde4ba7c08")
+	)
+	(wire
+		(pts
 			(xy 114.3 144.78) (xy 114.3 146.05)
 		)
 		(stroke
@@ -4567,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 86.36) (xy 193.04 86.36)
+			(xy 187.96 87.63) (xy 193.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 191.77 81.28)
+			(xy 193.04 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 19.05) (xy 213.36 19.05)
+			(xy 191.77 22.86) (xy 213.36 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4707,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 81.28) (xy 191.77 74.93)
+			(xy 191.77 82.55) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4777,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 19.05) (xy 213.36 31.75)
+			(xy 213.36 22.86) (xy 213.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4996,7 +4996,7 @@
 		(uuid "52925cac-a2dc-4816-a7a5-1f01e42f3224")
 	)
 	(label "OUT4"
-		(at 187.96 86.36 0)
+		(at 187.96 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 	)
 	(hierarchical_label "FINE2"
 		(shape output)
-		(at 215.9 83.82 0)
+		(at 215.9 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6412,7 +6412,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL074HIDR")
-		(at 195.58 26.67 0)
+		(at 195.58 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6420,7 +6420,7 @@
 		(dnp no)
 		(uuid "1ae555d3-49e0-4aa2-8fae-7e66ce972b76")
 		(property "Reference" "IC51"
-			(at 207.01 24.892 0)
+			(at 207.01 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6428,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 207.01 27.432 0)
+			(at 207.01 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6436,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 219.71 121.59 0)
+			(at 219.71 174.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
-			(at 219.71 221.59 0)
+			(at 219.71 274.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6456,7 @@
 			)
 		)
 		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
-			(at 195.58 26.67 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6465,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 219.71 421.59 0)
+			(at 219.71 474.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6475,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 521.59 0)
+			(at 219.71 574.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6485,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL074HIDR"
-			(at 219.71 621.59 0)
+			(at 219.71 674.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6495,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL074HIDR"
-			(at 219.71 721.59 0)
+			(at 219.71 774.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6505,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
-			(at 219.71 821.59 0)
+			(at 219.71 874.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL074HIDR"
-			(at 219.71 921.59 0)
+			(at 219.71 974.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6525,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 219.71 1021.59 0)
+			(at 219.71 1074.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6719,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 113.03 118.11 90)
+		(at 113.03 107.95 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6727,7 +6728,7 @@
 		(dnp no)
 		(uuid "297b77b5-cc41-488e-adc7-00bfdaf02a43")
 		(property "Reference" "VR19"
-			(at 111.76 110.4899 90)
+			(at 111.76 115.5701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6737,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 111.76 116.586 90)
+			(at 111.76 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6746,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 207.95 93.98 0)
+			(at 207.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6756,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 307.95 93.98 0)
+			(at 307.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6766,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 113.03 118.11 0)
+			(at 113.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6775,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 507.95 93.98 0)
+			(at 507.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6785,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 607.95 93.98 0)
+			(at 607.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6795,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 707.95 93.98 0)
+			(at 707.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6805,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 807.95 93.98 0)
+			(at 807.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6815,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 907.95 93.98 0)
+			(at 907.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +6825,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 1007.95 93.98 0)
+			(at 1007.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6835,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 1107.95 93.98 0)
+			(at 1107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7219,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 113.03 156.21 90)
+		(at 113.03 146.05 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7226,7 +7228,7 @@
 		(dnp no)
 		(uuid "3223398c-1e88-4705-b353-81b9954bcb3a")
 		(property "Reference" "VR20"
-			(at 111.76 148.5899 90)
+			(at 111.76 153.6701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7237,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 111.252 154.94 90)
+			(at 111.252 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,7 +7246,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 207.95 132.08 0)
+			(at 207.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 307.95 132.08 0)
+			(at 307.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7266,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 113.03 156.21 0)
+			(at 113.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7275,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 507.95 132.08 0)
+			(at 507.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7285,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 607.95 132.08 0)
+			(at 607.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7295,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 707.95 132.08 0)
+			(at 707.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7305,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 807.95 132.08 0)
+			(at 807.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7315,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 907.95 132.08 0)
+			(at 907.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7325,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 1007.95 132.08 0)
+			(at 1007.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7335,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 1107.95 132.08 0)
+			(at 1107.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL074HIDR")
-		(at 195.58 78.74 0)
+		(at 195.58 46.99 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7540,7 +7542,7 @@
 		(dnp no)
 		(uuid "488cf235-d31c-496d-b57d-867f08eec610")
 		(property "Reference" "IC51"
-			(at 205.74 76.962 0)
+			(at 205.74 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7550,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 205.74 79.502 0)
+			(at 205.74 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7558,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 219.71 173.66 0)
+			(at 219.71 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7568,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
-			(at 219.71 273.66 0)
+			(at 219.71 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7578,7 @@
 			)
 		)
 		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
-			(at 195.58 78.74 0)
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +7587,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 219.71 473.66 0)
+			(at 219.71 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7597,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 573.66 0)
+			(at 219.71 541.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7607,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL074HIDR"
-			(at 219.71 673.66 0)
+			(at 219.71 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7617,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL074HIDR"
-			(at 219.71 773.66 0)
+			(at 219.71 741.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7627,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
-			(at 219.71 873.66 0)
+			(at 219.71 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7637,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL074HIDR"
-			(at 219.71 973.66 0)
+			(at 219.71 941.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7647,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 219.71 1073.66 0)
+			(at 219.71 1041.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8184,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 200.66 26.67 0)
+		(at 200.66 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8191,7 +8193,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bceb673-a138-4692-a1e6-820d586e4cfe")
 		(property "Reference" "#PWR0412"
-			(at 200.66 30.48 0)
+			(at 200.66 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8202,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 200.66 21.59 0)
+			(at 200.66 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 26.67 0)
+			(at 200.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 26.67 0)
+			(at 200.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 26.67 0)
+			(at 200.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8721,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL074HIDR")
-		(at 195.58 62.23 0)
+		(at 195.58 26.67 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8727,7 +8729,7 @@
 		(dnp no)
 		(uuid "6cf92a4c-f872-4d61-85a8-8010cd71d12e")
 		(property "Reference" "IC51"
-			(at 204.724 60.96 0)
+			(at 204.724 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8737,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 204.724 63.5 0)
+			(at 204.724 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8745,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 219.71 157.15 0)
+			(at 219.71 121.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8755,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
-			(at 219.71 257.15 0)
+			(at 219.71 221.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +8765,7 @@
 			)
 		)
 		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
-			(at 195.58 62.23 0)
+			(at 195.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8774,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 219.71 457.15 0)
+			(at 219.71 421.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8784,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 557.15 0)
+			(at 219.71 521.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8794,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL074HIDR"
-			(at 219.71 657.15 0)
+			(at 219.71 621.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8804,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL074HIDR"
-			(at 219.71 757.15 0)
+			(at 219.71 721.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8814,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
-			(at 219.71 857.15 0)
+			(at 219.71 821.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +8824,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL074HIDR"
-			(at 219.71 957.15 0)
+			(at 219.71 921.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8834,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 219.71 1057.15 0)
+			(at 219.71 1021.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10123,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 113.03 41.91 90)
+		(at 113.03 31.75 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10129,7 +10132,7 @@
 		(dnp no)
 		(uuid "adf82718-89cf-44d1-b0af-6e0a92122f87")
 		(property "Reference" "VR5"
-			(at 111.76 34.2899 90)
+			(at 111.76 39.3701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10141,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 111.76 40.386 90)
+			(at 111.76 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10150,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 207.95 17.78 0)
+			(at 207.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 307.95 17.78 0)
+			(at 307.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10170,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 113.03 41.91 0)
+			(at 113.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10179,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 507.95 17.78 0)
+			(at 507.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10189,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 607.95 17.78 0)
+			(at 607.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10199,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 707.95 17.78 0)
+			(at 707.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10209,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 807.95 17.78 0)
+			(at 807.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +10219,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 907.95 17.78 0)
+			(at 907.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10229,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 1007.95 17.78 0)
+			(at 1007.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10239,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 1107.95 17.78 0)
+			(at 1107.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,7 +11092,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:PTV09A-4025F-B104")
-		(at 113.03 80.01 90)
+		(at 113.03 69.85 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11097,7 +11101,7 @@
 		(dnp no)
 		(uuid "d3659ba6-0fbb-4d88-b767-f762130f88ed")
 		(property "Reference" "VR18"
-			(at 111.76 72.3899 90)
+			(at 111.76 77.4701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11110,7 @@
 			)
 		)
 		(property "Value" "PTV09A-4025F-B104"
-			(at 111.252 78.486 90)
+			(at 111.252 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11115,7 +11119,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:PTV09A4025FB104"
-			(at 207.95 55.88 0)
+			(at 207.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11129,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 307.95 55.88 0)
+			(at 307.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,7 +11139,7 @@
 			)
 		)
 		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
-			(at 113.03 80.01 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +11148,7 @@
 			)
 		)
 		(property "Height" "25.5"
-			(at 507.95 55.88 0)
+			(at 507.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11158,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 607.95 55.88 0)
+			(at 607.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11168,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTV09A-4025F-B104"
-			(at 707.95 55.88 0)
+			(at 707.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +11178,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-PTV09A4025FB104"
-			(at 807.95 55.88 0)
+			(at 807.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11188,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTV09A-4025F-B104?qs=fgHA1UgJI8DoC1GZkaXClg%3D%3D"
-			(at 907.95 55.88 0)
+			(at 907.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11198,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTV09A-4025F-B104"
-			(at 1007.95 55.88 0)
+			(at 1007.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11208,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptv09a-4025f-b104/bourns?region=nac"
-			(at 1107.95 55.88 0)
+			(at 1107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +11445,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 200.66 36.83 180)
+		(at 200.66 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11450,7 +11454,7 @@
 		(fields_autoplaced yes)
 		(uuid "df27f755-1d69-458b-a741-1af2ccc34e50")
 		(property "Reference" "#PWR0413"
-			(at 200.66 33.02 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +11463,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 200.66 41.91 0)
+			(at 200.66 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 36.83 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 36.83 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 200.66 36.83 0)
+			(at 200.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12330,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL074HIDR")
-		(at 195.58 46.99 0)
+		(at 195.58 62.23 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12334,7 +12338,7 @@
 		(dnp no)
 		(uuid "fe60f8d5-c9dc-4dc2-804c-2b3b8577fac4")
 		(property "Reference" "IC51"
-			(at 204.216 45.466 0)
+			(at 204.216 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +12346,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 204.216 48.006 0)
+			(at 204.216 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,7 +12354,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 219.71 141.91 0)
+			(at 219.71 157.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +12364,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
-			(at 219.71 241.91 0)
+			(at 219.71 257.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12374,7 @@
 			)
 		)
 		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
-			(at 195.58 46.99 0)
+			(at 195.58 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12383,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 219.71 441.91 0)
+			(at 219.71 457.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12389,7 +12393,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 541.91 0)
+			(at 219.71 557.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +12403,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL074HIDR"
-			(at 219.71 641.91 0)
+			(at 219.71 657.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12413,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL074HIDR"
-			(at 219.71 741.91 0)
+			(at 219.71 757.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12423,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
-			(at 219.71 841.91 0)
+			(at 219.71 857.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12429,7 +12433,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL074HIDR"
-			(at 219.71 941.91 0)
+			(at 219.71 957.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12443,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 219.71 1041.91 0)
+			(at 219.71 1057.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
