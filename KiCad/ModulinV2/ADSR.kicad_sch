@@ -7010,7 +7010,7 @@
 		)
 		(uuid "223ba886-9bb8-4426-b41b-fb0d78fd299a")
 	)
-	(label "R_DIGITAL"
+	(label "R_MANUAL"
 		(at 265.43 160.02 180)
 		(effects
 			(font
