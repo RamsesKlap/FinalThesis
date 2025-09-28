@@ -5349,7 +5349,7 @@
 		)
 		(uuid "fdc4e69a-b208-4843-a3c1-fcf81eb3c08d")
 	)
-	(global_label "QA"
+	(global_label "QA_OCT"
 		(shape output)
 		(at 138.43 53.34 180)
 		(fields_autoplaced yes)
@@ -5361,7 +5361,7 @@
 		)
 		(uuid "3e4e4f20-6298-4fae-99af-a5ad7ec8c9cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0257 53.34 0)
+			(at 128.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5371,7 @@
 			)
 		)
 	)
-	(global_label "QB"
+	(global_label "QB_OCT"
 		(shape output)
 		(at 138.43 50.8 180)
 		(fields_autoplaced yes)
@@ -5383,7 +5383,7 @@
 		)
 		(uuid "6c412e1b-4a47-43f3-8c4c-371de087dac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8443 50.8 0)
+			(at 128.3086 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5393,7 @@
 			)
 		)
 	)
-	(global_label "QC"
+	(global_label "QC_OCT"
 		(shape output)
 		(at 138.43 60.96 180)
 		(fields_autoplaced yes)
@@ -5405,7 +5405,7 @@
 		)
 		(uuid "6efe1645-9a11-406c-8483-162b2538e903")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8443 60.96 0)
+			(at 128.3086 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
