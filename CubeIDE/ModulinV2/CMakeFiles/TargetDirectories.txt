@@ -1,0 +1,6 @@
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/CMakeFiles/ModulinV2.dir
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/CMakeFiles/edit_cache.dir
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/CMakeFiles/rebuild_cache.dir
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/rasmus/Desktop/Vaults/Lõputöö/CubeIDE/ModulinV2/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
