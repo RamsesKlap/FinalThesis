@@ -52,6 +52,8 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ssd1306
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7041
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DACx0501
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DS3502UP
 )
 
 # Add project symbols (macros)

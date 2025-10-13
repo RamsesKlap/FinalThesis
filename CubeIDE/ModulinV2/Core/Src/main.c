@@ -23,6 +23,8 @@
 /* USER CODE BEGIN Includes */
 #include "ssd1306.h"
 #include "ADS7041.h"
+#include "DACx0501.h"
+#include "DS3502UP.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
