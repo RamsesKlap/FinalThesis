@@ -141,11 +141,11 @@ void ssd1306_Init(void) {
     ssd1306_WriteCommand(0x22); //
 
     ssd1306_WriteCommand(0xDA); //--set com pins hardware configuration - CHECK
-#if (SSD1306_HEIGHT == 32)
+#if (SSD1306_WIDTH == 32)
     ssd1306_WriteCommand(0x02);
-#elif (SSD1306_HEIGHT == 64)
+#elif (SSD1306_WIDTH == 64)
     ssd1306_WriteCommand(0x12);
-#elif (SSD1306_HEIGHT == 128)
+#elif (SSD1306_WIDTH == 128)
     ssd1306_WriteCommand(0x12);
 #else
 #error "Only 32, 64, or 128 lines of height are supported!"

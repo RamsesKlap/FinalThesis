@@ -19,6 +19,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "stm32f4xx_hal_def.h"
+#include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -26,7 +28,11 @@
 #include "ADS7041.h"
 #include "DACx0501.h"
 #include "DS3502UP.h"
-#include "stm32f4xx_hal_gpio.h"
+#include "ssd1306_fonts.h"
+#include "ssd1306_tests.h"
+#include "usbd_cdc_if.h"
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,12 +60,10 @@ SPI_HandleTypeDef hspi3;
 
 TIM_HandleTypeDef htim2;
 
-PCD_HandleTypeDef hpcd_USB_OTG_FS;
-
 osThreadId defaultTaskHandle;
 /* USER CODE BEGIN PV */
-uint32_t encoderRaw = 0;
-uint32_t counter = 0;
+osThreadId blink;
+
 
 /* USER CODE END PV */
 
@@ -72,16 +76,20 @@ static void MX_SPI1_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_SPI3_Init(void);
 static void MX_TIM2_Init(void);
-static void MX_USB_OTG_FS_PCD_Init(void);
 void StartDefaultTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
 void RGB(uint8_t red, uint8_t green, uint8_t blue);
+
+void blink_Init(void const * argument);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+char buffer[256];
 
+ds3502up pot1 = {&hi2c1, ADDR2};
+uint8_t encoder = 0;
 /* USER CODE END 0 */
 
 /**
@@ -119,13 +127,15 @@ int main(void)
   MX_SPI2_Init();
   MX_SPI3_Init();
   MX_TIM2_Init();
-  MX_USB_OTG_FS_PCD_Init();
   /* USER CODE BEGIN 2 */
+  // Set all the LED's off
   RGB(1, 1, 1);
-
 
   // Start TIM peripheral for controlling encoder
   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
+
+  // Initialize the OLED for debugging and UI
+  ssd1306_Init();
 
   /* USER CODE END 2 */
 
@@ -151,7 +161,8 @@ int main(void)
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
+  osThreadDef(blinkTask, blink_Init, osPriorityNormal, 0, 128);
+  blink = osThreadCreate(osThread(blinkTask), NULL);
   /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */
@@ -187,10 +198,8 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 12;
@@ -206,7 +215,7 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
@@ -449,41 +458,6 @@ static void MX_TIM2_Init(void)
 }
 
 /**
-  * @brief USB_OTG_FS Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_USB_OTG_FS_PCD_Init(void)
-{
-
-  /* USER CODE BEGIN USB_OTG_FS_Init 0 */
-
-  /* USER CODE END USB_OTG_FS_Init 0 */
-
-  /* USER CODE BEGIN USB_OTG_FS_Init 1 */
-
-  /* USER CODE END USB_OTG_FS_Init 1 */
-  hpcd_USB_OTG_FS.Instance = USB_OTG_FS;
-  hpcd_USB_OTG_FS.Init.dev_endpoints = 4;
-  hpcd_USB_OTG_FS.Init.speed = PCD_SPEED_FULL;
-  hpcd_USB_OTG_FS.Init.dma_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
-  hpcd_USB_OTG_FS.Init.Sof_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.low_power_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.lpm_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.vbus_sensing_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.use_dedicated_ep1 = DISABLE;
-  if (HAL_PCD_Init(&hpcd_USB_OTG_FS) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USB_OTG_FS_Init 2 */
-
-  /* USER CODE END USB_OTG_FS_Init 2 */
-
-}
-
-/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -554,6 +528,15 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
   HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, blue);
 }
 
+void blink_Init(void const * argument) {
+  for (;;) {
+    RGB(1,0,1);
+    osDelay(100);
+    RGB(1,1,1);
+    osDelay(100);
+  }
+}
+
 /* USER CODE END 4 */
 
 /* USER CODE BEGIN Header_StartDefaultTask */
@@ -565,10 +548,23 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
+  /* init code for USB_DEVICE */
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
+
   /* Infinite loop */
   for(;;)
   {
+    encoder = (TIM2->CNT) >> 1;
+    ssd1306_SetCursor(0, 0);
+    sprintf(buffer, "%lu\n\r", encoder);
+    ssd1306_WriteString(buffer, Font_7x10, White);
+
+    ssd1306_SetCursor(0, 15);
+    sprintf(buffer, "%lu\n\r", SetDS3502UP(pot1, encoder));
+    ssd1306_WriteString(buffer, Font_7x10, White);
+    ssd1306_UpdateScreen();
+    // CDC_Transmit_FS(buffer, strlen(buffer));
     osDelay(1);
   }
   /* USER CODE END 5 */

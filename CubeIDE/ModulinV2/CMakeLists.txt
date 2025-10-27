@@ -37,9 +37,18 @@ add_executable(${CMAKE_PROJECT_NAME})
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ssd1306)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DS3502UP)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7041)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DACx0501)
+
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ssd1306
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7041
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DACx0501
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DS3502UP
 )
 
 # Add sources to executable
@@ -67,6 +76,9 @@ list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
-
+    ssd1306
+    DS3502UP
+    DACx0501
+    ADS7041
     # Add user defined libraries
 )

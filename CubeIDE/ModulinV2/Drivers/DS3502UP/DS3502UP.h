@@ -2,6 +2,7 @@
 #define DS3502UP_H
 
 // Libraries
+#include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_def.h"
 #include "stm32f4xx_hal_i2c.h"
 
@@ -22,5 +23,8 @@ typedef struct {
     I2C_HandleTypeDef *i2c;
     addr address;
 } ds3502up;
+
+// Prototypes
+HAL_StatusTypeDef SetDS3502UP(ds3502up pot, uint8_t value);
 
 #endif // __DS3502UP_H__

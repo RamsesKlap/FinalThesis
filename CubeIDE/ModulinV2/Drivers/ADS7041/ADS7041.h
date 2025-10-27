@@ -2,6 +2,7 @@
 #define ADS7041_H
 
 // Libraries
+#include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_def.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "stm32f4xx_hal_spi.h"
