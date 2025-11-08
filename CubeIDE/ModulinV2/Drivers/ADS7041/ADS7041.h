@@ -15,12 +15,11 @@ typedef struct {
 
     SPI_HandleTypeDef *spi;
 
-    uint8_t raw[2];
-    uint16_t result;
+    uint16_t raw;
 } ads7041;
 
 // Function prototypes
 // Getting the converted values from the ADC
-HAL_StatusTypeDef GetADC7041(ads7041 adc);
+uint16_t GetADC7041(ads7041 adc);
 
 #endif // __ADS7041_H__
