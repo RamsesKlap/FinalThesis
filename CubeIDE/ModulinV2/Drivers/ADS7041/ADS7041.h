@@ -15,7 +15,7 @@ typedef struct {
 
     SPI_HandleTypeDef *spi;
 
-    uint8_t buffer[8];
+    uint16_t raw;
     uint16_t result;
 } ads7041;
 

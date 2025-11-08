@@ -19,7 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
-#include "stm32f4xx_hal_def.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -88,8 +87,13 @@ void blink_Init(void const * argument);
 /* USER CODE BEGIN 0 */
 char buffer[256];
 
-ds3502up pot1 = {&hi2c1, ADDR2};
+ds3502up pot1 = {&hi2c1, ADDR1};
+ads7041 membrane = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
+
+dacx0501 output = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
+
 uint8_t encoder = 0;
+uint16_t value = 0xFFF;
 /* USER CODE END 0 */
 
 /**
@@ -131,11 +135,23 @@ int main(void)
   // Set all the LED's off
   RGB(1, 1, 1);
 
+  // Set all CS pins to high
+  HAL_GPIO_WritePin(ADC_CS1_GPIO_Port, ADC_CS1_Pin, 1);
+  HAL_GPIO_WritePin(ADC_CS2_GPIO_Port, ADC_CS2_Pin, 1);
+
+  HAL_GPIO_WritePin(DAC_CS1_GPIO_Port, DAC_CS1_Pin, 1);
+  HAL_GPIO_WritePin(DAC_CS2_GPIO_Port, DAC_CS2_Pin, 1);
+
+  HAL_GPIO_WritePin(LFO_CS_GPIO_Port, LFO_CS_Pin, 1);
+
   // Start TIM peripheral for controlling encoder
   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
 
   // Initialize the OLED for debugging and UI
   ssd1306_Init();
+
+  // Configure the DAC
+  ConfDACX051(output);
 
   /* USER CODE END 2 */
 
@@ -198,8 +214,10 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 12;
@@ -215,7 +233,7 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSE;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
@@ -313,11 +331,11 @@ static void MX_SPI1_Init(void)
   hspi1.Instance = SPI1;
   hspi1.Init.Mode = SPI_MODE_MASTER;
   hspi1.Init.Direction = SPI_DIRECTION_2LINES_RXONLY;
-  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+  hspi1.Init.DataSize = SPI_DATASIZE_16BIT;
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -352,10 +370,10 @@ static void MX_SPI2_Init(void)
   hspi2.Init.Mode = SPI_MODE_MASTER;
   hspi2.Init.Direction = SPI_DIRECTION_2LINES;
   hspi2.Init.DataSize = SPI_DATASIZE_8BIT;
-  hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi2.Init.CLKPolarity = SPI_POLARITY_HIGH;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi2.Init.NSS = SPI_NSS_SOFT;
-  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -488,7 +506,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin : LFO_CS_Pin */
   GPIO_InitStruct.Pin = LFO_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LFO_CS_GPIO_Port, &GPIO_InitStruct);
 
@@ -501,7 +519,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pins : ADC_CS1_Pin ADC_CS2_Pin */
   GPIO_InitStruct.Pin = ADC_CS1_Pin|ADC_CS2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
@@ -510,7 +528,7 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = DAC_CS1_Pin|DAC_CS2_Pin|LED_B_Pin|LED_R_Pin
                           |LED_G_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
@@ -530,10 +548,9 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
 
 void blink_Init(void const * argument) {
   for (;;) {
-    RGB(1,0,1);
-    osDelay(100);
-    RGB(1,1,1);
-    osDelay(100);
+    // RGB(1,0,1);
+    // RGB(1,1,1);
+    osDelay(1);
   }
 }
 
@@ -551,20 +568,22 @@ void StartDefaultTask(void const * argument)
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
-
+  
   /* Infinite loop */
   for(;;)
   {
-    encoder = (TIM2->CNT) >> 1;
     ssd1306_SetCursor(0, 0);
-    sprintf(buffer, "%lu\n\r", encoder);
+    sprintf(buffer, "%d\n\r", SetDACX0501(output, value));
     ssd1306_WriteString(buffer, Font_7x10, White);
+    // ssd1306_SetCursor(0, 15);
+    // sprintf(buffer, "%ld\n\r", (TIM2->CNT) >> 1);
+    // ssd1306_WriteString(buffer, Font_7x10, White);
 
-    ssd1306_SetCursor(0, 15);
-    sprintf(buffer, "%lu\n\r", SetDS3502UP(pot1, encoder));
-    ssd1306_WriteString(buffer, Font_7x10, White);
+    // encoder = (TIM2->CNT) >> 1;
+
     ssd1306_UpdateScreen();
     // CDC_Transmit_FS(buffer, strlen(buffer));
+    
     osDelay(1);
   }
   /* USER CODE END 5 */

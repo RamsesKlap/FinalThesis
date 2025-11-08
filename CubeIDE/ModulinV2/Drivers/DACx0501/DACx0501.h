@@ -7,14 +7,12 @@
 #include "stm32f4xx_hal_spi.h"
 
 // Register map
-#define NOOP    0x00
-#define DEVID   0x01 
+// Not a complete list as some registers are not used in SPI
 #define SYNC    0x02
 #define CONFIG  0x03
 #define GAIN    0x04
 #define TRIGGER 0x05
-#define STATUS  0x06
-#define DAC     0x07
+#define DAC     0x08
 
 // DAC parameter struct
 typedef struct {
@@ -27,7 +25,7 @@ typedef struct {
 } dacx0501;
 
 // Function prototypes
-// Configuration to set the internal reference off and not have it in power-down mode
+// Configuration of the DAC
 HAL_StatusTypeDef ConfDACX051(dacx0501 dac);
 
 // Sending of output value to the DAC
