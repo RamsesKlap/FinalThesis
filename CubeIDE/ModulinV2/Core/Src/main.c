@@ -88,7 +88,7 @@ void blink_Init(void const * argument);
 char buffer[256];
 
 ds3502up pot1 = {&hi2c1, ADDR1};
-ads7041 membrane = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
+ads7041 membrane = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
 
 dacx0501 output = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
 
@@ -331,11 +331,11 @@ static void MX_SPI1_Init(void)
   hspi1.Instance = SPI1;
   hspi1.Init.Mode = SPI_MODE_MASTER;
   hspi1.Init.Direction = SPI_DIRECTION_2LINES_RXONLY;
-  hspi1.Init.DataSize = SPI_DATASIZE_16BIT;
+  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_8;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -573,17 +573,16 @@ void StartDefaultTask(void const * argument)
   for(;;)
   {
     ssd1306_SetCursor(0, 0);
-    sprintf(buffer, "%d\n\r", SetDACX0501(output, value));
+    sprintf(buffer, "%d\n\r", GetADC7041(membrane));
     ssd1306_WriteString(buffer, Font_7x10, White);
-    // ssd1306_SetCursor(0, 15);
-    // sprintf(buffer, "%ld\n\r", (TIM2->CNT) >> 1);
-    // ssd1306_WriteString(buffer, Font_7x10, White);
+    ssd1306_SetCursor(0, 15);
+    sprintf(buffer, "%d\n\r", membrane.result);
+    ssd1306_WriteString(buffer, Font_7x10, White);
 
     // encoder = (TIM2->CNT) >> 1;
 
     ssd1306_UpdateScreen();
     // CDC_Transmit_FS(buffer, strlen(buffer));
-    
     osDelay(1);
   }
   /* USER CODE END 5 */
