@@ -24,7 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ssd1306.h"
-#include "ADS7041.h"
+#include "ADS7866.h"
 #include "DACx0501.h"
 #include "DS3502UP.h"
 #include "ssd1306_fonts.h"
@@ -46,7 +46,8 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+#define FONT Font_7x10
+#define DNL 1500
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -59,9 +60,11 @@ SPI_HandleTypeDef hspi3;
 
 TIM_HandleTypeDef htim2;
 
-osThreadId defaultTaskHandle;
+osThreadId userInterfaceHandle;
+osThreadId ADCHandle;
+osThreadId DACHandle;
+osThreadId digiPotHandle;
 /* USER CODE BEGIN PV */
-osThreadId blink;
 
 
 /* USER CODE END PV */
@@ -75,25 +78,39 @@ static void MX_SPI1_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_SPI3_Init(void);
 static void MX_TIM2_Init(void);
-void StartDefaultTask(void const * argument);
+void userInterface_Init(void const * argument);
+void ADC_Init(void const * argument);
+void DAC_Init(void const * argument);
+void digiPot_Init(void const * argument);
 
 /* USER CODE BEGIN PFP */
 void RGB(uint8_t red, uint8_t green, uint8_t blue);
-
-void blink_Init(void const * argument);
+void PeriphInit(void);
+void USBWrite(unsigned char* msg);
+void OLEDWrite(char* msg, uint8_t x, uint8_t y);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 char buffer[256];
 
-ds3502up pot1 = {&hi2c1, ADDR1};
-ads7041 membrane = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
+// ADSR Digipot init.
+ds3502up attack = {&hi2c3, ADDR1};
+ds3502up decay = {&hi2c3, ADDR2};
+ds3502up sustain = {&hi2c3, ADDR3};
+ds3502up release = {&hi2c3, ADDR4};
 
-dacx0501 output = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
+// Tuning Digipot init.
+ds3502up coarse1 = {&hi2c1, ADDR1};
+ds3502up coarse2 = {&hi2c1, ADDR2};
+ds3502up fine1 = {&hi2c1, ADDR3};
+ds3502up fine2 = {&hi2c1, ADDR4};
 
-uint8_t encoder = 0;
-uint16_t value = 0xFFF;
+// Interface input and output init.
+ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
+ads7866 membrane2 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
+dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
+dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
 /* USER CODE END 0 */
 
 /**
@@ -132,26 +149,8 @@ int main(void)
   MX_SPI3_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  // Set all the LED's off
-  RGB(1, 1, 1);
 
-  // Set all CS pins to high
-  HAL_GPIO_WritePin(ADC_CS1_GPIO_Port, ADC_CS1_Pin, 1);
-  HAL_GPIO_WritePin(ADC_CS2_GPIO_Port, ADC_CS2_Pin, 1);
-
-  HAL_GPIO_WritePin(DAC_CS1_GPIO_Port, DAC_CS1_Pin, 1);
-  HAL_GPIO_WritePin(DAC_CS2_GPIO_Port, DAC_CS2_Pin, 1);
-
-  HAL_GPIO_WritePin(LFO_CS_GPIO_Port, LFO_CS_Pin, 1);
-
-  // Start TIM peripheral for controlling encoder
-  HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
-
-  // Initialize the OLED for debugging and UI
-  ssd1306_Init();
-
-  // Configure the DAC
-  ConfDACX051(output);
+  PeriphInit();
 
   /* USER CODE END 2 */
 
@@ -172,13 +171,24 @@ int main(void)
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+  /* definition and creation of userInterface */
+  osThreadDef(userInterface, userInterface_Init, osPriorityNormal, 0, 128);
+  userInterfaceHandle = osThreadCreate(osThread(userInterface), NULL);
+
+  /* definition and creation of ADC */
+  osThreadDef(ADC, ADC_Init, osPriorityAboveNormal, 0, 128);
+  ADCHandle = osThreadCreate(osThread(ADC), NULL);
+
+  /* definition and creation of DAC */
+  osThreadDef(DAC, DAC_Init, osPriorityAboveNormal, 0, 128);
+  DACHandle = osThreadCreate(osThread(DAC), NULL);
+
+  /* definition and creation of digiPot */
+  osThreadDef(digiPot, digiPot_Init, osPriorityBelowNormal, 0, 128);
+  digiPotHandle = osThreadCreate(osThread(digiPot), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
-  osThreadDef(blinkTask, blink_Init, osPriorityNormal, 0, 128);
-  blink = osThreadCreate(osThread(blinkTask), NULL);
+  
   /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */
@@ -335,7 +345,7 @@ static void MX_SPI1_Init(void)
   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi1.Init.CLKPhase = SPI_PHASE_2EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -546,45 +556,114 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
   HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, blue);
 }
 
-void blink_Init(void const * argument) {
-  for (;;) {
-    // RGB(1,0,1);
-    // RGB(1,1,1);
-    osDelay(1);
-  }
+void PeriphInit(void) {
+  // Turn off all the LEDs
+  RGB(1, 1, 1);
+
+  // SPI: Set all the CS pins to High
+  HAL_GPIO_WritePin(ADC_CS1_GPIO_Port, ADC_CS1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(ADC_CS2_GPIO_Port, ADC_CS2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DAC_CS1_GPIO_Port, DAC_CS1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DAC_CS2_GPIO_Port, DAC_CS2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(LFO_CS_GPIO_Port, LFO_CS_Pin, GPIO_PIN_SET);
+
+  // Start timer peripheral for counting encoder ticks
+  HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
+
+  // Initialize the OLED for debugging and UI
+  ssd1306_Init();
+
+  // Configure the DACs
+  ConfDACX051(pitchCV1);
+  ConfDACX051(pitchCV2);
+}
+
+void USBWrite(unsigned char* msg) {
+  CDC_Transmit_FS(msg, strlen((char*)msg));
+}
+
+void OLEDWrite(char* msg, uint8_t x, uint8_t y) {
+  ssd1306_SetCursor(x, y);
+  ssd1306_WriteString(msg, FONT, White);
+  ssd1306_UpdateScreen();
 }
 
 /* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartDefaultTask */
+/* USER CODE BEGIN Header_userInterface_Init */
 /**
-  * @brief  Function implementing the defaultTask thread.
+  * @brief  Function implementing the userInterface thread.
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void const * argument)
+/* USER CODE END Header_userInterface_Init */
+void userInterface_Init(void const * argument)
 {
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
-  
+
   /* Infinite loop */
   for(;;)
   {
-    ssd1306_SetCursor(0, 0);
-    sprintf(buffer, "%d\n\r", GetADC7041(membrane));
-    ssd1306_WriteString(buffer, Font_7x10, White);
-    ssd1306_SetCursor(0, 15);
-    sprintf(buffer, "%d\n\r", membrane.raw);
-    ssd1306_WriteString(buffer, Font_7x10, White);
     // encoder = (TIM2->CNT) >> 1;
-
-    ssd1306_UpdateScreen();
-    // CDC_Transmit_FS(buffer, strlen(buffer));
     osDelay(1);
   }
   /* USER CODE END 5 */
+}
+
+/* USER CODE BEGIN Header_ADC_Init */
+/**
+* @brief Function implementing the ADC thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ADC_Init */
+void ADC_Init(void const * argument)
+{
+  /* USER CODE BEGIN ADC_Init */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END ADC_Init */
+}
+
+/* USER CODE BEGIN Header_DAC_Init */
+/**
+* @brief Function implementing the DAC thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_DAC_Init */
+void DAC_Init(void const * argument)
+{
+  /* USER CODE BEGIN DAC_Init */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END DAC_Init */
+}
+
+/* USER CODE BEGIN Header_digiPot_Init */
+/**
+* @brief Function implementing the digiPot thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_digiPot_Init */
+void digiPot_Init(void const * argument)
+{
+  /* USER CODE BEGIN digiPot_Init */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END digiPot_Init */
 }
 
 /**

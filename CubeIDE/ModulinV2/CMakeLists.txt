@@ -39,7 +39,7 @@ add_subdirectory(cmake/stm32cubemx)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ssd1306)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DS3502UP)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7041)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7866)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DACx0501)
 
 # Link directories setup
@@ -60,7 +60,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ssd1306
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7041
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/ADS7866
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DACx0501
     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/DS3502UP
 )
@@ -79,6 +79,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     ssd1306
     DS3502UP
     DACx0501
-    ADS7041
+    ADS7866
     # Add user defined libraries
 )

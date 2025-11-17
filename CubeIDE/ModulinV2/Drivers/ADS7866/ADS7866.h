@@ -1,5 +1,5 @@
-#ifndef ADS7041_H
-#define ADS7041_H
+#ifndef ADS7866_H
+#define ADS7866_H
 
 // Libraries
 #include "stm32f4xx_hal.h"
@@ -14,12 +14,10 @@ typedef struct {
     uint16_t csPin;
 
     SPI_HandleTypeDef *spi;
-
-    uint16_t raw;
-} ads7041;
+} ads7866;
 
 // Function prototypes
 // Getting the converted values from the ADC
-uint16_t GetADC7041(ads7041 adc);
+uint16_t GetADC7866(ads7866 adc);
 
-#endif // __ADS7041_H__
+#endif // __ADS7866_H__
