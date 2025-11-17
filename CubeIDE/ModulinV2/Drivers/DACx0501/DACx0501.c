@@ -3,30 +3,31 @@
 #include "stm32f4xx_hal_spi.h"
 
 // SPI writing helper function
-HAL_StatusTypeDef _write(dacx0501 dac, uint8_t reg, uint16_t data) {
+HAL_StatusTypeDef _write(dacx0501* dac, uint8_t reg, uint16_t data) {
     HAL_StatusTypeDef status;
+    uint8_t buffer[3];
 
     // Make the register and data into one data array where:
     // 1st word - register address
     // 2nd word - 8 most significant bits of the data
     // 3rd word - 8 least significant bits of the data
-    dac.data[0] = reg;
-    dac.data[1] = (data >> 8) & 0xFF;
-    dac.data[2] = data & 0xFF;
+    buffer[0] = reg;
+    buffer[1] = (data >> 8) & 0xFF;
+    buffer[2] = data & 0xFF;
 
     // Manually pull the CS pin low
-    HAL_GPIO_WritePin(dac.csPort, dac.csPin, 0);
+    HAL_GPIO_WritePin(dac->csPort, dac->csPin, 0);
 
     // Send the data array in blocking mode
-    status = HAL_SPI_Transmit(dac.spi, dac.data, 3, 100);
+    status = HAL_SPI_Transmit(dac->spi, buffer, 3, 100);
 
     // Pull the CS back up high
-    HAL_GPIO_WritePin(dac.csPort, dac.csPin, 1);
+    HAL_GPIO_WritePin(dac->csPort, dac->csPin, 1);
 
     return status;
 }
 
-HAL_StatusTypeDef ConfDACX051(dacx0501 dac) {
+HAL_StatusTypeDef ConfDACX051(dacx0501* dac) {
     HAL_StatusTypeDef status; 
 
     // Configure the DAC output to asynchronous mode
@@ -51,14 +52,19 @@ HAL_StatusTypeDef ConfDACX051(dacx0501 dac) {
     return status;
 }
 
-HAL_StatusTypeDef SetDACX0501(dacx0501 dac, uint16_t value) {
+HAL_StatusTypeDef SetDACX0501(dacx0501* dac) {
     HAL_StatusTypeDef status = HAL_OK; 
 
     // Discard all but the first 12 bits
-    value &= 0xFFF;
+    dac->newValue &= 0xFFF;
 
     // Send the DAC value to the DAC output register
-    status = _write(dac, DAC, value);
+    status = _write(dac, DAC, dac->newValue);
+
+    if (!status)
+        dac->currentValue = dac->newValue;
+    else
+        dac->currentValue = 0;
 
     return status;
 }

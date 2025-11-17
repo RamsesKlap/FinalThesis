@@ -22,9 +22,13 @@ typedef enum {
 typedef struct {
     I2C_HandleTypeDef *i2c;
     addr address;
+
+    uint8_t currentValue;
+    uint8_t newValue;
 } ds3502up;
 
 // Prototypes
-HAL_StatusTypeDef SetDS3502UP(ds3502up pot, uint8_t value);
+HAL_StatusTypeDef SetDS3502UP(ds3502up* pot);
+HAL_StatusTypeDef GetDS3502UP(ds3502up* pot);
 
 #endif // __DS3502UP_H__

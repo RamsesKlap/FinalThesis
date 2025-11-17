@@ -21,14 +21,15 @@ typedef struct {
 
     SPI_HandleTypeDef *spi;
 
-    uint8_t data[3];
+    uint8_t currentValue;
+    uint8_t newValue;
 } dacx0501;
 
 // Function prototypes
 // Configuration of the DAC
-HAL_StatusTypeDef ConfDACX051(dacx0501 dac);
+HAL_StatusTypeDef ConfDACX051(dacx0501* dac);
 
 // Sending of output value to the DAC
-HAL_StatusTypeDef SetDACX0501(dacx0501 dac, uint16_t value);
+HAL_StatusTypeDef SetDACX0501(dacx0501 *dac);
 
 #endif // __DACX0501_H__

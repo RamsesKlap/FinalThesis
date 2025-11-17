@@ -41,6 +41,13 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 typedef enum {
+  OCTAVE = 12,
+  OCTAVE2 = 24,
+  MAJOR = 16
+  // MINOR = 16
+} mode;
+
+typedef enum {
   MAIN,
   TUNE,
   ADSR,
@@ -53,7 +60,7 @@ typedef struct {
   page currentMenu;
   int8_t selectedField;
   uint8_t editing;
-  uint32_t encoder;
+  uint64_t encoder;
 } menu;
 /* USER CODE END PTD */
 
@@ -68,6 +75,8 @@ typedef struct {
 #define CURSOR_PAD 10
 
 #define ENC_START 32767
+#define MEMBRANE_MAX 4095
+#define MEMBRANE_MIN 0
 
 #define DNL 1500
 /* USER CODE END PM */
@@ -104,11 +113,14 @@ ds3502up fine2 = {&hi2c1, ADDR4};
 
 // Interface input and output init.
 ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
-ads7866 membrane3 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
+ads7866 membrane2 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
 dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
 dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
 
-menu oled = {TEST, MAIN, 0, 0, ENC_START};
+menu oled = {MAIN, 0, 0, ENC_START};
+
+// Current output mode
+mode outputMode = OCTAVE;
 
 /* USER CODE END PV */
 
@@ -599,11 +611,23 @@ void PeriphInit(void) {
 
   // Initialize the OLED for debugging and UI
   ssd1306_Init();
-  ChangeMenu(MAIN);
+  ssd1306_DrawCircle(5, 5, 3, White);
+  OLEDWrite("Tuning", CURSOR_PAD, 0);
+  OLEDWrite("ADSR", CURSOR_PAD, 10);
+  OLEDWrite("Interface", CURSOR_PAD, 20);
+  OLEDWrite("LFO", CURSOR_PAD, 30);
+  OLEDWrite("DEBUG", CURSOR_PAD, 40);
+  ssd1306_UpdateScreen();
 
   // Configure the DACs
-  ConfDACX051(pitchCV1);
-  ConfDACX051(pitchCV2);
+  ConfDACX051(&pitchCV1);
+  ConfDACX051(&pitchCV2);
+
+  // Get the values the digipots are at
+  GetDS3502UP(&coarse1);
+  GetDS3502UP(&coarse2);
+  GetDS3502UP(&fine1);
+  GetDS3502UP(&fine2);
 }
 
 void USBWrite(unsigned char* msg) {
@@ -619,9 +643,15 @@ void ChangeMenu(page select) {
   // Delete previous menu
   ssd1306_Fill(Black);
 
-  // Set cursor to the first choice
-  ssd1306_DrawCircle(5, 5, 3, White);
-  oled.selectedField = 0;
+  // If you back out to Main, the cursor is set back to where it was
+  if (select == MAIN) {
+    ssd1306_DrawCircle(5, 5 + 10 * (oled.currentMenu - 1), 3, White);
+    oled.selectedField = oled.currentMenu - 1;
+  }
+  else { // Otherwise put it at the first option
+    ssd1306_DrawCircle(5, 5, 3, White);
+    oled.selectedField = 0;
+  }
 
   // Show the fields of the given menu
   switch (select) {
@@ -677,27 +707,16 @@ void ChangeMenu(page select) {
 }
 
 void HandleParameter(page mode, uint8_t selected) {
-
-  // Handle main menu selections
-  if (mode == MAIN) {
-    ChangeMenu(selected + 1);
-    return;
-  }
-  // The first selection in any menu takes you to the main page
-  else if (selected == 0) {
-    ChangeMenu(MAIN);
-  }
-
   switch (mode) {
     case TUNE:
       switch (selected) {
-        case 1:
+        case 1: // Coarse 1
           break;
-        case 2:
+        case 2: // Fine 1
           break;
-        case 3:
+        case 3: // Coarse 2
           break;
-        case 4:
+        case 4: // Fine 2
           break;
         default:
           break;
@@ -706,13 +725,13 @@ void HandleParameter(page mode, uint8_t selected) {
     
     case ADSR:
       switch (selected) {
-        case 1:
+        case 1: // Attack
           break;
-        case 2:
+        case 2: // Decay
           break;
-        case 3:
+        case 3: // Sustain
           break;
-        case 4:
+        case 4: // Release
           break;
         default:
           break;
@@ -721,7 +740,7 @@ void HandleParameter(page mode, uint8_t selected) {
 
     case INTERFACE:
       switch (selected) {
-        case 1:
+        case 1: // Mode
           break;
         case 2:
           break;
@@ -736,7 +755,7 @@ void HandleParameter(page mode, uint8_t selected) {
 
     case LFO:
       switch (selected) {
-        case 1:
+        case 1: // Frequency
           break;
         case 2:
           break;
@@ -752,6 +771,11 @@ void HandleParameter(page mode, uint8_t selected) {
     default:
       break;
   }
+}
+
+uint16_t Map(uint16_t x, int step) {
+	// x * step / (MEMBRANE_MAX - MEMBRANE_MAX) + out_min;
+	return x * step / (MEMBRANE_MAX - MEMBRANE_MIN);
 }
 
 /* USER CODE END 4 */
@@ -778,18 +802,21 @@ void userInterface_Init(void const * argument)
     uint32_t encoderCurrent = (TIM2->CNT) >> 1 ;
 
     // Update cursor position
-    if (oled.encoder != encoderCurrent) {
+    if (oled.editing) {
+
+    }
+    else if (oled.encoder != encoderCurrent) {
       // Delete the previous cursor
       ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, Black);
 
       // Change the selected field up or down depending on which direction
-      // the encoder was moved and cap it at 0 & 5
+      // the encoder was moved and cap it at 0 & 4
       oled.encoder < encoderCurrent ? oled.selectedField++ : oled.selectedField--;
       
       if (oled.selectedField < 0)
         oled.selectedField = 0;
-      else if (oled.selectedField > 5)
-        oled.selectedField = 5;
+      else if (oled.selectedField > 4)
+        oled.selectedField = 4;
 
       oled.encoder = encoderCurrent;
       
@@ -800,7 +827,17 @@ void userInterface_Init(void const * argument)
 
     // Select field/parameter
     if (HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin) & !pressed) {
-      HandleParameter(oled.currentMenu, oled.selectedField);
+      // Handle main menu selections
+      if (oled.currentMenu == MAIN) {
+        ChangeMenu(oled.selectedField + 1);
+      }
+      // The first selection in any menu takes you to the main page
+      else if (oled.selectedField == 0) {
+        ChangeMenu(MAIN);
+      }
+      else {
+        oled.editing ^= 0b1;
+      }
       // Setting this makes sure that it doesn't keep selecting the menus/params
       pressed = 1;
     }
@@ -825,6 +862,8 @@ void ADC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+    GetADC7866(&membrane1);
+    GetADC7866(&membrane2);
     osDelay(1);
   }
   /* USER CODE END ADC_Init */
@@ -843,6 +882,12 @@ void DAC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+    if (pitchCV1.currentValue != pitchCV1.newValue)
+      SetDACX0501(&pitchCV1);
+
+    if (pitchCV2.currentValue != pitchCV2.newValue)
+      SetDACX0501(&pitchCV2);
+
     osDelay(1);
   }
   /* USER CODE END DAC_Init */
@@ -861,6 +906,18 @@ void digiPot_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+    if (attack.newValue != attack.currentValue)
+      SetDS3502UP(&attack);
+
+    if (decay.newValue != decay.currentValue)
+      SetDS3502UP(&decay);
+
+    if (sustain.newValue != sustain.currentValue)
+      SetDS3502UP(&sustain);
+
+    if (release.newValue != release.currentValue)
+      SetDS3502UP(&release);
+
     osDelay(1);
   }
   /* USER CODE END digiPot_Init */
