@@ -19,6 +19,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "stm32_hal_legacy.h"
+#include "stm32f4xx_hal_gpio.h"
+#include "stm32f4xx_hal_i2c.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -30,13 +33,28 @@
 #include "ssd1306_fonts.h"
 #include "ssd1306_tests.h"
 #include "usbd_cdc_if.h"
+#include "usbd_def.h"
 #include <stdio.h>
 #include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+typedef enum {
+  MAIN,
+  TUNE,
+  ADSR,
+  INTERFACE,
+  LFO,
+  TEST
+} page;
 
+typedef struct {
+  page currentMenu;
+  int8_t selectedField;
+  uint8_t editing;
+  uint32_t encoder;
+} menu;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -47,6 +65,10 @@
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
 #define FONT Font_7x10
+#define CURSOR_PAD 10
+
+#define ENC_START 32767
+
 #define DNL 1500
 /* USER CODE END PM */
 
@@ -66,6 +88,27 @@ osThreadId DACHandle;
 osThreadId digiPotHandle;
 /* USER CODE BEGIN PV */
 
+char buffer[256];
+
+// ADSR Digipot init.
+ds3502up attack = {&hi2c3, ADDR1};
+ds3502up decay = {&hi2c3, ADDR2};
+ds3502up sustain = {&hi2c3, ADDR3};
+ds3502up release = {&hi2c3, ADDR4};
+
+// Tuning Digipot init.
+ds3502up coarse1 = {&hi2c1, ADDR1};
+ds3502up coarse2 = {&hi2c1, ADDR2};
+ds3502up fine1 = {&hi2c1, ADDR3};
+ds3502up fine2 = {&hi2c1, ADDR4};
+
+// Interface input and output init.
+ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
+ads7866 membrane3 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
+dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
+dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
+
+menu oled = {TEST, MAIN, 0, 0, ENC_START};
 
 /* USER CODE END PV */
 
@@ -88,29 +131,12 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue);
 void PeriphInit(void);
 void USBWrite(unsigned char* msg);
 void OLEDWrite(char* msg, uint8_t x, uint8_t y);
+void ChangeMenu(page select);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-char buffer[256];
 
-// ADSR Digipot init.
-ds3502up attack = {&hi2c3, ADDR1};
-ds3502up decay = {&hi2c3, ADDR2};
-ds3502up sustain = {&hi2c3, ADDR3};
-ds3502up release = {&hi2c3, ADDR4};
-
-// Tuning Digipot init.
-ds3502up coarse1 = {&hi2c1, ADDR1};
-ds3502up coarse2 = {&hi2c1, ADDR2};
-ds3502up fine1 = {&hi2c1, ADDR3};
-ds3502up fine2 = {&hi2c1, ADDR4};
-
-// Interface input and output init.
-ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
-ads7866 membrane2 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
-dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
-dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
 /* USER CODE END 0 */
 
 /**
@@ -569,9 +595,11 @@ void PeriphInit(void) {
 
   // Start timer peripheral for counting encoder ticks
   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
+  __HAL_TIM_SetCounter(&htim2, ENC_START);
 
   // Initialize the OLED for debugging and UI
   ssd1306_Init();
+  ChangeMenu(MAIN);
 
   // Configure the DACs
   ConfDACX051(pitchCV1);
@@ -585,7 +613,145 @@ void USBWrite(unsigned char* msg) {
 void OLEDWrite(char* msg, uint8_t x, uint8_t y) {
   ssd1306_SetCursor(x, y);
   ssd1306_WriteString(msg, FONT, White);
+}
+
+void ChangeMenu(page select) {
+  // Delete previous menu
+  ssd1306_Fill(Black);
+
+  // Set cursor to the first choice
+  ssd1306_DrawCircle(5, 5, 3, White);
+  oled.selectedField = 0;
+
+  // Show the fields of the given menu
+  switch (select) {
+    case MAIN:  
+      OLEDWrite("Tuning", CURSOR_PAD, 0);
+      OLEDWrite("ADSR", CURSOR_PAD, 10);
+      OLEDWrite("Interface", CURSOR_PAD, 20);
+      OLEDWrite("LFO", CURSOR_PAD, 30);
+      OLEDWrite("DEBUG", CURSOR_PAD, 40);
+      break;
+
+    case TUNE:
+      OLEDWrite("BACK", CURSOR_PAD, 0);
+      OLEDWrite("Coarse 1", CURSOR_PAD, 10);
+      OLEDWrite("Fine 1", CURSOR_PAD, 20);
+      OLEDWrite("Coarse 2", CURSOR_PAD, 30);
+      OLEDWrite("Fine 2", CURSOR_PAD, 40);
+      break;
+
+    case ADSR:
+      OLEDWrite("BACK", CURSOR_PAD, 0);
+      OLEDWrite("Attack", CURSOR_PAD, 10);
+      OLEDWrite("Decay", CURSOR_PAD, 20);
+      OLEDWrite("Sustain", CURSOR_PAD, 30);
+      OLEDWrite("Release", CURSOR_PAD, 40);
+      break;
+
+    case INTERFACE:
+      OLEDWrite("BACK", CURSOR_PAD, 0);
+      OLEDWrite("Mode", CURSOR_PAD, 10);
+      OLEDWrite("A", CURSOR_PAD, 20);
+      OLEDWrite("A", CURSOR_PAD, 30);
+      OLEDWrite("A", CURSOR_PAD, 40);
+      break;
+
+    case LFO:
+      OLEDWrite("BACK", CURSOR_PAD, 0);
+      OLEDWrite("A", CURSOR_PAD, 10);
+      OLEDWrite("A", CURSOR_PAD, 20);
+      OLEDWrite("A", CURSOR_PAD, 30);
+      OLEDWrite("A", CURSOR_PAD, 40);
+      break;
+
+    case TEST:
+      break;
+
+    default:
+      break;
+  }
   ssd1306_UpdateScreen();
+
+  oled.currentMenu = select;
+}
+
+void HandleParameter(page mode, uint8_t selected) {
+
+  // Handle main menu selections
+  if (mode == MAIN) {
+    ChangeMenu(selected + 1);
+    return;
+  }
+  // The first selection in any menu takes you to the main page
+  else if (selected == 0) {
+    ChangeMenu(MAIN);
+  }
+
+  switch (mode) {
+    case TUNE:
+      switch (selected) {
+        case 1:
+          break;
+        case 2:
+          break;
+        case 3:
+          break;
+        case 4:
+          break;
+        default:
+          break;
+      }
+      break;
+    
+    case ADSR:
+      switch (selected) {
+        case 1:
+          break;
+        case 2:
+          break;
+        case 3:
+          break;
+        case 4:
+          break;
+        default:
+          break;
+      }
+      break;
+
+    case INTERFACE:
+      switch (selected) {
+        case 1:
+          break;
+        case 2:
+          break;
+        case 3:
+          break;
+        case 4:
+          break;
+        default:
+          break;
+      }
+      break;
+
+    case LFO:
+      switch (selected) {
+        case 1:
+          break;
+        case 2:
+          break;
+        case 3:
+          break;
+        case 4:
+          break;
+        default:
+          break;
+      }
+      break;
+    
+    default:
+      break;
+  }
 }
 
 /* USER CODE END 4 */
@@ -603,11 +769,45 @@ void userInterface_Init(void const * argument)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
 
+  // For latching encoder switch
+  uint8_t pressed = 0;
+
   /* Infinite loop */
-  for(;;)
-  {
-    // encoder = (TIM2->CNT) >> 1;
-    osDelay(1);
+  for(;;) {
+    // For moving the curson selection up/down
+    uint32_t encoderCurrent = (TIM2->CNT) >> 1 ;
+
+    // Update cursor position
+    if (oled.encoder != encoderCurrent) {
+      // Delete the previous cursor
+      ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, Black);
+
+      // Change the selected field up or down depending on which direction
+      // the encoder was moved and cap it at 0 & 5
+      oled.encoder < encoderCurrent ? oled.selectedField++ : oled.selectedField--;
+      
+      if (oled.selectedField < 0)
+        oled.selectedField = 0;
+      else if (oled.selectedField > 5)
+        oled.selectedField = 5;
+
+      oled.encoder = encoderCurrent;
+      
+      // Draw the new cursor at the new location
+      ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, White);
+      ssd1306_UpdateScreen();
+    }
+
+    // Select field/parameter
+    if (HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin) & !pressed) {
+      HandleParameter(oled.currentMenu, oled.selectedField);
+      // Setting this makes sure that it doesn't keep selecting the menus/params
+      pressed = 1;
+    }
+    else if (!HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin)) {
+      // Once let go, it unlatches the button
+      pressed = 0;
+    }
   }
   /* USER CODE END 5 */
 }
