@@ -14,10 +14,12 @@ typedef struct {
     uint16_t csPin;
 
     SPI_HandleTypeDef *spi;
+
+    uint16_t value;
 } ads7866;
 
 // Function prototypes
 // Getting the converted values from the ADC
-uint16_t GetADC7866(ads7866 adc);
+uint16_t GetADC7866(ads7866* adc);
 
 #endif // __ADS7866_H__
