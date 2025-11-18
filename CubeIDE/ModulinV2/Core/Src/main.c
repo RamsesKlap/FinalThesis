@@ -106,10 +106,10 @@ ds3502up sustain = {&hi2c3, ADDR3};
 ds3502up release = {&hi2c3, ADDR4};
 
 // Tuning Digipot init.
-ds3502up coarse1 = {&hi2c1, ADDR1};
-ds3502up coarse2 = {&hi2c1, ADDR2};
-ds3502up fine1 = {&hi2c1, ADDR3};
-ds3502up fine2 = {&hi2c1, ADDR4};
+ds3502up coarse1 = {&hi2c1, ADDR1, 0, 0};
+ds3502up coarse2 = {&hi2c1, ADDR2, 0, 0};
+ds3502up fine1 = {&hi2c1, ADDR3, 0, 0};
+ds3502up fine2 = {&hi2c1, ADDR4, 0, 0};
 
 // Interface input and output init.
 ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
@@ -624,10 +624,10 @@ void PeriphInit(void) {
   ConfDACX051(&pitchCV2);
 
   // Get the values the digipots are at
-  GetDS3502UP(&coarse1);
-  GetDS3502UP(&coarse2);
-  GetDS3502UP(&fine1);
-  GetDS3502UP(&fine2);
+  //GetDS3502UP(&coarse1);
+  //GetDS3502UP(&coarse2);
+  //GetDS3502UP(&fine1);
+  //GetDS3502UP(&fine2);
 }
 
 void USBWrite(unsigned char* msg) {
@@ -706,17 +706,42 @@ void ChangeMenu(page select) {
   oled.currentMenu = select;
 }
 
-void HandleParameter(page mode, uint8_t selected) {
+void HandleParameter(page mode, uint8_t selected, int64_t dir) {
+  char buffer[125];
+
   switch (mode) {
     case TUNE:
+      ssd1306_SetCursor(20, 10 + 10 * selected);
       switch (selected) {
         case 1: // Coarse 1
+          sprintf(buffer, "%d", coarse1.currentValue);
+          ssd1306_WriteString(buffer, FONT, White);
+          if (coarse1.currentValue + 1 > 0x7F || coarse1.currentValue - 1 > 0x7F) {
+            break;
+          }
+
+          dir > 0 ? coarse1.newValue++ : coarse1.newValue--;
           break;
         case 2: // Fine 1
+          if (fine1.currentValue + 1 > 0x7F || fine1.currentValue - 1 > 0x7F) {
+            break;
+          }
+
+          dir > 0 ? fine1.newValue++ : fine1.newValue--;
           break;
         case 3: // Coarse 2
+          if (coarse2.currentValue + 1 > 0x7F || coarse2.currentValue - 1 > 0x7F) {
+            break;
+          }
+
+          dir > 0 ? coarse2.newValue++ : coarse2.newValue--;
           break;
         case 4: // Fine 2
+          if (fine2.currentValue + 1 > 0x7F || fine2.currentValue - 1 > 0x7F) {
+            break;
+          }
+
+          dir > 0 ? fine2.newValue++ : fine2.newValue--;
           break;
         default:
           break;
@@ -799,30 +824,32 @@ void userInterface_Init(void const * argument)
   /* Infinite loop */
   for(;;) {
     // For moving the curson selection up/down
-    uint32_t encoderCurrent = (TIM2->CNT) >> 1 ;
+    uint32_t encoderCurrent = (TIM2->CNT) >> 1;
 
     // Update cursor position
-    if (oled.editing) {
+    if (oled.encoder != encoderCurrent) {
+      if (oled.editing) {
+        HandleParameter(oled.currentMenu, oled.selectedField, encoderCurrent - oled.encoder);
+      }
+      else {
+        // Delete the previous cursor
+        ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, Black);
 
-    }
-    else if (oled.encoder != encoderCurrent) {
-      // Delete the previous cursor
-      ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, Black);
+        // Change the selected field up or down depending on which direction
+        // the encoder was moved and cap it at 0 & 4
+        oled.encoder < encoderCurrent ? oled.selectedField++ : oled.selectedField--;
+        
+        if (oled.selectedField < 0)
+          oled.selectedField = 0;
+        else if (oled.selectedField > 4)
+          oled.selectedField = 4;
 
-      // Change the selected field up or down depending on which direction
-      // the encoder was moved and cap it at 0 & 4
-      oled.encoder < encoderCurrent ? oled.selectedField++ : oled.selectedField--;
-      
-      if (oled.selectedField < 0)
-        oled.selectedField = 0;
-      else if (oled.selectedField > 4)
-        oled.selectedField = 4;
-
-      oled.encoder = encoderCurrent;
-      
-      // Draw the new cursor at the new location
-      ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, White);
-      ssd1306_UpdateScreen();
+        oled.encoder = encoderCurrent;
+        
+        // Draw the new cursor at the new location
+        ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, White);
+        ssd1306_UpdateScreen();
+      }
     }
 
     // Select field/parameter
@@ -862,8 +889,8 @@ void ADC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    GetADC7866(&membrane1);
-    GetADC7866(&membrane2);
+    //GetADC7866(&membrane1);
+    //GetADC7866(&membrane2);
     osDelay(1);
   }
   /* USER CODE END ADC_Init */
@@ -882,11 +909,11 @@ void DAC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    if (pitchCV1.currentValue != pitchCV1.newValue)
-      SetDACX0501(&pitchCV1);
+    //if (pitchCV1.currentValue != pitchCV1.newValue)
+      //SetDACX0501(&pitchCV1);
 
-    if (pitchCV2.currentValue != pitchCV2.newValue)
-      SetDACX0501(&pitchCV2);
+    //if (pitchCV2.currentValue != pitchCV2.newValue)
+      //SetDACX0501(&pitchCV2);
 
     osDelay(1);
   }
@@ -906,17 +933,17 @@ void digiPot_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    if (attack.newValue != attack.currentValue)
-      SetDS3502UP(&attack);
+    //if (attack.newValue != attack.currentValue)
+      //SetDS3502UP(&attack);
 
-    if (decay.newValue != decay.currentValue)
-      SetDS3502UP(&decay);
+    //if (decay.newValue != decay.currentValue)
+      //SetDS3502UP(&decay);
 
-    if (sustain.newValue != sustain.currentValue)
-      SetDS3502UP(&sustain);
+    //if (sustain.newValue != sustain.currentValue)
+      //SetDS3502UP(&sustain);
 
-    if (release.newValue != release.currentValue)
-      SetDS3502UP(&release);
+    //if (release.newValue != release.currentValue)
+      //SetDS3502UP(&release);
 
     osDelay(1);
   }
