@@ -19,9 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
-#include "stm32_hal_legacy.h"
-#include "stm32f4xx_hal_gpio.h"
-#include "stm32f4xx_hal_i2c.h"
+#include "stm32f4xx_hal.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -45,7 +43,7 @@ typedef enum {
   OCTAVE2 = 24,
   MAJOR = 16
   // MINOR = 16
-} mode;
+} scaleMode;
 
 typedef enum {
   MAIN,
@@ -56,12 +54,30 @@ typedef enum {
   TEST
 } page;
 
+typedef enum {
+  BROWSE,
+  EDIT
+} uiState;
+
+typedef enum {
+  UP,
+  DOWN
+} direction;
+
 typedef struct {
+  page previousMenu;
   page currentMenu;
-  int8_t selectedField;
-  uint8_t editing;
-  uint64_t encoder;
+  uint8_t previousIndex;
+  uint8_t selectionIndex;
+
+  uiState state;
 } menu;
+
+typedef struct {
+  uint32_t lastCounterValue;
+  int32_t parameterValueModifier;
+  direction dir;
+} encoder;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -73,8 +89,9 @@ typedef struct {
 /* USER CODE BEGIN PM */
 #define FONT Font_7x10
 #define CURSOR_PAD 10
+#define MENU_IDX_MAX 4
+#define PARAM_MOD_MAX 0xFF
 
-#define ENC_START 32767
 #define MEMBRANE_MAX 4095
 #define MEMBRANE_MIN 0
 
@@ -95,6 +112,7 @@ osThreadId userInterfaceHandle;
 osThreadId ADCHandle;
 osThreadId DACHandle;
 osThreadId digiPotHandle;
+osThreadId encoderHandle;
 /* USER CODE BEGIN PV */
 
 char buffer[256];
@@ -117,10 +135,11 @@ ads7866 membrane2 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
 dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
 dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
 
-menu oled = {MAIN, 0, 0, ENC_START};
+menu oled = {TEST, MAIN, 1, 0, BROWSE};
+encoder knob = {0, 0, UP};
 
 // Current output mode
-mode outputMode = OCTAVE;
+// mode outputMode = OCTAVE;
 
 /* USER CODE END PV */
 
@@ -137,6 +156,7 @@ void userInterface_Init(void const * argument);
 void ADC_Init(void const * argument);
 void DAC_Init(void const * argument);
 void digiPot_Init(void const * argument);
+void encoder_Init(void const * argument);
 
 /* USER CODE BEGIN PFP */
 void RGB(uint8_t red, uint8_t green, uint8_t blue);
@@ -214,7 +234,7 @@ int main(void)
   userInterfaceHandle = osThreadCreate(osThread(userInterface), NULL);
 
   /* definition and creation of ADC */
-  osThreadDef(ADC, ADC_Init, osPriorityAboveNormal, 0, 128);
+  osThreadDef(ADC, ADC_Init, osPriorityHigh, 0, 128);
   ADCHandle = osThreadCreate(osThread(ADC), NULL);
 
   /* definition and creation of DAC */
@@ -222,8 +242,12 @@ int main(void)
   DACHandle = osThreadCreate(osThread(DAC), NULL);
 
   /* definition and creation of digiPot */
-  osThreadDef(digiPot, digiPot_Init, osPriorityBelowNormal, 0, 128);
+  osThreadDef(digiPot, digiPot_Init, osPriorityNormal, 0, 128);
   digiPotHandle = osThreadCreate(osThread(digiPot), NULL);
+
+  /* definition and creation of encoder */
+  osThreadDef(encoder, encoder_Init, osPriorityAboveNormal, 0, 128);
+  encoderHandle = osThreadCreate(osThread(encoder), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   
@@ -594,6 +618,15 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
   HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, blue);
 }
 
+void USBWrite(unsigned char* msg) {
+  CDC_Transmit_FS(msg, strlen((char*)msg));
+}
+
+void OLEDWrite(char* msg, uint8_t x, uint8_t y) {
+  ssd1306_SetCursor(x, y);
+  ssd1306_WriteString(msg, FONT, White);
+}
+
 void PeriphInit(void) {
   // Turn off all the LEDs
   RGB(1, 1, 1);
@@ -607,51 +640,24 @@ void PeriphInit(void) {
 
   // Start timer peripheral for counting encoder ticks
   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
-  __HAL_TIM_SetCounter(&htim2, ENC_START);
 
   // Initialize the OLED for debugging and UI
   ssd1306_Init();
-  ssd1306_DrawCircle(5, 5, 3, White);
-  OLEDWrite("Tuning", CURSOR_PAD, 0);
-  OLEDWrite("ADSR", CURSOR_PAD, 10);
-  OLEDWrite("Interface", CURSOR_PAD, 20);
-  OLEDWrite("LFO", CURSOR_PAD, 30);
-  OLEDWrite("DEBUG", CURSOR_PAD, 40);
-  ssd1306_UpdateScreen();
 
   // Configure the DACs
   ConfDACX051(&pitchCV1);
   ConfDACX051(&pitchCV2);
 
   // Get the values the digipots are at
-  //GetDS3502UP(&coarse1);
-  //GetDS3502UP(&coarse2);
-  //GetDS3502UP(&fine1);
-  //GetDS3502UP(&fine2);
-}
-
-void USBWrite(unsigned char* msg) {
-  CDC_Transmit_FS(msg, strlen((char*)msg));
-}
-
-void OLEDWrite(char* msg, uint8_t x, uint8_t y) {
-  ssd1306_SetCursor(x, y);
-  ssd1306_WriteString(msg, FONT, White);
+  GetDS3502UP(&coarse1);
+  GetDS3502UP(&coarse2);
+  GetDS3502UP(&fine1);
+  GetDS3502UP(&fine2);
 }
 
 void ChangeMenu(page select) {
   // Delete previous menu
   ssd1306_Fill(Black);
-
-  // If you back out to Main, the cursor is set back to where it was
-  if (select == MAIN) {
-    ssd1306_DrawCircle(5, 5 + 10 * (oled.currentMenu - 1), 3, White);
-    oled.selectedField = oled.currentMenu - 1;
-  }
-  else { // Otherwise put it at the first option
-    ssd1306_DrawCircle(5, 5, 3, White);
-    oled.selectedField = 0;
-  }
 
   // Show the fields of the given menu
   switch (select) {
@@ -696,6 +702,7 @@ void ChangeMenu(page select) {
       break;
 
     case TEST:
+      OLEDWrite("BACK", CURSOR_PAD, 0);
       break;
 
     default:
@@ -706,97 +713,6 @@ void ChangeMenu(page select) {
   oled.currentMenu = select;
 }
 
-void HandleParameter(page mode, uint8_t selected, int64_t dir) {
-  char buffer[125];
-
-  switch (mode) {
-    case TUNE:
-      ssd1306_SetCursor(20, 10 + 10 * selected);
-      switch (selected) {
-        case 1: // Coarse 1
-          sprintf(buffer, "%d", coarse1.currentValue);
-          ssd1306_WriteString(buffer, FONT, White);
-          if (coarse1.currentValue + 1 > 0x7F || coarse1.currentValue - 1 > 0x7F) {
-            break;
-          }
-
-          dir > 0 ? coarse1.newValue++ : coarse1.newValue--;
-          break;
-        case 2: // Fine 1
-          if (fine1.currentValue + 1 > 0x7F || fine1.currentValue - 1 > 0x7F) {
-            break;
-          }
-
-          dir > 0 ? fine1.newValue++ : fine1.newValue--;
-          break;
-        case 3: // Coarse 2
-          if (coarse2.currentValue + 1 > 0x7F || coarse2.currentValue - 1 > 0x7F) {
-            break;
-          }
-
-          dir > 0 ? coarse2.newValue++ : coarse2.newValue--;
-          break;
-        case 4: // Fine 2
-          if (fine2.currentValue + 1 > 0x7F || fine2.currentValue - 1 > 0x7F) {
-            break;
-          }
-
-          dir > 0 ? fine2.newValue++ : fine2.newValue--;
-          break;
-        default:
-          break;
-      }
-      break;
-    
-    case ADSR:
-      switch (selected) {
-        case 1: // Attack
-          break;
-        case 2: // Decay
-          break;
-        case 3: // Sustain
-          break;
-        case 4: // Release
-          break;
-        default:
-          break;
-      }
-      break;
-
-    case INTERFACE:
-      switch (selected) {
-        case 1: // Mode
-          break;
-        case 2:
-          break;
-        case 3:
-          break;
-        case 4:
-          break;
-        default:
-          break;
-      }
-      break;
-
-    case LFO:
-      switch (selected) {
-        case 1: // Frequency
-          break;
-        case 2:
-          break;
-        case 3:
-          break;
-        case 4:
-          break;
-        default:
-          break;
-      }
-      break;
-    
-    default:
-      break;
-  }
-}
 
 uint16_t Map(uint16_t x, int step) {
 	// x * step / (MEMBRANE_MAX - MEMBRANE_MAX) + out_min;
@@ -818,59 +734,36 @@ void userInterface_Init(void const * argument)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 5 */
 
-  // For latching encoder switch
-  uint8_t pressed = 0;
-
   /* Infinite loop */
-  for(;;) {
-    // For moving the curson selection up/down
-    uint32_t encoderCurrent = (TIM2->CNT) >> 1;
+  for(;;) 
+  {
+    switch (oled.state) {
+      case BROWSE:
+        if (oled.previousMenu != oled.currentMenu) {
+          ChangeMenu(oled.currentMenu);
 
-    // Update cursor position
-    if (oled.encoder != encoderCurrent) {
-      if (oled.editing) {
-        HandleParameter(oled.currentMenu, oled.selectedField, encoderCurrent - oled.encoder);
-      }
-      else {
-        // Delete the previous cursor
-        ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, Black);
+          ssd1306_FillRectangle(0, 0, 10, 50, Black);
+          if (oled.currentMenu == MAIN)
+            ssd1306_FillCircle(5, 5 + 10 * (oled.previousMenu - 1), 3, White);
+          else {
+            ssd1306_FillCircle(5, 5, 3, White);
+            oled.selectionIndex = 0;
+          }
+          ssd1306_UpdateScreen();
 
-        // Change the selected field up or down depending on which direction
-        // the encoder was moved and cap it at 0 & 4
-        oled.encoder < encoderCurrent ? oled.selectedField++ : oled.selectedField--;
+          oled.previousMenu = oled.currentMenu;
+        }
+
+        if (oled.previousIndex != oled.selectionIndex) {
+          ssd1306_FillRectangle(0, 0, 10, 50, Black);
+          ssd1306_FillCircle(5, 5 + 10 * oled.selectionIndex, 3, White);
+          ssd1306_UpdateScreen();
+          oled.previousIndex = oled.selectionIndex;
+        }
+        break;
+      case EDIT:
         
-        if (oled.selectedField < 0)
-          oled.selectedField = 0;
-        else if (oled.selectedField > 4)
-          oled.selectedField = 4;
-
-        oled.encoder = encoderCurrent;
-        
-        // Draw the new cursor at the new location
-        ssd1306_DrawCircle(5, 5 + 10 * oled.selectedField, 3, White);
-        ssd1306_UpdateScreen();
-      }
-    }
-
-    // Select field/parameter
-    if (HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin) & !pressed) {
-      // Handle main menu selections
-      if (oled.currentMenu == MAIN) {
-        ChangeMenu(oled.selectedField + 1);
-      }
-      // The first selection in any menu takes you to the main page
-      else if (oled.selectedField == 0) {
-        ChangeMenu(MAIN);
-      }
-      else {
-        oled.editing ^= 0b1;
-      }
-      // Setting this makes sure that it doesn't keep selecting the menus/params
-      pressed = 1;
-    }
-    else if (!HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin)) {
-      // Once let go, it unlatches the button
-      pressed = 0;
+        break;
     }
   }
   /* USER CODE END 5 */
@@ -909,10 +802,10 @@ void DAC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    //if (pitchCV1.currentValue != pitchCV1.newValue)
+    // if (pitchCV1.currentValue != pitchCV1.newValue)
       //SetDACX0501(&pitchCV1);
 
-    //if (pitchCV2.currentValue != pitchCV2.newValue)
+    // if (pitchCV2.currentValue != pitchCV2.newValue)
       //SetDACX0501(&pitchCV2);
 
     osDelay(1);
@@ -932,22 +825,98 @@ void digiPot_Init(void const * argument)
   /* USER CODE BEGIN digiPot_Init */
   /* Infinite loop */
   for(;;)
-  {
-    //if (attack.newValue != attack.currentValue)
-      //SetDS3502UP(&attack);
+  { 
+    if (coarse1.newValue != coarse1.currentValue)
+      SetDS3502UP(&coarse1);
 
-    //if (decay.newValue != decay.currentValue)
-      //SetDS3502UP(&decay);
+    if (coarse2.newValue != coarse2.currentValue)
+      SetDS3502UP(&coarse2);
 
-    //if (sustain.newValue != sustain.currentValue)
-      //SetDS3502UP(&sustain);
+    if (fine1.newValue != fine1.currentValue)
+      SetDS3502UP(&fine1);
 
-    //if (release.newValue != release.currentValue)
-      //SetDS3502UP(&release);
+    if (fine2.newValue != fine2.currentValue)
+      SetDS3502UP(&fine2);
 
     osDelay(1);
   }
   /* USER CODE END digiPot_Init */
+}
+
+/* USER CODE BEGIN Header_encoder_Init */
+/**
+* @brief Function implementing the encoder thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_encoder_Init */
+void encoder_Init(void const * argument)
+{
+  /* USER CODE BEGIN encoder_Init */
+  uint32_t currentCounterValue;
+  uint8_t pressed = 0;
+  
+  /* Infinite loop */
+  for(;;)
+  {
+    currentCounterValue = (TIM2->CNT) >> 1;
+
+    if (currentCounterValue != knob.lastCounterValue) {
+      // Get whether the direction bit of the ControlRegister1 indicates
+      // an up or down movement
+      knob.dir = (TIM2->CR1 & TIM_CR1_DIR) ? DOWN: UP;
+
+      switch (oled.state) {
+        // Mode where you're navigating the menus
+        case BROWSE:
+          // Based on whether the direction was down or up, change the 
+          // selection index accordingly
+          if (knob.dir == UP) {
+            if (oled.selectionIndex + 1 <= MENU_IDX_MAX)
+              oled.selectionIndex++;
+          }
+          else {
+            if (oled.selectionIndex - 1 >= 0)
+              oled.selectionIndex--;
+          }
+          break;
+
+        // Mode where you're changing the parameter value
+        case EDIT:
+          if (knob.dir == UP) 
+            knob.parameterValueModifier++;
+          else
+            knob.parameterValueModifier--;
+          break;
+      }
+
+      knob.lastCounterValue = currentCounterValue;
+    }
+
+    if (HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin) && !pressed) {
+      if (oled.currentMenu == MAIN) {
+        oled.currentMenu = oled.selectionIndex + 1;
+      }
+      else {
+        if (oled.selectionIndex == 0) {
+          oled.currentMenu = MAIN;
+        }
+        else {
+          knob.parameterValueModifier = 0;
+          oled.state ^= EDIT;
+        }
+      }
+      // Latch the pressed value to 1 so that it doesn't keep toggling
+      pressed = 1;
+    }
+    else if (!HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin)) {
+      // Unlatch the button press
+      pressed = 0;
+    }
+    
+    osDelay(1);
+  }
+  /* USER CODE END encoder_Init */
 }
 
 /**
