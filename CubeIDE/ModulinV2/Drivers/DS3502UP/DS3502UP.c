@@ -24,8 +24,10 @@ HAL_StatusTypeDef GetDS3502UP(ds3502up* pot) {
     status = HAL_I2C_Mem_Read(pot->i2c, pot->address, WIPER_R, I2C_MEMADD_SIZE_8BIT, &data, 1, 100);
     //status = HAL_I2C_Master_Receive(pot->i2c, pot->address, &data, 1, 100);
 
-    if (!status)
+    if (!status) {
         pot->currentValue = data & 0x7F;
+        pot->newValue = pot->currentValue;
+    }
     else
         pot->currentValue = 0;
 

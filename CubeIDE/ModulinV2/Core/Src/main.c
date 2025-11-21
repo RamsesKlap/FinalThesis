@@ -46,6 +46,13 @@ typedef enum {
 } scaleMode;
 
 typedef enum {
+  COARSE1,
+  FINE1,
+  COARSE2,
+  FINE2
+} tuners; 
+
+typedef enum {
   MAIN,
   TUNE,
   ADSR,
@@ -89,8 +96,9 @@ typedef struct {
 /* USER CODE BEGIN PM */
 #define FONT Font_7x10
 #define CURSOR_PAD 10
+#define OLED_WIDTH 128
+#define OLED_HEIGHT 64
 #define MENU_IDX_MAX 4
-#define PARAM_MOD_MAX 0xFF
 
 #define MEMBRANE_MAX 4095
 #define MEMBRANE_MIN 0
@@ -117,17 +125,19 @@ osThreadId encoderHandle;
 
 char buffer[256];
 
-// ADSR Digipot init.
-ds3502up attack = {&hi2c3, ADDR1};
-ds3502up decay = {&hi2c3, ADDR2};
-ds3502up sustain = {&hi2c3, ADDR3};
-ds3502up release = {&hi2c3, ADDR4};
+// Structure array of all the ADSR pots
+// [0] - Attack, [1] - Decay, [2] - Sustain, [3] - Release
+ds3502up adsrPots[4] = {{&hi2c3, ADDR1, 0, 0},
+                        {&hi2c3, ADDR2, 0, 0},
+                        {&hi2c3, ADDR3, 0, 0},
+                        {&hi2c3, ADDR4, 0, 0}};
 
-// Tuning Digipot init.
-ds3502up coarse1 = {&hi2c1, ADDR1, 0, 0};
-ds3502up coarse2 = {&hi2c1, ADDR2, 0, 0};
-ds3502up fine1 = {&hi2c1, ADDR3, 0, 0};
-ds3502up fine2 = {&hi2c1, ADDR4, 0, 0};
+// Structure array of all the tuning pots
+// [0] - Coarse1, [1] - Fine1, [2] - Coarse2, [3] - Fine 2
+ds3502up tuningPots[4] = {{&hi2c1, ADDR1, 0, 0}, 
+                          {&hi2c1, ADDR3, 0, 0},
+                          {&hi2c1, ADDR2, 0, 0},
+                          {&hi2c1, ADDR4, 0, 0}};
 
 // Interface input and output init.
 ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
@@ -649,10 +659,10 @@ void PeriphInit(void) {
   ConfDACX051(&pitchCV2);
 
   // Get the values the digipots are at
-  GetDS3502UP(&coarse1);
-  GetDS3502UP(&coarse2);
-  GetDS3502UP(&fine1);
-  GetDS3502UP(&fine2);
+  GetDS3502UP(&tuningPots[COARSE1]);
+  GetDS3502UP(&tuningPots[COARSE2]);
+  GetDS3502UP(&tuningPots[FINE1]);
+  GetDS3502UP(&tuningPots[FINE2]);
 }
 
 void ChangeMenu(page select) {
@@ -740,29 +750,74 @@ void userInterface_Init(void const * argument)
     switch (oled.state) {
       case BROWSE:
         if (oled.previousMenu != oled.currentMenu) {
+          // Update the OLED to the new menu
           ChangeMenu(oled.currentMenu);
 
-          ssd1306_FillRectangle(0, 0, 10, 50, Black);
+          // Delete any and all cursors
+          ssd1306_FillRectangle(0, 0, CURSOR_PAD, OLED_HEIGHT, Black);
+
           if (oled.currentMenu == MAIN)
+            // Returning to the main page will set the cursor to the position of the previous menu
             ssd1306_FillCircle(5, 5 + 10 * (oled.previousMenu - 1), 3, White);
           else {
+            // Othewise the cursor will be placed on the first selection
             ssd1306_FillCircle(5, 5, 3, White);
             oled.selectionIndex = 0;
           }
+
           ssd1306_UpdateScreen();
 
+          // Update the previous menu field to the current one
+          // So that the previous logic can be made again
           oled.previousMenu = oled.currentMenu;
         }
 
+        // Logic for displaying the cursor position
         if (oled.previousIndex != oled.selectionIndex) {
-          ssd1306_FillRectangle(0, 0, 10, 50, Black);
+
+          // Delete any and all cursors
+          ssd1306_FillRectangle(0, 0, CURSOR_PAD, OLED_HEIGHT, Black);
+          
+          // Make a new cursor at the selection index
           ssd1306_FillCircle(5, 5 + 10 * oled.selectionIndex, 3, White);
+          
           ssd1306_UpdateScreen();
+          
+          // Set the previous indec to the current one
+          // So that the previous logic can be made again
           oled.previousIndex = oled.selectionIndex;
         }
         break;
+
       case EDIT:
-        
+        switch (oled.currentMenu) {
+          case TUNE:
+
+            // Restrict the parameter value between 127 and 0, because
+            // the DS3502U+ chips are 7-bit (0 - 0x7F)
+            if (knob.parameterValueModifier > 0x7F) {
+              knob.parameterValueModifier = 0x7F;
+            }
+            else if (knob.parameterValueModifier < 0) {
+              knob.parameterValueModifier = 0;
+            }
+
+            // Display editable value 
+            sprintf(buffer, "%3d", knob.parameterValueModifier);
+            OLEDWrite(buffer, 100, 10 * oled.selectionIndex);
+            ssd1306_UpdateScreen();
+
+            tuningPots[oled.selectionIndex - 1].newValue = knob.parameterValueModifier;
+            break;
+          case ADSR:
+            break;
+          case INTERFACE:
+            break;
+          case LFO:
+            break;
+          default:
+            break;
+        }
         break;
     }
   }
@@ -782,8 +837,9 @@ void ADC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    //GetADC7866(&membrane1);
-    //GetADC7866(&membrane2);
+    // Constantly poll for new user input values
+    /* GetADC7866(&membrane1);
+    GetADC7866(&membrane2); */
     osDelay(1);
   }
   /* USER CODE END ADC_Init */
@@ -802,11 +858,12 @@ void DAC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    // if (pitchCV1.currentValue != pitchCV1.newValue)
-      //SetDACX0501(&pitchCV1);
+    // Don't change the value of the DAC unless it has changed
+    /* if (pitchCV1.currentValue != pitchCV1.newValue)
+      SetDACX0501(&pitchCV1);
 
-    // if (pitchCV2.currentValue != pitchCV2.newValue)
-      //SetDACX0501(&pitchCV2);
+    if (pitchCV2.currentValue != pitchCV2.newValue)
+      SetDACX0501(&pitchCV2); */
 
     osDelay(1);
   }
@@ -826,17 +883,18 @@ void digiPot_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   { 
-    if (coarse1.newValue != coarse1.currentValue)
-      SetDS3502UP(&coarse1);
+    // Don't change the potentiometer values unless the value has been changed
+    if (tuningPots[COARSE1].newValue != tuningPots[COARSE1].currentValue)
+      SetDS3502UP(&tuningPots[COARSE1]);
 
-    if (coarse2.newValue != coarse2.currentValue)
-      SetDS3502UP(&coarse2);
+    if (tuningPots[COARSE2].newValue != tuningPots[COARSE2].currentValue)
+      SetDS3502UP(&tuningPots[COARSE2]);
 
-    if (fine1.newValue != fine1.currentValue)
-      SetDS3502UP(&fine1);
+    if (tuningPots[FINE1].newValue != tuningPots[FINE1].currentValue)
+      SetDS3502UP(&tuningPots[FINE1]);
 
-    if (fine2.newValue != fine2.currentValue)
-      SetDS3502UP(&fine2);
+    if (tuningPots[FINE2].newValue != tuningPots[FINE2].currentValue)
+      SetDS3502UP(&tuningPots[FINE2]);
 
     osDelay(1);
   }
@@ -894,15 +952,37 @@ void encoder_Init(void const * argument)
     }
 
     if (HAL_GPIO_ReadPin(ENC_SW_GPIO_Port, ENC_SW_Pin) && !pressed) {
+      // In the main menu, clicking the encoder changes menu to the
+      // according index
       if (oled.currentMenu == MAIN) {
-        oled.currentMenu = oled.selectionIndex + 1;
+        oled.currentMenu = oled.selectionIndex + 1; // +1, because index 0 is MAIN
       }
+
       else {
+        // The first selection of each submenu is the BACK button
+        // which takes you to the MAIN menu
         if (oled.selectionIndex == 0) {
           oled.currentMenu = MAIN;
         }
+
         else {
-          knob.parameterValueModifier = 0;
+          // Set the beginning value for the given parameter(s) that have NVMemory
+          switch (oled.currentMenu) {
+            case TUNE:
+              knob.parameterValueModifier = tuningPots[oled.selectionIndex - 1].currentValue;
+              break;
+            case ADSR:
+              knob.parameterValueModifier = adsrPots[oled.selectionIndex - 1].currentValue;
+              break;
+            default:
+              knob.parameterValueModifier = 0;
+              break;
+          }
+
+          // Delete anything that might've been at the end sector of the OLED
+          ssd1306_FillRectangle(100, 0, 128, 64, Black);
+          
+          // Toggle the state from BROWSE to EDIT or vice versa
           oled.state ^= EDIT;
         }
       }
