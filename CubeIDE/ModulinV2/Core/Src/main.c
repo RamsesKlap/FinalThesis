@@ -39,10 +39,10 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 typedef enum {
-  OCTAVE = 12,
-  OCTAVE2 = 24,
-  MAJOR = 16
-  // MINOR = 16
+  OCTAVE,
+  OCTAVE2,
+  MAJOR,
+  MINOR
 } scaleMode;
 
 typedef enum {
@@ -76,7 +76,6 @@ typedef struct {
   page currentMenu;
   uint8_t previousIndex;
   uint8_t selectionIndex;
-
   uiState state;
 } menu;
 
@@ -139,14 +138,17 @@ ds3502up tuningPots[4] = {{&hi2c1, ADDR1, 0, 0},
                           {&hi2c1, ADDR2, 0, 0},
                           {&hi2c1, ADDR4, 0, 0}};
 
-// Interface input and output init.
-ads7866 membrane1 = {ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1};
-ads7866 membrane2 = {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1};
-dacx0501 pitchCV1 = {DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2};
-dacx0501 pitchCV2 = {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2};
+// Structure array of both of the string ADC info
+ads7866 strings[2] = {{ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1}, 
+                      {ADC_CS2_GPIO_Port, ADC_CS2_Pin, &hspi1}};
+
+// Structure array for both CV outputs 
+dacx0501 pitchCV [2] = {{DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2}, 
+                        {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2}};
 
 menu oled = {TEST, MAIN, 1, 0, BROWSE};
 encoder knob = {0, 0, UP};
+scaleMode scale = OCTAVE;
 
 // Current output mode
 // mode outputMode = OCTAVE;
@@ -171,9 +173,10 @@ void encoder_Init(void const * argument);
 /* USER CODE BEGIN PFP */
 void RGB(uint8_t red, uint8_t green, uint8_t blue);
 void PeriphInit(void);
-void USBWrite(unsigned char* msg);
+// void USBWrite(unsigned char* msg);
 void OLEDWrite(char* msg, uint8_t x, uint8_t y);
 void ChangeMenu(page select);
+uint16_t Map(uint16_t x, int step);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -628,9 +631,9 @@ void RGB(uint8_t red, uint8_t green, uint8_t blue) {
   HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, blue);
 }
 
-void USBWrite(unsigned char* msg) {
+/* void USBWrite(unsigned char* msg) {
   CDC_Transmit_FS(msg, strlen((char*)msg));
-}
+} */
 
 void OLEDWrite(char* msg, uint8_t x, uint8_t y) {
   ssd1306_SetCursor(x, y);
@@ -655,8 +658,8 @@ void PeriphInit(void) {
   ssd1306_Init();
 
   // Configure the DACs
-  ConfDACX051(&pitchCV1);
-  ConfDACX051(&pitchCV2);
+  ConfDACX051(&pitchCV[0]);
+  ConfDACX051(&pitchCV[1]);
 
   // Get the values the digipots are at
   GetDS3502UP(&tuningPots[COARSE1]);
@@ -698,17 +701,17 @@ void ChangeMenu(page select) {
     case INTERFACE:
       OLEDWrite("BACK", CURSOR_PAD, 0);
       OLEDWrite("Mode", CURSOR_PAD, 10);
-      OLEDWrite("A", CURSOR_PAD, 20);
-      OLEDWrite("A", CURSOR_PAD, 30);
-      OLEDWrite("A", CURSOR_PAD, 40);
+      OLEDWrite("-", CURSOR_PAD, 20);
+      OLEDWrite("-", CURSOR_PAD, 30);
+      OLEDWrite("-", CURSOR_PAD, 40);
       break;
 
     case LFO:
       OLEDWrite("BACK", CURSOR_PAD, 0);
-      OLEDWrite("A", CURSOR_PAD, 10);
-      OLEDWrite("A", CURSOR_PAD, 20);
-      OLEDWrite("A", CURSOR_PAD, 30);
-      OLEDWrite("A", CURSOR_PAD, 40);
+      OLEDWrite("-", CURSOR_PAD, 10);
+      OLEDWrite("-", CURSOR_PAD, 20);
+      OLEDWrite("-", CURSOR_PAD, 30);
+      OLEDWrite("-", CURSOR_PAD, 40);
       break;
 
     case TEST:
@@ -749,6 +752,14 @@ void userInterface_Init(void const * argument)
   {
     switch (oled.state) {
       case BROWSE:
+        if (oled.currentMenu == TEST) {
+          // Show debugging info on OLED
+
+          // ADC value
+          // DAC value
+          // 
+        }
+
         if (oled.previousMenu != oled.currentMenu) {
           // Update the OLED to the new menu
           ChangeMenu(oled.currentMenu);
@@ -764,9 +775,6 @@ void userInterface_Init(void const * argument)
             ssd1306_FillCircle(5, 5, 3, White);
             oled.selectionIndex = 0;
           }
-
-          ssd1306_UpdateScreen();
-
           // Update the previous menu field to the current one
           // So that the previous logic can be made again
           oled.previousMenu = oled.currentMenu;
@@ -781,26 +789,24 @@ void userInterface_Init(void const * argument)
           // Make a new cursor at the selection index
           ssd1306_FillCircle(5, 5 + 10 * oled.selectionIndex, 3, White);
           
-          ssd1306_UpdateScreen();
-          
           // Set the previous indec to the current one
           // So that the previous logic can be made again
           oled.previousIndex = oled.selectionIndex;
         }
+
+        ssd1306_UpdateScreen();
         break;
 
       case EDIT:
         switch (oled.currentMenu) {
           case TUNE:
-
             // Restrict the parameter value between 127 and 0, because
             // the DS3502U+ chips are 7-bit (0 - 0x7F)
-            if (knob.parameterValueModifier > 0x7F) {
+            if (knob.parameterValueModifier > 0x7F)
               knob.parameterValueModifier = 0x7F;
-            }
-            else if (knob.parameterValueModifier < 0) {
+
+            else if (knob.parameterValueModifier < 0)
               knob.parameterValueModifier = 0;
-            }
 
             // Display editable value 
             sprintf(buffer, "%3d", knob.parameterValueModifier);
@@ -810,10 +816,32 @@ void userInterface_Init(void const * argument)
             tuningPots[oled.selectionIndex - 1].newValue = knob.parameterValueModifier;
             break;
           case ADSR:
+            // Restrict the parameter value between 127 and 0, because
+            // the DS3502U+ chips are 7-bit (0 - 0x7F)
+            if (knob.parameterValueModifier > 0x7F)
+              knob.parameterValueModifier = 0x7F;
+
+            else if (knob.parameterValueModifier < 0)
+              knob.parameterValueModifier = 0;
+
+            // Display editable value 
+            sprintf(buffer, "%3d", knob.parameterValueModifier);
+            OLEDWrite(buffer, 100, 10 * oled.selectionIndex);
+            ssd1306_UpdateScreen();
+
+            adsrPots[oled.selectionIndex - 1].newValue = knob.parameterValueModifier;
             break;
           case INTERFACE:
+            if (knob.parameterValueModifier > 3)
+              knob.parameterValueModifier = 3;
+
+            else if (knob.parameterValueModifier < 0)
+              knob.parameterValueModifier = 0;
+
+            scale = knob.parameterValueModifier;
             break;
           case LFO:
+            // TODO: Integrate LFO library with code
             break;
           default:
             break;
@@ -896,6 +924,18 @@ void digiPot_Init(void const * argument)
     if (tuningPots[FINE2].newValue != tuningPots[FINE2].currentValue)
       SetDS3502UP(&tuningPots[FINE2]);
 
+    /* if (adsrPots[0].newValue != tuningPots[0].currentValue)
+      SetDS3502UP(&adsrPots[0]);
+
+    if (adsrPots[1].newValue != tuningPots[1].currentValue)
+      SetDS3502UP(&adsrPots[1]);
+
+    if (adsrPots[2].newValue != tuningPots[2].currentValue)
+      SetDS3502UP(&adsrPots[2]);
+
+    if (adsrPots[3].newValue != tuningPots[3].currentValue)
+      SetDS3502UP(&adsrPots[3]); */
+    
     osDelay(1);
   }
   /* USER CODE END digiPot_Init */
