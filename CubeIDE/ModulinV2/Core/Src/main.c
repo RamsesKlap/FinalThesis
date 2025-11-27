@@ -19,7 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
-#include "stm32f4xx_hal.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -247,11 +246,11 @@ int main(void)
   userInterfaceHandle = osThreadCreate(osThread(userInterface), NULL);
 
   /* definition and creation of ADC */
-  osThreadDef(ADC, ADC_Init, osPriorityHigh, 0, 128);
+  osThreadDef(ADC, ADC_Init, osPriorityNormal, 0, 128);
   ADCHandle = osThreadCreate(osThread(ADC), NULL);
 
   /* definition and creation of DAC */
-  osThreadDef(DAC, DAC_Init, osPriorityAboveNormal, 0, 128);
+  osThreadDef(DAC, DAC_Init, osPriorityNormal, 0, 128);
   DACHandle = osThreadCreate(osThread(DAC), NULL);
 
   /* definition and creation of digiPot */
@@ -259,7 +258,7 @@ int main(void)
   digiPotHandle = osThreadCreate(osThread(digiPot), NULL);
 
   /* definition and creation of encoder */
-  osThreadDef(encoder, encoder_Init, osPriorityAboveNormal, 0, 128);
+  osThreadDef(encoder, encoder_Init, osPriorityNormal, 0, 128);
   encoderHandle = osThreadCreate(osThread(encoder), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -756,7 +755,11 @@ void userInterface_Init(void const * argument)
           // Show debugging info on OLED
 
           // ADC value
+          sprintf(buffer, "%4d, %4d\n\r", strings[0].value, strings[1].value);
+          OLEDWrite(buffer, CURSOR_PAD, 10);
           // DAC value
+          sprintf(buffer, "%2d", Map(strings[0].value, 12));
+          OLEDWrite(buffer, CURSOR_PAD, 20);
           // 
         }
 
@@ -767,9 +770,11 @@ void userInterface_Init(void const * argument)
           // Delete any and all cursors
           ssd1306_FillRectangle(0, 0, CURSOR_PAD, OLED_HEIGHT, Black);
 
-          if (oled.currentMenu == MAIN)
+          if (oled.currentMenu == MAIN) {
             // Returning to the main page will set the cursor to the position of the previous menu
             ssd1306_FillCircle(5, 5 + 10 * (oled.previousMenu - 1), 3, White);
+            // oled.selectionIndex = oled.previousMenu - 1;
+          }
           else {
             // Othewise the cursor will be placed on the first selection
             ssd1306_FillCircle(5, 5, 3, White);
@@ -809,7 +814,7 @@ void userInterface_Init(void const * argument)
               knob.parameterValueModifier = 0;
 
             // Display editable value 
-            sprintf(buffer, "%3d", knob.parameterValueModifier);
+            sprintf(buffer, "%3ld", knob.parameterValueModifier);
             OLEDWrite(buffer, 100, 10 * oled.selectionIndex);
             ssd1306_UpdateScreen();
 
@@ -825,7 +830,7 @@ void userInterface_Init(void const * argument)
               knob.parameterValueModifier = 0;
 
             // Display editable value 
-            sprintf(buffer, "%3d", knob.parameterValueModifier);
+            sprintf(buffer, "%3ld", knob.parameterValueModifier);
             OLEDWrite(buffer, 100, 10 * oled.selectionIndex);
             ssd1306_UpdateScreen();
 
@@ -866,8 +871,8 @@ void ADC_Init(void const * argument)
   for(;;)
   {
     // Constantly poll for new user input values
-    /* GetADC7866(&membrane1);
-    GetADC7866(&membrane2); */
+    GetADS7866(&strings[0]);
+    // GetADS7866(&strings[1]);
     osDelay(1);
   }
   /* USER CODE END ADC_Init */
@@ -886,12 +891,14 @@ void DAC_Init(void const * argument)
   /* Infinite loop */
   for(;;)
   {
+    pitchCV[0].newValue = 135 * Map(strings[0].value, 12);
+    
     // Don't change the value of the DAC unless it has changed
-    /* if (pitchCV1.currentValue != pitchCV1.newValue)
-      SetDACX0501(&pitchCV1);
+    if (pitchCV[0].currentValue != pitchCV[0].newValue)
+      SetDACX0501(&pitchCV[0]);
 
-    if (pitchCV2.currentValue != pitchCV2.newValue)
-      SetDACX0501(&pitchCV2); */
+    if (pitchCV[1].currentValue != pitchCV[1].newValue)
+      SetDACX0501(&pitchCV[1]);
 
     osDelay(1);
   }

@@ -35,9 +35,9 @@ HAL_StatusTypeDef ConfDACX051(dacx0501* dac) {
     // Bit 0 -> 0
     status = _write(dac, SYNC, 0x0000);
 
-    // Configure the DAC to turn off the internal reference
+    // Configure the DAC to turn on the internal reference
     // and not be in power down mode
-    // Bit 8 -> 1, Bit 0 -> 0
+    // Bit 8 & 0 -> 0
     status = _write(dac, CONFIG, 0x0000);
 
     // Configure the DAC to divide the reference by 2 and
@@ -57,6 +57,7 @@ HAL_StatusTypeDef SetDACX0501(dacx0501* dac) {
 
     // Discard all but the first 12 bits
     dac->newValue &= 0xFFF;
+    dac->newValue = dac->newValue << 4;
 
     // Send the DAC value to the DAC output register
     status = _write(dac, DAC, dac->newValue);

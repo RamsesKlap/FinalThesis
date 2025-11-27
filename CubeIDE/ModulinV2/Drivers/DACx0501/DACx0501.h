@@ -21,8 +21,8 @@ typedef struct {
 
     SPI_HandleTypeDef *spi;
 
-    uint8_t currentValue;
-    uint8_t newValue;
+    uint16_t currentValue;
+    uint16_t newValue;
 } dacx0501;
 
 // Function prototypes

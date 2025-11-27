@@ -3,7 +3,7 @@
 #include "stm32f4xx_hal_def.h"
 #include "stm32f4xx_hal_spi.h"
 
-HAL_StatusTypeDef GetADC7866(ads7866* adc) {
+HAL_StatusTypeDef GetADS7866(ads7866* adc) {
     HAL_StatusTypeDef status;
 
     // Pull CS pin low

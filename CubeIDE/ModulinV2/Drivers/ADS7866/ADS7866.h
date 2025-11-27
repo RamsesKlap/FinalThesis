@@ -20,6 +20,6 @@ typedef struct {
 
 // Function prototypes
 // Getting the converted values from the ADC
-HAL_StatusTypeDef GetADC7866(ads7866* adc);
+HAL_StatusTypeDef GetADS7866(ads7866* adc);
 
 #endif // __ADS7866_H__
