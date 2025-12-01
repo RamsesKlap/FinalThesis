@@ -37,6 +37,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+
+// For changing the "mode" of the output DAC
 typedef enum {
   OCTAVE,
   OCTAVE2,
@@ -44,6 +46,7 @@ typedef enum {
   MINOR
 } scaleMode;
 
+// So that which tuner we select is clearer to understand
 typedef enum {
   COARSE1,
   FINE1,
@@ -51,6 +54,7 @@ typedef enum {
   FINE2
 } tuners; 
 
+// Menu types for selecting in the UI
 typedef enum {
   MAIN,
   TUNE,
@@ -60,16 +64,19 @@ typedef enum {
   TEST
 } page;
 
+// States that the UI can be in
 typedef enum {
   BROWSE,
   EDIT
 } uiState;
 
+// For showing which direction the encoder has been moved
 typedef enum {
   UP,
   DOWN
 } direction;
 
+// For describing the goings on of the UI
 typedef struct {
   page previousMenu;
   page currentMenu;
@@ -78,6 +85,7 @@ typedef struct {
   uiState state;
 } menu;
 
+// For dealing with encoder parameter changes
 typedef struct {
   uint32_t lastCounterValue;
   int32_t parameterValueModifier;
@@ -92,16 +100,25 @@ typedef struct {
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
+
+// OLED Parameters
 #define FONT Font_7x10
 #define CURSOR_PAD 10
 #define OLED_WIDTH 128
 #define OLED_HEIGHT 64
 #define MENU_IDX_MAX 4
 
+// ADC output scale parameters for mapping the output to steps
 #define MEMBRANE_MAX 4095
 #define MEMBRANE_MIN 0
 
-#define DNL 1500
+// DAC output value step for ~0.083V
+#define DAC_HALFSTEP 135
+// DAC output value step for ~0.166V
+#define DAC_STEP 272
+// DAC output value step for ~1V
+#define DAC_OCTAVE 1638
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -121,6 +138,7 @@ osThreadId digiPotHandle;
 osThreadId encoderHandle;
 /* USER CODE BEGIN PV */
 
+// For storing values into when printing to OLED or USB
 char buffer[256];
 
 // Structure array of all the ADSR pots
@@ -145,8 +163,16 @@ ads7866 strings[2] = {{ADC_CS1_GPIO_Port, ADC_CS1_Pin, &hspi1},
 dacx0501 pitchCV [2] = {{DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2}, 
                         {DAC_CS2_GPIO_Port, DAC_CS2_Pin, &hspi2}};
 
+// Pattern for major and minor keys
+// Number corresponds to the number of half steps from root
+const uint8_t maj[7] = {0, 2 ,4, 5, 7, 9, 11};
+const uint8_t min[7] = {0, 2, 3, 5, 7, 8, 10};
+
+// UI structures
 menu oled = {TEST, MAIN, 1, 0, BROWSE};
 encoder knob = {0, 0, UP};
+
+// For changing the quantizing mode
 scaleMode scale = OCTAVE;
 
 // Current output mode
@@ -170,11 +196,22 @@ void digiPot_Init(void const * argument);
 void encoder_Init(void const * argument);
 
 /* USER CODE BEGIN PFP */
+
+// For changing the RGB LED colors
 void RGB(uint8_t red, uint8_t green, uint8_t blue);
+
+// Initializes all the required preipherials needed for the application
 void PeriphInit(void);
+
 // void USBWrite(unsigned char* msg);
+
+// Shorthand function for sending text to the OLED
 void OLEDWrite(char* msg, uint8_t x, uint8_t y);
+
+// Changes the menu to the selected one
 void ChangeMenu(page select);
+
+// Maps the given value to descrete steps
 uint16_t Map(uint16_t x, int step);
 /* USER CODE END PFP */
 
@@ -220,6 +257,7 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
+  // Initialize required preipherals
   PeriphInit();
 
   /* USER CODE END 2 */
@@ -624,6 +662,7 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 // Allows the switching of LED pins with one function
+// 1 - LED off, 0 - LED on
 void RGB(uint8_t red, uint8_t green, uint8_t blue) {
   HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, red);
   HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, green);
@@ -760,7 +799,6 @@ void userInterface_Init(void const * argument)
           // DAC value
           sprintf(buffer, "%2d", Map(strings[0].value, 12));
           OLEDWrite(buffer, CURSOR_PAD, 20);
-          // 
         }
 
         if (oled.previousMenu != oled.currentMenu) {
@@ -844,6 +882,24 @@ void userInterface_Init(void const * argument)
               knob.parameterValueModifier = 0;
 
             scale = knob.parameterValueModifier;
+
+            // Display editable value
+            switch (scale) {
+              case OCTAVE:
+                OLEDWrite("OCT", 100, 10 * oled.selectionIndex);
+                break;
+              case OCTAVE2:
+                OLEDWrite("OCT2", 100, 10 * oled.selectionIndex);
+                break;
+              case MAJOR:
+                OLEDWrite("MAJ", 100, 10 * oled.selectionIndex);
+                break;
+              case MINOR:
+                OLEDWrite("MIN", 100, 10 * oled.selectionIndex);
+                break;
+            }
+            ssd1306_UpdateScreen();
+
             break;
           case LFO:
             // TODO: Integrate LFO library with code
@@ -872,7 +928,7 @@ void ADC_Init(void const * argument)
   {
     // Constantly poll for new user input values
     GetADS7866(&strings[0]);
-    // GetADS7866(&strings[1]);
+    GetADS7866(&strings[1]);
     osDelay(1);
   }
   /* USER CODE END ADC_Init */
@@ -888,10 +944,46 @@ void ADC_Init(void const * argument)
 void DAC_Init(void const * argument)
 {
   /* USER CODE BEGIN DAC_Init */
+  uint8_t steps, currentStep0, currentStep1;
   /* Infinite loop */
   for(;;)
   {
-    pitchCV[0].newValue = 135 * Map(strings[0].value, 12);
+    // Change the amount of steps
+    switch (scale) {
+      case OCTAVE: // 12 notes in an octave
+        steps = 12;
+        break;
+      case OCTAVE2: // 24 in two octaves
+        steps = 24;
+        break;
+      case MAJOR: // Major and minor have 7 notes (3 octaves)
+      case MINOR:
+        steps = 21;
+        break;
+    }
+    // Get the steps the inputs are at
+    currentStep0 = Map(strings[0].value, steps);
+    currentStep1 = Map(strings[1].value, steps);
+
+    // Major/minor do not have an equal distance between notes
+    // so they need special consideration
+    if (scale == MAJOR) {
+      // Dividing by 7 rounds down to the nearest int and gets which octave it's in
+      // Module 6 gets which note in the scale has been chosen
+      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (maj[currentStep0 % 6] * DAC_HALFSTEP);
+      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (maj[currentStep1 % 6] * DAC_HALFSTEP);
+    }
+    else if (scale == MINOR) {
+      // Dividing by 7 rounds down to the nearest int and gets which octave it's in
+      // Module 6 gets which note in the scale has been chosen
+      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (min[currentStep0 % 6] * DAC_HALFSTEP);
+      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (min[currentStep1 % 6] * DAC_HALFSTEP);
+    }
+    else {
+      
+      pitchCV[0].newValue = DAC_HALFSTEP * currentStep0;
+      pitchCV[1].newValue = DAC_HALFSTEP * currentStep1;
+    }
     
     // Don't change the value of the DAC unless it has changed
     if (pitchCV[0].currentValue != pitchCV[0].newValue)
@@ -919,27 +1011,36 @@ void digiPot_Init(void const * argument)
   for(;;)
   { 
     // Don't change the potentiometer values unless the value has been changed
+    // Coarse1
     if (tuningPots[COARSE1].newValue != tuningPots[COARSE1].currentValue)
       SetDS3502UP(&tuningPots[COARSE1]);
 
+    // Coarse2
     if (tuningPots[COARSE2].newValue != tuningPots[COARSE2].currentValue)
       SetDS3502UP(&tuningPots[COARSE2]);
 
+    // Fine1
     if (tuningPots[FINE1].newValue != tuningPots[FINE1].currentValue)
       SetDS3502UP(&tuningPots[FINE1]);
 
+    // Fine2
     if (tuningPots[FINE2].newValue != tuningPots[FINE2].currentValue)
       SetDS3502UP(&tuningPots[FINE2]);
 
-    /* if (adsrPots[0].newValue != tuningPots[0].currentValue)
+    /* 
+    // Attack
+    if (adsrPots[0].newValue != tuningPots[0].currentValue)
       SetDS3502UP(&adsrPots[0]);
 
+    // Decay
     if (adsrPots[1].newValue != tuningPots[1].currentValue)
       SetDS3502UP(&adsrPots[1]);
 
+    // Sustain
     if (adsrPots[2].newValue != tuningPots[2].currentValue)
       SetDS3502UP(&adsrPots[2]);
 
+    // Release
     if (adsrPots[3].newValue != tuningPots[3].currentValue)
       SetDS3502UP(&adsrPots[3]); */
     
