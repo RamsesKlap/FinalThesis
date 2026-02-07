@@ -704,6 +704,10 @@ void PeriphInit(void) {
   GetDS3502UP(&tuningPots[COARSE2]);
   GetDS3502UP(&tuningPots[FINE1]);
   GetDS3502UP(&tuningPots[FINE2]);
+  GetDS3502UP(&adsrPots[0]);
+  GetDS3502UP(&adsrPots[1]);
+  GetDS3502UP(&adsrPots[2]);
+  GetDS3502UP(&adsrPots[3]);
 }
 
 void ChangeMenu(page select) {
@@ -737,6 +741,8 @@ void ChangeMenu(page select) {
       break;
 
     case INTERFACE:
+      // TODO: Fill interface parameter menu up with
+      // nice-to-have features (Like Root note selection)
       OLEDWrite("BACK", CURSOR_PAD, 0);
       OLEDWrite("Mode", CURSOR_PAD, 10);
       OLEDWrite("-", CURSOR_PAD, 20);
@@ -745,6 +751,8 @@ void ChangeMenu(page select) {
       break;
 
     case LFO:
+      // TODO: Fill LFO parameter menu up when driver is
+      // ready to be tested
       OLEDWrite("BACK", CURSOR_PAD, 0);
       OLEDWrite("-", CURSOR_PAD, 10);
       OLEDWrite("-", CURSOR_PAD, 20);
@@ -753,10 +761,9 @@ void ChangeMenu(page select) {
       break;
 
     case TEST:
+      // This menu is left intentionally blank to be able to
+      // fill with any values you would want to debug
       OLEDWrite("BACK", CURSOR_PAD, 0);
-      break;
-
-    default:
       break;
   }
   ssd1306_UpdateScreen();
@@ -962,8 +969,8 @@ void DAC_Init(void const * argument)
         break;
     }
     // Get the steps the inputs are at
-    currentStep0 = Map(strings[0].value, steps);
-    currentStep1 = Map(strings[1].value, steps);
+    currentStep0 = Map(strings[1].value, steps);
+    currentStep1 = Map(strings[0].value, steps);
 
     // Major/minor do not have an equal distance between notes
     // so they need special consideration
@@ -980,10 +987,10 @@ void DAC_Init(void const * argument)
       pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (min[currentStep1 % 6] * DAC_HALFSTEP);
     }
     else {
-      
       pitchCV[0].newValue = DAC_HALFSTEP * currentStep0;
       pitchCV[1].newValue = DAC_HALFSTEP * currentStep1;
     }
+
     
     // Don't change the value of the DAC unless it has changed
     if (pitchCV[0].currentValue != pitchCV[0].newValue)
