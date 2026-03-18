@@ -1034,22 +1034,22 @@ void digiPot_Init(void const * argument)
     if (tuningPots[FINE2].newValue != tuningPots[FINE2].currentValue)
       SetDS3502UP(&tuningPots[FINE2]);
 
-    /* 
+    
     // Attack
-    if (adsrPots[0].newValue != tuningPots[0].currentValue)
+    if (adsrPots[0].newValue != adsrPots[0].currentValue)
       SetDS3502UP(&adsrPots[0]);
 
     // Decay
-    if (adsrPots[1].newValue != tuningPots[1].currentValue)
+    if (adsrPots[1].newValue != adsrPots[1].currentValue)
       SetDS3502UP(&adsrPots[1]);
 
     // Sustain
-    if (adsrPots[2].newValue != tuningPots[2].currentValue)
+    if (adsrPots[2].newValue != adsrPots[2].currentValue)
       SetDS3502UP(&adsrPots[2]);
 
     // Release
-    if (adsrPots[3].newValue != tuningPots[3].currentValue)
-      SetDS3502UP(&adsrPots[3]); */
+    if (adsrPots[3].newValue != adsrPots[3].currentValue)
+      SetDS3502UP(&adsrPots[3]);
     
     osDelay(1);
   }
