@@ -33,6 +33,7 @@
 #include "usbd_def.h"
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -109,11 +110,12 @@ typedef struct {
 #define MENU_IDX_MAX 4
 
 // ADC output scale parameters for mapping the output to steps
-#define MEMBRANE_MAX 4095
-#define MEMBRANE_MIN 0
+#define MEMBRANE_MAX 4095.0
+#define MEMBRANE_MIN 850.0
+#define GAMMA 1.5
 
 // DAC output value step for ~0.083V
-#define DAC_HALFSTEP 135
+#define DAC_HALFSTEP 136
 // DAC output value step for ~0.166V
 #define DAC_STEP 272
 // DAC output value step for ~1V
@@ -140,6 +142,9 @@ osThreadId encoderHandle;
 
 // For storing values into when printing to OLED or USB
 char buffer[256];
+
+// Array of DAC values that line up with the 1 V/OCT standard
+uint16_t octave[13] = {0, 137, 273, 409, 546, 682, 819, 956, 1092, 1229, 1365, 1501, 1638};
 
 // Structure array of all the ADSR pots
 // [0] - Attack, [1] - Decay, [2] - Sustain, [3] - Release
@@ -774,7 +779,21 @@ void ChangeMenu(page select) {
 
 uint16_t Map(uint16_t x, int step) {
 	// x * step / (MEMBRANE_MAX - MEMBRANE_MAX) + out_min;
-	return x * step / (MEMBRANE_MAX - MEMBRANE_MIN);
+	// return (x - MEMBRANE_MIN) * step / (MEMBRANE_MAX - MEMBRANE_MIN);
+  const double gamma = 2.0;  // tweak this!
+
+  // Normalize to 0–1
+  double t = (x - MEMBRANE_MIN) / (MEMBRANE_MAX - MEMBRANE_MIN);
+
+  // Clamp (important for safety)
+  if (t < 0.0) t = 0.0;
+  if (t > 1.0) t = 1.0;
+
+  // Apply exponential curve
+  double y = step * (t * (1.5 - 0.5 * t));
+
+  // Convert to integer (choose one)
+  return (uint16_t)(y + 0.5);  // round to nearest
 }
 
 /* USER CODE END 4 */
@@ -801,10 +820,10 @@ void userInterface_Init(void const * argument)
           // Show debugging info on OLED
 
           // ADC value
-          sprintf(buffer, "%4d, %4d\n\r", strings[0].value, strings[1].value);
+          sprintf(buffer, "Str: %4d, %4d\n\r", strings[0].value, strings[1].value);
           OLEDWrite(buffer, CURSOR_PAD, 10);
           // DAC value
-          sprintf(buffer, "%2d", Map(strings[0].value, 12));
+          sprintf(buffer, "DAC: %5d, %2d", pitchCV[1].currentValue >> 4, Map(strings[0].value, 12));
           OLEDWrite(buffer, CURSOR_PAD, 20);
         }
 
@@ -987,8 +1006,8 @@ void DAC_Init(void const * argument)
       pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (min[currentStep1 % 6] * DAC_HALFSTEP);
     }
     else {
-      pitchCV[0].newValue = DAC_HALFSTEP * currentStep0;
-      pitchCV[1].newValue = DAC_HALFSTEP * currentStep1;
+      pitchCV[0].newValue = octave[currentStep0];
+      pitchCV[1].newValue = octave[currentStep1];
     }
 
     
