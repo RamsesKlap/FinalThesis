@@ -144,7 +144,8 @@ osThreadId encoderHandle;
 char buffer[256];
 
 // Array of DAC values that line up with the 1 V/OCT standard
-uint16_t octave[13] = {0, 137, 273, 409, 546, 682, 819, 956, 1092, 1229, 1365, 1501, 1638};
+uint16_t octave[25] = {0, 137, 273, 409, 546, 682, 819, 956, 1092, 1229, 1365, 1501, 1638,
+                        1775, 1911, 2048, 2185, 2321, 2458, 2594, 2731, 2867, 3004, 3140, 3277};
 
 // Structure array of all the ADSR pots
 // [0] - Attack, [1] - Decay, [2] - Sustain, [3] - Release
@@ -170,8 +171,8 @@ dacx0501 pitchCV [2] = {{DAC_CS1_GPIO_Port, DAC_CS1_Pin, &hspi2},
 
 // Pattern for major and minor keys
 // Number corresponds to the number of half steps from root
-const uint8_t maj[7] = {0, 2 ,4, 5, 7, 9, 11};
-const uint8_t min[7] = {0, 2, 3, 5, 7, 8, 10};
+const uint8_t maj[8] = {0, 2 ,4, 5, 7, 9, 11, 12};
+const uint8_t min[8] = {0, 2, 3, 5, 7, 8, 10, 12};
 
 // UI structures
 menu oled = {TEST, MAIN, 1, 0, BROWSE};
@@ -779,9 +780,9 @@ void ChangeMenu(page select) {
 
 uint16_t Map(uint16_t x, int step) {
 	// x * step / (MEMBRANE_MAX - MEMBRANE_MAX) + out_min;
-	// return (x - MEMBRANE_MIN) * step / (MEMBRANE_MAX - MEMBRANE_MIN);
-  const double gamma = 2.0;  // tweak this!
+	return (x - MEMBRANE_MIN) * step / (MEMBRANE_MAX - MEMBRANE_MIN);
 
+  /*
   // Normalize to 0–1
   double t = (x - MEMBRANE_MIN) / (MEMBRANE_MAX - MEMBRANE_MIN);
 
@@ -793,7 +794,7 @@ uint16_t Map(uint16_t x, int step) {
   double y = step * (t * (1.5 - 0.5 * t));
 
   // Convert to integer (choose one)
-  return (uint16_t)(y + 0.5);  // round to nearest
+  return (uint16_t)(y + 0.5);  // round to nearest */
 }
 
 /* USER CODE END 4 */
@@ -823,7 +824,7 @@ void userInterface_Init(void const * argument)
           sprintf(buffer, "Str: %4d, %4d\n\r", strings[0].value, strings[1].value);
           OLEDWrite(buffer, CURSOR_PAD, 10);
           // DAC value
-          sprintf(buffer, "DAC: %5d, %2d", pitchCV[1].currentValue >> 4, Map(strings[0].value, 12));
+          sprintf(buffer, "DAC: %5d, %2d", pitchCV[1].currentValue >> 4, Map(strings[0].value, 18));
           OLEDWrite(buffer, CURSOR_PAD, 20);
         }
 
@@ -984,7 +985,7 @@ void DAC_Init(void const * argument)
         break;
       case MAJOR: // Major and minor have 7 notes (3 octaves)
       case MINOR:
-        steps = 21;
+        steps = 18;
         break;
     }
     // Get the steps the inputs are at
@@ -996,14 +997,14 @@ void DAC_Init(void const * argument)
     if (scale == MAJOR) {
       // Dividing by 7 rounds down to the nearest int and gets which octave it's in
       // Module 6 gets which note in the scale has been chosen
-      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (maj[currentStep0 % 6] * DAC_HALFSTEP);
-      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (maj[currentStep1 % 6] * DAC_HALFSTEP);
+      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (maj[currentStep0 % 7] * DAC_HALFSTEP);
+      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (maj[currentStep1 % 7] * DAC_HALFSTEP);
     }
     else if (scale == MINOR) {
       // Dividing by 7 rounds down to the nearest int and gets which octave it's in
       // Module 6 gets which note in the scale has been chosen
-      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (min[currentStep0 % 6] * DAC_HALFSTEP);
-      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (min[currentStep1 % 6] * DAC_HALFSTEP);
+      pitchCV[0].newValue = ((uint8_t)(currentStep0 / 7) * DAC_OCTAVE) + (min[currentStep0 % 7] * DAC_HALFSTEP);
+      pitchCV[1].newValue = ((uint8_t)(currentStep1 / 7) * DAC_OCTAVE) + (min[currentStep1 % 7] * DAC_HALFSTEP);
     }
     else {
       pitchCV[0].newValue = octave[currentStep0];
