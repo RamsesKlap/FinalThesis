@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller")
-		(date "2025-07-13")
-		(rev "1.0")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

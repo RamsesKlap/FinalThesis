@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Voltage Controlled Amplifier")
-		(date "2025-07-16")
-		(rev "1.0")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1514,6 +1515,12 @@
 		(uuid "1b8017c7-e8c8-42c1-8293-fedc00f23e19")
 	)
 	(junction
+		(at 111.76 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3340e71e-bd59-48fe-8e06-ae765f8ea2d2")
+	)
+	(junction
 		(at 205.74 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1526,10 +1533,16 @@
 		(uuid "39e02b8b-4858-4683-8430-d3466ce095c6")
 	)
 	(junction
-		(at 91.44 129.54)
+		(at 111.76 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fc2b856-e579-42c4-ba05-13234e7cabf0")
+		(uuid "5d19863d-f84f-4147-b897-1968b96eb2b0")
+	)
+	(junction
+		(at 91.44 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d6b320-29a9-48a9-b495-b3a2f565798c")
 	)
 	(junction
 		(at 199.39 91.44)
@@ -1544,7 +1557,7 @@
 		(uuid "7eb21d0b-953e-4e9a-8a1b-5f4ea5ff1692")
 	)
 	(junction
-		(at 111.76 118.11)
+		(at 111.76 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fcb14a5-df6a-4032-b23c-855d06f7abfc")
@@ -1556,22 +1569,16 @@
 		(uuid "a6b7f669-1c29-4132-ad47-e53749ae5677")
 	)
 	(junction
-		(at 111.76 132.08)
+		(at 91.44 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b11ec06c-0456-4f2b-bfbc-0a0a14dc7709")
+		(uuid "a779b079-af41-4c36-84ed-eaa6bfb25140")
 	)
 	(junction
 		(at 100.33 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c124bf-fa42-44e0-83e5-2d71f265337c")
-	)
-	(junction
-		(at 91.44 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b06bcb-1eb9-4671-883a-4b882cff0f1d")
 	)
 	(junction
 		(at 139.7 129.54)
@@ -1641,17 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 132.08) (xy 111.76 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd1a3dc-02c7-4ad5-9b03-3359e8813037")
-	)
-	(wire
-		(pts
-			(xy 91.44 107.95) (xy 91.44 118.11)
+			(xy 91.44 130.81) (xy 91.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1661,13 +1658,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 129.54) (xy 91.44 118.11)
+			(xy 111.76 109.22) (xy 111.76 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "239c2833-b71b-4405-9998-5f4298767e99")
+		(uuid "1cfcd96d-b47a-46a2-9b19-b5b86f867667")
 	)
 	(wire
 		(pts
@@ -1831,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 111.76 107.95)
+			(xy 102.87 130.81) (xy 111.76 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 111.76 118.11)
+			(xy 111.76 130.81) (xy 111.76 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1961,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a61f7fb-72d2-47f4-981a-6be9829a1461")
+	)
+	(wire
+		(pts
 			(xy 139.7 134.62) (xy 139.7 135.89)
 		)
 		(stroke
@@ -1978,16 +1985,6 @@
 			(type default)
 		)
 		(uuid "973d3027-538d-4c33-b353-91513f185904")
-	)
-	(wire
-		(pts
-			(xy 106.68 132.08) (xy 111.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98817c65-e004-4a5b-8489-69265e99b4b2")
 	)
 	(wire
 		(pts
@@ -2021,16 +2018,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 134.62) (xy 91.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63b35f5-d38c-4391-92b2-11f2b6fd0485")
-	)
-	(wire
-		(pts
 			(xy 181.61 104.14) (xy 181.61 105.41)
 		)
 		(stroke
@@ -2041,13 +2028,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 91.44 129.54)
+			(xy 88.9 111.76) (xy 91.44 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a739fd20-ab31-4e0d-a21a-03c494d4bb44")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd9a1fd-2c00-4fb4-83be-70b517f0b1a4")
 	)
 	(wire
 		(pts
@@ -2081,7 +2078,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 118.11) (xy 95.25 118.11)
+			(xy 91.44 140.97) (xy 95.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2128,6 +2125,16 @@
 			(type default)
 		)
 		(uuid "ca4704dd-aae0-4d69-b4f2-893389d9ca27")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca691d7c-a5a0-491a-b42a-7007db48f6d1")
 	)
 	(wire
 		(pts
@@ -2241,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 132.08) (xy 111.76 132.08)
+			(xy 106.68 109.22) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 91.44 107.95)
+			(xy 95.25 130.81) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 102.87 118.11)
+			(xy 111.76 140.97) (xy 102.87 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +2347,7 @@
 		(uuid "258f55f5-8402-47f2-910d-fec979a83daf")
 	)
 	(label "I_OUT1"
-		(at 88.9 129.54 180)
+		(at 88.9 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2426,7 +2433,7 @@
 	)
 	(hierarchical_label "VCA_OUT1"
 		(shape output)
-		(at 113.03 132.08 0)
+		(at 115.57 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2707,7 +2714,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 111.76 118.11 270)
+		(at 111.76 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2716,7 +2723,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dd01780-361e-46e4-acf2-e967e7e048ff")
 		(property "Reference" "TP60"
-			(at 116.84 116.8399 90)
+			(at 116.84 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2732,7 @@
 			)
 		)
 		(property "Value" "VCA1"
-			(at 116.84 119.3799 90)
+			(at 116.84 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2741,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 111.76 123.19 0)
+			(at 111.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 123.19 0)
+			(at 111.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2759,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 118.11 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,17 +2848,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 99.06 127 0)
+		(at 99.06 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39ef0428-2065-4548-841a-96eea1501626")
 		(property "Reference" "#PWR0268"
-			(at 99.06 130.81 0)
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +2866,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 99.06 121.92 0)
+			(at 98.806 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 127 0)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 127 0)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 127 0)
+			(at 99.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,8 +2981,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 135.89 0)
-		(mirror y)
+		(at 90.17 106.68 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2985,7 +2991,7 @@
 		(fields_autoplaced yes)
 		(uuid "47d4d050-7d7a-4563-98d6-99406e790670")
 		(property "Reference" "#PWR0267"
-			(at 91.44 142.24 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 140.97 0)
+			(at 88.9 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 135.89 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 135.89 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 135.89 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,16 +3383,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL072HIDR")
-		(at 142.24 127 0)
+		(at 142.24 137.16 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6451244b-9be3-4aae-8b2d-a56c1daf02fa")
 		(property "Reference" "IC38"
-			(at 147.32 121.92 0)
+			(at 150.114 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3400,7 @@
 			)
 		)
 		(property "Value" "TL072HIDR"
-			(at 147.32 124.46 0)
+			(at 150.114 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3408,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 166.37 221.92 0)
+			(at 166.37 42.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3418,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1631525097016&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL072H"
-			(at 166.37 321.92 0)
+			(at 166.37 -57.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3428,7 @@
 			)
 		)
 		(property "Description" "Dual-channel low input bias current standard op amp"
-			(at 142.24 127 0)
+			(at 142.24 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3437,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 166.37 521.92 0)
+			(at 166.37 -257.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3447,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 166.37 621.92 0)
+			(at 166.37 -357.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3457,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL072HIDR"
-			(at 166.37 721.92 0)
+			(at 166.37 -457.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3467,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL072HIDR"
-			(at 166.37 821.92 0)
+			(at 166.37 -557.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3477,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072HIDR?qs=aP1CjGhiNiHyZHNBkxIRdA%3D%3D"
-			(at 166.37 921.92 0)
+			(at 166.37 -657.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3487,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL072HIDR"
-			(at 166.37 1021.92 0)
+			(at 166.37 -757.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3497,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tl072hidr/texas-instruments?utm_currency=USD&region=nac"
-			(at 166.37 1121.92 0)
+			(at 166.37 -857.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 118.11 90)
+		(at 99.06 140.97 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3747,7 +3753,7 @@
 		(fields_autoplaced yes)
 		(uuid "71a5ce04-e864-40b5-9c3b-20e8a4843baa")
 		(property "Reference" "R108"
-			(at 99.06 111.76 90)
+			(at 99.06 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3761,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 99.06 114.3 90)
+			(at 99.06 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 99.06 116.332 90)
+			(at 99.06 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 118.11 0)
+			(at 99.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3787,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 118.11 0)
+			(at 99.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3952,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 107.95 270)
+		(at 99.06 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3956,7 +3962,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f01aedc-0152-424f-8ae8-2bc87331e734")
 		(property "Reference" "C123"
-			(at 99.06 100.33 90)
+			(at 99.06 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3970,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 99.06 102.87 90)
+			(at 99.06 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3978,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 95.25 106.9848 0)
+			(at 95.25 129.8448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 107.95 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3996,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 107.95 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4197,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL072HIDR")
-		(at 93.98 127 0)
+		(at 93.98 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4199,7 +4205,7 @@
 		(dnp no)
 		(uuid "a7a7fefc-7ba2-4739-87e5-45f20546bd5d")
 		(property "Reference" "IC38"
-			(at 104.14 125.984 0)
+			(at 104.14 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4213,7 @@
 			)
 		)
 		(property "Value" "TL072HIDR"
-			(at 105.664 128.778 0)
+			(at 105.664 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4221,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 118.11 221.92 0)
+			(at 118.11 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1631525097016&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL072H"
-			(at 118.11 321.92 0)
+			(at 118.11 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4241,7 @@
 			)
 		)
 		(property "Description" "Dual-channel low input bias current standard op amp"
-			(at 93.98 127 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4250,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 118.11 521.92 0)
+			(at 118.11 499.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4260,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 118.11 621.92 0)
+			(at 118.11 599.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4270,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL072HIDR"
-			(at 118.11 721.92 0)
+			(at 118.11 699.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4280,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL072HIDR"
-			(at 118.11 821.92 0)
+			(at 118.11 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4290,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072HIDR?qs=aP1CjGhiNiHyZHNBkxIRdA%3D%3D"
-			(at 118.11 921.92 0)
+			(at 118.11 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4300,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL072HIDR"
-			(at 118.11 1021.92 0)
+			(at 118.11 999.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4310,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tl072hidr/texas-instruments?utm_currency=USD&region=nac"
-			(at 118.11 1121.92 0)
+			(at 118.11 1099.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4420,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 99.06 137.16 0)
+		(at 99.06 114.3 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4424,7 +4430,7 @@
 		(fields_autoplaced yes)
 		(uuid "c033eaa2-f0b1-48c1-bcf0-ff9e337624ac")
 		(property "Reference" "#PWR0269"
-			(at 99.06 133.35 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4439,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 99.06 142.24 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 137.16 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 137.16 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 99.06 137.16 0)
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

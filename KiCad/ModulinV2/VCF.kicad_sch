@@ -5,8 +5,12 @@
 	(uuid "ad18ecf0-f09a-4e4f-85e3-999195f0e936")
 	(paper "A4")
 	(title_block
+		(title "Voltage Controlled Filter")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

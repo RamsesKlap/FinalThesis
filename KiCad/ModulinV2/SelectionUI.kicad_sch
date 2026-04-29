@@ -5,8 +5,12 @@
 	(uuid "414d7411-2433-41f2-8810-e20f8b2958d8")
 	(paper "A4")
 	(title_block
+		(title "Selection UI")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Device:C"

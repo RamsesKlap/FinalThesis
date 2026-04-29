@@ -5,8 +5,12 @@
 	(uuid "e29ac6a5-7c72-4586-8dbd-11af28c32d44")
 	(paper "A4")
 	(title_block
+		(title "Power supply")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "150060VS75000:150060VS75000"

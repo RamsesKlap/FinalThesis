@@ -5,11 +5,12 @@
 	(uuid "c6b34a57-3941-4b56-8b80-1848c7f41082")
 	(paper "A4")
 	(title_block
-		(title "Modulin V2")
-		(date "2025-07-13")
-		(rev "1.3")
+		(title "Synthesizer")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3517,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 154.94) (xy 149.86 154.94)
+			(xy 148.59 154.94) (xy 151.13 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 152.4) (xy 173.99 152.4)
+			(xy 166.37 152.4) (xy 173.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 149.86) (xy 148.59 149.86)
+			(xy 151.13 149.86) (xy 148.59 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7641,7 +7642,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL074HIDR")
-		(at 152.4 147.32 0)
+		(at 153.67 157.48 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7649,7 +7651,7 @@
 		(dnp no)
 		(uuid "ec13add4-ce50-474e-8a2c-567ef152dd02")
 		(property "Reference" "IC1"
-			(at 160.02 144.272 0)
+			(at 161.798 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7659,7 @@
 			)
 		)
 		(property "Value" "TL074HIDR"
-			(at 160.02 146.812 0)
+			(at 161.798 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7667,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 176.53 242.24 0)
+			(at 177.8 62.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +7677,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1631523791573&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL074H"
-			(at 176.53 342.24 0)
+			(at 177.8 -37.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7687,7 @@
 			)
 		)
 		(property "Description" "Quad, 40-V, 5-MHz, 4-mV offset voltage, 20-V/s, In to V+ op amp with -40C to 125C operation"
-			(at 152.4 147.32 0)
+			(at 153.67 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7696,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 176.53 542.24 0)
+			(at 177.8 -237.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7706,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 176.53 642.24 0)
+			(at 177.8 -337.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +7716,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL074HIDR"
-			(at 176.53 742.24 0)
+			(at 177.8 -437.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7726,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL074HIDR"
-			(at 176.53 842.24 0)
+			(at 177.8 -537.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7736,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL074HIDR?qs=81r%252BiQLm7BSo1sbhfEy0IA%3D%3D"
-			(at 176.53 942.24 0)
+			(at 177.8 -637.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7746,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL074HIDR"
-			(at 176.53 1042.24 0)
+			(at 177.8 -737.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7756,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?utm_currency=USD&region=nac"
-			(at 176.53 1142.24 0)
+			(at 177.8 -837.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

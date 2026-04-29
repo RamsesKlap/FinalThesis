@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Octave Selector")
-		(date "2025-07-17")
-		(rev "1.0")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2732,7 +2733,7 @@
 		)
 	)
 	(rectangle
-		(start 62.23 34.29)
+		(start 69.85 34.29)
 		(end 127 159.385)
 		(stroke
 			(width 0)
@@ -2745,7 +2746,7 @@
 	)
 	(rectangle
 		(start 15.24 99.695)
-		(end 60.325 159.385)
+		(end 67.31 159.385)
 		(stroke
 			(width 0)
 			(type default)
@@ -2757,7 +2758,7 @@
 	)
 	(rectangle
 		(start 15.24 34.29)
-		(end 60.325 98.425)
+		(end 67.31 98.425)
 		(stroke
 			(width 0)
 			(type default)
@@ -2968,7 +2969,7 @@
 		(uuid "216a905e-5dfc-4502-b721-3966665f2d5a")
 	)
 	(junction
-		(at 24.13 128.27)
+		(at 27.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34461fe5-8670-4be0-a12d-cb7e4a2d77b9")
@@ -2980,13 +2981,19 @@
 		(uuid "34be2562-abfd-4692-9310-a6c9b2b6edf8")
 	)
 	(junction
+		(at 45.72 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431f9b27-ec04-4bbf-93e3-8d7990d2c5c8")
+	)
+	(junction
 		(at 144.78 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49950f88-f3ee-4349-9177-9f3df548c31c")
 	)
 	(junction
-		(at 76.2 53.34)
+		(at 82.55 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ccbd615-0944-42b1-8e98-1aaeecf037f0")
@@ -3040,7 +3047,7 @@
 		(uuid "7387054e-c6e8-4adc-afd2-fa865373daea")
 	)
 	(junction
-		(at 48.26 118.11)
+		(at 52.07 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "744a7f97-1d13-4d51-be61-68202cfafabb")
@@ -3052,13 +3059,13 @@
 		(uuid "7d841703-791c-444c-93b7-8a45803a63d7")
 	)
 	(junction
-		(at 48.26 128.27)
+		(at 52.07 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd1b471-9fed-4bd0-bda4-3f35037e3b19")
 	)
 	(junction
-		(at 114.3 142.24)
+		(at 120.65 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834b6698-66e4-4d16-9ec5-abd48afff65a")
@@ -3070,7 +3077,7 @@
 		(uuid "abd325e5-8619-47d7-9f22-9546ade23990")
 	)
 	(junction
-		(at 76.2 121.92)
+		(at 82.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76170fd-0f0c-43ea-affb-939984ff2d3d")
@@ -3082,7 +3089,7 @@
 		(uuid "bdb72020-8c60-47f7-b8c6-8d6ac688b23f")
 	)
 	(junction
-		(at 114.3 73.66)
+		(at 120.65 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bebebad9-3ed2-4d0a-a61e-d23b937ea084")
@@ -3094,7 +3101,7 @@
 		(uuid "c1aa5aff-a3e5-47b7-990f-fbd1f010f72a")
 	)
 	(junction
-		(at 24.13 138.43)
+		(at 27.94 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf00e2b1-d6a3-4e20-9fc4-00df50c43a35")
@@ -3130,7 +3137,7 @@
 		(uuid "ed101b8e-5935-4e99-af62-d3d4fe2c47cc")
 	)
 	(junction
-		(at 114.3 86.36)
+		(at 120.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec51e9d-6151-4f46-b60d-12e41a74afd8")
@@ -3159,6 +3166,12 @@
 		(color 0 0 0 0)
 		(uuid "fef2bf35-8f7a-4083-8ace-8942ee41c27a")
 	)
+	(junction
+		(at 45.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3bdfcc-93c3-40ce-953b-d1a2f8019ae2")
+	)
 	(no_connect
 		(at 246.38 58.42)
 		(uuid "47e07351-0e74-4869-9aa9-09c95a90ff42")
@@ -3181,6 +3194,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 57.15) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02884c1b-161d-4f06-9bd0-74beca3bab09")
+	)
+	(wire
+		(pts
 			(xy 140.97 66.04) (xy 148.59 66.04)
 		)
 		(stroke
@@ -3191,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 139.7) (xy 36.83 132.08)
+			(xy 40.64 137.16) (xy 40.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3211,7 +3234,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 80.01 148.59)
+			(xy 57.15 58.42) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1042cf15-1617-4729-8fff-a17858e9cba1")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 86.36 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 95.25 82.55)
+			(xy 100.33 82.55) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3291,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 115.57 80.01)
+			(xy 100.33 80.01) (xy 121.92 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 74.93) (xy 46.99 74.93)
+			(xy 45.72 74.93) (xy 57.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 127) (xy 24.13 128.27)
+			(xy 27.94 124.46) (xy 27.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 139.7) (xy 36.83 139.7)
+			(xy 27.94 137.16) (xy 40.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3361,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 128.27) (xy 26.67 128.27)
+			(xy 27.94 125.73) (xy 30.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3371,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 128.27) (xy 48.26 129.54)
+			(xy 52.07 125.73) (xy 52.07 127)
 		)
 		(stroke
 			(width 0)
@@ -3441,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 76.2 124.46)
+			(xy 82.55 121.92) (xy 82.55 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 148.59) (xy 115.57 148.59)
+			(xy 100.33 148.59) (xy 121.92 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 118.11) (xy 24.13 119.38)
+			(xy 27.94 115.57) (xy 27.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3481,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 76.2 121.92)
+			(xy 82.55 119.38) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 114.3 83.82)
+			(xy 120.65 86.36) (xy 120.65 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3511,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 127) (xy 80.01 127)
+			(xy 106.68 127) (xy 86.36 127)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3554,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 115.57 73.66)
+			(xy 120.65 73.66) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 142.24) (xy 100.33 142.24)
+			(xy 101.6 142.24) (xy 106.68 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 95.25 77.47)
+			(xy 101.6 73.66) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 100.33 121.92)
+			(xy 96.52 121.92) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3621,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 95.25 73.66)
+			(xy 106.68 73.66) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3771,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 118.11) (xy 48.26 119.38)
+			(xy 52.07 115.57) (xy 52.07 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 114.3 142.24)
+			(xy 120.65 139.7) (xy 120.65 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 100.33 55.88)
+			(xy 105.41 55.88) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 115.57 86.36)
+			(xy 120.65 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3971,7 +4004,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 48.26 128.27)
+			(xy 57.15 82.55) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc65f8f-449e-4a50-8025-b8cf3a34b09f")
+	)
+	(wire
+		(pts
+			(xy 52.07 124.46) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 53.34) (xy 76.2 53.34)
+			(xy 81.28 53.34) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4001,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 137.16) (xy 48.26 138.43)
+			(xy 52.07 134.62) (xy 52.07 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4011,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 151.13) (xy 46.99 151.13)
+			(xy 48.26 148.59) (xy 50.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 124.46) (xy 36.83 118.11)
+			(xy 40.64 121.92) (xy 40.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4031,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 156.21) (xy 46.99 156.21)
+			(xy 48.26 153.67) (xy 50.8 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4091,7 +4134,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 76.2 121.92)
+			(xy 81.28 121.92) (xy 82.55 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4161,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 128.27) (xy 50.8 128.27)
+			(xy 52.07 125.73) (xy 54.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4201,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24) (xy 115.57 142.24)
+			(xy 120.65 142.24) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4211,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 76.2 55.88)
+			(xy 82.55 53.34) (xy 82.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4274,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 146.05) (xy 93.98 146.05)
+			(xy 101.6 146.05) (xy 100.33 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4241,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 100.33 53.34)
+			(xy 96.52 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4271,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 80.01 80.01)
+			(xy 86.36 58.42) (xy 86.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4291,17 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fa8c51-b16c-4d8b-a92f-e84ac156914e")
-	)
-	(wire
-		(pts
-			(xy 99.06 124.46) (xy 100.33 124.46)
+			(xy 105.41 124.46) (xy 106.68 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4381,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 137.16) (xy 24.13 138.43)
+			(xy 27.94 134.62) (xy 27.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4401,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 151.13) (xy 115.57 151.13)
+			(xy 100.33 151.13) (xy 121.92 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4411,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 95.25 86.36)
+			(xy 101.6 82.55) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4451,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 138.43) (xy 24.13 139.7)
+			(xy 27.94 135.89) (xy 27.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4461,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 77.47) (xy 93.98 77.47)
+			(xy 101.6 77.47) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4471,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 151.13) (xy 24.13 151.13)
+			(xy 25.4 148.59) (xy 27.94 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4541,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 114.3 73.66)
+			(xy 120.65 71.12) (xy 120.65 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4571,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 142.24) (xy 114.3 144.78)
+			(xy 120.65 142.24) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4581,7 +4614,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 142.24) (xy 95.25 146.05)
+			(xy 57.15 83.82) (xy 45.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6eb00cc-67c0-4063-b34a-cd597db40f3c")
+	)
+	(wire
+		(pts
+			(xy 101.6 142.24) (xy 101.6 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4611,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 76.2)
+			(xy 120.65 73.66) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4621,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 128.27) (xy 24.13 129.54)
+			(xy 27.94 125.73) (xy 27.94 127)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 49.53) (xy 46.99 49.53)
+			(xy 45.72 49.53) (xy 57.15 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 118.11) (xy 48.26 118.11)
+			(xy 40.64 115.57) (xy 52.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4781,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 100.33 58.42)
+			(xy 86.36 58.42) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4791,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 118.11) (xy 50.8 118.11)
+			(xy 52.07 115.57) (xy 54.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4811,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 115.57 55.88)
+			(xy 120.65 55.88) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 114.3 86.36)
+			(xy 120.65 88.9) (xy 120.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4861,7 +4904,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 138.43) (xy 24.13 138.43)
+			(xy 30.48 135.89) (xy 27.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4881,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 76.2 53.34)
+			(xy 82.55 50.8) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4901,7 +4944,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 86.36) (xy 100.33 86.36)
+			(xy 101.6 86.36) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 156.21) (xy 24.13 156.21)
+			(xy 25.4 153.67) (xy 27.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4980,7 +5023,7 @@
 		(uuid "ff218954-e40b-4f8e-b2ba-070b7ea5a80d")
 	)
 	(label "QA"
-		(at 115.57 73.66 0)
+		(at 121.92 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4990,7 +5033,7 @@
 		(uuid "05f4cf7b-edb2-48c1-b110-45f42c578c59")
 	)
 	(label "SW_UP"
-		(at 99.06 55.88 180)
+		(at 105.41 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5000,7 +5043,7 @@
 		(uuid "07be18e6-c76e-4a6f-a7c3-ae33a4f6655f")
 	)
 	(label "SW_DOWN"
-		(at 99.06 124.46 180)
+		(at 105.41 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5010,7 +5053,7 @@
 		(uuid "0cc3ec4e-5a13-4509-a6fe-b81443704244")
 	)
 	(label "QC"
-		(at 115.57 151.13 0)
+		(at 121.92 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5020,7 +5063,7 @@
 		(uuid "135f089e-afea-4814-aec6-a462d25425a2")
 	)
 	(label "+3V"
-		(at 44.45 156.21 180)
+		(at 48.26 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5050,7 +5093,7 @@
 		(uuid "26a5b250-7cde-440e-ae46-64dd9aadfa57")
 	)
 	(label "+2V"
-		(at 50.8 118.11 0)
+		(at 54.61 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,7 +5103,7 @@
 		(uuid "2c6bd491-3a6b-4408-ad55-509446020deb")
 	)
 	(label "+1V"
-		(at 21.59 156.21 180)
+		(at 25.4 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,7 +5123,7 @@
 		(uuid "2eeda4ae-7c33-4a18-90fa-0e0838d4366a")
 	)
 	(label "QB"
-		(at 115.57 148.59 0)
+		(at 121.92 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5133,7 @@
 		(uuid "341228ec-2f69-452d-9574-219dbc7dff57")
 	)
 	(label "QB"
-		(at 115.57 80.01 0)
+		(at 121.92 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5120,7 +5163,7 @@
 		(uuid "4d0f8bdb-35e0-48b4-9bcd-0e1acc718f13")
 	)
 	(label "SW_DOWN"
-		(at 74.93 53.34 180)
+		(at 81.28 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5140,7 +5183,7 @@
 		(uuid "5a62ff79-3332-4fa9-9fdf-cd6ec2f52fec")
 	)
 	(label "+2V"
-		(at 21.59 151.13 180)
+		(at 25.4 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5190,7 +5233,7 @@
 		(uuid "973a9d8e-be72-42e3-b41e-c1fcf1efee3c")
 	)
 	(label "QA"
-		(at 115.57 142.24 0)
+		(at 121.92 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5243,7 @@
 		(uuid "a21d9a0f-6d3b-40c9-ae6f-2e59b2f295aa")
 	)
 	(label "SW_DOWN"
-		(at 46.99 74.93 0)
+		(at 52.07 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5210,7 +5253,7 @@
 		(uuid "a291a372-ac05-4fa5-a980-cc776bb403a0")
 	)
 	(label "+4V"
-		(at 44.45 151.13 180)
+		(at 48.26 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,7 +5303,7 @@
 		(uuid "bdbb65ff-783c-4986-8e22-e4dfbe233a8f")
 	)
 	(label "DOWN"
-		(at 115.57 124.46 0)
+		(at 120.65 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5270,7 +5313,7 @@
 		(uuid "c25ba40c-06c5-4747-9d6c-9320d19efede")
 	)
 	(label "+1V"
-		(at 50.8 128.27 0)
+		(at 54.61 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5333,7 @@
 		(uuid "c9358c3a-42e6-4614-bef4-dca0c49598f1")
 	)
 	(label "UP"
-		(at 115.57 55.88 0)
+		(at 121.92 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5300,7 +5343,7 @@
 		(uuid "cf7d3fc5-6c8f-4135-849a-0e0381c2eed9")
 	)
 	(label "SW_UP"
-		(at 74.93 121.92 180)
+		(at 81.28 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5353,7 @@
 		(uuid "d456bcae-a5a7-461b-823f-0b2da867b45d")
 	)
 	(label "QC"
-		(at 115.57 86.36 0)
+		(at 121.92 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5320,7 +5363,7 @@
 		(uuid "d4e05b3f-36d7-4d13-adee-5ade32211911")
 	)
 	(label "+4V"
-		(at 26.67 128.27 0)
+		(at 30.48 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5330,7 +5373,7 @@
 		(uuid "f04fa5d7-da40-48fc-832f-076a402becfa")
 	)
 	(label "SW_UP"
-		(at 46.99 49.53 0)
+		(at 52.07 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5340,7 +5383,7 @@
 		(uuid "f4e1f7ad-3964-43c9-937d-3fe5f78a7bd2")
 	)
 	(label "+3V"
-		(at 26.67 138.43 0)
+		(at 30.48 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5579,7 +5622,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 76.2 49.53 0)
+		(at 82.55 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5588,7 +5631,7 @@
 		(fields_autoplaced yes)
 		(uuid "09237f29-57db-4893-a6f3-9fc1c00fa218")
 		(property "Reference" "IC18"
-			(at 83.185 44.45 0)
+			(at 89.535 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5639,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 83.185 46.99 0)
+			(at 89.535 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 97.79 144.45 0)
+			(at 104.14 144.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 97.79 244.45 0)
+			(at 104.14 244.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5667,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 76.2 49.53 0)
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5676,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 97.79 444.45 0)
+			(at 104.14 444.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5686,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 97.79 544.45 0)
+			(at 104.14 544.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5696,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 97.79 644.45 0)
+			(at 104.14 644.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5706,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 97.79 744.45 0)
+			(at 104.14 744.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5716,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 97.79 844.45 0)
+			(at 104.14 844.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5726,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 97.79 944.45 0)
+			(at 104.14 944.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5736,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 97.79 1044.45 0)
+			(at 104.14 1044.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5864,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 24.13 118.11 0)
+		(at 27.94 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5830,7 +5873,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d39cf02-7789-4d92-9dbf-9a7566a3b951")
 		(property "Reference" "#PWR0180"
-			(at 24.13 121.92 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5882,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 24.13 113.03 0)
+			(at 27.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +5890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 118.11 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +5899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 118.11 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 118.11 0)
+			(at 27.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5946,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "5k1"
 			(at 40.64 45.72 90)
 			(effects
 				(font
@@ -5948,6 +5991,76 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
 					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0edeb91c-23c4-4499-9e23-0a7d83c658b1")
+		(property "Reference" "R171"
+			(at 59.69 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 59.69 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.928 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "567f6fc0-6926-4453-ba7a-955e2a90b9ee")
+		)
+		(pin "2"
+			(uuid "9ddfe475-eeb0-49c8-b039-f3e2c666d962")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
+					(reference "R171")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6750,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 93.98 76.2 0)
+		(at 100.33 76.2 0)
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
@@ -6646,7 +6759,7 @@
 		(dnp no)
 		(uuid "32532898-6b32-4a5d-85f1-17af7f8eb6c8")
 		(property "Reference" "IC18"
-			(at 86.995 71.12 0)
+			(at 93.345 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6767,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 86.995 73.66 0)
+			(at 93.345 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +6775,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 72.39 171.12 0)
+			(at 78.74 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6785,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 72.39 271.12 0)
+			(at 78.74 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6795,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 93.98 76.2 0)
+			(at 100.33 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6804,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 72.39 471.12 0)
+			(at 78.74 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6814,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 72.39 571.12 0)
+			(at 78.74 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6824,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 72.39 671.12 0)
+			(at 78.74 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6834,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 72.39 771.12 0)
+			(at 78.74 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6844,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 72.39 871.12 0)
+			(at 78.74 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6854,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 72.39 971.12 0)
+			(at 78.74 971.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6864,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 72.39 1071.12 0)
+			(at 78.74 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 123.19 180)
+		(at 52.07 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6888,7 +7001,7 @@
 		(fields_autoplaced yes)
 		(uuid "34b0249b-f913-45d9-8d6a-7f9202227fa2")
 		(property "Reference" "R98"
-			(at 50.8 121.9199 0)
+			(at 54.61 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +7010,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 50.8 124.4599 0)
+			(at 54.61 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +7019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 50.038 123.19 90)
+			(at 53.848 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +7028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 123.19 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +7037,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 123.19 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7062,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 24.13 151.13 270)
+		(at 27.94 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6958,7 +7071,7 @@
 		(fields_autoplaced yes)
 		(uuid "36a7a78e-1105-4321-be28-8f48bc99f237")
 		(property "Reference" "TP34"
-			(at 29.21 149.8599 90)
+			(at 33.02 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7080,7 @@
 			)
 		)
 		(property "Value" "+2V"
-			(at 29.21 152.3999 90)
+			(at 33.02 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 24.13 156.21 0)
+			(at 27.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +7098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 156.21 0)
+			(at 27.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +7107,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 24.13 151.13 0)
+			(at 27.94 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 138.43 0)
+		(at 52.07 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7157,7 +7270,7 @@
 		(fields_autoplaced yes)
 		(uuid "4141cc77-93f9-43c7-8e74-92485b1bf903")
 		(property "Reference" "#PWR0183"
-			(at 48.26 144.78 0)
+			(at 52.07 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 143.51 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 138.43 0)
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 138.43 0)
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 138.43 0)
+			(at 52.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7393,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 93.98 144.78 0)
+		(at 100.33 144.78 0)
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7289,7 +7402,7 @@
 		(dnp no)
 		(uuid "4a828a97-60ce-487c-be59-8012cc0bee0c")
 		(property "Reference" "IC19"
-			(at 86.995 139.7 0)
+			(at 93.345 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7410,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 86.995 142.24 0)
+			(at 93.345 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 72.39 239.7 0)
+			(at 78.74 239.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +7428,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 72.39 339.7 0)
+			(at 78.74 339.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7438,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 93.98 144.78 0)
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7447,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 72.39 539.7 0)
+			(at 78.74 539.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7457,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 72.39 639.7 0)
+			(at 78.74 639.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7467,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 72.39 739.7 0)
+			(at 78.74 739.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7477,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 72.39 839.7 0)
+			(at 78.74 839.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7487,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 72.39 939.7 0)
+			(at 78.74 939.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +7497,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 72.39 1039.7 0)
+			(at 78.74 1039.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7507,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 72.39 1139.7 0)
+			(at 78.74 1139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7845,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 114.3 69.85 0)
+		(at 120.65 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7741,7 +7854,7 @@
 		(dnp no)
 		(uuid "52c9516c-37e1-40bd-8618-7790ea7e8e08")
 		(property "Reference" "IC20"
-			(at 107.315 64.77 0)
+			(at 113.665 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7862,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 107.315 67.31 0)
+			(at 113.665 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7870,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 92.71 164.77 0)
+			(at 99.06 164.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7880,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 92.71 264.77 0)
+			(at 99.06 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7890,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 114.3 69.85 0)
+			(at 120.65 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7899,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 92.71 464.77 0)
+			(at 99.06 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,7 +7909,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 92.71 564.77 0)
+			(at 99.06 564.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +7919,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 92.71 664.77 0)
+			(at 99.06 664.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7929,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 92.71 764.77 0)
+			(at 99.06 764.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7939,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 92.71 864.77 0)
+			(at 99.06 864.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7949,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 92.71 964.77 0)
+			(at 99.06 964.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +7959,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 92.71 1064.77 0)
+			(at 99.06 1064.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8091,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 128.27 0)
+		(at 40.64 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7987,7 +8100,7 @@
 		(fields_autoplaced yes)
 		(uuid "54d5bf64-d97e-4ced-a556-7faabd9f5150")
 		(property "Reference" "R95"
-			(at 39.37 126.9999 0)
+			(at 43.18 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8109,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 39.37 129.5399 0)
+			(at 43.18 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +8118,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 35.052 128.27 90)
+			(at 38.862 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +8127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 128.27 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8136,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 128.27 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8297,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 114.3 138.43 0)
+		(at 120.65 138.43 0)
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
@@ -8193,7 +8306,7 @@
 		(dnp no)
 		(uuid "5b2aaa58-a56b-4292-8927-5459671231b5")
 		(property "Reference" "IC20"
-			(at 107.315 133.35 0)
+			(at 113.665 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8314,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 107.315 135.89 0)
+			(at 113.665 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8322,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 92.71 233.35 0)
+			(at 99.06 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,7 +8332,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 92.71 333.35 0)
+			(at 99.06 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8342,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 114.3 138.43 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8351,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 92.71 533.35 0)
+			(at 99.06 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8361,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 92.71 633.35 0)
+			(at 99.06 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8371,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 92.71 733.35 0)
+			(at 99.06 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8381,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 92.71 833.35 0)
+			(at 99.06 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8391,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 92.71 933.35 0)
+			(at 99.06 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8401,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 92.71 1033.35 0)
+			(at 99.06 1033.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8411,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 92.71 1133.35 0)
+			(at 99.06 1133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8473,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 123.19 180)
+		(at 27.94 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8369,7 +8482,7 @@
 		(fields_autoplaced yes)
 		(uuid "6647de23-19d4-4bba-ba5d-3a2573fe5919")
 		(property "Reference" "R93"
-			(at 26.67 121.9199 0)
+			(at 30.48 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8491,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 26.67 124.4599 0)
+			(at 30.48 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 25.908 123.19 90)
+			(at 29.718 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 123.19 0)
+			(at 27.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8518,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 123.19 0)
+			(at 27.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8683,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 46.99 151.13 270)
+		(at 50.8 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8579,7 +8692,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e9567ec-d523-4c97-8297-7cfe3c8ff6ad")
 		(property "Reference" "TP38"
-			(at 52.07 149.8599 90)
+			(at 55.88 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8701,7 @@
 			)
 		)
 		(property "Value" "+4V"
-			(at 52.07 152.3999 90)
+			(at 55.88 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8710,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 46.99 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,7 +8719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +8728,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 46.99 151.13 0)
+			(at 50.8 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9514,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 100.33 52.07 0)
+		(at 106.68 52.07 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9410,7 +9523,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dc3cdfa-1374-4925-81e4-376cecfff872")
 		(property "Reference" "IC18"
-			(at 107.315 46.99 0)
+			(at 113.665 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9531,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 107.315 49.53 0)
+			(at 113.665 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +9539,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 121.92 146.99 0)
+			(at 128.27 146.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +9549,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 121.92 246.99 0)
+			(at 128.27 246.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9559,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 100.33 52.07 0)
+			(at 106.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9568,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 121.92 446.99 0)
+			(at 128.27 446.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +9578,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 121.92 546.99 0)
+			(at 128.27 546.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9588,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 121.92 646.99 0)
+			(at 128.27 646.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,7 +9598,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 121.92 746.99 0)
+			(at 128.27 746.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9608,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 121.92 846.99 0)
+			(at 128.27 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9618,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 121.92 946.99 0)
+			(at 128.27 946.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +9628,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 121.92 1046.99 0)
+			(at 128.27 1046.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9826,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 24.13 156.21 270)
+		(at 27.94 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9722,7 +9835,7 @@
 		(fields_autoplaced yes)
 		(uuid "92963055-e7f0-43be-87f2-ddb788935472")
 		(property "Reference" "TP35"
-			(at 29.21 154.9399 90)
+			(at 33.02 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +9844,7 @@
 			)
 		)
 		(property "Value" "+1V"
-			(at 29.21 157.4799 90)
+			(at 33.02 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +9853,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 24.13 161.29 0)
+			(at 27.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 161.29 0)
+			(at 27.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9871,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 24.13 156.21 0)
+			(at 27.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +10136,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 133.35 180)
+		(at 52.07 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10032,7 +10145,7 @@
 		(fields_autoplaced yes)
 		(uuid "961e3b1e-a04e-41b8-b8df-f2ea1b3d945b")
 		(property "Reference" "R99"
-			(at 50.8 132.0799 0)
+			(at 54.61 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +10154,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 50.8 134.6199 0)
+			(at 54.61 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +10163,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 50.038 133.35 90)
+			(at 53.848 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,7 +10172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 133.35 0)
+			(at 52.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10181,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 133.35 0)
+			(at 52.07 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10222,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "5k1"
 			(at 40.64 71.12 90)
 			(effects
 				(font
@@ -10409,7 +10522,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 114.3 82.55 0)
+		(at 120.65 82.55 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -10418,7 +10531,7 @@
 		(dnp no)
 		(uuid "a2146336-35d6-4b3d-9d29-238fbdd607a3")
 		(property "Reference" "IC20"
-			(at 107.315 77.47 0)
+			(at 113.665 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10539,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 107.315 80.01 0)
+			(at 113.665 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10547,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 92.71 177.47 0)
+			(at 99.06 177.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10557,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 92.71 277.47 0)
+			(at 99.06 277.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +10567,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 114.3 82.55 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10576,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 92.71 477.47 0)
+			(at 99.06 477.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10586,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 92.71 577.47 0)
+			(at 99.06 577.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10596,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 92.71 677.47 0)
+			(at 99.06 677.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +10606,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 92.71 777.47 0)
+			(at 99.06 777.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10616,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 92.71 877.47 0)
+			(at 99.06 877.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +10626,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 92.71 977.47 0)
+			(at 99.06 977.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +10636,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 92.71 1077.47 0)
+			(at 99.06 1077.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +10764,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 133.35 180)
+		(at 27.94 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10660,7 +10773,7 @@
 		(fields_autoplaced yes)
 		(uuid "a65110f2-ea8a-4ee0-9171-7832fdc93a66")
 		(property "Reference" "R94"
-			(at 26.67 132.0799 0)
+			(at 30.48 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10669,7 +10782,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 26.67 134.6199 0)
+			(at 30.48 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10678,7 +10791,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 25.908 133.35 90)
+			(at 29.718 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10687,7 +10800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 133.35 0)
+			(at 27.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +10809,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 133.35 0)
+			(at 27.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +11407,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 46.99 156.21 270)
+		(at 50.8 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11303,7 +11416,7 @@
 		(fields_autoplaced yes)
 		(uuid "c16d2f14-e8ca-4ee6-9bec-4f97ac3faa04")
 		(property "Reference" "TP39"
-			(at 52.07 154.9399 90)
+			(at 55.88 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,7 +11425,7 @@
 			)
 		)
 		(property "Value" "+3V"
-			(at 52.07 157.4799 90)
+			(at 55.88 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11434,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 46.99 161.29 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 161.29 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11452,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 46.99 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,6 +11467,76 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
 					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24ed9aa-6371-4458-aa16-cecc6c0b9a75")
+		(property "Reference" "R172"
+			(at 59.69 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 59.69 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.928 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d786b5cb-4a9e-44e2-bc0c-9e50cf3c16e4")
+		)
+		(pin "2"
+			(uuid "7ad823db-178a-41e8-9899-9736730afaf7")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/3ee27ced-353d-4052-9ca0-cd235d9ddb69/9bc61cdb-3471-4563-89f4-fea731357cf2"
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11965,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 100.33 120.65 0)
+		(at 106.68 120.65 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11791,7 +11974,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3a0005-fc32-454e-ad5d-8910a0d68270")
 		(property "Reference" "IC19"
-			(at 107.315 115.57 0)
+			(at 113.665 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11982,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 107.315 118.11 0)
+			(at 113.665 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,7 +11990,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 121.92 215.57 0)
+			(at 128.27 215.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +12000,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 121.92 315.57 0)
+			(at 128.27 315.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,7 +12010,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 100.33 120.65 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +12019,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 121.92 515.57 0)
+			(at 128.27 515.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,7 +12029,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 121.92 615.57 0)
+			(at 128.27 615.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +12039,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 121.92 715.57 0)
+			(at 128.27 715.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +12049,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 121.92 815.57 0)
+			(at 128.27 815.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +12059,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 121.92 915.57 0)
+			(at 128.27 915.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +12069,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 121.92 1015.57 0)
+			(at 128.27 1015.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +12079,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 121.92 1115.57 0)
+			(at 128.27 1115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +12365,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74LV10ADR")
-		(at 76.2 118.11 0)
+		(at 82.55 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12191,7 +12374,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea22c1ff-33da-4c1f-8b47-50c34f1261b4")
 		(property "Reference" "IC19"
-			(at 83.185 113.03 0)
+			(at 89.535 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12382,7 @@
 			)
 		)
 		(property "Value" "SN74LV10ADR"
-			(at 83.185 115.57 0)
+			(at 89.535 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12390,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
-			(at 97.79 213.03 0)
+			(at 104.14 213.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74lv10a"
-			(at 97.79 313.03 0)
+			(at 104.14 313.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,7 +12410,7 @@
 			)
 		)
 		(property "Description" "Triple 3-Input Positive-NAND Gate"
-			(at 76.2 118.11 0)
+			(at 82.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12419,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 97.79 513.03 0)
+			(at 104.14 513.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12246,7 +12429,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 97.79 613.03 0)
+			(at 104.14 613.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +12439,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LV10ADR"
-			(at 97.79 713.03 0)
+			(at 104.14 713.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12449,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LV10ADR"
-			(at 97.79 813.03 0)
+			(at 104.14 813.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +12459,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV10ADR?qs=KaAwwOlwapsxOXmux%252BJliw%3D%3D"
-			(at 97.79 913.03 0)
+			(at 104.14 913.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12469,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 97.79 1013.03 0)
+			(at 104.14 1013.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,7 +12479,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 97.79 1113.03 0)
+			(at 104.14 1113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

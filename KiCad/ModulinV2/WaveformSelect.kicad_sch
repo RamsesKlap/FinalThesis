@@ -5,10 +5,12 @@
 	(uuid "1a353ace-4537-47d8-94e7-a8c472c064f4")
 	(paper "A4")
 	(title_block
-		(title "Octave Selector")
-		(date "2025-07-13")
+		(title "Waveform selector")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -10435,7 +10437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 27.94 38.0999 0)
 			(effects
 				(font
@@ -16612,7 +16614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 90.17 38.0999 0)
 			(effects
 				(font

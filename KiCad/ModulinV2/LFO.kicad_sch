@@ -5,8 +5,12 @@
 	(uuid "e38987d5-c979-4135-8aa1-befe530f2941")
 	(paper "A4")
 	(title_block
+		(title "Low Frequency Oscillator")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2317,7 +2321,7 @@
 	)
 	(rectangle
 		(start 71.755 56.515)
-		(end 242.57 118.745)
+		(end 271.78 118.745)
 		(stroke
 			(width 0)
 			(type default)
@@ -2386,6 +2390,18 @@
 		(uuid "2df66059-0620-4d6a-a03f-545d5bedd29b")
 	)
 	(junction
+		(at 228.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ffb59c-598f-49ef-b041-b6160c6528b4")
+	)
+	(junction
+		(at 233.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43fc22ca-cee3-47c2-b882-044a40c5b2b9")
+	)
+	(junction
 		(at 133.35 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2428,6 +2444,12 @@
 		(uuid "75bf711b-10b5-4d86-97c9-b4945313b05d")
 	)
 	(junction
+		(at 213.36 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de96362-287b-4ab4-b61e-d92188ba80b0")
+	)
+	(junction
 		(at 143.51 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,22 +2468,10 @@
 		(uuid "a40af24f-d8b1-4949-adfa-7f123745675c")
 	)
 	(junction
-		(at 223.52 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b501e040-3bc3-43b3-987e-eb42eb5d5dcd")
-	)
-	(junction
 		(at 121.92 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bef2001a-2ba0-4aeb-b3ad-2ebc4f1d1c1f")
-	)
-	(junction
-		(at 223.52 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1126e52-9e31-464f-ad11-a77fea32c344")
 	)
 	(junction
 		(at 119.38 104.14)
@@ -2572,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "102354cc-1f53-446d-9c60-1d6a1bfac1a8")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 212.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c246d8-9527-458b-bf9b-e35adcd143e7")
 	)
 	(wire
 		(pts
@@ -2695,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 97.79) (xy 228.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4617fd15-42b1-4f6f-97a1-d7dfbbb7e5c4")
+	)
+	(wire
+		(pts
 			(xy 100.33 107.95) (xy 119.38 107.95)
 		)
 		(stroke
@@ -2765,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 224.79 95.25)
+			(xy 233.68 83.82) (xy 234.95 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2845,6 +2875,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 97.79) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d431c91-d849-4aac-9f42-53dca14412b8")
+	)
+	(wire
+		(pts
 			(xy 82.55 76.2) (xy 85.09 76.2)
 		)
 		(stroke
@@ -2865,16 +2905,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 83.82) (xy 223.52 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82debc78-8be9-4f55-ae13-99c81044eff1")
-	)
-	(wire
-		(pts
 			(xy 115.57 73.66) (xy 115.57 76.2)
 		)
 		(stroke
@@ -2882,6 +2912,16 @@
 			(type default)
 		)
 		(uuid "83b20628-6835-458b-bb5b-1fe9c301970e")
+	)
+	(wire
+		(pts
+			(xy 213.36 86.36) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ba024a-b8c3-4d23-ba31-c90282c8b835")
 	)
 	(wire
 		(pts
@@ -2905,16 +2945,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 83.82) (xy 223.52 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cec6876-0ef3-4aef-8efb-1ad40d2c6e75")
-	)
-	(wire
-		(pts
 			(xy 170.18 83.82) (xy 172.72 83.82)
 		)
 		(stroke
@@ -2932,16 +2962,6 @@
 			(type default)
 		)
 		(uuid "93470012-74aa-4cc7-8f7e-abf6abbf0222")
-	)
-	(wire
-		(pts
-			(xy 204.47 92.71) (xy 204.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975d0fa0-03e6-4d12-ac4a-e2259e721ee0")
 	)
 	(wire
 		(pts
@@ -2995,6 +3015,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52cc39e-bcef-4343-b848-21350943c646")
+	)
+	(wire
+		(pts
 			(xy 182.88 97.79) (xy 187.96 97.79)
 		)
 		(stroke
@@ -3022,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "aa2b37c6-2a71-44fe-a1fc-d2e2428a9c3a")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfa75af-15d0-4c3a-843a-8fdfbe44d70d")
 	)
 	(wire
 		(pts
@@ -3125,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 219.71 95.25)
+			(xy 228.6 83.82) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3257,7 @@
 	)
 	(hierarchical_label "LFO_CV"
 		(shape input)
-		(at 224.79 95.25 0)
+		(at 234.95 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,6 +3563,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 209.55 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17062eb1-2b18-4db9-9b2d-48f9d119cc89")
+		(property "Reference" "#PWR0493"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42303833-8731-482d-a553-ee47a9360f75")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/36c25953-dc85-43c1-9102-37dfd95b11fe"
+					(reference "#PWR0493")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 167.64 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3738,8 +3844,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.52 83.82 0)
-		(mirror y)
+		(at 233.68 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3747,7 +3852,7 @@
 		(dnp no)
 		(uuid "2654b3ce-0d9c-40d5-9a61-75e72252b1d0")
 		(property "Reference" "TP91"
-			(at 220.98 79.2479 0)
+			(at 236.22 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +3861,7 @@
 			)
 		)
 		(property "Value" "LFO"
-			(at 220.98 81.7879 0)
+			(at 236.22 81.7879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3870,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TestPointLoop"
-			(at 218.44 83.82 0)
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 83.82 0)
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3888,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.52 83.82 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3976,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 212.09 100.33 180)
+		(at 220.98 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3880,7 +3985,7 @@
 		(fields_autoplaced yes)
 		(uuid "3196f0a6-8858-41d6-82cb-6840eeac0aca")
 		(property "Reference" "#PWR0447"
-			(at 212.09 96.52 0)
+			(at 220.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3994,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 212.09 105.41 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 100.33 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +4011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 100.33 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 212.09 100.33 0)
+			(at 220.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,6 +4237,74 @@
 			(project "ModulinV2"
 				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/36c25953-dc85-43c1-9102-37dfd95b11fe"
 					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4185196a-420c-432e-b70d-3738e994010d")
+		(property "Reference" "R188"
+			(at 219.71 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 219.71 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 219.71 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0bc9d45-0f17-4f3b-aae0-cc64435f88a3")
+		)
+		(pin "2"
+			(uuid "de77752e-08f8-4442-88ee-a98e13d40691")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/36c25953-dc85-43c1-9102-37dfd95b11fe"
+					(reference "R188")
 					(unit 1)
 				)
 			)
@@ -4893,6 +5066,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 208.28 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72234a57-9def-4234-b93d-5439f987f0c4")
+		(property "Reference" "R187"
+			(at 208.28 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 208.28 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 208.28 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8877b786-6c88-491b-8487-c5d22a4c0e5f")
+		)
+		(pin "2"
+			(uuid "a6f55b93-da1c-4590-9681-3b4d0c914431")
+		)
+		(instances
+			(project "ModulinV2"
+				(path "/c6b34a57-3941-4b56-8b80-1848c7f41082/36c25953-dc85-43c1-9102-37dfd95b11fe"
+					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 135.89 0)
 		(unit 1)
@@ -5309,7 +5550,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TL072HIDR")
-		(at 207.01 90.17 0)
+		(at 215.9 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5317,7 +5558,7 @@
 		(dnp no)
 		(uuid "88b02812-9d1b-48a4-a9ed-5452f3c32e13")
 		(property "Reference" "IC53"
-			(at 217.932 89.154 0)
+			(at 226.822 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5566,7 @@
 			)
 		)
 		(property "Value" "TL072HIDR"
-			(at 217.932 91.694 0)
+			(at 226.822 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5574,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 231.14 185.09 0)
+			(at 240.03 173.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5584,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl072h.pdf?ts=1631525097016&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTL072H"
-			(at 231.14 285.09 0)
+			(at 240.03 273.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5594,7 @@
 			)
 		)
 		(property "Description" "Dual-channel low input bias current standard op amp"
-			(at 207.01 90.17 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5603,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 231.14 485.09 0)
+			(at 240.03 473.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5613,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 231.14 585.09 0)
+			(at 240.03 573.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5623,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL072HIDR"
-			(at 231.14 685.09 0)
+			(at 240.03 673.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5633,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TL072HIDR"
-			(at 231.14 785.09 0)
+			(at 240.03 773.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5643,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072HIDR?qs=aP1CjGhiNiHyZHNBkxIRdA%3D%3D"
-			(at 231.14 885.09 0)
+			(at 240.03 873.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5653,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TL072HIDR"
-			(at 231.14 985.09 0)
+			(at 240.03 973.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5663,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tl072hidr/texas-instruments?utm_currency=USD&region=nac"
-			(at 231.14 1085.09 0)
+			(at 240.03 1073.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6326,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 212.09 90.17 0)
+		(at 220.98 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6094,7 +6335,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2d3cb7a-0429-4470-8d95-f7290a74a613")
 		(property "Reference" "#PWR0446"
-			(at 212.09 93.98 0)
+			(at 220.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6344,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 212.09 85.09 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 90.17 0)
+			(at 220.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 90.17 0)
+			(at 220.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 212.09 90.17 0)
+			(at 220.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

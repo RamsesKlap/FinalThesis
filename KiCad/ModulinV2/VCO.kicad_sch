@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Voltage Controlled Oscillator")
-		(date "2025-07-13")
-		(rev "1.0")
+		(date "2026-04-29")
+		(rev "1.4")
+		(company "TalTech")
 		(comment 1 "Instructor: Kaiser Pärnamets")
-		(comment 2 "By: Rasmus Palk")
+		(comment 2 "Author: Rasmus Palk")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -7934,7 +7935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "1n"
 			(at 143.51 58.4199 0)
 			(effects
 				(font
@@ -9966,7 +9967,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 254 154.94 90)
 			(effects
 				(font
@@ -12262,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 255.27 102.87 90)
 			(effects
 				(font
@@ -12611,7 +12612,7 @@
 				)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "121k"
 			(at 266.7 102.87 90)
 			(effects
 				(font
@@ -12679,7 +12680,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 168.91 102.87 90)
 			(effects
 				(font
@@ -13080,7 +13081,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 212.09 154.94 90)
 			(effects
 				(font
@@ -13490,7 +13491,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 168.91 146.05 90)
 			(effects
 				(font
@@ -13802,7 +13803,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 223.52 154.94 90)
 			(effects
 				(font
@@ -15059,7 +15060,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "240k"
 			(at 180.34 146.05 90)
 			(effects
 				(font
@@ -15721,7 +15722,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 212.09 111.76 90)
 			(effects
 				(font
@@ -16737,7 +16738,7 @@
 				)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "121k"
 			(at 223.52 111.76 90)
 			(effects
 				(font
@@ -17536,7 +17537,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "240k"
 			(at 180.34 102.87 90)
 			(effects
 				(font
@@ -18204,7 +18205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "1n"
 			(at 143.51 114.2999 0)
 			(effects
 				(font
@@ -19993,7 +19994,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 265.43 154.94 90)
 			(effects
 				(font
