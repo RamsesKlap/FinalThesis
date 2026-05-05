@@ -111,7 +111,7 @@ typedef struct {
 
 // ADC output scale parameters for mapping the output to steps
 #define MEMBRANE_MAX 4095.0
-#define MEMBRANE_MIN 850.0
+#define MEMBRANE_MIN 0
 #define GAMMA 1.5
 
 // DAC output value step for ~0.083V
